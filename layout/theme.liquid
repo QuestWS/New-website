@@ -14,7 +14,7 @@
     {%- liquid
       assign quest_default_description = 'Quest Watersports in Ottawa, IL — Hobie kayaks, sailboats, eBikes, boat sales, service, storage and the Quest Express Boat Club in Starved Rock Country.'
       assign quest_title = page_title | strip
-      if request.page_type == 'index' and quest_title == shop.name
+      if request.page_type == 'index' and quest_title contains 'Online Store' or request.page_type == 'index' and quest_title == shop.name
         assign quest_title = shop.name | append: ' | Hobie Kayaks, Boats and eBikes in Ottawa, IL'
       endif
       unless quest_title contains shop.name
