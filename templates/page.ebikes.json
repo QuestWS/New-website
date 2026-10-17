@@ -5,7 +5,8 @@
       "settings": {
         "parent_title": "Electric Bike",
         "heading": "Electric Bikes",
-        "subheading": "Explore the I&M Canal Trail and Starved Rock Country"
+        "subheading": "Explore the I&M Canal Trail and Starved Rock Country",
+        "image": "shopify://shop_images/quest-ebikes-hero.jpg"
       }
     },
     "main": {
@@ -101,9 +102,9 @@
   },
   "order": [
     "hero",
-    "main",
     "ebikes",
     "parts",
+    "main",
     "panel",
     "cards",
     "faq",

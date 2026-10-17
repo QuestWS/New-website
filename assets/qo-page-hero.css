@@ -15,11 +15,12 @@
 .qo-hero__sub { margin: 10px 0 0; font-size: 16px; color: var(--qo-yellow); font-weight: 700; }
 @media (min-width: 750px) {
   .qo-hero { padding: 106px 0 80px; }
-  .qo-hero__inner { grid-template-columns: 207px 1fr; gap: 8px; }
+  .qo-hero__inner { grid-template-columns: 207px 1fr; gap: 8px; align-items: stretch; }
   .qo-hero__inner--no-nav { grid-template-columns: 1fr; }
   .qo-hero__nav { padding: 6px 5px 6px; }
   .qo-hero__nav ul { display: block; }
   .qo-hero__nav a { min-height: 32px; font-size: 13px; padding: 4px 0; }
   .qo-hero__banner, .qo-hero__banner-fallback { min-height: 326px; }
+  .qo-hero__banner-fallback { height: 100%; }
   .qo-hero__heading { font-size: 48px; }
 }

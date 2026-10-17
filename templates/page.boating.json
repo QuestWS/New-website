@@ -5,7 +5,8 @@
       "settings": {
         "parent_title": "Boating",
         "heading": "Boats for Sale",
-        "subheading": "New and pre-owned boats in Ottawa, IL"
+        "subheading": "New and pre-owned boats in Ottawa, IL",
+        "image": "shopify://shop_images/qws-find_a_boat_slider.jpg"
       }
     },
     "main": {
@@ -90,7 +91,7 @@
     "form": {
       "type": "quest-contact-form",
       "settings": {
-        "default_topic": "Sales \u2013 Boats",
+        "default_topic": "Sales – Boats",
         "heading": "Ask About a Boat"
       }
     },
@@ -104,9 +105,9 @@
   },
   "order": [
     "hero",
-    "main",
     "trailers",
     "supplies",
+    "main",
     "panel",
     "cards",
     "form",

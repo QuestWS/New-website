@@ -5,7 +5,8 @@
       "settings": {
         "parent_title": "Sailing",
         "heading": "Hobie Sailboats",
-        "subheading": "Sailboats, parts and accessories in Ottawa, IL"
+        "subheading": "Sailboats, parts and accessories in Ottawa, IL",
+        "image": "shopify://shop_images/qws-sailing-banner.png"
       }
     },
     "main": {
@@ -101,9 +102,9 @@
   },
   "order": [
     "hero",
-    "main",
     "sailboats",
     "parts",
+    "main",
     "panel",
     "cards",
     "faq",

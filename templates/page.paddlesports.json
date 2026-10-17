@@ -5,7 +5,8 @@
       "settings": {
         "parent_title": "Paddlesports",
         "heading": "Hobie Mirage Kayaks",
-        "subheading": "Kayaks, paddleboards, parts and rentals in Ottawa, IL"
+        "subheading": "Kayaks, paddleboards, parts and rentals in Ottawa, IL",
+        "image": "shopify://shop_images/qws-hobie-kayaks-banner.png"
       }
     },
     "main": {
@@ -103,9 +104,9 @@
   },
   "order": [
     "hero",
-    "main",
     "hobie",
     "parts",
+    "main",
     "panel",
     "cards",
     "faq",

@@ -39,7 +39,8 @@
   border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0,0,0,.3);
 }
-.quest-page__content p > img:only-child, .quest-page__content figure { display: block; margin-inline: auto; }
+.quest-page__content img { display: block; margin: 1.2em auto; }
+.quest-page__content figure { display: block; margin-inline: auto; }
 .quest-page__content figure { margin-block: 1.4em; max-width: 960px; }
 .quest-page__content figcaption { font-size: 14px; opacity: .85; margin-top: 6px; text-align: center; }
 .quest-page__content .video-embed { position: relative; aspect-ratio: 16 / 9; max-width: 960px; margin: 1.6em auto; border-radius: 8px; overflow: hidden; background: #000; }
@@ -51,11 +52,13 @@
   width: max-content; max-width: 100%;
   margin: 1.6em auto; border-collapse: collapse; font-size: 15px;
 }
-.quest-page__content th, .quest-page__content td {
+.quest-page .quest-page__content table th, .quest-page .quest-page__content table td {
   border: 1px solid #fff; padding: 6px 10px; text-align: left; vertical-align: middle; min-width: 90px;
+  background: transparent; color: #fff;
 }
-.quest-page__content th { font-style: italic; font-weight: 700; }
-.quest-page__content td:first-child { font-weight: 700; }
+.quest-page .quest-page__content table th { font-style: italic; font-weight: 700; }
+.quest-page .quest-page__content table td:first-child { font-weight: 700; }
+.quest-page .quest-page__content table tr, .quest-page .quest-page__content table thead, .quest-page .quest-page__content table tbody { background: transparent; }
 .quest-page__content blockquote { border-left: 3px solid var(--qo-yellow); padding-left: 1em; font-style: italic; }
 .quest-page__cta {
   max-width: 960px; margin: 32px auto 0; padding: 24px 20px; border-radius: 16px;
@@ -69,3 +72,4 @@
   .quest-page__content { font-size: 17px; }
   .quest-page__cta-buttons { flex-direction: row; justify-content: center; }
 }
+.quest-page__content address { font-style: normal; max-width: 960px; margin: 0 auto 1.1em; }
