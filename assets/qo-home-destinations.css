@@ -22,7 +22,8 @@
 }
 @media (max-width: 749px) {
   .qo-dest { min-height: 0; padding-bottom: 32px; }
-  .qo-dest__card { max-width: 260px; width: 72%; margin-bottom: 26px; background: rgba(0, 43, 75, .8); }
+  .qo-dest__card { max-width: 260px; width: 72%; margin-bottom: 26px; background: #33556F; border-radius: 0 0 80px 0; overflow: hidden; }
+  .qo-dest__card:hover { border-radius: 0 0 80px 0; box-shadow: none; filter: none; }
   .qo-dest__row { justify-content: center; }
   .qo-dest__name { font-size: 19px; }
   .qo-dest__btns .qo-btn { min-height: 44px; font-size: 15px; }
