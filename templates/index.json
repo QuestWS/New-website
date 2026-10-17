@@ -396,6 +396,10 @@
       "settings": {
         "color_scheme": "scheme-1"
       }
+    },
+    "facebook": {
+      "type": "quest-facebook-feed",
+      "settings": {}
     }
   },
   "order": [
@@ -408,6 +412,7 @@
     "shop",
     "club",
     "advanced",
+    "facebook",
     "hours",
     "newsletter"
   ]

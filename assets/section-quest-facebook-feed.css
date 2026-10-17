@@ -1,0 +1,8 @@
+.quest-fb { display: grid; gap: 2.4rem; align-items: start; }
+.quest-fb__intro h2 { margin-top: 0; }
+.quest-fb__intro .button { margin-top: 1.2rem; }
+.quest-fb__frame { width: 100%; max-width: 500px; justify-self: center; }
+.quest-fb__frame iframe { display: block; width: 100%; height: var(--fb-height); border: 0; border-radius: var(--media-radius, 8px); background: rgb(var(--color-background)); }
+@media screen and (min-width: 990px) {
+  .quest-fb { grid-template-columns: 1fr 500px; gap: 4.8rem; align-items: center; }
+}

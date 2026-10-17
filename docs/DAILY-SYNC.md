@@ -23,7 +23,7 @@ Report fields: `changed[] {slug, shopify_target, unified_diff}`, `new_urls[]`, `
 Targets: `page:<handle>`, `article:<handle>`, `home`, `unmapped`.
 
 ### b) No changes
-If `CHANGES: 0` (and `failed` is empty or only transient): stop. Nothing to commit. (Do not run `--apply-snapshots`.)
+If `CHANGES: 0` (and `failed` is empty or only transient): skip step c (and do not run `--apply-snapshots`), but still do c2 (social) and c3 (Monday guide). If those produce nothing either, stop — nothing to commit.
 
 ### c) Apply changes
 Read `scripts/sync/last-report.json`. Work through each item. Judge whether a diff is meaningful
@@ -108,6 +108,35 @@ mutation($files: [FileCreateInput!]!) {
 }
 ```
 variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","alt":"<descriptive alt>"}]}`. The URL is available once processing finishes: re-query `node(id:"<file id>"){ ... on MediaImage { fileStatus image { url } } }` until `READY`.
+
+### c2) Social media → blog (Facebook / Instagram)
+Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with
+`pages_read_engagement`, `pages_read_user_content`, `instagram_basic`). Optional `META_PAGE_ID`
+(Facebook Page id for facebook.com/QuestWS) and `META_IG_USER_ID` (Instagram business account
+for instagram.com/kayakquest); if missing, discover them with
+`GET https://graph.facebook.com/v21.0/me/accounts?fields=id,name,instagram_business_account`.
+Never print the token.
+
+1. Fetch the last 2 days of posts:
+   - Facebook: `GET /v21.0/$META_PAGE_ID/posts?fields=id,message,created_time,permalink_url,full_picture&since=<unix ts>`
+   - Instagram: `GET /v21.0/$META_IG_USER_ID/media?fields=id,caption,media_type,media_url,permalink,timestamp`
+2. Keep a ledger in `migration/social-ledger.json` (`{"<platform>:<id>": "<article handle or 'skipped'>"}`) so nothing is processed twice.
+3. Turn a post into a blog article (blog `news`, tag `Social` + topic tag) only when it is substantive:
+   an event, demo day, new arrival/model, boat club news, a trip report or a promotion with
+   enough text for 150+ words. Rewrite the caption into a short article (H2s, a link to the most
+   relevant /pages/ or /collections/ handle, a closing call-to-action with `tel:+18154332200`),
+   upload the photo with `fileCreate` (originalSource = `full_picture`/`media_url`, never hotlink),
+   and set SEO title/description metafields. Short or purely promotional posts → ledger `skipped`.
+4. Credit the original: end the article with “Originally shared on our [Facebook|Instagram]” linking the permalink.
+
+### c3) Weekly SEO guide
+On Mondays only, write one new evergreen guide (900–1400 words) for blog `news`, tag `Guides`,
+following the format of `migration/articles/*-guide*.json` (FAQ section + `faqs` list,
+3–6 internal links to existing handles, SEO title ≤60 chars, description 140–160 chars).
+Pick a topic not yet covered (check existing article handles), relevant to the season and to
+what the store sells (search products read-only first). Never invent prices, laws or policies;
+verify outside facts with WebSearch and hedge when unverifiable. Save it to
+`migration/articles/<handle>.json` and create it with `articleCreate` (published).
 
 ### d) Snapshot, commit, push
 ```
