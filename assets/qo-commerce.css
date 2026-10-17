@@ -339,3 +339,13 @@
 .template-collection .facets__disclosure-vertical, .facets__disclosure-vertical { border-color: rgba(255,255,255,.3); }
 .facet-checkbox .icon-checkmark { color: var(--qo-ink); }
 .facet-checkbox > input[type=checkbox] { background: #fff; border-radius: 4px; }
+
+.collection-hero__text-wrapper, .collection-hero__description, .collection-hero__description p { text-align: left !important; margin-left: 0; margin-right: auto; }
+.collection-hero__description p { margin-top: 0; }
+.template-product .quantity { overflow: hidden; }
+.pickup-availability-info, .pickup-availability-info *, .pickup-availability-preview, .pickup-availability-preview *, pickup-availability-drawer, .pickup-availability-drawer * { color: #fff !important; }
+.pickup-availability-info button, .pickup-availability-preview button { color: var(--qo-yellow) !important; }
+.facet-checkbox, .facet-checkbox *, .facet-checkbox span { color: #fff !important; }
+.facet-checkbox--disabled, .facet-checkbox--disabled * { color: rgba(255,255,255,.55) !important; }
+.facets-wrapper { padding-right: 20px; }
+@media (min-width: 750px) { .facets-container .facets__form, .facets__form { color: #fff; } }
