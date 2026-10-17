@@ -156,3 +156,11 @@ Short summary: pages/articles updated, new items created, removed URLs (report o
 - `crawl.py --out DIR [--limit N] [--only slug,..]` for ad-hoc fetches; `diff.py FRESH_DIR [--old DIR]` for ad-hoc diffs.
 - `diff.py` normalises away: Google Tag Manager lines, copyright lines, inventory/result counts, "Showing x-y of z", whitespace.
 - If the crawl gets 403s despite backoff, re-run later; a partial/failed crawl never overwrites snapshots of pages it could not fetch (failed pages are simply absent from the fresh dir). A crawl that finds no sitemap URLs is not applied.
+
+## Store and schedule reference
+- Scheduled task: "Quest daily site sync", every day 5:47 AM America/Chicago, fresh session per run, push + email notifications.
+  It needs the Shopify connector and this repo attached (edit the scheduled task at claude.ai) to write to the store.
+- Shopify: blog "News & Guides" (handle `news`, gid://shopify/Blog/75924603055); menus `quest-main-menu`, `quest-footer-explore`, `footer`.
+- Theme in store: "Quest Watersports 2026" (gid://shopify/OnlineStoreTheme/159661129950), uploaded from this repo.
+  Push later theme changes to it with `themeFilesUpsert` (allowed while it is unpublished) or connect this branch with Shopify's GitHub integration.
+- Content image map (old WordPress URL → Shopify CDN): `migration/image-map.json`.
