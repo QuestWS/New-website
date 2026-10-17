@@ -56,7 +56,8 @@
   "url": {{ q_site | json }},
   "potentialAction": {
     "@type": "SearchAction",
-    "target": {{ shop.url | append: routes.search_url | append: '?q={search_term_string}' | json }},
+    {%- assign q_search_target = shop.url | append: routes.search_url | append: '?q=' -%}
+    "target": "{{ q_search_target }}{search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
