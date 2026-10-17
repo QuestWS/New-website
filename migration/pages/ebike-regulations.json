@@ -1,0 +1,38 @@
+{
+  "handle": "ebike-regulations",
+  "title": "Illinois eBike Regulations",
+  "template_suffix": "landing",
+  "seo_title": "Illinois eBike Regulations & Ottawa Rules | Quest",
+  "seo_description": "Where can you ride an eBike in Ottawa, IL? City rules today and Illinois SB 3484 starting January 1, 2027, plus Class 1, 2 and 3 explained by Quest Watersports.",
+  "body_html": "<p>Illinois Senate Bill 3484 passed the General Assembly in June 2026 and awaits the Governor's expected signature. The new statewide rules take effect <strong>January 1, 2027</strong>, not July 1, 2026 as some reports claimed. Here is what changes and what stays the same for Ottawa-area riders.</p>\n<h2>The rules today: City of Ottawa ordinance (2025)</h2>\n<ul>\n<li><strong>Where you can ride:</strong> city streets posted 25 mph or less. Riding around Heritage Harbor's streets is legal today.</li>\n<li><strong>Off-limits:</strong> streets over 25 mph, LaSalle Street in the downtown business district, sidewalks, city parks and other public property.</li>\n<li><strong>Minimum age:</strong> 16 for all eBike classes (Class 1, 2 and 3).</li>\n<li>No driver's license required for Class 1 to 3 eBikes.</li>\n<li><strong>Motors 750 watts and up</strong> are prohibited everywhere in the city: streets, paths and parking lots.</li>\n<li><strong>Violations:</strong> fines of $75 to $750 and possible impoundment by Ottawa PD.</li>\n</ul>\n<h2>Starting January 1, 2027: Illinois state law (SB 3484)</h2>\n<ul>\n<li><strong>Where you can ride:</strong> Class 1 to 3 eBikes are treated like bicycles statewide. Ride wherever bicycles are allowed: streets, bike lanes and bike paths. Ottawa's 25-mph street limit, downtown ban and parks ban go away.</li>\n<li><strong>Still off-limits:</strong> sidewalks and interstate-type highways, same as any bicycle. State agencies and park districts can set rules for their own trails.</li>\n<li><strong>Minimum age:</strong> 15 for Class 1 and 2; 16 for Class 3.</li>\n<li>Still no license, registration or insurance for Class 1 to 3 eBikes.</li>\n<li><strong>Motors over 750 watts</strong> become &quot;motor driven cycles&quot;: driver's license, insurance and title required, and banned from all bike lanes, paths and trails.</li>\n<li><strong>One statewide rulebook:</strong> local eBike ordinances no longer apply. The same rules cover Ottawa, Utica and everywhere in between.</li>\n</ul>\n<h2>How to tell what you have</h2>\n<p>Every legal low-speed eBike has a permanent label on the frame listing its class number, top assisted speed and motor wattage.</p>\n<ul>\n<li><strong>Class 1:</strong> pedal assist up to 20 mph</li>\n<li><strong>Class 2:</strong> throttle up to 20 mph</li>\n<li><strong>Class 3:</strong> pedal assist up to 28 mph</li>\n</ul>\n<p>If a bike has no label, or the seller cannot tell you its class, it may be a &quot;motor driven cycle&quot; that requires a license, insurance and a title starting in 2027, and cannot be ridden on trails.</p>\n<h2>Questions?</h2>\n<p>Questions about eBike classes, the new law or what is right for your rides? Quest Watersports is happy to help, with no pressure. Call <a href=\"tel:+18154332200\">(815) 433-2200</a> or <a href=\"mailto:ebikes@questwatersports.com\">email us</a>. Ready to ride? See our <a href=\"/collections/ebikes\">eBikes</a>, <a href=\"/pages/ebike-rentals\">eBike rentals</a> and the <a href=\"/pages/i-and-m-canal-trail\">I&amp;M Canal Trail guide</a>.</p>\n<p><em>For general information only, not legal advice. Summarizes City of Ottawa Ordinance Sec. 86-18/86-19 and Illinois SB 3484 as passed June 2026.</em></p>",
+  "faqs": [
+    {
+      "q": "What is the minimum age to ride an eBike in Ottawa today?",
+      "a": "<p>16 for all eBike classes under the 2025 City of Ottawa ordinance. Starting January 1, 2027, state law sets 15 for Class 1 and 2 and 16 for Class 3.</p>"
+    },
+    {
+      "q": "Where can I ride an eBike in Ottawa today?",
+      "a": "<p>On city streets posted 25 mph or less, including the streets around Heritage Harbor. Streets over 25 mph, LaSalle Street downtown, sidewalks, city parks and other public property are off-limits.</p>"
+    },
+    {
+      "q": "Do I need a license, registration or insurance for an eBike?",
+      "a": "<p>Not for Class 1 to 3 eBikes, today or under the 2027 state law. Motors over 750 watts become motor driven cycles in 2027 and require a license, insurance and title.</p>"
+    },
+    {
+      "q": "What happens on January 1, 2027?",
+      "a": "<p>Class 1 to 3 eBikes are treated like bicycles statewide, so you can ride wherever bicycles are allowed. Local eBike ordinances no longer apply.</p>"
+    },
+    {
+      "q": "How do I know my eBike's class?",
+      "a": "<p>Look for the permanent frame label showing class, top assisted speed and motor wattage. Class 1 is pedal assist to 20 mph, Class 2 is throttle to 20 mph, Class 3 is pedal assist to 28 mph.</p>"
+    },
+    {
+      "q": "What are the penalties for violating Ottawa's ordinance?",
+      "a": "<p>Fines of $75 to $750 and possible impoundment by Ottawa PD.</p>"
+    }
+  ],
+  "source_slugs": [
+    "ebikeregulations"
+  ],
+  "images": []
+}

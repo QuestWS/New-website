@@ -1,0 +1,26 @@
+{
+  "handle": "valet-service",
+  "title": "Boat Valet Service",
+  "template_suffix": "service",
+  "seo_title": "Boat Valet Service | Heritage Harbor, Ottawa IL",
+  "seo_description": "White glove boat care at Heritage Harbor in Ottawa, IL: covered indoor storage, ready-to-go launch, retrieval and wash-down. Seasonal pricing starts at $3,095.",
+  "body_html": "<p>Your boat, ready when you are. Our seasonal valet service takes care of everything, from storage to launch to retrieval, so all you have to do is show up and enjoy the water.</p>\n<h2>Everything Included</h2>\n<h3>1. Covered Indoor Storage</h3>\n<p>When your boat isn't on the water, it's safe with us. We store every boat covered and protected indoors, shielded from the elements all season long.</p>\n<h3>2. Ready-to-Go Launch</h3>\n<p>Just let us know when you want to head out. We'll have your boat in the water and ready before you arrive, with no ramp lines, no hassle and no waiting around.</p>\n<h3>3. Retrieval</h3>\n<p>When your day is done, so is your work. Pull up to the dock, hand it off and head home. We'll pull the boat out and get everything squared away.</p>\n<h3>4. Post-Trip Wash-Down</h3>\n<p>Every time your boat comes out of the water, we wash it down before returning it to storage, so it is always clean and ready for your next outing.</p>\n<h2>Seasonal Pricing</h2>\n<p><strong>Starting at $3,095 per season.</strong> Pricing varies by boat size. Contact us for a custom quote.</p>\n<h2>Ready to Let Us Handle It?</h2>\n<p>Spots are limited each season. Get in touch today to reserve your valet membership and spend less time worrying about your boat and more time on the water.</p>\n<p><a href=\"/pages/contact\">Send us a message</a> or call <a href=\"tel:+18154332200\">815.433.2200</a>.</p>\n<p>Also see <a href=\"/pages/boat-storage\">winter storage and off-season service</a>.</p>",
+  "faqs": [
+    {
+      "q": "What is included in the boat valet service?",
+      "a": "<p>Covered indoor storage, a ready-to-go launch, retrieval after your outing and a post-trip wash-down every time your boat comes out of the water.</p>"
+    },
+    {
+      "q": "How much does the valet service cost?",
+      "a": "<p>Seasonal pricing starts at $3,095 per season. Pricing varies by boat size, so contact us for a custom quote.</p>"
+    },
+    {
+      "q": "Is space limited?",
+      "a": "<p>Yes. Spots are limited each season, so get in touch early to reserve your valet membership.</p>"
+    }
+  ],
+  "source_slugs": [
+    "valet-service"
+  ],
+  "images": []
+}

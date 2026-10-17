@@ -1,0 +1,32 @@
+{
+  "handle": "ebike-charging-network",
+  "title": "eBike Charging Network",
+  "template_suffix": "ebikes",
+  "seo_title": "eBike Charging Network | Ottawa, IL Charging Stops",
+  "seo_description": "Find eBike-friendly charging stops at restaurants and shops around Ottawa, IL and Starved Rock Country. Bring your charger, plug in and extend your ride.",
+  "body_html": "<p>One of the best things about riding an eBike through Starved Rock Country is how far you can go, and now you can go even further. The Quest eBike Charging Network is a growing map of local restaurants, bars, cafes and shops where riders can stop, plug in and top off their battery while taking a break.</p>\n<p>Whether you own an eBike or rented one for the day, these stops extend your adventure and let you explore the local businesses that make this area great.</p>\n<img src=\"https://www.questwatersports.com/wp-content/uploads/ebike-charging-hero.jpg\" alt=\"An Aventon eBike charging at an outdoor cafe along the river while two riders enjoy drinks\" loading=\"lazy\">\n<h2>For riders</h2>\n<p>Using a charging stop is simple. Just bring your own charger, the one that came with your bike.</p>\n<ul>\n<li><strong>Bring your charger.</strong> Each location provides access to a standard 120V wall outlet.</li>\n<li><strong>You may need to remove your battery.</strong> Depending on where the outlet is, it may be easier to bring the battery inside rather than run a cord outside. Most Aventon batteries detach quickly and easily.</li>\n<li><strong>Plan for 30 to 60 minutes.</strong> A partial top-off during lunch or a drink stop can meaningfully extend your range.</li>\n<li><strong>Be a good guest.</strong> These businesses are doing us a favor. Please support them with a purchase while you charge.</li>\n</ul>\n<p>Questions? Call us at <a href=\"tel:+18154332200\">815.433.2200</a>.</p>\n<h2>Charging network map</h2>\n<p>All current eBike-friendly charging stops are marked with green pins on the map below, which updates automatically as new locations are added.</p>\n<p><a href=\"https://www.google.com/maps/d/viewer?mid=160WlpewGtP1H1X9GC9vdTEEtwUadmkc\" rel=\"noopener\" target=\"_blank\">Open the charging network map</a></p>\n<h3>Current charging stops</h3>\n<ul>\n<li>Roosty's Chicken n Shakes (restaurant) &ndash; <a href=\"https://share.google/3r6PfWnNqcU1D3e6Q\" rel=\"noopener\" target=\"_blank\">more info</a></li>\n<li>Saffron Bazaar (bar / gastropub) &ndash; <a href=\"https://share.google/OUazuwYcvElj7F4Z4\" rel=\"noopener\" target=\"_blank\">more info</a></li>\n</ul>\n<h2>For businesses: join the network</h2>\n<p>Joining the Quest eBike Charging Network is one of the easiest wins available to a local business.</p>\n<ul>\n<li><strong>You gain a captive customer.</strong> An eBike charging for 30 to 60 minutes means a customer parked at your location and looking for something to eat, drink or browse.</li>\n<li><strong>The cost is negligible.</strong> An eBike battery draws roughly the same electricity as running a laptop, a few cents per charge.</li>\n<li><strong>You will be on the map.</strong> Participating businesses are featured on the charging network map, which is promoted to all Quest eBike renters and customers.</li>\n<li><strong>No equipment needed.</strong> Riders bring their own chargers. You provide access to a standard wall outlet.</li>\n</ul>\n<p>To be added, <a href=\"/pages/contact\">contact us</a> with your business name, address, contact name, phone and type of business, and we will confirm your listing. Prefer to call? Reach us at <a href=\"tel:+18154332200\">815.433.2200</a> and mention the eBike Charging Network.</p>\n<p><em>Businesses listed in the Quest eBike Charging Network are independent of Quest Watersports and participate voluntarily. Quest Watersports is not affiliated with, responsible for, or liable for the products, services or policies of any listed business. Participating businesses may leave the network at any time. Please contact each business directly with any questions or issues regarding their location or services.</em></p>\n<p>Need a bike? See <a href=\"/pages/ebike-rentals\">eBike rentals</a> or <a href=\"/collections/ebikes\">eBikes for sale</a>, and plan your route with the <a href=\"/pages/i-and-m-canal-trail\">I&amp;M Canal Trail guide</a>.</p>",
+  "faqs": [
+    {
+      "q": "Do I need to bring my own charger?",
+      "a": "<p>Yes. Bring the charger that came with your bike. Each stop provides a standard 120V wall outlet.</p>"
+    },
+    {
+      "q": "How long should I plan to charge?",
+      "a": "<p>Plan for 30 to 60 minutes. A partial top-off during a meal or drink stop can meaningfully extend your range.</p>"
+    },
+    {
+      "q": "Do I have to remove my battery?",
+      "a": "<p>Possibly. Depending on where the outlet is, it may be easier to bring the battery inside. Most Aventon batteries detach quickly and easily.</p>"
+    },
+    {
+      "q": "How much does it cost a business to participate?",
+      "a": "<p>Very little. An eBike battery draws about as much electricity as a laptop, a few cents per charge, and riders bring their own chargers.</p>"
+    }
+  ],
+  "source_slugs": [
+    "ebike-charging-network"
+  ],
+  "images": [
+    "https://www.questwatersports.com/wp-content/uploads/ebike-charging-hero.jpg"
+  ]
+}

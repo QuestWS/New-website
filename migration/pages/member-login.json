@@ -1,0 +1,12 @@
+{
+  "handle": "member-login",
+  "title": "Member Reservations",
+  "template_suffix": "landing",
+  "seo_title": "Member Reservations | Quest Express Boat Club",
+  "seo_description": "Quest Express Boat Club members: log in to BoatCloud to see boat availability and make or change reservations at Heritage Harbor in Ottawa, IL.",
+  "body_html": "<p>Quest Express Boat Club and Quest In &amp; Out Service members: sign in to view boat availability and manage your reservations at Heritage Harbor. Members only.</p>\n<h2>Log In</h2>\n<p><a class=\"button\" href=\"https://www.boatcloud.com/stacktrack/access.aspx\" target=\"_blank\" rel=\"noopener\">Log In Online</a></p>\n<h2>Get the BoatCloud App</h2>\n<ul>\n<li><a href=\"https://itunes.apple.com/us/app/boatcloud-mobile/id591230896?mt=8\" target=\"_blank\" rel=\"noopener\">Download the iPhone app</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=com.boatcloud.mobile9&amp;hl=en_US\" target=\"_blank\" rel=\"noopener\">Download the Android app</a></li>\n</ul>\n<h2>Need Help Signing In?</h2>\n<p>Call us at <a href=\"tel:+18154332200\">815.433.2200</a> or visit us at Heritage Harbor Ottawa Marina.</p>\n<p>Not a member yet? Learn about the <a href=\"/pages/boat-club\">Quest Express Boat Club</a> or read the <a href=\"/pages/boat-club-faq\">FAQs</a>.</p>",
+  "source_slugs": [
+    "member-reservation"
+  ],
+  "images": []
+}

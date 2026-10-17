@@ -1,0 +1,102 @@
+{
+  "handle": "boat-club-faq",
+  "title": "Boat Club FAQs",
+  "template_suffix": "faq",
+  "seo_title": "Boat Club FAQs | Quest Express, Ottawa, IL",
+  "seo_description": "Answers about Quest Express Boat Club membership at Heritage Harbor in Ottawa, IL: who can join, reservations, costs, training, insurance, where you can boat.",
+  "body_html": "<p>Learn the details of membership in <a href=\"/pages/boat-club\">Quest Express Boat Club</a>, based at Heritage Harbor Ottawa on the Illinois River. Don't see your question? Call us at <a href=\"tel:+18154332200\">815.433.2200</a> or <a href=\"/pages/contact\">contact us</a>, and we will be glad to help.</p>\n<p>Already a member? <a href=\"/pages/member-login\">Log in to reserve a boat</a>.</p>",
+  "faqs": [
+    {
+      "q": "Who can join Quest Express Boat Club?",
+      "a": "<p>Anyone who is 21 or older and has a valid Illinois driver's license.</p>"
+    },
+    {
+      "q": "Do I need boating experience to join Quest Express Boat Club?",
+      "a": "<p>No. We provide orientation for all Club Members. We will guide you through the ins and outs of handling the boats, launching from the marina and boating on the Illinois waterway. Quest Express is an excellent opportunity to learn how to handle different types of boats and decide whether or not you wish to become a boat owner.</p>"
+    },
+    {
+      "q": "Can I bring guests with me?",
+      "a": "<p>Of course. You are welcome to bring as many people as the boat you are using is rated for.</p>"
+    },
+    {
+      "q": "How long does a membership last?",
+      "a": "<p>Memberships run for 365 days, so any time of the year is a good time to join. You will always enjoy a full season for each year of your membership.</p>"
+    },
+    {
+      "q": "How many people are included in a membership plan?",
+      "a": "<p>Each plan (Membership Agreement) provides for up to 2 Members to enjoy Club privileges. Members with Individual/Family plans must reside within the same household. The Buddy and Executive plans provide flexibility for friends or business associates to share a membership plan. Only Members may make Club reservations or operate the Club boats.</p>"
+    },
+    {
+      "q": "How do I make reservations?",
+      "a": "<p>The Club provides an online reservation system that you can access any time. Once you become a Member you are given a user name and password. Select the boat style and date you want and click to reserve. Reservations can be made from 2 hours to 30 days in advance. <a href=\"/pages/member-login\">Member login</a></p>"
+    },
+    {
+      "q": "Can I call or reserve on the same day to get a boat?",
+      "a": "<p>Yes. Our Same Day feature allows this, as long as a boat is available. We ask that you call at least two hours before boarding so we can ensure availability and readiness of boats and avoid unexpected wait time.</p>"
+    },
+    {
+      "q": "Is there a limit to how often I can use the boats?",
+      "a": "<p>No, there is no limit as long as a boat is available.</p>"
+    },
+    {
+      "q": "How do I know there will be a boat available?",
+      "a": "<p>Although you are not guaranteed a boat exactly when you want it, the rolling reservation system and low Member-to-boat ratio allow equal access for all Members and the availability you want almost all of the time. Exceptions are quite rare. Quest Express adds more boats to the fleet as it adds Members and maintains a Member-to-boat ratio much lower than the industry average, so you get more choice and more availability than with most other clubs.</p>"
+    },
+    {
+      "q": "Are there any daily use charges?",
+      "a": "<p>No. The only recurring costs other than membership fees are for the fuel you use. Concierge services such as catering or boat guide coaching are available at additional fees if you want to entertain without the worries.</p>"
+    },
+    {
+      "q": "Can I take a boat out early or keep it out after hours?",
+      "a": "<p>Yes. Special arrangements may be made to get a boat early (morning sessions) or return after hours (afternoon sessions). Please contact us so we can help with this.</p>"
+    },
+    {
+      "q": "What happens if I need to cancel?",
+      "a": "<p>Cancellations are never a problem. However, the more advance notice you can give, the greater the chance that another Member can use the boat that day.</p>"
+    },
+    {
+      "q": "What do I do if I break down or have an emergency out on the water?",
+      "a": "<p>As a first step, contact Quest Express staff so we can advise you based on the circumstances and provide or send assistance as needed. Do not be afraid to ask other boaters for help either. They are usually very willing to oblige.</p>"
+    },
+    {
+      "q": "Do I have to clean the boats?",
+      "a": "<p>Club staff handles regular maintenance and detailing as needed. We do ask that Members take their trash and leave boat interiors wiped down after each use. It only takes a few minutes and keeps the boats looking nice for all Members.</p>"
+    },
+    {
+      "q": "Where can I boat?",
+      "a": "<p>Due to the time it can take to get through the locks, boat use is allowed within the Ottawa pool only. This is the area between the Marseilles Lock and the Starved Rock Lock, about 14 miles of beautiful boating with islands, restaurants, spots for anchoring or rafting, scenic Buffalo Rock, Heritage Harbor Marina and complimentary Ottawa city docks. See more about <a href=\"/pages/illinois-river-boating\">boating the Illinois River</a>.</p>"
+    },
+    {
+      "q": "Do you offer boat training classes?",
+      "a": "<p>There are many Coast Guard-approved courses offered in the area and online. For example, Quest Watersports allows the Coast Guard to reserve its facility every spring for refresher and new boater training. Members are not required to complete this training, but Quest Express encourages these courses and reserves the right to require them later if warranted.</p><p>Quest Express provides an orientation to operating the boats and to Heritage Harbor Marina. Should you want additional coaching, it can be arranged and customized for an additional charge.</p>"
+    },
+    {
+      "q": "What types of boats will I have access to?",
+      "a": "<p>There is something for everyone. Quest Express offers a range of sizes and types of boats, so whether you want to go fishing, tubing or just cruising for the day with a large group, we have a boat for you. Members choose the boat they need when making reservations.</p>"
+    },
+    {
+      "q": "Are the boats well maintained?",
+      "a": "<p>Absolutely. All boats are continually inspected and maintained by qualified Quest staff. All U.S. Coast Guard-required safety equipment, including life jackets, is kept on board each boat. Quest Express also provides anchors, lines and any bumpers needed.</p>"
+    },
+    {
+      "q": "Do I need boaters insurance?",
+      "a": "<p>No. Quest Express maintains a Club policy that covers major damage and liability.</p>"
+    },
+    {
+      "q": "Are corporate memberships available?",
+      "a": "<p>We offer an Executive Membership. If you would like to add more Members to your plan or customize a membership, please call us to discuss your needs.</p>"
+    },
+    {
+      "q": "Why should I join?",
+      "a": "<ul><li>Unlimited boating</li><li>Variety of newer boats to use</li><li>Dedicated, friendly staff catering to your needs</li><li>A unique way to entertain family, clients and guests</li><li>No boat payment, licensing or insurance expense</li><li>No cleaning, upkeep, repairs or maintenance</li><li>No slip fees, winterizing or winter storage</li><li>Concierge services available, such as a catered lunch and a packed cooler</li></ul>"
+    },
+    {
+      "q": "How do I sign up?",
+      "a": "<p>Just call us at <a href=\"tel:+18154332200\">815.433.2200</a>. We will set a time to tour the marina, see the fleet, review the Membership Agreement, schedule your orientation and get you out on the water.</p>"
+    }
+  ],
+  "source_slugs": [
+    "questexpressfaqs"
+  ],
+  "images": []
+}

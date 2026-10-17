@@ -1,0 +1,14 @@
+{
+  "handle": "our-facility",
+  "title": "Our Facility",
+  "template_suffix": "landing",
+  "seo_title": "Our 32,000 sq ft Facility | Quest Watersports Ottawa",
+  "seo_description": "Tour Quest Watersports' 32,000 square foot Ottawa, IL showroom, marine service shop, valet and winter storage warehouse, one mile from Heritage Harbor.",
+  "body_html": "<p>Our 32,000 square foot Ottawa facility includes:</p>\n<ul>\n<li>An exciting showroom housing our full selection of new and used boats, Hobie kayaks and stand-up paddleboards</li>\n<li>A fully equipped marine services shop</li>\n<li>A weather-protected drop-off area for boats in need of maintenance</li>\n<li>An on-site indoor warehouse to accommodate valet in/out services during summer (for boating at Heritage Harbor Ottawa) and protected storage during winter</li>\n<li>A convenient location approximately one mile from Heritage Harbor Ottawa and its spectacular slip, ramp, restaurant and on-water residential opportunities</li>\n</ul>\n<img src=\"https://www.questwatersports.com/wp-content/uploads/img_3301870491.jpg\" alt=\"Quest Watersports 32,000 square foot showroom and service facility in Ottawa, Illinois\" loading=\"lazy\">\n<p>Learn more about our <a href=\"/pages/service-and-parts\">service &amp; parts</a>, <a href=\"/pages/valet-service\">valet service</a> and <a href=\"/pages/boat-storage\">boat storage</a>, or see <a href=\"/pages/contact\">hours and directions</a>.</p>",
+  "source_slugs": [
+    "our-facility"
+  ],
+  "images": [
+    "https://www.questwatersports.com/wp-content/uploads/img_3301870491.jpg"
+  ]
+}
