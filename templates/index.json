@@ -1,210 +1,250 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+    "hero": {
+      "type": "quest-hero",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "heading": "Fun on the Water in Starved Rock Country",
+        "heading_tag": "h1",
+        "eyebrow": "Quest Watersports - Ottawa, IL",
+        "text": "<p>There is something magical about being on the water. It relaxes you, brings friends and family together and creates memories. At Quest Watersports we live, work and play on the water, and we are here to help you do the same.</p>",
+        "button_label_1": "Shop Kayaks",
+        "button_link_1": "shopify://collections/hobie-kayaks",
+        "button_label_2": "Explore the Boat Club",
+        "button_link_2": "shopify://pages/boat-club"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "trust": {
+      "type": "quest-trust-strip",
+      "settings": {}
+    },
+    "destinations": {
+      "type": "quest-destinations",
+      "settings": {
+        "mobile_carousel": false
+      }
+    },
+    "hobie": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "hobie-kayaks",
+        "title": "Hobie Kayaks",
+        "heading_size": "h1",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ebikes": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ebikes",
+        "title": "Electric Bikes",
+        "heading_size": "h1",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "story": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "h": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Our Story",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "t": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our original location, Riverview Marine, opened in Spring Valley, Illinois in 1992. In 2009 we relocated to Ottawa, moved into a larger facility next to Heritage Harbor Marina and became Quest Watersports.</p><p>In 2011 we launched Quest Express Boat Club, the first program of its kind in Illinois, and added Hobie Kayaks and a premium paddlesports rental program.</p>"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our history",
+            "button_link": "shopify://pages/about"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "h",
+        "t",
+        "b"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "layout": "image_first",
+        "desktop_image_width": "medium",
+        "color_scheme": "scheme-2",
+        "height": "medium",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "featured_collection": {
+    "shop": {
+      "type": "collection-list",
+      "blocks": {
+        "c0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kayak-parts"
+          }
+        },
+        "c1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bike-parts"
+          }
+        },
+        "c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sailing-parts"
+          }
+        },
+        "c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trailers"
+          }
+        },
+        "c4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "used-demo-kayaks"
+          }
+        },
+        "c5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "old-town-kayaks"
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "settings": {
+        "title": "Shop Parts, Trailers & More",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "image_ratio": "square",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "club": {
+      "type": "quest-cta-band",
+      "settings": {
+        "heading": "Quest Express Boat Club",
+        "text": "<p>Unlimited access to a fleet of club boats on an annual membership, without buying, maintaining, storing or insuring your own boat.</p>",
+        "phone_button_label": "Call 815.433.2200",
+        "button_label": "Learn About the Boat Club",
+        "button_link": "shopify://pages/boat-club"
+      }
+    },
+    "advanced": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
+        "collection": "advanced-elements-in-stock",
+        "title": "Advanced Elements In Stock",
+        "heading_size": "h1",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
+        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "hours": {
+      "type": "quest-hours-location",
+      "settings": {
+        "show_map": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "h": {
+          "type": "heading",
           "settings": {
-            "collection": ""
+            "heading": "Stay in the loop",
+            "heading_size": "h1"
           }
         },
-        "product": {
-          "type": "product",
+        "p": {
+          "type": "paragraph",
           "settings": {
-            "product": "",
-            "second_image": false
+            "text": "<p>Get news on new arrivals, demo days and events.</p>"
           }
         },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+        "e": {
+          "type": "email_form"
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "h",
+        "p",
+        "e"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "scheme-1"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "hero",
+    "trust",
+    "destinations",
+    "hobie",
+    "ebikes",
+    "story",
+    "shop",
+    "club",
+    "advanced",
+    "hours",
+    "newsletter"
   ]
 }

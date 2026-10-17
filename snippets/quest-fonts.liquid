@@ -1,0 +1,46 @@
+{%- comment -%}
+  Self-hosted brand fonts (latin subset). Barlow Condensed 600/700 for headings, Source Sans 3 (variable 200-900) for body.
+{%- endcomment -%}
+{% comment %}theme-check-disable AssetPreload{% endcomment %}
+<link rel="preload" as="font" href="{{ 'barlow-condensed-700.woff2' | asset_url }}" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="{{ 'source-sans-3.woff2' | asset_url }}" type="font/woff2" crossorigin>
+{% comment %}theme-check-enable AssetPreload{% endcomment %}
+<style>
+  @font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('{{ 'barlow-condensed-600.woff2' | asset_url }}') format('woff2');
+  }
+  @font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('{{ 'barlow-condensed-700.woff2' | asset_url }}') format('woff2');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url('{{ 'source-sans-3.woff2' | asset_url }}') format('woff2');
+  }
+  @font-face {
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url('{{ 'source-sans-3-italic.woff2' | asset_url }}') format('woff2');
+  }
+  :root {
+    --font-body-family: 'Source Sans 3', {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    --font-body-style: normal;
+    --font-body-weight: 400;
+    --font-body-weight-bold: 700;
+    --font-heading-family: 'Barlow Condensed', {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    --font-heading-style: normal;
+    --font-heading-weight: 700;
+  }
+</style>

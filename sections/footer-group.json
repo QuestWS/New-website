@@ -5,49 +5,62 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
+        "footer-brand": {
+          "type": "text",
+          "settings": {
+            "heading": "Quest Watersports",
+            "subtext": "<p>Fun on the water in Starved Rock Country since 1992. Hobie kayaks, sailboats, eBikes, boat sales, service, storage and the Quest Express Boat Club, next to Heritage Harbor Ottawa.</p>"
+          }
+        },
+        "footer-links": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
           }
         },
-        "footer-1": {
+        "footer-explore": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Explore",
+            "menu": "quest-footer-explore"
           }
         },
-        "footer-2": {
+        "footer-contact": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Visit us",
+            "subtext": "<p><a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=1851+N+2871st+Road+Ottawa+IL+61350\">1851 N 2871st Road<br>Ottawa, IL 61350</a></p><p><a href=\"tel:+18154332200\">815.433.2200</a><br><a href=\"mailto:orders@questwatersports.com\">orders@questwatersports.com</a></p><p><strong>Sales:</strong> Tue\u2013Sat 9 AM\u20135 PM<br><strong>Service:</strong> Tue\u2013Sat 8 AM\u20135 PM<br>Sun &amp; Mon by appointment</p>"
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-brand",
+        "footer-links",
+        "footer-explore",
+        "footer-contact"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Get news and deals from Quest",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
+    },
+    "quest-mobile-action-bar": {
+      "type": "quest-mobile-action-bar",
+      "settings": {}
     }
   },
   "order": [
-    "footer"
+    "footer",
+    "quest-mobile-action-bar"
   ]
 }

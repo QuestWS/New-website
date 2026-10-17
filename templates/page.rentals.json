@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-quest",
+      "settings": {
+        "show_cta": false
+      }
+    },
+    "faq": {
+      "type": "quest-faq",
+      "settings": {}
+    },
+    "hours": {
+      "type": "quest-hours-location",
+      "settings": {
+        "show_map": false
+      }
+    },
+    "cta": {
+      "type": "quest-cta-band",
+      "settings": {
+        "heading": "Reserve a rental",
+        "text": "<p>Call to check availability and book your day on the water or the trail.</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "hours",
+    "cta"
+  ]
+}

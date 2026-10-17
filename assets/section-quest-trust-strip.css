@@ -1,0 +1,19 @@
+.quest-trust__list {
+  display: flex;
+  gap: 2.4rem;
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.quest-trust__list::-webkit-scrollbar { display: none; }
+.quest-trust__item { display: flex; flex: 0 0 auto; align-items: center; gap: 0.8rem; scroll-snap-align: start; white-space: nowrap; }
+.quest-trust__check { flex: none; color: #c08a22; }
+.quest-trust__text { font-weight: 700; font-size: 1.5rem; letter-spacing: 0.02em; }
+@media screen and (min-width: 990px) {
+  .quest-trust__list { justify-content: space-between; overflow: visible; }
+  .quest-trust__text { font-size: 1.6rem; }
+}

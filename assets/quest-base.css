@@ -1,0 +1,169 @@
+/* Quest Watersports brand polish. Loaded after base.css. */
+:root {
+  --quest-navy: #14293e;
+  --quest-gold: #c08a22;
+  --quest-cream: #fdfcf7;
+  --quest-blue: #ebf1f6;
+  --quest-text: #1d2b38;
+}
+
+body { font-size: 1.6rem; }
+@media screen and (min-width: 750px) { body { font-size: 1.7rem; } }
+
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* Header */
+.section-header .header-wrapper,
+.header-wrapper {
+  border-bottom: 4px solid var(--quest-gold);
+}
+.header-wrapper--border-bottom { border-bottom-width: 4px; border-bottom-color: var(--quest-gold); }
+.header__menu-item, .header__menu-item span { font-weight: 600; letter-spacing: 0.02em; }
+.header__icon, .header__icon--cart { min-width: 44px; min-height: 44px; }
+
+/* Buttons */
+.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
+  font-family: var(--font-heading-family);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  min-height: 4.4rem;
+}
+.button:not(.button--secondary):not(.button--tertiary):hover { background-color: var(--quest-gold); }
+.button--secondary { border-width: 2px; }
+
+/* Focus */
+:focus-visible, .focus-inset:focus-visible {
+  outline: 3px solid var(--quest-gold) !important;
+  outline-offset: 2px;
+  box-shadow: none !important;
+}
+
+/* Tap targets */
+.footer-block__details-content a, .list-menu__item--link, .menu-drawer__menu-item,
+.link, .footer__list-social a, .pagination__item {
+  min-height: 4.4rem;
+}
+.footer-block__details-content .list-menu__item--link { display: inline-flex; align-items: center; }
+input, select, textarea, .field__input, .select__select { font-size: 1.6rem; }
+.field__input, .select__select, .customer .field input { min-height: 4.4rem; }
+
+/* Responsive video */
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin: 2rem 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--quest-navy);
+}
+.video-embed iframe, .video-embed video {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+
+/* Rich text page bodies */
+.rte img, .rte video { max-width: 100%; height: auto; border-radius: 8px; }
+.rte iframe { max-width: 100%; border: 0; }
+.rte h2, .rte h3 { margin: 2.4rem 0 1rem; }
+.rte a { color: var(--quest-navy); text-decoration-thickness: 0.1rem; text-underline-offset: 0.3rem; }
+.rte a:hover { text-decoration-thickness: 0.2rem; color: var(--quest-gold); }
+.rte ul, .rte ol { padding-left: 2.4rem; }
+.rte li { margin-bottom: 0.6rem; }
+.rte table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+}
+.rte th, .rte td { padding: 0.8rem 1.2rem; border: 1px solid rgba(var(--color-foreground), 0.2); text-align: left; }
+.rte th { background: var(--quest-blue); font-weight: 700; }
+.rte blockquote { border-left: 4px solid var(--quest-gold); margin: 2rem 0; padding: 0.4rem 0 0.4rem 1.6rem; }
+
+/* Breadcrumbs */
+.quest-breadcrumbs { padding-top: 1.2rem; padding-bottom: 0.4rem; font-size: 1.4rem; }
+.quest-breadcrumbs__list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+.quest-breadcrumbs__list::-webkit-scrollbar { display: none; }
+.quest-breadcrumbs__list li { display: inline-flex; align-items: center; flex: none; }
+.quest-breadcrumbs__list li + li::before {
+  content: "\203A";
+  margin: 0 0.8rem;
+  opacity: 0.6;
+}
+.quest-breadcrumbs__list a {
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 4.4rem;
+}
+.quest-breadcrumbs__list a:hover { text-decoration: underline; }
+.quest-breadcrumbs__list [aria-current] { font-weight: 600; }
+
+/* Utility bar */
+.quest-utility { background: var(--quest-navy); color: #fff; font-size: 1.4rem; }
+.quest-utility__inner {
+  display: flex; justify-content: space-between; align-items: center; gap: 1.6rem;
+  min-height: 4rem; padding-top: 0; padding-bottom: 0;
+}
+.quest-utility__group { display: flex; align-items: center; gap: 2rem; }
+.quest-utility a {
+  color: #fff; text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem;
+  min-height: 4.4rem; font-weight: 600;
+}
+.quest-utility a:hover { color: var(--quest-gold); }
+.quest-utility svg { width: 1.6rem; height: 1.6rem; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.quest-utility__short { display: none; }
+@media screen and (max-width: 749px) {
+  .quest-utility { font-size: 1.5rem; }
+  .quest-utility__long { display: none; }
+  .quest-utility__short { display: inline; }
+  .quest-utility__inner { justify-content: space-around; }
+  .quest-utility__group { gap: 0; width: 100%; justify-content: space-around; }
+  .quest-utility__hide-mobile { display: none !important; }
+}
+
+/* Mobile sticky action bar */
+.quest-action-bar { display: none; }
+@media screen and (max-width: 749px) {
+  :root { --quest-action-bar-height: 60px; }
+  body { padding-bottom: calc(var(--quest-action-bar-height) + env(safe-area-inset-bottom, 0px)); }
+  .quest-action-bar {
+    display: grid;
+    grid-template-columns: repeat(var(--quest-action-count, 3), 1fr);
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 30;
+    background: var(--quest-navy);
+    border-top: 3px solid var(--quest-gold);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.18);
+  }
+  .quest-action-bar a {
+    display: flex; align-items: center; justify-content: center; gap: 0.8rem;
+    min-height: calc(var(--quest-action-bar-height) - 3px);
+    color: #fff; text-decoration: none;
+    font-family: var(--font-heading-family); font-weight: 700; font-size: 1.8rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .quest-action-bar a + a { border-left: 1px solid rgba(255, 255, 255, 0.2); }
+  .quest-action-bar a:active { background: var(--quest-gold); }
+  .quest-action-bar svg { width: 2rem; height: 2rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+}

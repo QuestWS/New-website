@@ -2,9 +2,84 @@
   "sections": {
     "main": {
       "type": "main-404"
+    },
+    "links": {
+      "type": "collection-list",
+      "blocks": {
+        "c0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hobie-kayaks"
+          }
+        },
+        "c1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ebikes"
+          }
+        },
+        "c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sailing-parts"
+          }
+        },
+        "c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trailers"
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "title": "Shop popular collections",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Or visit a key page",
+            "heading_size": "h2"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/boating\">Boating</a> | <a href=\"/pages/boat-club\">Quest Express Boat Club</a> | <a href=\"/pages/paddlesports\">Paddlesports</a> | <a href=\"/pages/ebikes\">eBikes</a> | <a href=\"/pages/service-and-parts\">Service &amp; Parts</a> | <a href=\"/pages/contact\">Contact</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "links",
+    "rich"
   ]
 }

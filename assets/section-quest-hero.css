@@ -1,0 +1,86 @@
+.quest-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 60vh;
+  min-height: 60svh;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(135deg, #14293e 0%, #1d3f5e 55%, #14293e 100%);
+}
+.quest-hero__media,
+.quest-hero__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.quest-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 22, 36, var(--quest-hero-overlay, 0.45)) 0%, rgba(10, 22, 36, calc(var(--quest-hero-overlay, 0.45) * 0.7)) 100%);
+}
+.quest-hero__inner {
+  position: relative;
+  width: 100%;
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+.quest-hero__content {
+  max-width: 62rem;
+}
+.quest-hero--center .quest-hero__content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.quest-hero--center .quest-hero__buttons {
+  justify-content: center;
+}
+.quest-hero__eyebrow {
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #e8b44a;
+}
+.quest-hero__heading {
+  margin: 0;
+  color: #fff;
+  text-wrap: balance;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+.quest-hero__text {
+  margin-top: 1.6rem;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+.quest-hero__text p { margin: 0 0 1rem; }
+.quest-hero__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+.quest-hero__buttons .button { width: 100%; min-height: 4.8rem; }
+.quest-hero__button-secondary {
+  --color-button: 255, 255, 255;
+  --color-button-text: 255, 255, 255;
+  background: transparent;
+  color: #fff;
+}
+.quest-hero__button-secondary::after { box-shadow: none; }
+.quest-hero__button-secondary { box-shadow: inset 0 0 0 0.2rem #fff; }
+
+@media screen and (min-width: 750px) {
+  .quest-hero--medium { min-height: 55vh; }
+  .quest-hero--large { min-height: 75vh; }
+  .quest-hero__inner { padding-top: 8rem; padding-bottom: 8rem; }
+  .quest-hero__text { font-size: 2rem; }
+  .quest-hero__buttons { flex-direction: row; flex-wrap: wrap; }
+  .quest-hero__buttons .button { width: auto; min-width: 20rem; }
+}

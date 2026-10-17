@@ -1,0 +1,37 @@
+{%- comment -%}
+  Fixed bottom action bar, mobile only (< 750px). quest-base.css sets --quest-action-bar-height (60px) and
+  body padding-bottom. The Shopify Inbox chat button sits bottom-right and will overlap this bar:
+  set its vertical position to "Highest" in the Inbox app embed (done in settings_data.json) and
+  adjust in Online Store > Customize > App embeds > Inbox if needed.
+{%- endcomment -%}
+<nav class="quest-action-bar" aria-label="Quick actions" style="--quest-action-count: {% if section.settings.shop_link != blank %}3{% else %}2{% endif %}" {{ section.shopify_attributes }}>
+  <a href="tel:{{ section.settings.phone | strip | replace: ' ', '' }}">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+    {{ section.settings.call_label }}
+  </a>
+  <a href="{{ section.settings.directions_link }}" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    {{ section.settings.directions_label }}
+  </a>
+  {%- if section.settings.shop_link != blank -%}
+    <a href="{{ section.settings.shop_link }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      {{ section.settings.shop_label }}
+    </a>
+  {%- endif -%}
+</nav>
+
+{% schema %}
+{
+  "name": "Quest mobile action bar",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "call_label", "label": "Call label", "default": "Call" },
+    { "type": "text", "id": "phone", "label": "Phone number", "default": "+18154332200" },
+    { "type": "text", "id": "directions_label", "label": "Directions label", "default": "Directions" },
+    { "type": "url", "id": "directions_link", "label": "Directions link", "default": "https://www.google.com/maps/dir/?api=1&destination=Quest+Watersports,+1800+N+2871st+Rd,+Ottawa,+IL+61350" },
+    { "type": "text", "id": "shop_label", "label": "Shop label", "default": "Shop" },
+    { "type": "url", "id": "shop_link", "label": "Shop link", "default": "/collections/all" }
+  ]
+}
+{% endschema %}

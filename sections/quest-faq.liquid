@@ -1,0 +1,112 @@
+{{ 'section-quest-faq.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- assign meta_faqs = page.metafields.custom.faqs.value -%}
+{%- assign faq_count = section.blocks.size -%}
+{%- if meta_faqs != blank -%}
+  {%- assign faq_count = faq_count | plus: meta_faqs.size -%}
+{%- endif -%}
+
+{%- if faq_count > 0 -%}
+  <div class="color-{{ section.settings.color_scheme }} gradient">
+    <section class="quest-faq page-width page-width--narrow section-{{ section.id }}-padding" aria-labelledby="QuestFaq-{{ section.id }}">
+      {%- if section.settings.heading != blank -%}
+        <h2 id="QuestFaq-{{ section.id }}" class="quest-faq__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      {%- endif -%}
+      <div class="quest-faq__list">
+        {%- for block in section.blocks -%}
+          <details class="quest-faq__item" {{ block.shopify_attributes }}{% if section.settings.open_first and forloop.first %} open{% endif %}>
+            <summary class="quest-faq__question"><span>{{ block.settings.question | escape }}</span></summary>
+            <div class="quest-faq__answer rte">{{ block.settings.answer }}</div>
+          </details>
+        {%- endfor -%}
+        {%- if meta_faqs != blank -%}
+          {%- for item in meta_faqs -%}
+            <details class="quest-faq__item"{% if section.settings.open_first and section.blocks.size == 0 and forloop.first %} open{% endif %}>
+              <summary class="quest-faq__question"><span>{{ item.q | escape }}</span></summary>
+              <div class="quest-faq__answer rte">{{ item.a }}</div>
+            </details>
+          {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </section>
+  </div>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- assign first_item = true -%}
+        {%- for block in section.blocks -%}
+          {%- unless first_item %},{% endunless -%}
+          {%- assign first_item = false -%}
+          {
+            "@type": "Question",
+            "name": {{ block.settings.question | strip_html | json }},
+            "acceptedAnswer": { "@type": "Answer", "text": {{ block.settings.answer | strip_html | json }} }
+          }
+        {%- endfor -%}
+        {%- if meta_faqs != blank -%}
+          {%- for item in meta_faqs -%}
+            {%- unless first_item %},{% endunless -%}
+            {%- assign first_item = false -%}
+            {
+              "@type": "Question",
+              "name": {{ item.q | strip_html | json }},
+              "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | strip_html | json }} }
+            }
+          {%- endfor -%}
+        {%- endif -%}
+      ]
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Quest FAQ",
+  "tag": "section",
+  "class": "section-quest-faq",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Frequently Asked Questions" },
+    { "type": "select", "id": "heading_size", "label": "Heading size", "options": [ { "value": "h2", "label": "Medium" }, { "value": "h1", "label": "Large" } ], "default": "h2" },
+    { "type": "checkbox", "id": "open_first", "label": "Open first question", "default": false },
+    { "type": "paragraph", "content": "On pages, questions from the page metafield custom.faqs (JSON list of q/a) are added automatically after any blocks below." },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "header", "content": "Section padding" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "Question",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question", "default": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer", "default": "<p>Answer</p>" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quest FAQ",
+      "blocks": [
+        { "type": "faq", "settings": { "question": "What are your hours?", "answer": "<p>Sales: Tuesday to Saturday, 9:00 AM to 5:00 PM. Sunday and Monday by appointment only.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

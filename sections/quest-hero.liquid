@@ -1,0 +1,83 @@
+{{ 'section-quest-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .quest-hero-{{ section.id }} { --quest-hero-overlay: {{ section.settings.overlay_opacity | divided_by: 100.0 }}; }
+{%- endstyle -%}
+
+{%- assign hero_tag = section.settings.heading_tag | default: 'h2' -%}
+<section class="quest-hero quest-hero-{{ section.id }} color-{{ section.settings.color_scheme }} quest-hero--{{ section.settings.content_alignment }} quest-hero--{{ section.settings.height }}">
+  {%- if section.settings.image != blank -%}
+    <picture class="quest-hero__media">
+      {%- if section.settings.mobile_image != blank -%}
+        <source
+          media="(max-width: 749px)"
+          srcset="{{ section.settings.mobile_image | image_url: width: 480 }} 480w, {{ section.settings.mobile_image | image_url: width: 750 }} 750w, {{ section.settings.mobile_image | image_url: width: 1000 }} 1000w"
+          sizes="100vw"
+        >
+      {%- endif -%}
+      {%- liquid
+        assign hero_widths = '480,750,1100,1500,1920,2400' | split: ','
+      -%}
+      <img
+        src="{{ section.settings.image | image_url: width: 1500 }}"
+        srcset="{%- for w in hero_widths -%}{%- assign wi = w | plus: 0 -%}{%- if wi <= section.settings.image.width -%}{{ section.settings.image | image_url: width: wi }} {{ wi }}w{%- unless forloop.last -%}, {% endunless -%}{%- endif -%}{%- endfor -%}"
+        sizes="100vw"
+        width="{{ section.settings.image.width }}"
+        height="{{ section.settings.image.height }}"
+        alt="{{ section.settings.image.alt | escape }}"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+      >
+    </picture>
+  {%- endif -%}
+  <div class="quest-hero__overlay" aria-hidden="true"></div>
+  <div class="quest-hero__inner page-width">
+    <div class="quest-hero__content">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="quest-hero__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <{{ hero_tag }} class="quest-hero__heading h0">{{ section.settings.heading | escape }}</{{ hero_tag }}>
+      {%- endif -%}
+      {%- if section.settings.text != blank -%}
+        <div class="quest-hero__text rte">{{ section.settings.text }}</div>
+      {%- endif -%}
+      {%- if section.settings.button_label_1 != blank or section.settings.button_label_2 != blank -%}
+        <div class="quest-hero__buttons">
+          {%- if section.settings.button_label_1 != blank -%}
+            <a class="button button--primary" href="{{ section.settings.button_link_1 | default: '#' }}">{{ section.settings.button_label_1 | escape }}</a>
+          {%- endif -%}
+          {%- if section.settings.button_label_2 != blank -%}
+            <a class="button button--secondary quest-hero__button-secondary" href="{{ section.settings.button_link_2 | default: '#' }}">{{ section.settings.button_label_2 | escape }}</a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Quest hero",
+  "tag": "div",
+  "class": "section-quest-hero",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "image_picker", "id": "mobile_image", "label": "Mobile image (optional)", "info": "Used under 750px wide. Falls back to the main image." },
+    { "type": "range", "id": "overlay_opacity", "min": 0, "max": 90, "step": 5, "unit": "%", "label": "Overlay opacity", "default": 45 },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Quest Watersports" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Fun on the Water in Starved Rock Country" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "info": "Use H1 on the home page only.", "options": [ { "value": "h1", "label": "H1" }, { "value": "h2", "label": "H2" } ], "default": "h2" },
+    { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Boats, kayaks, sailboats and eBikes, plus service and rentals, next to Heritage Harbor in Ottawa, Illinois.</p>" },
+    { "type": "text", "id": "button_label_1", "label": "First button label", "default": "Shop Kayaks" },
+    { "type": "url", "id": "button_link_1", "label": "First button link" },
+    { "type": "text", "id": "button_label_2", "label": "Second button label" },
+    { "type": "url", "id": "button_link_2", "label": "Second button link" },
+    { "type": "select", "id": "height", "label": "Desktop height", "options": [ { "value": "medium", "label": "Medium" }, { "value": "large", "label": "Large" } ], "default": "large" },
+    { "type": "select", "id": "content_alignment", "label": "Content alignment", "options": [ { "value": "left", "label": "Left" }, { "value": "center", "label": "Center" } ], "default": "left" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-4" }
+  ],
+  "presets": [ { "name": "Quest hero" } ]
+}
+{% endschema %}

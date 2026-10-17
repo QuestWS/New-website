@@ -11,20 +11,53 @@
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
-      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-    {%- endunless -%}
+    {%- liquid
+      assign quest_default_description = 'Quest Watersports in Ottawa, IL — Hobie kayaks, sailboats, eBikes, boat sales, service, storage and the Quest Express Boat Club in Starved Rock Country.'
+      assign quest_title = page_title | strip
+      if request.page_type == 'index' and quest_title == shop.name
+        assign quest_title = shop.name | append: ' | Hobie Kayaks, Boats and eBikes in Ottawa, IL'
+      endif
+      unless quest_title contains shop.name
+        assign quest_title = quest_title | append: ' | ' | append: shop.name
+      endunless
+      if current_tags
+        assign quest_tags = current_tags | join: ', '
+        assign quest_title = quest_title | append: ' (' | append: quest_tags | append: ')'
+      endif
+      if current_page != 1
+        assign quest_title = quest_title | append: ' - Page ' | append: current_page
+      endif
 
-    <title>
-      {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
-    </title>
+      assign quest_noindex = false
+      if request.page_type == 'search' or current_tags
+        assign quest_noindex = true
+      endif
+      if request.page_type == 'collection' and collection.handle == 'mandatory-fees'
+        assign quest_noindex = true
+      endif
+      if request.page_type == 'product'
+        if product.tags contains 'fee'
+          assign quest_noindex = true
+        endif
+        for c in product.collections
+          if c.handle == 'mandatory-fees'
+            assign quest_noindex = true
+          endif
+        endfor
+      endif
+    -%}
+    <title>{{ quest_title }}</title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
+    <meta name="description" content="{{ page_description | default: quest_default_description | strip_html | strip_newlines | escape | truncate: 300 }}">
+    {%- if quest_noindex -%}
+      <meta name="robots" content="noindex, follow">
+    {%- endif -%}
+    <meta name="geo.region" content="US-IL">
+    <meta name="geo.placename" content="Ottawa">
+    <meta name="geo.position" content="41.3497;-88.8111">
+    <meta name="ICBM" content="41.3497, -88.8111">
+
+    {% render 'quest-local-business-schema' %}
 
     {% render 'meta-tags' %}
 
@@ -111,6 +144,7 @@
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --quest-action-bar-height: 0px;
 
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
@@ -255,7 +289,9 @@
       }
     {% endstyle %}
 
+    {% render 'quest-fonts' %}
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'quest-base.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}
@@ -265,17 +301,6 @@
       {{ 'component-price.css' | asset_url | stylesheet_tag }}
       {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
-
-    {%- unless settings.type_body_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
-    {%- endunless -%}
-    {%- unless settings.type_header_font.system? -%}
-      {% comment %}theme-check-disable AssetPreload{% endcomment %}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-      {% comment %}theme-check-enable AssetPreload{% endcomment %}
-    {%- endunless -%}
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
@@ -310,6 +335,9 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {%- unless request.page_type == 'index' or request.page_type == 'cart' or request.page_type == 'password' or request.page_type == 'gift_card.liquid' -%}
+        {% render 'quest-breadcrumbs' %}
+      {%- endunless -%}
       {{ content_for_layout }}
     </main>
 

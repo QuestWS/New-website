@@ -1,0 +1,57 @@
+{{ 'section-quest-cta-band.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <section class="quest-cta page-width section-{{ section.id }}-padding">
+    <div class="quest-cta__inner">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="quest-cta__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      {%- endif -%}
+      {%- if section.settings.text != blank -%}
+        <div class="quest-cta__text rte">{{ section.settings.text }}</div>
+      {%- endif -%}
+      <div class="quest-cta__buttons">
+        {%- if section.settings.phone != blank -%}
+          <a class="button button--primary" href="tel:{{ section.settings.phone | remove: ' ' | remove: '.' | remove: '-' | remove: '(' | remove: ')' }}">{{ section.settings.phone_button_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+          <a class="button button--secondary" href="{{ section.settings.button_link }}">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "Quest CTA band",
+  "tag": "section",
+  "class": "section-quest-cta",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Questions? Talk to a real person." },
+    { "type": "select", "id": "heading_size", "label": "Heading size", "options": [ { "value": "h2", "label": "Medium" }, { "value": "h1", "label": "Large" } ], "default": "h2" },
+    { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Call the shop or send us a message. We are open Tuesday to Saturday.</p>" },
+    { "type": "text", "id": "phone", "label": "Phone (for tel: link)", "default": "+18154332200" },
+    { "type": "text", "id": "phone_button_label", "label": "Phone button label", "default": "Call 815.433.2200" },
+    { "type": "text", "id": "button_label", "label": "Second button label", "default": "Contact Us" },
+    { "type": "url", "id": "button_link", "label": "Second button link", "default": "/pages/contact" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-4" },
+    { "type": "header", "content": "Section padding" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }
+  ],
+  "presets": [ { "name": "Quest CTA band" } ]
+}
+{% endschema %}

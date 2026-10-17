@@ -1,0 +1,117 @@
+{{ 'section-quest-hours-location.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign full_address = section.settings.address
+  assign map_q = section.settings.map_query | default: full_address | url_encode
+  assign phone_href = section.settings.phone | remove: ' ' | remove: '.' | remove: '-' | remove: '(' | remove: ')'
+-%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <section class="quest-hours page-width section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="quest-hours__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+    {%- endif -%}
+    <div class="quest-hours__grid{% if section.settings.show_map %} quest-hours__grid--map{% endif %}">
+      <div class="quest-hours__info">
+        <address class="quest-hours__address">
+          <p class="quest-hours__name"><strong>{{ section.settings.business_name | escape }}</strong></p>
+          <p>{{ section.settings.address | escape }}</p>
+          {%- if section.settings.address_note != blank -%}
+            <p class="quest-hours__note">{{ section.settings.address_note | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.phone != blank -%}
+            <p><a class="quest-hours__contact-link" href="tel:{{ phone_href }}">{{ section.settings.phone_label | default: section.settings.phone | escape }}</a></p>
+          {%- endif -%}
+          {%- if section.settings.email != blank -%}
+            <p><a class="quest-hours__contact-link" href="mailto:{{ section.settings.email }}">{{ section.settings.email | escape }}</a></p>
+          {%- endif -%}
+        </address>
+
+        {%- if section.blocks.size > 0 -%}
+          <h3 class="quest-hours__subheading h4">Hours</h3>
+          <table class="quest-hours__table">
+            <tbody>
+              {%- for block in section.blocks -%}
+                <tr {{ block.shopify_attributes }}>
+                  <th scope="row">{{ block.settings.label | escape }}</th>
+                  <td>{{ block.settings.hours | escape }}</td>
+                </tr>
+              {%- endfor -%}
+            </tbody>
+          </table>
+        {%- endif -%}
+
+        <a class="button button--primary quest-hours__directions" href="https://www.google.com/maps/dir/?api=1&destination={{ map_q }}" target="_blank" rel="noopener">Get directions<span class="visually-hidden"> (opens in a new tab)</span></a>
+      </div>
+
+      {%- if section.settings.show_map -%}
+        <div class="quest-hours__map">
+          <iframe
+            src="https://www.google.com/maps?q={{ map_q }}&output=embed"
+            title="Map showing {{ section.settings.business_name | escape }} at {{ section.settings.address | escape }}"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      {%- endif -%}
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "Quest hours & location",
+  "tag": "section",
+  "class": "section-quest-hours",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Hours & Location" },
+    { "type": "select", "id": "heading_size", "label": "Heading size", "options": [ { "value": "h2", "label": "Medium" }, { "value": "h1", "label": "Large" } ], "default": "h2" },
+    { "type": "text", "id": "business_name", "label": "Business name", "default": "Quest Watersports" },
+    { "type": "text", "id": "address", "label": "Address", "default": "1851 N 2871st Road, Ottawa, IL 61350" },
+    { "type": "text", "id": "address_note", "label": "Address note", "default": "Next to Heritage Harbor Ottawa" },
+    { "type": "text", "id": "phone", "label": "Phone (for tel: link)", "default": "+18154332200" },
+    { "type": "text", "id": "phone_label", "label": "Phone label", "default": "815.433.2200" },
+    { "type": "text", "id": "email", "label": "Email", "default": "orders@questwatersports.com" },
+    { "type": "text", "id": "map_query", "label": "Map search text", "info": "Defaults to the address." },
+    { "type": "checkbox", "id": "show_map", "label": "Show map", "default": false },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-2" },
+    { "type": "header", "content": "Section padding" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "hours",
+      "name": "Hours row",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label", "default": "Sales" },
+        { "type": "text", "id": "hours", "label": "Hours", "default": "Tue-Sat 9:00 AM - 5:00 PM" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quest hours & location",
+      "blocks": [
+        { "type": "hours", "settings": { "label": "Sales", "hours": "Tue-Sat 9:00 AM - 5:00 PM" } },
+        { "type": "hours", "settings": { "label": "Sales (Sun & Mon)", "hours": "By appointment only" } },
+        { "type": "hours", "settings": { "label": "Service", "hours": "Tue-Sat 8:00 AM - 5:00 PM" } },
+        { "type": "hours", "settings": { "label": "Marina rentals", "hours": "Sat-Sun, weather permitting (call 815-433-2200)" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

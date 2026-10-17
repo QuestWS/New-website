@@ -1,0 +1,31 @@
+.quest-form__heading { margin: 0 0 1.2rem; }
+.quest-form__intro { margin-bottom: 2rem; }
+.quest-form__field { margin-bottom: 1.8rem; }
+.quest-form__field label { display: block; margin-bottom: 0.6rem; font-weight: 700; }
+.quest-form__field input,
+.quest-form__field select,
+.quest-form__field textarea {
+  display: block;
+  width: 100%;
+  min-height: 4.8rem;
+  padding: 1rem 1.4rem;
+  font: inherit;
+  font-size: 1.6rem; /* prevents iOS zoom on focus */
+  color: rgb(var(--color-foreground));
+  background: rgb(var(--color-background));
+  border: 0.1rem solid rgba(var(--color-foreground), 0.55);
+  border-radius: 0.4rem;
+}
+.quest-form__field textarea { resize: vertical; }
+.quest-form__field input:focus-visible,
+.quest-form__field select:focus-visible,
+.quest-form__field textarea:focus-visible { outline: 0.2rem solid rgb(var(--color-foreground)); outline-offset: 0.2rem; }
+.quest-form__submit { width: 100%; min-height: 4.8rem; }
+.quest-form__success,
+.quest-form__errors { margin-bottom: 2rem; padding: 1.6rem; border-radius: 0.4rem; border: 0.1rem solid currentColor; }
+.quest-form__success .form-status__title,
+.quest-form__errors .form-status__title { margin: 0 0 0.6rem; }
+.quest-form__error-list { margin: 0; padding-left: 2rem; }
+@media screen and (min-width: 750px) {
+  .quest-form__submit { width: auto; min-width: 20rem; }
+}

@@ -1,14 +1,21 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "main-page-quest",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "show_cta": false
+      }
+    },
+    "cta": {
+      "type": "quest-cta-band",
+      "settings": {
+        "heading": "Questions? Talk to a real person.",
+        "text": "<p>Call the shop or send us a message. We are open Tuesday to Saturday.</p>"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cta"
   ]
 }

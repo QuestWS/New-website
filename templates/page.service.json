@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-quest",
+      "settings": {
+        "show_cta": false
+      }
+    },
+    "faq": {
+      "type": "quest-faq",
+      "settings": {}
+    },
+    "supplies": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "heritage-harbor-boating-supplies",
+        "title": "Boating Supplies",
+        "heading_size": "h1",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "trailers": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "trailers",
+        "title": "Trailers",
+        "heading_size": "h1",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "quest-contact-form",
+      "settings": {
+        "default_topic": "Service & Parts",
+        "heading": "Request Service or Parts"
+      }
+    },
+    "hours": {
+      "type": "quest-hours-location",
+      "settings": {
+        "show_map": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "supplies",
+    "trailers",
+    "form",
+    "hours"
+  ]
+}

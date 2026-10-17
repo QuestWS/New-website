@@ -1,0 +1,32 @@
+.quest-faq__heading { margin: 0 0 2rem; }
+.quest-faq__list { border-top: 0.1rem solid rgba(var(--color-foreground), 0.15); }
+.quest-faq__item { border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.15); }
+.quest-faq__question {
+  position: relative;
+  display: block;
+  padding: 1.6rem 4.4rem 1.6rem 0;
+  min-height: 4.8rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 1.35;
+  cursor: pointer;
+  list-style: none;
+}
+.quest-faq__question::-webkit-details-marker { display: none; }
+.quest-faq__question::after {
+  content: "";
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-right: 0.2rem solid currentColor;
+  border-bottom: 0.2rem solid currentColor;
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+.quest-faq__item[open] > .quest-faq__question::after { transform: translateY(-30%) rotate(-135deg); }
+.quest-faq__question:focus-visible { outline: 0.2rem solid rgb(var(--color-foreground)); outline-offset: 0.2rem; }
+.quest-faq__answer { padding: 0 0 1.8rem; line-height: 1.65; }
+.quest-faq__answer > :first-child { margin-top: 0; }
+.quest-faq__answer > :last-child { margin-bottom: 0; }

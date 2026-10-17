@@ -1,0 +1,64 @@
+{%- comment -%} Visible breadcrumbs + BreadcrumbList JSON-LD. Built as a list of "label|url" pairs. {%- endcomment -%}
+{%- liquid
+  assign pt = request.page_type
+  assign home_label = 'Home'
+  if pt == 'product'
+    assign crumb_col = collection
+    if crumb_col == blank
+      for c in product.collections
+        unless c.handle == 'mandatory-fees' or c.handle == 'all' or c.handle == 'frontpage'
+          assign crumb_col = c
+          break
+        endunless
+      endfor
+    endif
+    if crumb_col != blank
+      assign items = crumb_col.title | append: '¦' | append: crumb_col.url | append: '§' | append: product.title | append: '¦' | append: product.url
+    else
+      assign items = product.title | append: '¦' | append: product.url
+    endif
+  elsif pt == 'collection'
+    assign items = collection.title | append: '¦' | append: collection.url
+  elsif pt == 'list-collections'
+    assign items = 'Collections¦/collections'
+  elsif pt == 'page'
+    assign items = page.title | append: '¦' | append: page.url
+  elsif pt == 'article'
+    assign items = blog.title | append: '¦' | append: blog.url | append: '§' | append: article.title | append: '¦' | append: article.url
+  elsif pt == 'blog'
+    assign items = blog.title | append: '¦' | append: blog.url
+  elsif pt == 'search'
+    assign items = 'Search¦' | append: routes.search_url
+  else
+    assign items = page_title | append: '¦' | append: request.path
+  endif
+  assign item_list = items | split: '§'
+-%}
+<nav class="quest-breadcrumbs page-width" aria-label="Breadcrumb">
+  <ol class="quest-breadcrumbs__list">
+    <li><a href="{{ routes.root_url }}">{{ home_label }}</a></li>
+    {%- for item in item_list -%}
+      {%- assign parts = item | split: '¦' -%}
+      <li>
+        {%- if forloop.last -%}
+          <span aria-current="page">{{ parts[0] }}</span>
+        {%- else -%}
+          <a href="{{ parts[1] }}">{{ parts[0] }}</a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ol>
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": {{ home_label | json }}, "item": {{ shop.url | json }} }
+    {%- for item in item_list -%}
+      {%- assign parts = item | split: '¦' -%}
+      ,{ "@type": "ListItem", "position": {{ forloop.index | plus: 1 }}, "name": {{ parts[0] | json }}, "item": {{ shop.url | append: parts[1] | json }} }
+    {%- endfor -%}
+  ]
+}
+</script>

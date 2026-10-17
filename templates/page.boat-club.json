@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-quest",
+      "settings": {
+        "show_cta": false
+      }
+    },
+    "faq": {
+      "type": "quest-faq",
+      "settings": {}
+    },
+    "form": {
+      "type": "quest-contact-form",
+      "settings": {
+        "default_topic": "Quest Express Boat Club",
+        "heading": "Ask About Membership"
+      }
+    },
+    "cta": {
+      "type": "quest-cta-band",
+      "settings": {
+        "heading": "Ready to get out on the water?",
+        "text": "<p>Call us to learn how Quest Express Boat Club membership works.</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "form",
+    "cta"
+  ]
+}

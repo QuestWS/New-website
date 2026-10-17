@@ -1,0 +1,62 @@
+{%- liquid
+  assign q_site = shop.url
+  assign q_logo = ''
+  if settings.logo != blank
+    assign q_logo = settings.logo | image_url: width: 600 | prepend: 'https:'
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["SportingGoodsStore", "LocalBusiness"],
+  "@id": {{ q_site | append: '/#localbusiness' | json }},
+  "name": {{ shop.name | json }},
+  "url": {{ q_site | json }},
+  {%- if q_logo != blank %}
+  "logo": {{ q_logo | json }},
+  "image": {{ q_logo | json }},
+  {%- endif %}
+  "description": "Hobie kayaks, sailboats, eBikes, boat sales, service, storage and the Quest Express Boat Club in Ottawa, IL.",
+  "telephone": "+1-815-433-2200",
+  "email": {{ shop.email | default: 'orders@questwatersports.com' | json }},
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1851 N 2871st Road",
+    "addressLocality": "Ottawa",
+    "addressRegion": "IL",
+    "postalCode": "61350",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": [
+    { "@type": "Place", "name": "Starved Rock Country, Illinois" },
+    { "@type": "City", "name": "Ottawa, IL" }
+  ],
+  "sameAs": [
+    {{ settings.social_facebook_link | default: 'https://www.facebook.com/QuestWS' | json }}
+  ]
+}
+</script>
+{%- if request.page_type == 'index' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ shop.name | json }},
+  "url": {{ q_site | json }},
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {{ shop.url | append: routes.search_url | append: '?q={search_term_string}' | json }},
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{%- endif -%}

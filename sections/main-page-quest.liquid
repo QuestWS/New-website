@@ -1,0 +1,62 @@
+{{ 'section-quest-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- assign subtitle = page.metafields.custom.subtitle.value -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <article class="quest-page page-width page-width--narrow section-{{ section.id }}-padding">
+    <header class="quest-page__header">
+      <h1 class="quest-page__title main-page-title page-title h0">{{ page.title | escape }}</h1>
+      {%- if subtitle != blank -%}
+        <p class="quest-page__subtitle">{{ subtitle | escape }}</p>
+      {%- endif -%}
+    </header>
+    <div class="quest-page__content rte">
+      {{ page.content }}
+    </div>
+    {%- if section.settings.show_cta -%}
+      <div class="quest-page__cta">
+        <p class="quest-page__cta-text">{{ section.settings.cta_text | escape }}</p>
+        <div class="quest-page__cta-buttons">
+          {%- if section.settings.phone_number != blank -%}
+            <a class="button button--primary" href="tel:{{ section.settings.phone_number | remove: ' ' | remove: '.' | remove: '-' | remove: '(' | remove: ')' }}">Call {{ section.settings.phone_label | default: section.settings.phone_number | escape }}</a>
+          {%- endif -%}
+          {%- if section.settings.contact_label != blank and section.settings.contact_link != blank -%}
+            <a class="button button--secondary" href="{{ section.settings.contact_link }}">{{ section.settings.contact_label | escape }}</a>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </article>
+</div>
+
+{% schema %}
+{
+  "name": "Page content (Quest)",
+  "tag": "section",
+  "class": "section-quest-page",
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "checkbox", "id": "show_cta", "label": "Show call / contact row below content", "default": false },
+    { "type": "text", "id": "cta_text", "label": "CTA text", "default": "Questions? We are happy to help." },
+    { "type": "text", "id": "phone_number", "label": "Phone number", "default": "+18154332200", "info": "Used for the tel: link." },
+    { "type": "text", "id": "phone_label", "label": "Phone label", "default": "815.433.2200" },
+    { "type": "text", "id": "contact_label", "label": "Contact button label", "default": "Contact Us" },
+    { "type": "url", "id": "contact_link", "label": "Contact button link", "default": "/pages/contact" },
+    { "type": "header", "content": "Section padding" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 24 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 40 }
+  ]
+}
+{% endschema %}
