@@ -152,7 +152,8 @@ If the push fails on network error, retry up to 4 times (2s, 4s, 8s, 16s).
 Short summary: pages/articles updated, new items created, removed URLs (report only), homepage notes, failures.
 
 ## Notes
-- Scripts use Python 3 stdlib + bs4 only; run with `python3 -I`.
+- Scripts use Python 3 stdlib + bs4 (run.sh installs beautifulsoup4 if missing); run with `python3 -I`.
+- If run.sh prints `SYNC FAILED: ...` (exit 1), do NOT treat it as "no changes": report the failure in the final message.
 - `crawl.py --out DIR [--limit N] [--only slug,..]` for ad-hoc fetches; `diff.py FRESH_DIR [--old DIR]` for ad-hoc diffs.
 - `diff.py` normalises away: Google Tag Manager lines, copyright lines, inventory/result counts, "Showing x-y of z", whitespace.
 - If the crawl gets 403s despite backoff, re-run later; a partial/failed crawl never overwrites snapshots of pages it could not fetch (failed pages are simply absent from the fresh dir). A crawl that finds no sitemap URLs is not applied.
