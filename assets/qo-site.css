@@ -1,0 +1,97 @@
+/* Quest Watersports — base look ported from the original questwatersports.com theme.
+   Navy body, white text, Rockwell display headings, Neue Haas body, yellow pill buttons. */
+:root {
+  --qo-navy: #002B4B;
+  --qo-navy-deep: #001f37;
+  --qo-navy-card: rgba(19, 64, 101, 0.92);
+  --qo-panel: #1d4466;
+  --qo-yellow: #EFC503;
+  --qo-yellow-hover: #ffd81a;
+  --qo-red: #E31B23;
+  --qo-ink: #292A2A;
+  --qo-white: #ffffff;
+  --qo-muted: #c9d6e2;
+  --qo-container: 1110px;
+  --qo-gutter: 16px;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background-color: var(--qo-navy);
+  color: var(--qo-white);
+  font-family: var(--font-body-family);
+  font-weight: 500;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body, .gradient { background: var(--qo-navy); }
+h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5 {
+  font-family: var(--font-heading-family);
+  letter-spacing: 0.01em;
+  color: inherit;
+}
+a { color: inherit; }
+.rte a, .qo-link { color: var(--qo-yellow); text-decoration: underline; text-underline-offset: 2px; }
+.rte a:hover, .qo-link:hover { color: var(--qo-yellow-hover); }
+
+.qo-container {
+  width: 100%;
+  max-width: calc(var(--qo-container) + 2 * var(--qo-gutter));
+  margin-inline: auto;
+  padding-inline: var(--qo-gutter);
+}
+
+/* Yellow pill button with arrow, as on the original site */
+.qo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 30px;
+  padding: 6px 14px 6px 10px;
+  border-radius: 999px;
+  background: var(--qo-yellow);
+  color: var(--qo-ink);
+  font-family: var(--font-body-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  border: 2px solid var(--qo-yellow);
+  transition: background-color .2s ease, color .2s ease, transform .2s ease;
+  cursor: pointer;
+}
+.qo-btn::before {
+  content: "";
+  width: 16px; height: 12px; flex: 0 0 16px;
+  background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 14'%3E%3Cpath d='M1 7h15M10 1l6 6-6 6' fill='none' stroke='%23292A2A' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.qo-btn:hover, .qo-btn:focus-visible { background: var(--qo-navy); color: var(--qo-yellow); }
+.qo-btn:hover::before, .qo-btn:focus-visible::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 14'%3E%3Cpath d='M1 7h15M10 1l6 6-6 6' fill='none' stroke='%23EFC503' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.qo-btn--red { background: var(--qo-red); border-color: var(--qo-red); color: #fff; padding-inline: 14px 22px; }
+.qo-btn--red::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 14'%3E%3Cpath d='M1 7h15M10 1l6 6-6 6' fill='none' stroke='%23ffffff' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.qo-btn--plain::before { display: none; }
+.qo-btn--plain { padding-inline: 22px; }
+@media (max-width: 749px) { .qo-btn { min-height: 40px; font-size: 15px; } }
+
+/* Dawn buttons follow the same look */
+.button, .shopify-payment-button__button--unbranded {
+  font-family: var(--font-body-family);
+  font-weight: 700;
+  letter-spacing: 0;
+  border-radius: 999px;
+}
+
+/* Breadcrumbs: compact strip on the navy page */
+.quest-breadcrumbs, nav[aria-label="Breadcrumb"] { color: var(--qo-muted); }
+.quest-breadcrumbs a, nav[aria-label="Breadcrumb"] a { color: var(--qo-muted); }
+
+/* Framed photos used across the original (white border + shadow) */
+.qo-frame { background: #fff; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.qo-frame img { display: block; width: 100%; height: auto; }
+@media (max-width: 749px) { .qo-frame { padding: 8px; } }
+
+/* Accessible focus */
+:focus-visible { outline: 2px solid var(--qo-yellow); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
