@@ -1,0 +1,119 @@
+/* Quest Watersports footer (port of questwatersports.com footer) */
+.qo-footer { color: #fff; font-family: var(--font-body-family); font-weight: 500; padding-top: 28px; }
+.qo-footer *, .qo-footer *::before, .qo-footer *::after { box-sizing: border-box; }
+.qo-footer__wrap { width: 100%; max-width: 1142px; margin-inline: auto; padding-inline: 16px; }
+
+/* Panel: dark map + navy form */
+.qo-footer__panel {
+  display: grid; grid-template-columns: 7fr 5fr; gap: 0;
+  background-color: #001E34; border-radius: 6px; padding: 21px;
+  background-image: var(--qo-footer-map); background-repeat: no-repeat; background-position: left top; background-size: auto 100%;
+  min-height: 560px;
+}
+.qo-footer__map { display: flex; flex-direction: column; justify-content: space-between; min-width: 0; padding: 0 0 0 21px; margin-left: -21px; padding-left: 21px; }
+.qo-footer__dir { display: flex; align-items: center; justify-content: center; padding-top: 242px; gap: 0; }
+.qo-footer__dir img { width: 29px; height: 42px; margin-right: 8px; }
+.qo-footer__dir-link {
+  position: relative; margin-left: 20px; padding: 8px 12px 8px 50px; border-radius: 100px;
+  color: #fff; text-decoration: none; font-weight: 500; font-size: 16px; line-height: 24px;
+  transition: all .3s ease-in-out; min-height: 44px; display: inline-flex; align-items: center;
+}
+.qo-footer__dir-link::before { content: ""; position: absolute; left: 12px; top: 50%; height: 2px; width: 24px; background: #EFC503; transition: all .3s ease-in-out; }
+.qo-footer__dir-link::after { content: ""; position: absolute; left: 25px; top: 50%; margin-top: -5px; height: 10px; width: 10px; border-top: 2px solid #EFC503; border-right: 2px solid #EFC503; transform: rotate(45deg); transition: all .3s ease-in-out; }
+.qo-footer__dir-link:hover, .qo-footer__dir-link:focus-visible { background: #EFC503; color: #000F1A; padding-left: 100px; }
+.qo-footer__dir-link:hover::before, .qo-footer__dir-link:focus-visible::before { width: 80px; background: #000F1A; }
+.qo-footer__dir-link:hover::after, .qo-footer__dir-link:focus-visible::after { border-color: #000F1A; left: 80px; }
+.qo-footer__address { font-style: normal; padding-top: 24px; }
+.qo-footer__address p { margin: 0 0 14px; font-size: 16px; line-height: 25px; color: #D8D8D8; font-weight: 500; }
+.qo-footer__address a { color: inherit; text-decoration: none; }
+.qo-footer__address a[href^="tel"]:hover { text-decoration: underline; }
+.qo-footer__map-link { margin-bottom: 0 !important; }
+.qo-footer__map-link a { color: #EFC503 !important; text-decoration: underline !important; text-underline-offset: 2px; font-size: 14px; }
+
+.qo-footer__form { background: #002B4B; padding: 21px; align-self: start; margin-top: 0; border-radius: 0; }
+.qo-footer__form-title { margin: 0 0 24px; text-align: center; font-family: var(--font-body-family); font-weight: 700; font-size: 17px; line-height: 1.3; letter-spacing: 0; color: #fff; }
+.qo-footer__field { margin-bottom: 14px; position: relative; }
+.qo-footer__field label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.qo-footer__field input, .qo-footer__field textarea {
+  display: block; width: 100%; height: 70px; border: 1px solid #b9cde0; border-radius: 10px; background: #fff;
+  padding: 10px 25px; font: 700 12px/1.3 var(--font-body-family); color: #292A2A; outline: none; box-shadow: none; -webkit-appearance: none; appearance: none;
+}
+.qo-footer__field textarea { height: 160px; min-height: 160px; resize: vertical; padding-top: 16px; }
+.qo-footer__field input::placeholder, .qo-footer__field textarea::placeholder { color: #5F5F5F; font-size: 12px; font-weight: 700; opacity: 1; }
+.qo-footer__field input:focus-visible, .qo-footer__field textarea:focus-visible { box-shadow: 0 0 0 3px #EFC503; }
+.qo-footer__field input[aria-invalid="true"] { border-color: #E31B23; }
+.qo-footer__send {
+  margin-top: 58px; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 22px;
+  border: 0; border-radius: 100px; background: #EFC503; color: #000F1A; font: 700 13px/1 var(--font-body-family); cursor: pointer; transition: background .2s;
+}
+.qo-footer__send:hover, .qo-footer__send:focus-visible { background: #ffd81a; }
+.qo-footer__msg { margin: 0 0 16px; padding: 12px 16px; border-radius: 8px; font-size: 15px; line-height: 1.4; }
+.qo-footer__msg p, .qo-footer__msg ul { margin: 0; }
+.qo-footer__msg ul { padding-left: 18px; }
+.qo-footer__msg--ok { background: #e6f6ea; color: #14532d; }
+.qo-footer__msg--err { background: #fdecea; color: #8a1118; }
+
+/* We are open */
+.qo-footer__open { margin-top: 44px; }
+.qo-footer__open-title { margin: 0 0 16px; text-align: center; text-transform: uppercase; font: 400 18px/1.4 var(--font-heading-family); letter-spacing: 0; color: #fff; }
+.qo-footer__tabs { display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; }
+.qo-footer__tab {
+  flex: 1 1 24%; min-width: 0; height: 105px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, .4588); color: #fff; border: 0; border-radius: 6px; cursor: pointer; padding: 8px; font-family: var(--font-body-family);
+}
+.qo-footer__tab-name { font-size: 18px; font-weight: 700; color: #EFC503; line-height: 1.5; }
+.qo-footer__tab-dates { font-size: 16px; font-weight: 400; color: #fff; line-height: 1.5; }
+.qo-footer__tab[aria-selected="true"] { height: 115px; background: #1A4565; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.qo-footer__tab:focus-visible { outline: 3px solid #EFC503; outline-offset: 2px; }
+.qo-footer__hours { background: #1A4565; border-radius: 0 0 6px 6px; padding: 25px 25px 15px; }
+.qo-footer__hours:focus-visible { outline: 3px solid #EFC503; outline-offset: -3px; }
+.qo-footer__tabs:has([role="tab"]:first-child[aria-selected="false"]) + .qo-footer__hours { border-top-left-radius: 6px; }
+.qo-footer__cols { display: grid; grid-template-columns: repeat(3, 1fr); max-width: 726px; margin-inline: auto; }
+.qo-footer__col h3 { margin: 0 0 20px; font: 700 17px/1.3 var(--font-body-family); text-transform: uppercase; letter-spacing: 0; color: #fff; }
+.qo-footer__col ul { list-style: none; margin: 0; padding: 0; }
+.qo-footer__col li { margin: 0 0 10px; font-size: 16px; line-height: 1.5; }
+.qo-footer__col li strong { display: block; color: #fff; font-weight: 700; margin-bottom: 6px; }
+.qo-footer__col li span { display: block; color: #3d9ae0; font-weight: 400; }
+.qo-footer__col li.qo-footer__note { color: #fff; font-weight: 400; margin-top: -2px; }
+
+/* Bottom bar */
+.qo-footer__bar { margin-top: 56px; background: #212121; padding: 18px 0; }
+.qo-footer__bar-inner { max-width: 1142px; margin-inline: auto; padding-inline: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; }
+.qo-footer__legal { margin: 0; font-size: 13px; font-weight: 500; line-height: 1.6; color: #fff; }
+.qo-footer__legal a { color: #fff; text-decoration: none; display: inline-block; padding: 2px 0; }
+.qo-footer__legal a:hover { text-decoration: underline; }
+.qo-footer__sep { margin: 0 2px; }
+.qo-footer__social { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.qo-footer__social a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: #fff; border-radius: 50%; }
+.qo-footer__social a:hover, .qo-footer__social a:focus-visible { color: #EFC503; }
+
+@media (max-width: 989px) {
+  .qo-footer__panel { background-size: auto 100%; }
+  .qo-footer__tab-dates { font-size: 13px; }
+}
+
+@media (max-width: 749px) {
+  .qo-footer { padding-top: 20px; }
+  .qo-footer__panel { display: flex; flex-direction: column; gap: 20px; padding: 16px; min-height: 0; background-size: cover; background-position: 35% center; }
+  .qo-footer__map { margin-left: 0; padding-left: 0; min-height: 360px; }
+  .qo-footer__dir { padding-top: 130px; }
+  .qo-footer__address { padding-top: 70px; }
+  .qo-footer__address p { font-size: 16px; }
+  .qo-footer__form { padding: 20px 16px; border-radius: 6px; }
+  .qo-footer__field input { height: 56px; padding: 10px 18px; font-size: 15px; }
+  .qo-footer__field input::placeholder, .qo-footer__field textarea::placeholder { font-size: 15px; }
+  .qo-footer__field textarea { height: 140px; min-height: 140px; font-size: 15px; padding: 16px 18px; }
+  .qo-footer__send { margin-top: 8px; width: 100%; min-height: 48px; font-size: 15px; }
+  .qo-footer__open { margin-top: 28px; }
+  .qo-footer__tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: stretch; }
+  .qo-footer__tab, .qo-footer__tab[aria-selected="true"] { height: auto; min-height: 76px; border-radius: 6px; }
+  .qo-footer__tab[aria-selected="true"] { border-radius: 6px; }
+  .qo-footer__tab-name { font-size: 17px; }
+  .qo-footer__tab-dates { font-size: 13px; }
+  .qo-footer__hours, .qo-footer__tabs:has([role="tab"]:first-child[aria-selected="false"]) + .qo-footer__hours { margin-top: 10px; border-radius: 6px; padding: 20px 16px 8px; }
+  .qo-footer__cols { grid-template-columns: 1fr; gap: 22px; }
+  .qo-footer__col h3 { margin-bottom: 12px; }
+  .qo-footer__bar { margin-top: 32px; }
+  .qo-footer__bar-inner { flex-direction: column; text-align: center; }
+  .qo-footer__legal { font-size: 14px; }
+}

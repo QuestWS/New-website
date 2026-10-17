@@ -1,10 +1,18 @@
-.quest-cta__inner { max-width: 72rem; margin: 0 auto; text-align: center; }
-.quest-cta__heading { margin: 0 0 1.2rem; text-wrap: balance; }
-.quest-cta__text { margin: 0 0 2rem; font-size: 1.7rem; }
-.quest-cta__text p { margin: 0 0 0.8rem; }
-.quest-cta__buttons { display: flex; flex-direction: column; gap: 1.2rem; }
-.quest-cta__buttons .button { width: 100%; min-height: 4.8rem; }
+.quest-cta-wrap { background: var(--qo-navy); color: #fff; }
+.quest-cta__inner {
+  max-width: 860px; margin: 0 auto; text-align: center;
+  padding: 28px 20px; border-radius: 16px;
+  background: var(--qo-panel); border-top: 4px solid var(--qo-yellow);
+}
+.quest-cta__heading { margin: 0 0 10px; font-family: var(--font-heading-family); font-weight: 700; font-size: 24px; color: #fff; text-wrap: balance; }
+.quest-cta__text { margin: 0 0 20px; font-size: 16px; line-height: 1.5; }
+.quest-cta__text p { margin: 0 0 .6em; }
+.quest-cta__buttons { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.quest-cta__buttons .qo-btn { min-height: 44px; font-size: 15px; }
+.quest-cta__ghost { background: transparent; color: #fff; border-color: #fff; }
+.quest-cta__ghost:hover, .quest-cta__ghost:focus-visible { background: #fff; color: var(--qo-navy); }
 @media screen and (min-width: 750px) {
+  .quest-cta__inner { padding: 36px 32px; }
+  .quest-cta__heading { font-size: 30px; }
   .quest-cta__buttons { flex-direction: row; justify-content: center; }
-  .quest-cta__buttons .button { width: auto; min-width: 20rem; }
 }

@@ -1,58 +1,74 @@
 {
-  "name": "t:sections.footer.name",
+  "name": "Footer",
   "type": "footer",
   "sections": {
-    "footer": {
-      "type": "footer",
+    "qo-footer": {
+      "type": "qo-footer",
       "blocks": {
-        "footer-brand": {
-          "type": "text",
+        "season-spring": {
+          "type": "season",
           "settings": {
-            "heading": "Quest Watersports",
-            "subtext": "<p>Fun on the water in Starved Rock Country since 1992. Hobie kayaks, sailboats, eBikes, boat sales, service, storage and the Quest Express Boat Club, next to Heritage Harbor Ottawa.</p>"
+            "title": "Spring",
+            "key": "spring",
+            "dates": "April 1 - Memorial Day",
+            "col1_title": "Spring",
+            "col1_lines": "Tuesday – Saturday:|9:00AM – 5:00PM\nSunday|By Appointment Only\nMonday|By Appointment Only",
+            "col2_title": "Service",
+            "col2_lines": "Tuesday – Saturday:|8:00AM – 5:00PM",
+            "col3_title": "Heritage Harbor Marina",
+            "col3_lines": "Saturday – Sunday:|Weather permitting\nPlease Call Quest: 815-433-2200"
           }
         },
-        "footer-links": {
-          "type": "link_list",
+        "season-summer": {
+          "type": "season",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "title": "Summer",
+            "key": "summer",
+            "dates": "Memorial Day - Labor Day",
+            "col1_title": "Summer",
+            "col1_lines": "Tuesday – Saturday:|9:00AM – 5:00PM\nSunday|By Appointment Only\nMonday|By Appointment Only",
+            "col2_title": "Service",
+            "col2_lines": "Tuesday – Saturday:|8:00AM – 5:00PM",
+            "col3_title": "Heritage Harbor Marina",
+            "col3_lines": "Saturday – Sunday:|Weather permitting\nPlease Call Quest: 815-433-2200"
           }
         },
-        "footer-explore": {
-          "type": "link_list",
+        "season-fall": {
+          "type": "season",
           "settings": {
-            "heading": "Explore",
-            "menu": "quest-footer-explore"
+            "title": "Fall",
+            "key": "fall",
+            "dates": "Labor Day - October 31",
+            "col1_title": "Fall",
+            "col1_lines": "Tuesday – Saturday:|9:00AM – 5:00PM\nSunday|By Appointment Only\nMonday|By Appointment Only",
+            "col2_title": "Service",
+            "col2_lines": "Tuesday – Saturday:|8:00AM – 5:00PM",
+            "col3_title": "Heritage Harbor Marina",
+            "col3_lines": "Saturday – Sunday:|Weather permitting\nPlease Call Quest: 815-433-2200"
           }
         },
-        "footer-contact": {
-          "type": "text",
+        "season-winter": {
+          "type": "season",
           "settings": {
-            "heading": "Visit us",
-            "subtext": "<p><a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=Quest+Watersports,+1800+N+2871st+Rd,+Ottawa,+IL+61350\">1851 Old Chicago Rd<br>Ottawa, IL 61350</a></p><p><a href=\"tel:+18154332200\">815.433.2200</a><br><a href=\"mailto:orders@questwatersports.com\">orders@questwatersports.com</a></p><p><strong>Sales:</strong> Tue\u2013Sat 9 AM\u20135 PM<br><strong>Service:</strong> Tue\u2013Sat 8 AM\u20135 PM<br>Sun &amp; Mon by appointment</p>"
+            "title": "Winter",
+            "key": "winter",
+            "dates": "November 1 - March 30",
+            "col1_title": "Winter",
+            "col1_lines": "Tuesday – Saturday:|9:00AM – 5:00PM\nSunday|By Appointment Only\nMonday|By Appointment Only",
+            "col2_title": "Service",
+            "col2_lines": "Tuesday – Saturday:|8:00AM – 5:00PM",
+            "col3_title": "Heritage Harbor Marina",
+            "col3_lines": "Saturday – Sunday:|Weather permitting\nPlease Call Quest: 815-433-2200"
           }
         }
       },
       "block_order": [
-        "footer-brand",
-        "footer-links",
-        "footer-explore",
-        "footer-contact"
+        "season-spring",
+        "season-summer",
+        "season-fall",
+        "season-winter"
       ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "newsletter_enable": true,
-        "newsletter_heading": "Get news and deals from Quest",
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": true,
-        "margin_top": 0,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
+      "settings": {}
     },
     "quest-mobile-action-bar": {
       "type": "quest-mobile-action-bar",
@@ -60,7 +76,7 @@
     }
   },
   "order": [
-    "footer",
+    "qo-footer",
     "quest-mobile-action-bar"
   ]
 }

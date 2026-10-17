@@ -10,14 +10,14 @@
   }
 </style>
 
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+<div class="qo-404 page-margin center">
+  <p class="qo-404__code" aria-hidden="true">404</p>
+  <h1 class="title">{{ 'templates.404.title' | t }}</h1>
+  <p>Sorry, we could not find that page. It may have moved while we were out on the water. Try one of these instead.</p>
+  <div class="qo-404__links">
+    <a class="qo-btn" href="{{ routes.root_url }}">Home</a>
+    <a class="qo-btn" href="/collections/hobie-kayaks">Find a Kayak</a>
+    <a class="qo-btn" href="/pages/ebikes">eBikes</a>
+    <a class="qo-btn" href="/pages/contact">Contact</a>
+  </div>
 </div>

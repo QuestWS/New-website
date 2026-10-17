@@ -60,12 +60,9 @@
           }
         },
         "help": {
-          "type": "collapsible_tab",
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Questions about this item?",
-            "icon": "chat_bubble",
-            "content": "<p>Call us at <a href=\"tel:+18154332200\">815.433.2200</a> or visit the shop at 1851 Old Chicago Rd, Ottawa, IL.</p>",
-            "page": ""
+            "custom_liquid": "<p class=\"qo-call-line\">Questions? Call <a href=\"tel:+18154332200\">815.433.2200</a></p>"
           }
         }
       },
@@ -84,7 +81,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_size": "large",
         "constrain_to_viewport": true,
         "mobile_thumbnails": "hide",
@@ -102,8 +99,8 @@
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 36,

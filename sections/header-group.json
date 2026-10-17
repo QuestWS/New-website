@@ -2,30 +2,14 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "quest-utility-bar": {
-      "type": "quest-utility-bar",
-      "settings": {}
-    },
-    "header": {
-      "type": "header",
+    "qo-header": {
+      "type": "qo-header",
       "settings": {
-        "color_scheme": "scheme-1",
-        "logo_position": "middle-left",
-        "menu": "quest-main-menu",
-        "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "mobile_logo_position": "center",
-        "margin_bottom": 0,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "menu": "quest-main-menu"
       }
     }
   },
   "order": [
-    "quest-utility-bar",
-    "header"
+    "qo-header"
   ]
 }

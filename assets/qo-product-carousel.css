@@ -1,0 +1,51 @@
+.qo-carousel { position: relative; isolation: isolate; background: var(--qo-navy); color: #fff; padding: 28px 0 36px; overflow: hidden; }
+.qo-carousel--water { padding: 48px 0 56px; }
+.qo-carousel__bg { position: absolute; inset: 0; z-index: -1; background-size: cover; background-position: center; }
+.qo-carousel__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,43,75,.25), var(--qo-navy)); }
+.qo-carousel__heading { margin: 0 0 14px; text-align: center; font-family: var(--font-body-family); font-weight: 700; font-size: 24px; line-height: 1.2; color: #fff; }
+.qo-carousel__tools { margin-bottom: 18px; }
+.qo-carousel__viewall { display: inline-flex; align-items: center; min-height: 44px; padding: 0 32px; border-radius: 999px; background: var(--qo-panel); color: #fff; text-decoration: none; font-size: 15px; font-weight: 500; }
+.qo-carousel__viewall:hover { background: var(--qo-yellow); color: var(--qo-ink); }
+.qo-carousel__stage { position: relative; }
+.qo-carousel__track {
+  list-style: none; margin: 0; padding: 0 0 6px;
+  display: flex; gap: 16px; overflow-x: auto;
+  scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.qo-carousel__track::-webkit-scrollbar { display: none; }
+.qo-card { flex: 0 0 72%; scroll-snap-align: start; display: flex; flex-direction: column; min-width: 0; }
+.qo-card__media { display: block; background: #fff; aspect-ratio: 1 / 1; overflow: hidden; }
+.qo-card__media img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.qo-card__noimg { display: block; width: 100%; height: 100%; background: #fff; }
+.qo-card__title { margin: 8px 0 2px; font-family: var(--font-body-family); font-weight: 700; font-size: 14px; line-height: 1.25; text-transform: uppercase; letter-spacing: 0; min-height: 2.5em; }
+.qo-card__title a { color: #fff; text-decoration: none; }
+.qo-card__title a:hover { color: var(--qo-yellow); }
+.qo-card__price { margin: 0 0 12px; font-weight: 700; font-size: 16px; }
+.qo-card__price s { opacity: .7; font-weight: 500; margin-left: 6px; }
+.qo-card__from { font-weight: 500; font-size: 13px; }
+.qo-card__form { margin: auto 0 0; }
+.qo-card__bar {
+  display: flex; align-items: center; justify-content: center; width: 100%; min-height: 44px; margin-top: auto; padding: 0 10px;
+  border: 0; border-radius: 0; background: var(--qo-yellow); color: #fff;
+  font-family: var(--font-body-family); font-weight: 700; font-size: 16px; text-decoration: none; cursor: pointer;
+  transition: background-color .2s ease, color .2s ease;
+}
+.qo-card__form .qo-card__bar { margin-top: 0; }
+.qo-card__bar:hover { background: var(--qo-yellow-hover); color: var(--qo-ink); }
+.qo-card__bar--muted { background: rgba(255,255,255,.2); color: #fff; }
+.qo-carousel__arrow {
+  position: absolute; top: 38%; z-index: 2; width: 44px; height: 44px; border-radius: 50%;
+  display: none; align-items: center; justify-content: center; border: 0; cursor: pointer;
+  background: #000; color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.4);
+}
+.qo-carousel--water .qo-carousel__arrow { background: var(--qo-yellow); color: var(--qo-ink); }
+.qo-carousel__arrow--prev { left: -12px; }
+.qo-carousel__arrow--next { right: -12px; }
+.qo-carousel__arrow[disabled] { opacity: .35; cursor: default; }
+@media (min-width: 750px) {
+  .qo-carousel__heading { font-size: 28px; }
+  .qo-card { flex-basis: calc((100% - 48px) / 4); }
+  .qo-carousel__arrow { display: inline-flex; }
+}
+@media (min-width: 1200px) { .qo-carousel__arrow--prev { left: -48px; } .qo-carousel__arrow--next { right: -48px; } }

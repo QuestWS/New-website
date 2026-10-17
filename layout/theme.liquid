@@ -293,6 +293,7 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'quest-base.css' | asset_url | stylesheet_tag }}
     {{ 'qo-site.css' | asset_url | stylesheet_tag }}
+    {{ 'qo-commerce.css' | asset_url | stylesheet_tag }}<script>document.documentElement.classList.add('template-{{ template.name | handleize }}');</script>
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}

@@ -15,10 +15,10 @@
 
 {%- assign topics = 'Sales - Boats|Sales - Kayaks & Paddleboards|Sales - Sailboats|Sales - eBikes|Quest Express Boat Club|Service & Parts|Storage|Rentals|Sell or Trade|Employment|Other' | split: '|' -%}
 {%- assign default_topic = section.settings.default_topic -%}
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <section class="quest-form page-width page-width--narrow section-{{ section.id }}-padding">
+<div class="quest-form-wrap">
+  <section class="quest-form qo-container section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="quest-form__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      <h2 class="quest-form__heading">{{ section.settings.heading | escape }}</h2>
     {%- endif -%}
     {%- if section.settings.text != blank -%}
       <div class="quest-form__intro rte">{{ section.settings.text }}</div>
@@ -66,7 +66,7 @@
         <label for="QuestContactForm-body">Message</label>
         <textarea id="QuestContactForm-body" name="contact[body]" rows="6" required>{{ form.body }}</textarea>
       </div>
-      <button type="submit" class="button button--primary quest-form__submit">{{ section.settings.button_label | default: 'Send message' | escape }}</button>
+      <button type="submit" class="quest-form__submit">{{ section.settings.button_label | default: 'Send message' | escape }}</button>
     {%- endform -%}
   </section>
 </div>
@@ -78,7 +78,6 @@
   "class": "section-quest-form",
   "settings": [
     { "type": "text", "id": "heading", "label": "Heading", "default": "Send Us a Message" },
-    { "type": "select", "id": "heading_size", "label": "Heading size", "options": [ { "value": "h2", "label": "Medium" }, { "value": "h1", "label": "Large" } ], "default": "h2" },
     { "type": "richtext", "id": "text", "label": "Intro text" },
     {
       "type": "select",
@@ -100,7 +99,6 @@
       "default": "Sales – Boats"
     },
     { "type": "text", "id": "button_label", "label": "Button label", "default": "Send message" },
-    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
     { "type": "header", "content": "Section padding" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
     { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }

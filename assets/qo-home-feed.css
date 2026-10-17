@@ -1,0 +1,7 @@
+.qo-feed { padding: 48px 0 56px; text-align: center; }
+.qo-feed__head img { display: block; margin: 0 auto 20px; width: auto; height: 34px; }
+.qo-feed__head h2 { margin: 0 0 32px; text-transform: uppercase; font-family: var(--font-heading-family); font-weight: 400; font-size: 26px; letter-spacing: 1px; }
+.qo-feed__frame { max-width: 500px; margin: 0 auto; min-height: 600px; }
+.qo-feed__frame iframe { display: block; width: 100%; max-width: 500px; height: 600px; border: 0; }
+.qo-feed__more { margin-top: 28px; }
+@media (max-width: 749px) { .qo-feed__head h2 { font-size: 24px; } .qo-feed__frame, .qo-feed__frame iframe { min-height: 560px; height: 560px; } }

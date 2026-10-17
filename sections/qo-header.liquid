@@ -1,0 +1,154 @@
+{{ 'qo-header.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign menu_handle = section.settings.menu | default: 'quest-main-menu'
+  assign menu = linklists[menu_handle]
+  if menu == blank or menu.links.size == 0
+    assign menu = linklists['main-menu']
+  endif
+  assign is_home = false
+  if template.name == 'index'
+    assign is_home = true
+  endif
+  assign phone_href = 'tel:+18154332200'
+  assign phone_text = '815.433.2200'
+  assign map_href = 'https://www.google.com/maps/dir/?api=1&destination=Quest+Watersports,+1800+N+2871st+Rd,+Ottawa,+IL+61350'
+  assign addr_text = '1851 Old Chicago Rd Ottawa, IL 61350'
+-%}
+
+<header class="qo-header{% if is_home %} qo-header--home{% endif %}" id="QoHeader" data-qo-header>
+  <div class="qo-header__inner">
+    <a class="qo-header__logo" href="{{ routes.root_url }}" title="Quest Watersports">
+      {%- if section.settings.logo != blank -%}
+        {{ section.settings.logo | image_url: width: 456 | image_tag: width: 228, height: 106, alt: 'Quest Watersports', class: 'qo-header__logo-img', loading: 'eager', fetchpriority: 'high' }}
+      {%- else -%}
+        <img class="qo-header__logo-img" src="{{ 'qo-brand-logo.svg' | asset_url }}" alt="Quest Watersports" width="228" height="106" fetchpriority="high">
+      {%- endif -%}
+    </a>
+
+    <div class="qo-header__mobile-actions">
+      <a class="qo-circle-btn" href="{{ phone_href }}" aria-label="Call Quest Watersports {{ phone_text }}">
+        <img src="{{ 'qo-head-phone-icon.svg' | asset_url }}" alt="" width="30" height="30">
+      </a>
+      <a class="qo-circle-btn" href="{{ map_href }}" target="_blank" rel="noopener" aria-label="Get directions to Quest Watersports (opens in a new tab)">
+        <img src="{{ 'qo-head-location-icon.svg' | asset_url }}" alt="" width="30" height="30">
+      </a>
+      <button type="button" class="qo-burger" aria-label="Open menu" aria-expanded="false" aria-controls="QoMenuPanel" data-qo-open>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="qo-header__right">
+      <div class="qo-header__top">
+        <form class="qo-search" action="{{ routes.search_url }}" method="get" role="search">
+          <label class="visually-hidden" for="QoSearchDesktop">Search by keyword</label>
+          <input class="qo-search__input" id="QoSearchDesktop" type="search" name="q" placeholder="Search by Keyword" autocomplete="off">
+          <button class="qo-search__btn" type="submit" aria-label="Search">
+            <img src="{{ 'qo-head-search.svg' | asset_url }}" alt="" width="14" height="14">
+          </button>
+        </form>
+        <a class="qo-header__contact" href="{{ map_href }}" target="_blank" rel="noopener">
+          <img src="{{ 'qo-head-location-icon.svg' | asset_url }}" alt="" width="30" height="30">
+          <span>{{ addr_text }}<span class="visually-hidden"> (opens in a new tab)</span></span>
+        </a>
+        <a class="qo-header__contact" href="{{ phone_href }}">
+          <img src="{{ 'qo-head-phone-icon.svg' | asset_url }}" alt="" width="30" height="30">
+          <span>{{ phone_text }}</span>
+        </a>
+      </div>
+
+      <div class="qo-header__navrow">
+        <nav class="qo-nav" aria-label="Main menu">
+          <ul class="qo-nav__list">
+            {%- for link in menu.links -%}
+              <li class="qo-nav__item{% if link.links.size > 0 %} qo-nav__item--parent{% endif %}">
+                <a class="qo-nav__link{% if link.active or link.child_active %} is-active{% endif %}" href="{{ link.url }}"{% if link.current %} aria-current="page"{% endif %}>{{ link.title }}</a>
+                {%- if link.links.size > 0 -%}
+                  <button type="button" class="qo-nav__toggle" aria-expanded="false" aria-label="Show {{ link.title | escape }} submenu"></button>
+                  <ul class="qo-nav__sub">
+                    {%- for child in link.links -%}
+                      <li><a href="{{ child.url }}"{% if child.current %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </nav>
+        <a class="qo-cart" href="{{ routes.cart_url }}" aria-label="Cart, {{ cart.item_count }} item{% if cart.item_count != 1 %}s{% endif %}">
+          <svg width="30" height="26" viewBox="0 0 30 26" fill="none" aria-hidden="true" focusable="false"><path d="M1 1.5h4.6l3.6 15.2h14.2l3.2-11.4H7" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="22" r="2.2" fill="#111"/><circle cx="22" cy="22" r="2.2" fill="#111"/></svg>
+          <span class="qo-cart__count" data-qo-cart-count>{{ cart.item_count }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="qo-panel" id="QoMenuPanel" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+    <div class="qo-panel__head">
+      <a class="qo-header__logo" href="{{ routes.root_url }}" title="Quest Watersports">
+        <img class="qo-header__logo-img" src="{{ 'qo-brand-logo.svg' | asset_url }}" alt="Quest Watersports" width="140" height="65">
+      </a>
+      <button type="button" class="qo-panel__close" aria-label="Close menu" data-qo-close>
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><path d="M3 3l16 16M19 3L3 19" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="qo-panel__body">
+      <form class="qo-search qo-search--panel" action="{{ routes.search_url }}" method="get" role="search">
+        <label class="visually-hidden" for="QoSearchMobile">Search by keyword</label>
+        <input class="qo-search__input" id="QoSearchMobile" type="search" name="q" placeholder="Search by Keyword" autocomplete="off">
+        <button class="qo-search__btn" type="submit" aria-label="Search">
+          <img src="{{ 'qo-head-search.svg' | asset_url }}" alt="" width="14" height="14">
+        </button>
+      </form>
+      <nav aria-label="Mobile menu">
+        <ul class="qo-pnav">
+          {%- for link in menu.links -%}
+            <li class="qo-pnav__item">
+              {%- if link.links.size > 0 -%}
+                <div class="qo-pnav__row">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                  <button type="button" class="qo-pnav__toggle" aria-expanded="false" aria-label="Show {{ link.title | escape }} submenu"><svg width="14" height="9" viewBox="0 0 14 9" aria-hidden="true" focusable="false"><path d="M1 1l6 6 6-6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                </div>
+                <ul class="qo-pnav__sub" hidden>
+                  {%- for child in link.links -%}
+                    <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {%- else -%}
+                <div class="qo-pnav__row"><a href="{{ link.url }}">{{ link.title }}</a></div>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+          <li class="qo-pnav__item"><div class="qo-pnav__row"><a href="{{ routes.cart_url }}">Cart ({{ cart.item_count }})</a></div></li>
+        </ul>
+      </nav>
+      <div class="qo-panel__contact">
+        <a href="{{ phone_href }}"><img src="{{ 'qo-head-phone-icon.svg' | asset_url }}" alt="" width="30" height="30"><span>{{ phone_text }}</span></a>
+        <a href="{{ map_href }}" target="_blank" rel="noopener"><img src="{{ 'qo-head-location-icon.svg' | asset_url }}" alt="" width="30" height="30"><span>{{ addr_text }}<span class="visually-hidden"> (opens in a new tab)</span></span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script src="{{ 'qo-header.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Quest header",
+  "tag": "div",
+  "class": "qo-header-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo (optional, defaults to the Quest logo)"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %}

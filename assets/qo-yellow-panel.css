@@ -1,0 +1,16 @@
+.qo-ypanel { background: var(--qo-navy); padding: 24px 0; }
+.qo-ypanel__box { display: grid; grid-template-columns: 1fr; gap: 20px; background: var(--qo-yellow); color: var(--qo-navy); border-radius: 22px; padding: 24px 20px; }
+.qo-ypanel__heading { margin: 0 0 12px; font-family: var(--font-body-family); font-weight: 300; font-size: 34px; line-height: 1.1; color: var(--qo-navy); }
+.qo-ypanel__text { font-size: 16px; line-height: 1.5; font-weight: 500; color: var(--qo-navy); }
+.qo-ypanel__text p { margin: 0 0 .9em; }
+.qo-ypanel__text a { color: var(--qo-navy); text-decoration: underline; }
+.qo-ypanel__btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 28px; margin-top: 8px; border-radius: 999px; background: var(--qo-navy); color: var(--qo-yellow); font-weight: 700; font-size: 14px; text-decoration: none; }
+.qo-ypanel__btn:hover { background: #fff; color: var(--qo-navy); }
+.qo-ypanel__media img { display: block; width: 100%; height: auto; border-radius: 4px; }
+@media (min-width: 990px) {
+  .qo-ypanel { padding: 56px 0; }
+  .qo-ypanel__box { padding: 20px 40px 40px; min-height: 262px; }
+  .qo-ypanel__box--img { grid-template-columns: 1fr 300px; gap: 4px 40px; }
+  .qo-ypanel__heading { font-size: 48px; }
+  .qo-ypanel__text { font-size: 15px; }
+}

@@ -1,0 +1,42 @@
+{{ 'qo-yellow-panel.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.heading != blank or section.settings.text != blank -%}
+  <section class="qo-ypanel">
+    <div class="qo-container">
+      <div class="qo-ypanel__box{% if section.settings.image != blank %} qo-ypanel__box--img{% endif %}">
+        <div class="qo-ypanel__body">
+          {%- if section.settings.heading != blank -%}<h2 class="qo-ypanel__heading">{{ section.settings.heading | escape }}</h2>{%- endif -%}
+          {%- if section.settings.text != blank -%}<div class="qo-ypanel__text rte">{{ section.settings.text }}</div>{%- endif -%}
+          {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
+            <a class="qo-ypanel__btn" href="{{ section.settings.button_link }}">{{ section.settings.button_label | escape }}</a>
+          {%- endif -%}
+        </div>
+        {%- if section.settings.image != blank -%}
+          <div class="qo-ypanel__media">
+            <img src="{{ section.settings.image | image_url: width: 600 }}"
+              srcset="{{ section.settings.image | image_url: width: 400 }} 400w, {{ section.settings.image | image_url: width: 600 }} 600w, {{ section.settings.image | image_url: width: 900 }} 900w"
+              sizes="(min-width: 990px) 300px, 90vw"
+              alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
+              width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}" loading="lazy">
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Yellow panel",
+  "tag": "div",
+  "class": "section-qo-yellow-panel",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Rigging & How-to" },
+    { "type": "richtext", "id": "text", "label": "Text", "default": "<p>There's something magical about being on the water; it relaxes, brings friends and family together, stirs up fun and creates memories.</p>" },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "text", "id": "button_label", "label": "Button label" },
+    { "type": "url", "id": "button_link", "label": "Button link" }
+  ],
+  "presets": [ { "name": "Yellow panel" } ]
+}
+{% endschema %}

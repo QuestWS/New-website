@@ -48,38 +48,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich": {
-      "type": "rich-text",
-      "blocks": {
-        "h": {
-          "type": "heading",
-          "settings": {
-            "heading": "Or visit a key page",
-            "heading_size": "h2"
-          }
-        },
-        "t": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"/pages/boating\">Boating</a> | <a href=\"/pages/boat-club\">Quest Express Boat Club</a> | <a href=\"/pages/paddlesports\">Paddlesports</a> | <a href=\"/pages/ebikes\">eBikes</a> | <a href=\"/pages/service-and-parts\">Service &amp; Parts</a> | <a href=\"/pages/contact\">Contact</a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "h",
-        "t"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
     }
   },
   "order": [
     "main",
-    "links",
-    "rich"
+    "links"
   ]
 }

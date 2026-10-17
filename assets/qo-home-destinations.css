@@ -1,0 +1,37 @@
+.qo-dest { position: relative; overflow: hidden; background: var(--qo-navy); min-height: 116vh;
+  padding: calc(var(--qo-header-h, 150px) + 22px) 0 48px; isolation: isolate; }
+.qo-dest__bg { position: absolute; inset: 0; z-index: -1; display: block; }
+.qo-dest__bg img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.qo-dest__title { margin: 0 0 48px; color: #292A2A; font-family: var(--font-heading-family); font-weight: 700; font-size: 56px; line-height: 50px;
+  text-transform: uppercase; position: relative; width: 500px; max-width: 100%; letter-spacing: 0; }
+.qo-dest__title span { display: block; text-transform: capitalize; font-family: var(--font-body-family); font-style: italic; font-weight: 800; font-size: 24px; line-height: 40px; }
+.qo-dest__title::before { content: ""; position: absolute; right: 30px; bottom: 22px; width: 40px; height: 3px; background: #292A2A; transition: all .3s ease-in-out; }
+.qo-dest__title::after { content: ""; position: absolute; right: 31px; bottom: 13px; width: 20px; height: 20px; border-top: 3px solid #292A2A; border-right: 3px solid #292A2A; transform: rotate(45deg); transition: all .3s ease-in-out; }
+.qo-dest__row { display: flex; justify-content: space-between; align-items: flex-start; }
+.qo-dest__card { width: 100%; max-width: 19%; background: rgba(0, 43, 75, .8); border-radius: 0 0 100px 0; padding-bottom: 25px; transition: all .3s ease-in-out; }
+.qo-dest__card:hover { border-radius: 0; box-shadow: 0 0 10px #ddd; filter: brightness(120%); }
+.qo-dest__media img { display: block; width: 100%; height: auto; aspect-ratio: 260 / 285; object-fit: cover; margin-bottom: 10px; }
+.qo-dest__name { margin: 0; padding: 0 10px; font-family: var(--font-heading-family); font-weight: 400; font-size: 18px; line-height: 22px; text-transform: uppercase; color: #fff; min-height: 44px; }
+.qo-dest__btns { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; margin-top: 22px; padding: 0 10px; }
+.qo-dest__btns .qo-btn { min-height: 30px; min-width: 110px; font-size: 13px; padding: 0 12px 0 8px; }
+@media (max-width: 989px) {
+  .qo-dest__title { font-size: 44px; width: 410px; }
+  .qo-dest__title span { font-size: 20px; line-height: 30px; }
+  .qo-dest__row { flex-wrap: wrap; justify-content: space-evenly; gap: 0 12px; }
+  .qo-dest__card { max-width: 31%; margin-bottom: 25px; }
+}
+@media (max-width: 749px) {
+  .qo-dest { min-height: 0; padding-bottom: 32px; }
+  .qo-dest__card { max-width: 300px; width: 78%; margin-bottom: 26px; background: rgba(0, 43, 75, .8); }
+  .qo-dest__row { justify-content: center; }
+  .qo-dest__name { font-size: 19px; }
+  .qo-dest__btns .qo-btn { min-height: 44px; font-size: 15px; }
+  .qo-dest__bg img { height: auto; min-height: 0; object-fit: cover; }
+}
+@media (max-width: 450px) {
+  .qo-dest { padding-top: calc(var(--qo-header-h, 100px) + 28px); }
+  .qo-dest__title { position: absolute; width: 1px; height: 1px; margin: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .qo-dest__bg { bottom: auto; height: 492px; }
+  .qo-dest__bg img { height: 492px; width: 100%; object-fit: cover; object-position: center top; }
+  .qo-dest__bg::after { content: ""; position: absolute; inset: auto 0 0 0; height: 40%; background: linear-gradient(to bottom, rgba(0,43,75,0), var(--qo-navy)); }
+}

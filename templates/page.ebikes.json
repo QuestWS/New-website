@@ -1,5 +1,13 @@
 {
   "sections": {
+    "hero": {
+      "type": "qo-page-hero",
+      "settings": {
+        "parent_title": "Electric Bike",
+        "heading": "Electric Bikes",
+        "subheading": "Explore the I&M Canal Trail and Starved Rock Country"
+      }
+    },
     "main": {
       "type": "main-page-quest",
       "settings": {
@@ -7,48 +15,77 @@
       }
     },
     "ebikes": {
-      "type": "featured-collection",
+      "type": "qo-product-carousel",
       "settings": {
         "collection": "ebikes",
-        "title": "Electric Bikes",
-        "heading_size": "h1",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Find Your eBike",
+        "style": "water",
+        "products_to_show": 12
       }
     },
     "parts": {
-      "type": "featured-collection",
+      "type": "qo-product-carousel",
       "settings": {
         "collection": "bike-parts",
-        "title": "Bike Parts & Accessories",
-        "heading_size": "h1",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Parts and Accessories",
+        "style": "navy",
+        "products_to_show": 12
       }
+    },
+    "panel": {
+      "type": "qo-yellow-panel",
+      "settings": {
+        "heading": "Ride Starved Rock Country",
+        "text": "<p>There's something magical about being on the water; it relaxes, brings friends and family together, stirs up fun and creates memories. Water reminds us that life is an adventure.</p><p>At Quest Watersports we live, work and play on the water, and we are here to help you do the same. We make your time on the water simple and carefree, and bring the latest in water-based experiences to the heart of Starved Rock Country.</p>"
+      }
+    },
+    "cards": {
+      "type": "qo-link-cards",
+      "settings": {},
+      "blocks": {
+        "card_0": {
+          "type": "card",
+          "settings": {
+            "title": "eBike Rentals",
+            "text": "Try an electric bike for a day on the trail.",
+            "link": "/pages/ebike-rentals",
+            "button_label": "Read More"
+          }
+        },
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "title": "I&M Canal Trail",
+            "text": "Ride the historic canal towpath by eBike.",
+            "link": "/pages/i-and-m-canal-trail",
+            "button_label": "Read More"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "title": "eBike Charging Network",
+            "text": "Find charging stops across Starved Rock Country.",
+            "link": "/pages/ebike-charging-network",
+            "button_label": "Read More"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "title": "Illinois eBike Regulations",
+            "text": "Know the rules before you ride.",
+            "link": "/pages/ebike-regulations",
+            "button_label": "Read More"
+          }
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2",
+        "card_3"
+      ]
     },
     "faq": {
       "type": "quest-faq",
@@ -63,9 +100,12 @@
     }
   },
   "order": [
+    "hero",
     "main",
     "ebikes",
     "parts",
+    "panel",
+    "cards",
     "faq",
     "cta"
   ]

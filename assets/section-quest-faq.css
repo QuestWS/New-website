@@ -1,32 +1,25 @@
-.quest-faq__heading { margin: 0 0 2rem; }
-.quest-faq__list { border-top: 0.1rem solid rgba(var(--color-foreground), 0.15); }
-.quest-faq__item { border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.15); }
+.quest-faq-wrap { background: var(--qo-navy); color: #fff; }
+.quest-faq { max-width: calc(860px + 32px); }
+.quest-faq__heading { margin: 0 0 20px; text-align: center; font-family: var(--font-body-family); font-weight: 700; font-size: 26px; }
+.quest-faq__list { border-top: 1px solid rgba(255,255,255,.2); }
+.quest-faq__item { border-bottom: 1px solid rgba(255,255,255,.2); }
 .quest-faq__question {
-  position: relative;
-  display: block;
-  padding: 1.6rem 4.4rem 1.6rem 0;
-  min-height: 4.8rem;
-  font-weight: 700;
-  font-size: 1.7rem;
-  line-height: 1.35;
-  cursor: pointer;
-  list-style: none;
+  position: relative; display: flex; align-items: center;
+  padding: 14px 48px 14px 4px; min-height: 52px;
+  font-weight: 700; font-size: 17px; line-height: 1.35; color: #fff;
+  cursor: pointer; list-style: none;
 }
 .quest-faq__question::-webkit-details-marker { display: none; }
 .quest-faq__question::after {
-  content: "";
-  position: absolute;
-  right: 0.8rem;
-  top: 50%;
-  width: 0.9rem;
-  height: 0.9rem;
-  border-right: 0.2rem solid currentColor;
-  border-bottom: 0.2rem solid currentColor;
-  transform: translateY(-70%) rotate(45deg);
-  transition: transform 0.2s ease;
+  content: ""; position: absolute; right: 12px; top: 50%;
+  width: 10px; height: 10px;
+  border-right: 3px solid var(--qo-yellow); border-bottom: 3px solid var(--qo-yellow);
+  transform: translateY(-70%) rotate(45deg); transition: transform .2s ease;
 }
 .quest-faq__item[open] > .quest-faq__question::after { transform: translateY(-30%) rotate(-135deg); }
-.quest-faq__question:focus-visible { outline: 0.2rem solid rgb(var(--color-foreground)); outline-offset: 0.2rem; }
-.quest-faq__answer { padding: 0 0 1.8rem; line-height: 1.65; }
+.quest-faq__question:hover { color: var(--qo-yellow); }
+.quest-faq__answer { padding: 0 4px 18px; font-size: 16px; line-height: 1.55; color: #fff; }
+.quest-faq__answer a { color: var(--qo-yellow); text-decoration: underline; }
 .quest-faq__answer > :first-child { margin-top: 0; }
 .quest-faq__answer > :last-child { margin-bottom: 0; }
+@media screen and (min-width: 750px) { .quest-faq__heading { font-size: 30px; } }

@@ -1,0 +1,27 @@
+{{ 'qo-home-feed.css' | asset_url | stylesheet_tag }}
+{%- assign fb = section.settings.page_url | default: 'https://www.facebook.com/QuestWS' -%}
+<section class="qo-feed" aria-labelledby="QoFeed-{{ section.id }}">
+  <div class="qo-container">
+    <div class="qo-feed__head">
+      <img src="{{ 'qo-f-icon-section.svg' | asset_url }}" width="15" height="34" alt="" loading="lazy">
+      <h2 id="QoFeed-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+    </div>
+    <div class="qo-feed__frame">
+      <iframe src="https://www.facebook.com/plugins/page.php?href={{ fb | url_encode }}&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false" title="Quest Watersports on Facebook" width="500" height="600" loading="lazy" style="border:0;overflow:hidden" scrolling="no" allow="encrypted-media"></iframe>
+    </div>
+    <div class="qo-feed__more"><a class="qo-btn" href="{{ fb }}" target="_blank" rel="noopener">{{ section.settings.button_label | escape }}<span class="visually-hidden"> (opens in a new tab)</span></a></div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Home: our feed",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Our feed" },
+    { "type": "text", "id": "page_url", "label": "Facebook page URL", "default": "https://www.facebook.com/QuestWS" },
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "View All" }
+  ],
+  "presets": [ { "name": "Home: our feed" } ]
+}
+{% endschema %}

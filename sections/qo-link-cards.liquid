@@ -1,0 +1,48 @@
+{{ 'qo-link-cards.css' | asset_url | stylesheet_tag }}
+
+{%- if section.blocks.size > 0 -%}
+  <section class="qo-cards">
+    <div class="qo-container">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="qo-cards__heading">{{ section.settings.heading | escape }}</h2>
+      {%- endif -%}
+      <ul class="qo-cards__list" role="list">
+        {%- for block in section.blocks -%}
+          {%- assign href = block.settings.link | default: '/pages/contact' -%}
+          <li class="qo-cards__item" {{ block.shopify_attributes }}>
+            <h3 class="qo-cards__title"><a href="{{ href }}">{{ block.settings.title | escape }}</a></h3>
+            {%- if block.settings.text != blank -%}<p class="qo-cards__text">{{ block.settings.text | escape }}</p>{%- endif -%}
+            <a class="qo-cards__btn" href="{{ href }}">{{ block.settings.button_label | default: 'Read More' | escape }}<span class="visually-hidden">: {{ block.settings.title | escape }}</span></a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Link cards",
+  "tag": "div",
+  "class": "section-qo-link-cards",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading (optional)" }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "Card title" },
+        { "type": "textarea", "id": "text", "label": "Short text" },
+        { "type": "url", "id": "link", "label": "Link" },
+        { "type": "text", "id": "button_label", "label": "Button label", "default": "Read More" }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    { "name": "Link cards", "blocks": [ { "type": "card" }, { "type": "card" }, { "type": "card" }, { "type": "card" } ] }
+  ]
+}
+{% endschema %}

@@ -20,10 +20,10 @@
 {%- endif -%}
 
 {%- if faq_count > 0 -%}
-  <div class="color-{{ section.settings.color_scheme }} gradient">
-    <section class="quest-faq page-width page-width--narrow section-{{ section.id }}-padding" aria-labelledby="QuestFaq-{{ section.id }}">
+  <div class="quest-faq-wrap">
+    <section class="quest-faq qo-container section-{{ section.id }}-padding" aria-labelledby="QuestFaq-{{ section.id }}">
       {%- if section.settings.heading != blank -%}
-        <h2 id="QuestFaq-{{ section.id }}" class="quest-faq__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+        <h2 id="QuestFaq-{{ section.id }}" class="quest-faq__heading">{{ section.settings.heading | escape }}</h2>
       {%- endif -%}
       <div class="quest-faq__list">
         {%- for block in section.blocks -%}
@@ -82,10 +82,8 @@
   "class": "section-quest-faq",
   "settings": [
     { "type": "text", "id": "heading", "label": "Heading", "default": "Frequently Asked Questions" },
-    { "type": "select", "id": "heading_size", "label": "Heading size", "options": [ { "value": "h2", "label": "Medium" }, { "value": "h1", "label": "Large" } ], "default": "h2" },
     { "type": "checkbox", "id": "open_first", "label": "Open first question", "default": false },
     { "type": "paragraph", "content": "On pages, questions from the page metafield custom.faqs (JSON list of q/a) are added automatically after any blocks below." },
-    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
     { "type": "header", "content": "Section padding" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 36 },
     { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 36 }

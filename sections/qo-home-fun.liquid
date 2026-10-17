@@ -1,0 +1,51 @@
+{{ 'qo-home-fun.css' | asset_url | stylesheet_tag }}
+<style>
+  .qo-fun-{{ section.id }} { background-image: url('{{ 'qo-fun-bg.webp' | asset_url }}'); }
+  @media (max-width: 450px) { .qo-fun-{{ section.id }} { background-image: url('{{ 'qo-fun-bg-m.webp' | asset_url }}'); } }
+</style>
+<section class="qo-fun qo-fun-{{ section.id }}" aria-labelledby="QoFun-{{ section.id }}">
+  <div class="qo-container">
+    <div class="qo-fun__head">
+      <img src="{{ 'qo-fun-logo.svg' | asset_url }}" width="67" height="67" alt="" loading="lazy">
+      <h2 id="QoFun-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+    </div>
+
+    <div class="qo-fun__row qo-fun__row--1">
+      <div class="qo-fun__text">{{ section.settings.text_1 }}</div>
+      <div class="qo-fun__photo"><img src="{{ 'qo-fun-img1.webp' | asset_url }}" width="812" height="609" loading="lazy" decoding="async" alt="{{ section.settings.alt_1 | escape }}"></div>
+    </div>
+
+    <div class="qo-fun__row qo-fun__row--2">
+      <div class="qo-fun__photo"><img src="{{ 'qo-fun-img2.webp' | asset_url }}" width="673" height="505" loading="lazy" decoding="async" alt="{{ section.settings.alt_2 | escape }}"></div>
+      <div class="qo-fun__text">{{ section.settings.text_2 }}</div>
+    </div>
+
+    <div class="qo-fun__center">
+      <div class="qo-fun__photo"><img src="{{ 'qo-fun-img3.webp' | asset_url }}" width="812" height="609" loading="lazy" decoding="async" alt="{{ section.settings.alt_3 | escape }}"></div>
+      <ul class="qo-fun__btns">
+        {%- if section.settings.button_label_1 != blank -%}<li><a class="qo-btn qo-btn--plain" href="{{ section.settings.button_link_1 }}" target="_blank" rel="noopener">{{ section.settings.button_label_1 }}<span class="visually-hidden"> (opens in a new tab)</span></a></li>{%- endif -%}
+        {%- if section.settings.button_label_2 != blank -%}<li><a class="qo-btn qo-btn--plain" href="{{ section.settings.button_link_2 }}">{{ section.settings.button_label_2 }}</a></li>{%- endif -%}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Home: fun on the water",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Fun on the water in Starved Rock Country" },
+    { "type": "richtext", "id": "text_1", "label": "Text (top left)", "default": "<p>There's something magical about being on the water.</p>" },
+    { "type": "text", "id": "alt_1", "label": "Photo 1 alt", "default": "Waterfront homes and boats at Heritage Harbor marina" },
+    { "type": "richtext", "id": "text_2", "label": "Text (middle right)", "default": "<p>In 2011 Quest Watersports launched Quest Express Boat Club.</p>" },
+    { "type": "text", "id": "alt_2", "label": "Photo 2 alt", "default": "Two people paddling a yellow Hobie kayak" },
+    { "type": "text", "id": "alt_3", "label": "Photo 3 alt", "default": "View of the Illinois River and bluffs from the back of a boat" },
+    { "type": "text", "id": "button_label_1", "label": "Button 1 label", "default": "Heritage Harbor" },
+    { "type": "text", "id": "button_link_1", "label": "Button 1 link", "default": "https://www.visitheritageharbor.com" },
+    { "type": "text", "id": "button_label_2", "label": "Button 2 label", "default": "Starved Rock Country" },
+    { "type": "text", "id": "button_link_2", "label": "Button 2 link", "default": "/pages/starved-rock-country" }
+  ],
+  "presets": [ { "name": "Home: fun on the water" } ]
+}
+{% endschema %}

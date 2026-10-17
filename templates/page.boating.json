@@ -1,5 +1,13 @@
 {
   "sections": {
+    "hero": {
+      "type": "qo-page-hero",
+      "settings": {
+        "parent_title": "Boating",
+        "heading": "Boats for Sale",
+        "subheading": "New and pre-owned boats in Ottawa, IL"
+      }
+    },
     "main": {
       "type": "main-page-quest",
       "settings": {
@@ -7,31 +15,82 @@
       }
     },
     "trailers": {
-      "type": "featured-collection",
+      "type": "qo-product-carousel",
       "settings": {
         "collection": "trailers",
-        "title": "Trailers",
-        "heading_size": "h1",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Trailers",
+        "style": "water",
+        "products_to_show": 12
       }
+    },
+    "supplies": {
+      "type": "qo-product-carousel",
+      "settings": {
+        "collection": "heritage-harbor-boating-supplies",
+        "heading": "Boating Supplies",
+        "style": "navy",
+        "products_to_show": 12
+      }
+    },
+    "panel": {
+      "type": "qo-yellow-panel",
+      "settings": {
+        "heading": "Boating Made Easy",
+        "text": "<p>There's something magical about being on the water; it relaxes, brings friends and family together, stirs up fun and creates memories. Water reminds us that life is an adventure.</p><p>At Quest Watersports we live, work and play on the water, and we are here to help you do the same. We make your time on the water simple and carefree, and bring the latest in water-based experiences to the heart of Starved Rock Country.</p>"
+      }
+    },
+    "cards": {
+      "type": "qo-link-cards",
+      "settings": {},
+      "blocks": {
+        "card_0": {
+          "type": "card",
+          "settings": {
+            "title": "Sell or Trade Your Boat",
+            "text": "Thinking about selling or trading in your boat? Tell us about it.",
+            "link": "/pages/sell-or-trade",
+            "button_label": "Read More"
+          }
+        },
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "title": "Finance Your Boat",
+            "text": "Flexible financing makes getting on the water easier.",
+            "link": "/pages/financing",
+            "button_label": "Read More"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "title": "Boat Storage",
+            "text": "Off-season storage and service for your boat.",
+            "link": "/pages/boat-storage",
+            "button_label": "Read More"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "title": "Quest Express Boat Club",
+            "text": "Skip the ownership hassle with a club membership.",
+            "link": "/pages/boat-club",
+            "button_label": "Read More"
+          }
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2",
+        "card_3"
+      ]
     },
     "form": {
       "type": "quest-contact-form",
       "settings": {
-        "default_topic": "Sales – Boats",
+        "default_topic": "Sales \u2013 Boats",
         "heading": "Ask About a Boat"
       }
     },
@@ -44,8 +103,12 @@
     }
   },
   "order": [
+    "hero",
     "main",
     "trailers",
+    "supplies",
+    "panel",
+    "cards",
     "form",
     "cta"
   ]
