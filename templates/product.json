@@ -56,7 +56,6 @@
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "dots",
-            "product_card_size": "small",
             "enable_quick_add": false
           }
         },
@@ -65,7 +64,7 @@
           "settings": {
             "heading": "Questions about this item?",
             "icon": "chat_bubble",
-            "content": "<p>Call us at <a href=\"tel:+18154332200\">815.433.2200</a> or visit the shop at 1851 N 2871st Road, Ottawa, IL.</p>",
+            "content": "<p>Call us at <a href=\"tel:+18154332200\">815.433.2200</a> or visit the shop at 1851 Old Chicago Rd, Ottawa, IL.</p>",
             "page": ""
           }
         }

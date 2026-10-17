@@ -10,7 +10,11 @@ semantic HTML, fast LCP), then fidelity to the original content.
 ## Business facts (use verbatim)
 
 - Name: Quest Watersports (formerly Riverview Marine, Spring Valley IL, est. 1992; relocated to Ottawa and renamed in 2009)
-- Address: 1851 N 2871st Road, Ottawa, IL 61350 (next to Heritage Harbor Ottawa marina)
+- Address (display & schema): **1851 Old Chicago Rd, Ottawa, IL 61350** (next to Heritage Harbor Ottawa marina).
+  Map/directions links use **1800 N 2871st Rd, Ottawa, IL 61350** (same building; Old Chicago Rd is poorly indexed by mapping services:
+  `https://www.google.com/maps/dir/?api=1&destination=Quest+Watersports,+1800+N+2871st+Rd,+Ottawa,+IL+61350`).
+  Never use "1851 N 2871st Rd" — it is a mix-up of the two.
+  Heritage Harbor Marina: 1982 N 2753rd Road, Ottawa, IL 61350.
 - Phone: 815.433.2200 (`tel:+18154332200`)
 - Email: orders@questwatersports.com (store); hobie@questwatersports.com (paddlesports/Hobie)
 - Facebook: https://www.facebook.com/QuestWS
