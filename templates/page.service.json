@@ -65,7 +65,43 @@
       "type": "quest-hours-location",
       "settings": {
         "show_map": false
-      }
+      },
+      "blocks": {
+        "hours_0": {
+          "type": "hours",
+          "settings": {
+            "label": "Sales",
+            "hours": "Tue-Sat 9:00 AM - 5:00 PM"
+          }
+        },
+        "hours_1": {
+          "type": "hours",
+          "settings": {
+            "label": "Sales (Sun & Mon)",
+            "hours": "By appointment only"
+          }
+        },
+        "hours_2": {
+          "type": "hours",
+          "settings": {
+            "label": "Service",
+            "hours": "Tue-Sat 8:00 AM - 5:00 PM"
+          }
+        },
+        "hours_3": {
+          "type": "hours",
+          "settings": {
+            "label": "Marina rentals",
+            "hours": "Sat-Sun, weather permitting (call 815-433-2200)"
+          }
+        }
+      },
+      "block_order": [
+        "hours_0",
+        "hours_1",
+        "hours_2",
+        "hours_3"
+      ]
     }
   },
   "order": [

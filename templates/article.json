@@ -32,9 +32,19 @@
         "share",
         "content"
       ]
+    },
+    "faq_schema": {
+      "type": "quest-article-faq-schema",
+      "settings": {}
+    },
+    "cta": {
+      "type": "quest-cta-band",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq_schema",
+    "cta"
   ]
 }

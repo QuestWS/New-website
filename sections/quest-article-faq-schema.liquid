@@ -1,0 +1,31 @@
+{%- comment -%}
+  Outputs FAQPage JSON-LD for an article from the article metafield custom.faqs
+  (JSON list of {"q","a"}). The questions are already visible in the article body.
+{%- endcomment -%}
+{%- assign faqs = article.metafields.custom.faqs.value -%}
+{%- if faqs != blank and faqs.size > 0 -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for faq in faqs -%}
+          {
+            "@type": "Question",
+            "name": {{ faq.q | strip_html | json }},
+            "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | strip_html | json }} }
+          }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Article FAQ schema",
+  "settings": [
+    { "type": "paragraph", "content": "Adds FAQ structured data for search engines from the article metafield custom.faqs. Renders nothing visible." }
+  ]
+}
+{% endschema %}

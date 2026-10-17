@@ -10,18 +10,145 @@
         "button_label_1": "Shop Kayaks",
         "button_link_1": "shopify://collections/hobie-kayaks",
         "button_label_2": "Explore the Boat Club",
-        "button_link_2": "shopify://pages/boat-club"
+        "button_link_2": "shopify://pages/boat-club",
+        "image": "shopify://shop_images/quest-hero-boat-club.jpg"
       }
     },
     "trust": {
       "type": "quest-trust-strip",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "fact_0": {
+          "type": "fact",
+          "settings": {
+            "text": "Since 1992"
+          }
+        },
+        "fact_1": {
+          "type": "fact",
+          "settings": {
+            "text": "Authorized Hobie Dealer"
+          }
+        },
+        "fact_2": {
+          "type": "fact",
+          "settings": {
+            "text": "Full-Service Marina Shop"
+          }
+        },
+        "fact_3": {
+          "type": "fact",
+          "settings": {
+            "text": "Heritage Harbor Ottawa"
+          }
+        }
+      },
+      "block_order": [
+        "fact_0",
+        "fact_1",
+        "fact_2",
+        "fact_3"
+      ]
     },
     "destinations": {
       "type": "quest-destinations",
       "settings": {
         "mobile_carousel": false
-      }
+      },
+      "blocks": {
+        "destination_0": {
+          "type": "destination",
+          "settings": {
+            "title": "Boating",
+            "text": "New and pre-owned boats, plus full-service marine repair and maintenance.",
+            "primary_link": "/pages/boating",
+            "link_label_1": "View Boats",
+            "link_url_1": "/pages/boating",
+            "link_label_2": "Service & Parts",
+            "link_url_2": "/pages/service-and-parts",
+            "image": "shopify://shop_images/quest-boating-card.png"
+          }
+        },
+        "destination_1": {
+          "type": "destination",
+          "settings": {
+            "title": "Quest Express Boat Club",
+            "text": "Unlimited access to a fleet of club boats on an annual membership. No buying, storing or maintaining a boat.",
+            "primary_link": "/pages/boat-club",
+            "link_label_1": "Learn More",
+            "link_url_1": "/pages/boat-club",
+            "link_label_2": "Member Login",
+            "link_url_2": "/pages/member-login",
+            "link_label_3": "Club FAQs",
+            "link_url_3": "/pages/boat-club-faq",
+            "image": "shopify://shop_images/quest-boat-club-card.png"
+          }
+        },
+        "destination_2": {
+          "type": "destination",
+          "settings": {
+            "title": "Sailing",
+            "text": "Hobie sailboats, parts and accessories.",
+            "primary_link": "/pages/sailing",
+            "link_label_1": "View Sailboats",
+            "link_url_1": "/pages/sailing",
+            "link_label_2": "Parts & Accessories",
+            "link_url_2": "/collections/sailing-parts",
+            "image": "shopify://shop_images/quest-sailing-card.png"
+          }
+        },
+        "destination_3": {
+          "type": "destination",
+          "settings": {
+            "title": "Paddlesports",
+            "text": "Hobie kayaks, Old Town, Advanced Elements and stand-up paddleboards.",
+            "primary_link": "/pages/paddlesports",
+            "link_label_1": "Hobie Kayaks",
+            "link_url_1": "/collections/hobie-kayaks",
+            "link_label_2": "Parts & Accessories",
+            "link_url_2": "/collections/kayak-parts",
+            "link_label_3": "Rentals",
+            "link_url_3": "/pages/rentals",
+            "image": "shopify://shop_images/quest-paddlesports-card.png"
+          }
+        },
+        "destination_4": {
+          "type": "destination",
+          "settings": {
+            "title": "Electric Bikes",
+            "text": "eBikes for exploring the I&M Canal Trail and Starved Rock Country.",
+            "primary_link": "/pages/ebikes",
+            "link_label_1": "Shop eBikes",
+            "link_url_1": "/collections/ebikes",
+            "link_label_2": "Parts & Accessories",
+            "link_url_2": "/collections/bike-parts",
+            "link_label_3": "eBike Rentals",
+            "link_url_3": "/pages/ebike-rentals",
+            "image": "shopify://shop_images/quest-ebikes-hero.jpg"
+          }
+        },
+        "destination_5": {
+          "type": "destination",
+          "settings": {
+            "title": "Rentals",
+            "text": "Paddlesport and eBike rentals for a day on the Illinois River or the canal trail.",
+            "primary_link": "/pages/rentals",
+            "link_label_1": "Kayak & Paddleboard Rentals",
+            "link_url_1": "/pages/rentals",
+            "link_label_2": "eBike Rentals",
+            "link_url_2": "/pages/ebike-rentals",
+            "image": "shopify://shop_images/quest-rentals.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "destination_0",
+        "destination_1",
+        "destination_2",
+        "destination_3",
+        "destination_4",
+        "destination_5"
+      ]
     },
     "hobie": {
       "type": "featured-collection",
@@ -102,7 +229,8 @@
         "color_scheme": "scheme-2",
         "height": "medium",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "image": "shopify://shop_images/quest-story-2.png"
       }
     },
     "shop": {
@@ -202,7 +330,43 @@
       "type": "quest-hours-location",
       "settings": {
         "show_map": false
-      }
+      },
+      "blocks": {
+        "hours_0": {
+          "type": "hours",
+          "settings": {
+            "label": "Sales",
+            "hours": "Tue-Sat 9:00 AM - 5:00 PM"
+          }
+        },
+        "hours_1": {
+          "type": "hours",
+          "settings": {
+            "label": "Sales (Sun & Mon)",
+            "hours": "By appointment only"
+          }
+        },
+        "hours_2": {
+          "type": "hours",
+          "settings": {
+            "label": "Service",
+            "hours": "Tue-Sat 8:00 AM - 5:00 PM"
+          }
+        },
+        "hours_3": {
+          "type": "hours",
+          "settings": {
+            "label": "Marina rentals",
+            "hours": "Sat-Sun, weather permitting (call 815-433-2200)"
+          }
+        }
+      },
+      "block_order": [
+        "hours_0",
+        "hours_1",
+        "hours_2",
+        "hours_3"
+      ]
     },
     "newsletter": {
       "type": "newsletter",
