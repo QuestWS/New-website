@@ -2,7 +2,7 @@
 .qo-fun__head { text-align: center; margin-bottom: 48px; }
 .qo-fun__head img { display: block; margin: 0 auto 24px; width: 67px; height: 67px; }
 .qo-fun__head h2 { margin: 0; text-transform: uppercase; color: #fff; font-family: var(--font-heading-family); font-weight: 400; font-size: 24px; letter-spacing: 1px; line-height: 1.3; }
-.qo-fun__text { font-size: 15px; font-weight: 500; line-height: 22px; }
+.qo-fun__text { font-size: 15px; font-weight: 400; line-height: 22px; }
 .qo-fun__text p { margin: 0 0 20px; }
 .qo-fun__photo { background: #fff; padding: 16px; box-shadow: 0 3px 6px rgba(0,0,0,.83); }
 .qo-fun__photo img { display: block; width: 100%; height: auto; }
@@ -10,7 +10,7 @@
 .qo-fun__row--1 { align-items: flex-start; }
 .qo-fun__row--1 .qo-fun__text { flex: 0 0 38%; max-width: 38%; }
 .qo-fun__row--1 .qo-fun__photo { flex: 1 1 0; min-width: 0; margin-top: 0; }
-.qo-fun__row--2 { align-items: flex-end; margin: -20px 0 48px; }
+.qo-fun__row--2 { align-items: flex-end; margin: 20px 0 48px; }
 .qo-fun__row--2 .qo-fun__photo { flex: 0 0 48.6%; max-width: 48.6%; }
 .qo-fun__row--2 .qo-fun__text { flex: 1 1 0; padding: 0 40px 0 44px; }
 .qo-fun__center { max-width: 730px; margin: 0 auto; }

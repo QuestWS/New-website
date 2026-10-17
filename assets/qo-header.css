@@ -49,7 +49,7 @@
 }
 .qo-search__btn:focus-visible { outline: 2px solid #EFC503; outline-offset: 2px; }
 
-.qo-header__navrow { display: flex; align-items: center; gap: 20px; margin-top: 12px; }
+.qo-header__navrow { display: flex; align-items: center; gap: 20px; margin-top: 6px; }
 .qo-nav__list { display: flex; align-items: center; list-style: none; margin: 0; padding: 0; }
 .qo-nav__item { position: relative; padding: 10px; }
 .qo-nav__item:first-child { padding-left: 0; }
@@ -61,7 +61,7 @@
 .qo-nav__toggle { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); border: 0; }
 .qo-nav__toggle:focus-visible { clip: auto; width: 22px; height: 22px; margin: 0; right: -6px; top: 17px; outline: 2px solid #00388E; background: #fff; }
 .qo-nav__sub {
-  position: absolute; top: calc(100% - 2px); left: 0; z-index: 30; min-width: 100%; width: max-content;
+  position: absolute; top: 100%; left: 0; z-index: 30; min-width: 100%; width: max-content;
   margin: 0; padding: 0; list-style: none; background: #292A2A;
   opacity: 0; visibility: hidden; transform: scaleY(.96); transform-origin: top; transition: opacity .2s ease, transform .2s ease, visibility .2s;
 }
@@ -71,7 +71,7 @@
 .qo-nav__sub li:hover, .qo-nav__sub a:focus-visible { background: #000; }
 .qo-nav__sub a:focus-visible { outline: 2px solid #EFC503; outline-offset: -2px; }
 
-.qo-cart { position: relative; display: inline-flex; width: 38px; height: 38px; align-items: center; justify-content: center; margin-top: 4px; }
+.qo-cart { position: relative; display: inline-flex; width: 38px; height: 38px; align-items: center; justify-content: center; margin-top: 14px; }
 .qo-cart:focus-visible { outline: 2px solid #00388E; outline-offset: 2px; }
 .qo-cart__count {
   position: absolute; top: -6px; right: -4px; min-width: 25px; height: 25px; padding: 0 5px; box-sizing: border-box; border-radius: 13px;

@@ -39,12 +39,14 @@
   background: var(--qo-navy) url('qo-inventory-bg.webp') center / cover no-repeat;
 }
 .collection-hero { position: relative; }
-.collection-hero__inner { padding-top: 56px; padding-bottom: 40px; max-width: calc(var(--qo-container) + 32px); }
+.collection-hero__inner { padding-top: 40px; padding-bottom: 32px; max-width: calc(var(--qo-container) + 32px); text-align: left; }
+.collection-hero__text-wrapper { text-align: left; align-items: flex-start; }
 .collection-hero__title {
   font-family: var(--font-heading-family); font-weight: 700; text-transform: uppercase; letter-spacing: .02em;
   font-size: clamp(2.8rem, 6vw, 5rem); color: #fff; margin: 0 0 12px; text-shadow: 0 2px 12px rgba(0,0,0,.35);
 }
-.collection-hero__description { color: #fff; max-width: 760px; font-size: 1.7rem; text-shadow: 0 1px 8px rgba(0,0,0,.45); }
+.collection-hero__description, .collection-hero__description * { font-family: var(--font-body-family); font-weight: 500; text-align: left; }
+.collection-hero__description { color: #fff; max-width: 760px; font-size: 1.7rem; line-height: 1.5; text-shadow: 0 1px 8px rgba(0,0,0,.45); }
 .collection-hero__description a { color: var(--qo-yellow); }
 .template-collection .collection-hero.color-scheme-1.gradient { background: var(--qo-navy) url('qo-inventory-bg.webp') center / cover no-repeat; }
 
@@ -325,3 +327,15 @@
   .product-card-wrapper .card__heading, .product-card-wrapper .card__heading a { font-size: 1.2rem; }
   .product-card-wrapper .price-item { font-size: 1.5rem; }
 }
+
+/* facets text on navy */
+.facets__heading, .facets__summary, .facets__summary-label, .facets__summary div, .facets__selected, .facets-wrapper .facets__label,
+.facets-wrapper label, .facet-checkbox__text, .facet-checkbox__text-label, .facets__price .field__label, .facets-wrapper .caption-large,
+.mobile-facets__summary, .mobile-facets__label, .mobile-facets__header-inner, .mobile-facets__heading, .facet-filters__label, .facets__reset { color: #fff !important; }
+.facets__heading { font-family: var(--font-heading-family); text-transform: uppercase; font-size: 1.6rem; }
+.facets__price .field__label { color: #5b6b79 !important; }
+.facets__reset, .active-facets__button-remove { color: var(--qo-yellow) !important; }
+.active-facets__button-inner, .active-facets__button-inner * { color: var(--qo-ink) !important; }
+.template-collection .facets__disclosure-vertical, .facets__disclosure-vertical { border-color: rgba(255,255,255,.3); }
+.facet-checkbox .icon-checkmark { color: var(--qo-ink); }
+.facet-checkbox > input[type=checkbox] { background: #fff; border-radius: 4px; }

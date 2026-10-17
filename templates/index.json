@@ -4,7 +4,7 @@
       "type": "qo-home-destinations",
       "blocks": {
         "boating": { "type": "card", "settings": { "fallback_image": "qo-banner-2.webp", "title": "Boating", "label_1": "View Inventory", "link_1": "/pages/boating" } },
-        "boatclub": { "type": "card", "settings": { "fallback_image": "qo-banner-1.webp", "title": "Quest Express Boat Club", "label_1": "Learn More", "link_1": "/pages/boat-club", "label_2": "Member Login", "link_2": "/pages/member-login" } },
+        "boatclub": { "type": "card", "settings": { "fallback_image": "qo-banner-1.webp", "title": "Quest Express<br>Boat Club", "label_1": "Learn More", "link_1": "/pages/boat-club", "label_2": "Member Login", "link_2": "/pages/member-login" } },
         "sailing": { "type": "card", "settings": { "fallback_image": "qo-banner-3.webp", "title": "Sailing", "label_1": "View Inventory", "link_1": "/collections/sailboats", "label_2": "Parts & Accessories", "link_2": "/collections/sailing-parts" } },
         "paddle": { "type": "card", "settings": { "fallback_image": "qo-banner-4.webp", "title": "Paddlesports", "label_1": "View Inventory", "link_1": "/collections/hobie-kayaks", "label_2": "Parts & Accessories", "link_2": "/collections/kayak-parts", "label_3": "Rentals", "link_3": "/pages/rentals", "style_3": "red" } },
         "ebike": { "type": "card", "settings": { "fallback_image": "qo-home_e_bike.jpg", "title": "Electric Bikes", "label_1": "View Inventory", "link_1": "/collections/ebikes", "label_2": "Parts & Accessories", "link_2": "/collections/bike-parts", "label_3": "Rentals", "link_3": "/pages/ebike-rentals", "style_3": "red" } }
