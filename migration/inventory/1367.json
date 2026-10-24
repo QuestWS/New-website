@@ -1,0 +1,217 @@
+{
+ "identifier": {
+  "handle": "2006-bayliner-185-br-1367"
+ },
+ "input": {
+  "title": "2006 Bayliner 185 BR",
+  "handle": "2006-bayliner-185-br-1367",
+  "descriptionHtml": "<p><strong>JUST LISTED: Super-fresh Bayliner 185 BR - ready to hit the water!&nbsp;</strong></p><p>Ready to enjoy some outdoor quality time yet this Summer?&nbsp; This one is just off a bow-to-stern detail and tune-up, and will carry your friends and family in style...clean inside, outside and everywhere in-between.&nbsp; Fiberglass &amp; vinyl are in excellent shape, as is its economical MerCruiser 3.0 TKS motor (no hour meter).&nbsp; Comes complete with a matched Karavan galvanized trailer.&nbsp; Bimini top will regulate the rays, and snap-on cover will keep her looking good when at rest.&nbsp;&nbsp;</p><p>Plan your next adventure, and come take a look in Quest's Ottawa, Illinois showroom!&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+  "vendor": "Bayliner",
+  "productType": "Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Bayliner",
+   "type:Boat",
+   "year:2006"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2006 Bayliner 185 BR for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2006 Bayliner 185 BR for sale at Quest Watersports in Ottawa, IL — $9,950. Stock #06BAYL185. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "9950.00",
+    "sku": "06BAYL185",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2006"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Bayliner"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "185 BR"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "06BAYL185"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "18'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "MerCruiser 3.0L TKS"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "135"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Fiberglass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1367"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/main/l/Used-2006-Bayliner-185-BR-1785511644.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/2/l/Used-2006-Bayliner-185-BR-1785511644.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/3/l/Used-2006-Bayliner-185-BR-1785510302.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/4/l/Used-2006-Bayliner-185-BR-1785511644.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/5/l/Used-2006-Bayliner-185-BR-1785511644.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/6/l/Used-2006-Bayliner-185-BR-1785511644.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/7/l/Used-2006-Bayliner-185-BR-1785510303.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/8/l/Used-2006-Bayliner-185-BR-1785510303.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/9/l/Used-2006-Bayliner-185-BR-1785510303.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/10/l/Used-2006-Bayliner-185-BR-1785510303.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/11/l/Used-2006-Bayliner-185-BR-1785510304.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/12/l/Used-2006-Bayliner-185-BR-1785510304.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/13/l/Used-2006-Bayliner-185-BR-1785510304.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1367/14/l/Used-2006-Bayliner-185-BR-1785510304.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2006 Bayliner 185 BR photo 14"
+   }
+  ]
+ },
+ "source": {
+  "id": "1367",
+  "url": "https://www.questwatersports.com/2006-bayliner-185-br-c-1367/",
+  "when_modified": "2026-07-31 10:27:32",
+  "sold": "Available"
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-outback-875"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage Outback",
+  "handle": "2026-hobie-mirage-outback-875",
+  "descriptionHtml": "<div id=\"product-component-1664399339860\"><span><strong><span>Financing Available</span></strong><strong><span>!*</span></strong></span></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><strong><span>Book a FREE On-Water Demo!</span></strong></span></a></div><p><strong><span>Ask about Prior Model Year Inventory Still In-Stock!</span></strong></p><p>&nbsp;</p><p><span>Meet the 2025 Hobie Mirage Outbackan iconic kayak redefined for anglers and adventurers who demand versatility, stability, and performance. Packed with advanced features designed to enhance your time on the water, the Outback delivers the ideal balance of agility and durability for any environment, whether you're fishing remote waters or exploring scenic coastlines.</span><br />&nbsp;</p><h3><span><strong>Top-Tier Features for Serious Adventurers:</strong></span></h3><ul>\t<li><span><strong>MirageDrive 180 with Kick-Up Turbo Fins</strong>: Effortlessly maneuver in any direction with Hobie's MirageDrive 180, featuring Kick-Up Turbo Fins that automatically retract upon impact, allowing you to tackle shallow waters and submerged obstacles without worry.</span></li></ul><ul>\t<li><span><strong>Adjustable Vantage CTW Seat</strong>: Enjoy all-day comfort with the spacious and supportive Vantage CTW seat. Its adjustable design offers custom positioning for maximized comfort during long outings.</span></li></ul><ul>\t<li><span><strong>Guardian Retractable Transducer Shield</strong>: Perfect for anglers, the Guardian transducer system provides superior sonar protection, keeping your equipment safe while still allowing for full functionality on the water.</span></li></ul><ul>\t<li><span><strong>Ample Storage Options</strong>: The Outback comes equipped with multiple storage hatches, a large bow hatch, and an easily accessible rear cargo area with bungee tie-downs, giving you plenty of space for gear, tackle, and all your essentials.</span></li></ul><ul>\t<li><span><strong>Integrated H-Track Rails</strong>: Outfit your kayak with the gear you need for fishing or exploration, thanks to the built-in H-Track rails, which provide flexible mounting options for rods, fish finders, and other accessories.</span></li></ul><ul>\t<li><span><strong>Kick-Up Rudder</strong>: Experience precise steering and enhanced stability with Hobie's Kick-Up Rudder system, designed to retract on impact and then automatically redeploy, making it easy to navigate in challenging conditions.</span></li></ul>&nbsp;<h3><span><strong>Specifications at a Glance:</strong></span></h3><ul>\t<li><span><strong>Length</strong>: 12'9\" (3.89 m)</span></li>\t<li><span><strong>Width</strong>: 34\" (0.86 m)</span></li>\t<li><span><strong>Fitted Hull Weight</strong>: 85 lbs (38.56 kg)</span></li>\t<li><span><strong>Fully Rigged Weight</strong>: 103 lbs (46.72 kg)</span></li>\t<li><span><strong>Capacity</strong>: 425 lbs (192.78 kg)</span></li>\t<li><span><strong>Drive</strong>: MirageDrive 180 with Kick-Up Turbo Fins</span></li>\t<li><span><strong>Hull Material</strong>: Rotomolded Polyethylene</span></li></ul>&nbsp;<h3><span><strong>Designed for Exploration and Angling Excellence</strong></span></h3><p><span>The Hobie Mirage Outback is renowned for its stability, making it the ideal choice for anglers who need a reliable and smooth platform for casting and reeling. Its rugged construction and innovative features ensure that this kayak will keep up with your adventures, no matter where they take you. From the integrated fishfinder shield to spacious storage, the Outback has everything you need to stay organized, safe, and comfortable on the water.</span></p><p><span>Discover why the Hobie Mirage Outback is a top pick among enthusiasts</span></p><div>&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><p>Guardian Retractable Transducer Shield\nReflective Bow Graphics\nTwo-Piece Paddle with On-Hull Storage\nDual Steering\nMirageDrive 180 with Turbo Fins\nKick-Up Rudder\nSail Mount\nH-Track Deluxe with H-Rail\nEVA Floor Standing Pads\nVertical Rectangular Hatch\nVantage CTW Seat\n4 Molded-in Rod Holders\nLarge Rear Handle\nUtility Trays\nPower-Pole Ready\nCart Keeper\nLarge Rear Cargo Well</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage Outback for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage Outback for sale at Quest Watersports in Ottawa, IL — $3,299. Stock #HOBIE OUTBACK. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3299.00",
+    "sku": "HOBIE OUTBACK",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Outback"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE OUTBACK"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12' 9\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Papaya Orange, Ivory Dune, Seagrass, Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "875"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/main/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/2/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/3/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/4/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/5/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/6/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/7/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/8/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/9/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/10/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/11/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/12/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/13/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/14/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/15/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/16/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/17/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/18/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/19/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/20/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Outback photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "875",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-outback-c-875/",
+  "when_modified": "2026-04-02 08:48:51",
+  "sold": "Available"
+ }
+}

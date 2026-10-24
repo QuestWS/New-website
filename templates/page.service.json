@@ -13,8 +13,8 @@
     "supplies": {
       "type": "qo-product-carousel",
       "settings": {
-        "collection": "heritage-harbor-boating-supplies",
-        "heading": "Boating Supplies",
+        "collection": "kayak-parts",
+        "heading": "Parts & Accessories",
         "style": "navy",
         "products_to_show": 12
       }

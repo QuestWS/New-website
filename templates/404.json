@@ -2,56 +2,9 @@
   "sections": {
     "main": {
       "type": "main-404"
-    },
-    "links": {
-      "type": "collection-list",
-      "blocks": {
-        "c0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hobie-kayaks"
-          }
-        },
-        "c1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ebikes"
-          }
-        },
-        "c2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sailing-parts"
-          }
-        },
-        "c3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "trailers"
-          }
-        }
-      },
-      "block_order": [
-        "c0",
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "settings": {
-        "title": "Shop popular collections",
-        "heading_size": "h2",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "links"
+    "main"
   ]
 }

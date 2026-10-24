@@ -24,15 +24,6 @@
         "products_to_show": 12
       }
     },
-    "supplies": {
-      "type": "qo-product-carousel",
-      "settings": {
-        "collection": "heritage-harbor-boating-supplies",
-        "heading": "Boating Supplies",
-        "style": "navy",
-        "products_to_show": 12
-      }
-    },
     "panel": {
       "type": "qo-yellow-panel",
       "settings": {
@@ -106,7 +97,6 @@
   "order": [
     "hero",
     "trailers",
-    "supplies",
     "main",
     "panel",
     "cards",
