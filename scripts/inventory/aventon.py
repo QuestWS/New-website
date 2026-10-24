@@ -29,23 +29,17 @@ MAX_IMAGES = 15
 FAMILIES = [
     {"handle": "aventon-level-3", "title": "Aventon Level 3", "existing": "gid://shopify/Product/9179283456222",
      "sources": [("level-3-commuter-ebike", "Step Over"), ("level-3-step-through-commuter-ebike", "Step Thru")],
-     "options": ["Size", "Style", "Color"]},
+     "options": ["Size", "Style", "Color"], "discontinued": True},
     {"handle": "aventon-level-4", "title": "Aventon Level 4 REC", "existing": "gid://shopify/Product/9189850448094",
      "sources": [("level-4-rec-ebike", "Step Over"), ("level-4-rec-step-through-ebike", "Step-thru")],
      "options": ["Style", "Size", "Color"], "map": {"S/M": "Regular"}},
     {"handle": "aventon-aventure-3", "title": "Aventon Aventure 3", "existing": "gid://shopify/Product/9189855330526",
      "sources": [("aventure-3-ebike", "Step Over"), ("aventure-3-step-through-ebike", "Step-thru")],
      "options": ["Style", "Size", "Color"], "map": {"Cobalt Blue": "Cobalt"}},
-    {"handle": "aventon-pace-4", "title": "Aventon Pace 4 Step-Through", "existing": "gid://shopify/Product/9189848645854",
-     "sources": [("pace-4-step-through-ebike", None)], "options": ["Color", "Size"]},
     {"handle": "aventon-pace-5-rec", "title": "Aventon Pace 5 REC Step-Through", "sources": [("pace-5-rec-step-through-ebike", None)]},
     {"handle": "aventon-level-4-adv", "title": "Aventon Level 4 ADV",
      "sources": [("level-4-adv-ebike", "Step-Over"), ("level-4-adv-step-through-ebike", "Step-Through")],
      "options": ["Style", "Size", "Color"]},
-    {"handle": "aventon-level-2", "title": "Aventon Level.2",
-     "sources": [("aventon-level-commuter-ebike", "Step-Over"), ("aventon-level-step-through-commuter-ebike", "Step-Through")],
-     "options": ["Style", "Size", "Color"]},
-    {"handle": "aventon-current-ltd", "title": "Aventon Current LTD", "sources": [("current-ltd-ebike", None)]},
     {"handle": "aventon-current-exp", "title": "Aventon Current EXP", "sources": [("current-exp-ebike", None)]},
     {"handle": "aventon-current-adv", "title": "Aventon Current ADV", "sources": [("current-adv-ebike", None)]},
     {"handle": "aventon-ramblas-adv", "title": "Aventon Ramblas ADV", "sources": [("ramblas-adv-ebike", None)]},
@@ -53,12 +47,10 @@ FAMILIES = [
     {"handle": "aventon-aventure-m", "title": "Aventon Aventure M", "sources": [("aventure-m-ebike", None)]},
     {"handle": "aventon-abound-lr", "title": "Aventon Abound LR", "sources": [("abound-lr-ebike", None)]},
     {"handle": "aventon-abound-sr", "title": "Aventon Abound SR", "sources": [("abound-sr-ebike", None)]},
-    {"handle": "aventon-sinch-2-5", "title": "Aventon Sinch 2.5", "sources": [("sinch-2-5-ebike", None)]},
-    {"handle": "aventon-soltera-2-5", "title": "Aventon Soltera 2.5", "sources": [("soltera-2-5-ebike", None)]},
-    {"handle": "aventon-pace-500-3-step-through", "title": "Aventon Pace 500.3 Step-Through",
-     "sources": [("locally:Pace 500.3 Step-Through Ebike", None)]},
     {"handle": "aventon-ramblas", "title": "Aventon Ramblas", "sources": [("locally:Ramblas Ebike", None)]},
 ]
+# Owner, 2026-10-24: no longer available and none in stock -> archived, never rebuilt.
+REMOVED = ["Pace 4", "Level.2 / Level 2", "Current LTD", "Sinch 2.5", "Soltera 2.5", "Pace 500.3 Step-Through"]
 LOCALLY_SEASON = "Fall 26"
 LOCALLY_SIZES = {"R": "Regular", "L": "Large", "S": "Small", "M": "Medium", "XL": "Extra Large"}
 
@@ -111,11 +103,13 @@ def locally_source(name, rows):
     return {"body": body, "variants": variants, "images": images, "url": rs[0]["product_url"] if rs else ""}
 
 
-def quest_block(title):
+def quest_block(title, discontinued=False):
+    order = ("<li>Aventon has discontinued this model: only the bikes we have in stock are available, while they last.</li>"
+             if discontinued else
+             f"<li>Colors and sizes we don't have in stock can be special ordered. Call {PHONE} or request info below.</li>")
     return ("<h2>Buying your Aventon from Quest Watersports</h2><ul>"
             "<li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li>"
-            f"<li>Colors and sizes we don't have in stock can be special ordered. Call {PHONE} or request info below.</li>"
-            "<li>Financing is available through Synchrony, subject to credit approval.</li></ul>")
+            + order + "<li>Financing is available through Synchrony, subject to credit approval.</li></ul>")
 
 
 def build(fam, rows, stock):
@@ -157,9 +151,9 @@ def build(fam, rows, stock):
     stocked = [v["barcode"] for v in variants if v["barcode"] in stock]
     inp = {
         "title": fam["title"], "handle": fam["handle"], "vendor": "Aventon", "productType": "eBike",
-        "descriptionHtml": body + quest_block(fam["title"]),
+        "descriptionHtml": body + quest_block(fam["title"], fam.get("discontinued")),
         "tags": ["inventory", "inventory-ebikes", "inventory-new", "make:Aventon", "type:eBike", "aventon-catalog"]
-                + (["in-stock"] if stocked else ["special-order"]),
+                + (["in-stock"] if stocked else ["special-order"]) + (["discontinued"] if fam.get("discontinued") else []),
         "status": "ACTIVE", "templateSuffix": "inventory",
         "seo": {"title": f"{fam['title']} Electric Bike | Ottawa, IL Aventon Dealer"[:70],
                 "description": (f"{fam['title']} e-bike from ${low:,.0f} at Quest Watersports, your Aventon dealer in Ottawa, IL. "
@@ -172,7 +166,7 @@ def build(fam, rows, stock):
             {"namespace": "custom", "key": "condition", "type": "single_line_text_field", "value": "New"},
             {"namespace": "custom", "key": "msrp_label", "type": "single_line_text_field", "value": "MSRP"},
             {"namespace": "custom", "key": "assembly_fee", "type": "number_decimal", "value": "160.00"},
-            {"namespace": "custom", "key": "special_order", "type": "boolean", "value": "false" if stocked else "true"},
+            {"namespace": "custom", "key": "special_order", "type": "boolean", "value": "false" if stocked or fam.get("discontinued") else "true"},
             {"namespace": "custom", "key": "call_for_price", "type": "boolean", "value": "false"},
             {"namespace": "custom", "key": "sale_pending", "type": "boolean", "value": "false"},
             {"namespace": "custom", "key": "manufacturer_url", "type": "single_line_text_field", "value": parts[0][0]["url"]},

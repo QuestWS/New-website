@@ -7,7 +7,7 @@
   "handle": "aventon-level-3",
   "vendor": "Aventon",
   "productType": "eBike",
-  "descriptionHtml": "<div data-page-id=\"CXDvd2j9OolArDxFxyHcF0iDnBg\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-doxcnkbeRN3GAYqgUaIlpaS7brf\">Take your commutes to the next LEVEL. The all new Level 3 comes fully equipped with everything you need to trade your daily drives for daily rides. A rear rack and fenders ensures you can carry necessities while staying clean and dry during your rides. A front suspension fork and suspension seat post provide maximum comfort on rougher terrain. Our ACU technology provides peace of mind with GPS<span><sup>†</sup></span> tracking, auto-lock, unusual movement detection, alarm system, and much more to keep your bike safe and secure. Comfortable geometry paired with an adjustable stem ensure the perfect fit, while the implementation of Ride Tune capabilities along with adjustments to Level 3's motor power curves provide up to an additional 10 miles of range compared to its predecessor. Ditch the traffic, and elevate your daily commutes with the Level 3</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "descriptionHtml": "<div data-page-id=\"CXDvd2j9OolArDxFxyHcF0iDnBg\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-doxcnkbeRN3GAYqgUaIlpaS7brf\">Take your commutes to the next LEVEL. The all new Level 3 comes fully equipped with everything you need to trade your daily drives for daily rides. A rear rack and fenders ensures you can carry necessities while staying clean and dry during your rides. A front suspension fork and suspension seat post provide maximum comfort on rougher terrain. Our ACU technology provides peace of mind with GPS<span><sup>†</sup></span> tracking, auto-lock, unusual movement detection, alarm system, and much more to keep your bike safe and secure. Comfortable geometry paired with an adjustable stem ensure the perfect fit, while the implementation of Ride Tune capabilities along with adjustments to Level 3's motor power curves provide up to an additional 10 miles of range compared to its predecessor. Ditch the traffic, and elevate your daily commutes with the Level 3</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Aventon has discontinued this model: only the bikes we have in stock are available, while they last.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
   "tags": [
    "inventory",
    "inventory-ebikes",
@@ -15,7 +15,8 @@
    "make:Aventon",
    "type:eBike",
    "aventon-catalog",
-   "in-stock"
+   "in-stock",
+   "discontinued"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
