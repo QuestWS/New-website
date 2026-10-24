@@ -153,6 +153,11 @@ variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","
   `migration/inventory/locally-*.csv`). Those `final/` records carry `locally_stock` → set each UPC's inventory to 1 and
   keep the product published to the Locally Sales Channel. When a unit sells, remove its colour from `locally`.
 
+- **Pickup only:** every e-bike and kayak variant must be in the shipping profile "In-store pickup only (eBikes & kayaks)"
+  (`gid://shopify/DeliveryProfile/111198929118`, no shipping zones, location Quest Watersports), so a direct cart link can only
+  be checked out for in-store pickup. After creating a new e-bike/kayak product, add its variants with
+  `deliveryProfileUpdate(id, profile: {variantsToAssociate: [...]})`. Boats/sailboats stay at 0 stock + DENY (never sellable).
+
 ### c2) Social media → blog (Facebook / Instagram)
 Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with
 `pages_read_engagement`, `pages_read_user_content`, `instagram_basic`). Optional `META_PAGE_ID`
