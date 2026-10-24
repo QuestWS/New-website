@@ -1,0 +1,19 @@
+date,page,site,url,performance,seo,accessibility,best_practices,lcp_s,cls,tbt_ms,page_kb,title_len,meta_desc_len,h1_count,canonical,schema_types,word_count,img_total,img_missing_alt,status
+2026-10-24,Home,legacy,https://www.questwatersports.com/,26,77,91,57,10.58,0.2,1358,5537,17,17,1,yes,BreadcrumbList|EntryPoint|ImageObject|ListItem|ReadAction|SearchAction|WebPage|WebSite,719,36,32,200
+2026-10-24,Home,new,https://questws.myshopify.com/,59,92,93,75,3.39,0.002,1684,2878,109,84,1,yes,Organization|SearchAction|WebSite,550,20,7,200
+2026-10-24,Kayak & board rentals,legacy,https://www.questwatersports.com/sup-kayak-rentals/,25,85,88,61,24.6,0.319,790,6491,50,108,1,yes,BreadcrumbList|EntryPoint|ImageObject|ListItem|ReadAction|SearchAction|WebPage|WebSite,953,19,15,200
+2026-10-24,Kayak & board rentals,new,https://questws.myshopify.com/pages/rentals,45,100,94,75,3.39,0.263,2417,2818,153,152,1,yes,Organization,661,4,0,200
+2026-10-24,Boat club,legacy,https://www.questwatersports.com/boatclub/,65,75,95,79,14.38,0,288,73588,0,0,1,no,,748,8,0,200
+2026-10-24,Boat club,new,https://questws.myshopify.com/pages/boat-club,36,100,94,75,16.52,0.127,1508,4639,133,157,1,yes,Organization,758,8,0,200
+2026-10-24,Find a kayak,legacy,https://www.questwatersports.com/find-a-kayak/,33,69,69,61,19.31,0.135,868,5335,32,0,0,yes,BreadcrumbList|EntryPoint|ListItem|ReadAction|SearchAction|WebPage|WebSite,884,28,24,200
+2026-10-24,Find a kayak,new,https://questws.myshopify.com/pages/paddlesports,60,100,94,75,3.92,0.0,916,3071,129,159,1,yes,Organization,291,3,0,200
+2026-10-24,Electric bikes,legacy,https://www.questwatersports.com/find-a-ebike/,38,77,69,61,10.42,0.112,804,3795,58,152,0,yes,BreadcrumbList|EntryPoint|ListItem|ReadAction|SearchAction|WebPage|WebSite,1106,26,22,200
+2026-10-24,Electric bikes,new,https://questws.myshopify.com/pages/ebikes,65,100,94,75,3.21,0.003,962,3189,142,150,1,yes,Organization,639,2,0,200
+2026-10-24,Boat storage,legacy,https://www.questwatersports.com/boat-storage/,51,85,85,61,4.85,0.066,780,2301,42,134,1,yes,BreadcrumbList|EntryPoint|ImageObject|ListItem|ReadAction|SearchAction|WebPage|WebSite,1713,15,10,200
+2026-10-24,Boat storage,new,https://questws.myshopify.com/pages/boat-storage,52,100,94,75,4.07,0.128,2089,2890,138,153,1,yes,Organization,1413,2,0,200
+2026-10-24,Kayak inventory,legacy,https://www.questwatersports.com/kayak-inventory/,35,77,84,61,23.6,0.0,1206,4910,35,0,0,yes,BreadcrumbList|EntryPoint|ListItem|ReadAction|SearchAction|WebPage|WebSite,431,15,11,200
+2026-10-24,Kayak inventory,new,https://questws.myshopify.com/collections/inventory-paddlesports,47,100,94,75,5.77,0.006,1885,2944,126,144,1,yes,Organization,870,16,0,200
+2026-10-24,Inventory detail,legacy,https://www.questwatersports.com/2006-bayliner-185-br-c-1367/,33,85,66,57,43.54,0.007,1285,10635,81,161,0,yes,,420,18,14,200
+2026-10-24,Inventory detail,new,https://questws.myshopify.com/products/2006-bayliner-185-br-1367,57,100,94,75,3.65,0.0,2378,3032,144,144,1,yes,Brand|Offer|Organization|Product,350,43,0,200
+2026-10-24,Contact,legacy,https://www.questwatersports.com/contacts/,37,85,88,61,3.99,0.274,1078,2361,30,144,1,yes,BreadcrumbList|EntryPoint|ListItem|ReadAction|SearchAction|WebPage|WebSite,393,14,10,200
+2026-10-24,Contact,new,https://questws.myshopify.com/pages/contact,68,100,94,75,2.37,0.006,1657,3336,124,144,1,yes,Organization,314,2,0,200

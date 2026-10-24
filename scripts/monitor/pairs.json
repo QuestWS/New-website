@@ -1,0 +1,17 @@
+{
+  "legacy_base": "https://www.questwatersports.com",
+  "new_base": "https://questws.myshopify.com",
+  "new_query": "_ab=0&_fd=0&_sc=1&preview_theme_id=159661129950",
+  "_note": "When the new theme is published on its own domain, set new_base to that domain and new_query to an empty string.",
+  "pairs": [
+    {"page": "Home", "legacy": "/", "new": "/"},
+    {"page": "Kayak & board rentals", "legacy": "/sup-kayak-rentals/", "new": "/pages/rentals"},
+    {"page": "Boat club", "legacy": "/boatclub/", "new": "/pages/boat-club"},
+    {"page": "Find a kayak", "legacy": "/find-a-kayak/", "new": "/pages/paddlesports"},
+    {"page": "Electric bikes", "legacy": "/find-a-ebike/", "new": "/pages/ebikes"},
+    {"page": "Boat storage", "legacy": "/boat-storage/", "new": "/pages/boat-storage"},
+    {"page": "Kayak inventory", "legacy": "/kayak-inventory/", "new": "/collections/inventory-paddlesports"},
+    {"page": "Inventory detail", "legacy": "/2006-bayliner-185-br-c-1367/", "new": "/products/2006-bayliner-185-br-1367"},
+    {"page": "Contact", "legacy": "/contacts/", "new": "/pages/contact"}
+  ]
+}

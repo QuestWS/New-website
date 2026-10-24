@@ -157,10 +157,22 @@ what the store sells (search products read-only first). Never invent prices, law
 verify outside facts with WebSearch and hedge when unverifiable. Save it to
 `migration/articles/<handle>.json` and create it with `articleCreate` (published).
 
+### c4) Head-to-head monitor (legacy site vs new site)
+Every day, after the steps above:
+```
+python3 -I scripts/monitor/run.py        # ~12 min; appends 18 rows (9 page pairs x 2 sites) to monitoring/scores.csv
+```
+Page pairs live in `scripts/monitor/pairs.json` (when the new theme goes live on its own domain, set `new_base`
+to it and `new_query` to ""). Then refresh the "Quest site head-to-head" dashboard
+(https://claude.ai/artifact/RLhyxpR7SU1yTj4r7VfffF): upload `monitoring/scores.csv` as an asset of that
+artifact, then `ArtifactData` `update` of `datasets/scores` with the new `url`, `name` and
+`updated: {at, by: "Daily sync"}` (read the doc first and pin `if_version`). Its traffic charts are live Shopify
+queries and need nothing. If a Lighthouse run fails, its row has blank scores; mention it in the final message.
+
 ### d) Snapshot, commit, push
 ```
 scripts/sync/run.sh --apply-snapshots    # refreshes migration/source/*.md and migration/source-urls.txt
-git add -A migration docs templates scripts/sync/last-report.json
+git add -A migration docs templates scripts/sync/last-report.json scripts/monitor monitoring
 git commit -m "Daily sync: $(date +%F) — N changes"      # N from "CHANGES: N"
 git push -u origin <current branch>
 ```
