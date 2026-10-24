@@ -1,0 +1,108 @@
+{
+ "identifier": {
+  "handle": "2022-native-watercraft-slayer-propel-10"
+ },
+ "input": {
+  "title": "2022 Native Watercraft Slayer Propel 10",
+  "handle": "2022-native-watercraft-slayer-propel-10",
+  "vendor": "Native Watercraft",
+  "productType": "Kayak",
+  "descriptionHtml": "<p>Used 2022 Native Watercraft Slayer Propel 10. Call 815.433.2200 for details.</p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Native Watercraft",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "DRAFT",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "QW-2022-slayer-propel-10",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Native Watercraft"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Slayer Propel 10"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Hidden Oak"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2022-slayer-propel-10"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "seo": {
+   "title": "Used 2022 Native Watercraft Slayer Propel 10 for Sale | Ottawa, IL",
+   "description": "Used 2022 Native Watercraft Slayer Propel 10 for sale at Quest Watersports in Ottawa, IL — call for price. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2022-slayer-propel-10",
+  "decision": "manual",
+  "note": "C12 needs photos"
+ }
+}

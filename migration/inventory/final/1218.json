@@ -1,0 +1,161 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-salty-pdl-120-1218"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman Salty PDL 120",
+  "handle": "2023-old-town-sportsman-salty-pdl-120-1218",
+  "descriptionHtml": "<p>Financing Available - Starting at $119.70 / Month, $0 Down, and all taxes and fees included!*</p><div><strong><span><span>Financing Available - Starting at $119.70 / Month, $0 Down, and all taxes and fees included!*</span></span></strong></div><div><br />If you fish and play in Big Water or Coastal areas, the Old Town Sportsman Salty PDL 120 pedal kayak is the craft for you. Outfitted for fishing; at home in the waves having fun! With instant forward and reverse, the award-winning PDL Drive is the most reliable and easy-to-use pedal drive on the market.<br />&nbsp;<div><strong>Number of Paddlers:</strong><span> </span>1</div><div><strong>Propulsion:</strong><span> </span>Pedal</div><div><strong>Total Weight Capacity:</strong>&nbsp;<span> </span>450 lb | 204.12 kg</div><div><strong>Usable Weight Capacity:</strong>&nbsp;<span> </span>346 lb | 156.95 kg</div><div><strong>Assembled Boat Weight:</strong>&nbsp;<span> </span>104 lb | 47.1744 kg</div><div><strong>Pedal Console Weight:</strong><span> </span>19 lb | 8.62 kg</div><div><strong>Removable Seat Weight:</strong><span> </span>6 lb | 2.72 kg</div><div><strong>Length:</strong><span> </span>12 ft | 3.7 m</div><div><strong>Width:</strong><span> </span>34.5 in | 87.6 cm</div><div><strong>Material:</strong><span> </span>Single Layer Polyethylene</p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info</div></div><p>Fun, zippy and stable - this is a great grab-n-go pedal kayak. Tides and currents, waves and surf - this should be your choice for moving water\nLow maintenance PDL Drive with patented easy-docking system for pain-free launch and landing. Covered by industry's first-in-class 5 year warranty.\nSuperior seat design has great lumbar support and is adjusted to accommodate leg length on a shuttle track. The mesh cover provides ventilation and drainage to keep you dry.\nTwo 18\" tracks on the forward hull provide easy on/off accessory mounting\nOne forward-facing and two rear-facing flush mounted rod holders are there when you want them, and out-of-the-way when you don't\nNon-slip EVA foam deck pads provide traction and stand-up comfort\nTank wells in the bow and stern with removable bungees provide big open areas for cooler, tackle crate, dry bags or a dog.\nA clip on the side of the hull secures your backup paddle, out of the way unless you need it\nCup holder for your favorite beverage\nUniversal transducer mounting system allows for quicker installation of your fish finder\nCustom tackle box included\nPDL Drive and Seat are removable for easy transport and storage</p>",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2023 Old Town Sportsman Salty PDL 120 for Sale | Ottawa, IL",
+   "description": "New 2023 Old Town Sportsman Salty PDL 120 for sale at Quest Watersports in Ottawa, IL — $2,199. Stock #OTSMSLTY. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2199.00",
+    "sku": "OTSMSLTY",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2599.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Old Town"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Sportsman Salty PDL 120"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "OTSMSLTY"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Ember Camo, Photic Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1218"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/main/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947853.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/2/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947853.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/3/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947854.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/4/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947854.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/5/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947854.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120 photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1218",
+  "url": "https://www.questwatersports.com/2023-old-town-sportsman-salty-pdl-120-c-1218/",
+  "when_modified": "2026-05-13 13:17:49",
+  "sold": "Available"
+ }
+}

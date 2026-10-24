@@ -1,0 +1,142 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-compass-1197"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Compass (Demo)",
+  "handle": "2022-hobie-mirage-compass-1197",
+  "descriptionHtml": "<p><strong>Demo boat.</strong> This kayak was used for on-the-water demos and is sold as used.</p><p>Financing Available - Starting at $112.57 / Month, $0 Down and all taxes and fees included!*</p><div><strong><span>Financing Available - Starting at $112.57 / Month, $0 Down and all taxes and fees included!*</span>&nbsp;</strong></div><br /><span>Simplicity defined, the Mirage Compass is now upgraded to both forward and reverse with the power of the MirageDrive 180 pedal system and Kick-Up Fins. Patented Kick-Up Fin Technology takes the worry out of kayaking in shallow, structure-filled waters by automatically retracting upon impact. Outfitted with a breathable mesh seat, the Compass offers maximum stability and an oversized cockpit and flat deck for standing. A sharp turning radius makes this fishing kayak nimble in tight quarters, yet able to speed over open water in stealthy fashion. Kayak fishing features include molded-in rod holders, H-Track accessory mounts and a transducer cavity ready for you to install a Lowrance fishfinder.</p><p>Length: 12' / 3.66 m<br />Beam: 34\" / 0.86 m<br />Hull Weight: 68 lbs / 31 kg<br />Fully Rigged Weight: 87 lbs / 39 kg<br />Capacity: 400 lbs / 181 kg<br />Crew: 1</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info<p>Mesh Gear Keeper in Bow\nTwo-Piece Paddle with On-Hull Storage\nMirageDrive 180 with Kick-up Fins\nRetractable, Heavy-Duty Rudder\nTwo H-Track Accessory Mounts\nTwo Molded-In Rod Holders\nRear Cargo Area with Bungee Tie Downs\nElevated Mesh Seating\nOne 8\" Twist and Seal Hatch\nAccessory mount for optional sail or canopy\nTransducer Cavity and Installable Thru-Hull Fittings</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022",
+   "demo"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Demo 2022 Hobie Mirage Compass (Demo) for Sale | Ottawa, IL",
+   "description": "Demo 2022 Hobie Mirage Compass (Demo) for sale at Quest Watersports in Ottawa, IL — $2,339. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2339.00",
+    "sku": "22CMPSPAP",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2599.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22CMPSPAP"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Papaya Orange"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1197"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "Original MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1197/main/l/Used-2022-Hobie-Used-Mirage-Compass-1669151929.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage Compass"
+   }
+  ]
+ },
+ "source": {
+  "id": "1197",
+  "url": "https://www.questwatersports.com/2022-hobie-used-mirage-compass-c-1197/",
+  "when_modified": "2023-10-03 16:31:58",
+  "sold": "Available"
+ }
+}

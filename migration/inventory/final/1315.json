@@ -1,0 +1,201 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-lynx-1315"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Lynx (Demo)",
+  "handle": "2023-hobie-mirage-lynx-1315",
+  "descriptionHtml": "<p><strong>Demo boat.</strong> This kayak was used for on-the-water demos and is sold as used.</p><p><span><span><span><span>Financing Available!*</span></span></span></span></p><p><u><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><span><span>Book a FREE On-Water Demo!</span></span></span></a></u></p><p><br />Experience the perfect blend of performance and portability with the 2023 Hobie Mirage Lynx. Designed for adventurers seeking a lightweight yet robust kayak, the Mirage Lynx offers unparalleled maneuverability and speed. With its streamlined hull and the efficient MirageDrive 180 with Kick-Up Fins, you'll glide effortlessly across the water, whether you're exploring serene lakes or navigating coastal waters.</p><p><strong><u>Key Features</u>:</strong></p><ul>\t<li>\t<p><strong>Lightweight Design:</strong> Weighing just 47 lbs, the Mirage Lynx is easy to transport and launch, making it ideal for spontaneous adventures.</p>\t</li>\t<li>\t<p><strong>MirageDrive 180 with Kick-Up Fins:</strong> Enjoy hands-free propulsion in both forward and reverse, allowing for precise control and the ability to navigate shallow waters without worry.</p>\t</li>\t<li>\t<p><strong>Stable and Sleek Hull:</strong> The flat-bottom design ensures stability without compromising speed, providing a smooth and confident ride.</p>\t</li>\t<li>\t<p><strong>Elevated Seating:</strong> Stay dry and comfortable with the breathable, mono-mesh seat, designed for all-day excursions.</p>\t</li>\t<li>\t<p><strong>Accessory-Ready:</strong> Customize your kayak with molded-in tracks and an accessory mount, compatible with Hobie's Sail Kit, Bimini Sunshade, and other upgrades.</p>\t</li></ul><p><br /><strong><u>Specifications</u>:</strong></p><ul>\t<li><strong>Length:</strong> 11' / 3.35 m</li>\t<li><strong>Width:</strong> 36\" / 91.44 cm</li>\t<li><strong>Capacity:</strong> 350 lbs / 158.76 kg</li>\t<li><strong>Fitted Hull Weight:</strong> 47 lbs / 21.32 kg</li>\t<li><strong>Fully Rigged Weight:</strong> 63 lbs / 28.58 kg</li></ul><p><br /><strong><u>Exceptional Value:</u></strong></p><p>Take advantage of our special pricing on the 2023 Hobie Mirage Lynx. Priced at $2,899, you save $100 off the 2025 MSRP of $2,999. Plus, your purchase includes a full 3-year warranty starting from the date of purchase, ensuring peace of mind as you embark on your kayaking adventures.</p><p><span>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</span></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023",
+   "inventory-pre-owned",
+   "demo"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Demo 2023 Hobie Mirage Lynx (Demo) for Sale | Ottawa, IL",
+   "description": "Demo 2023 Hobie Mirage Lynx (Demo) for sale at Quest Watersports in Ottawa, IL — $2,999. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2999.00",
+    "sku": "23MYLYNX",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Lynx"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "23MYLYNX"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "11'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "ACE-TEC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Ivory Dune"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1315"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/3qjSMm5Pe9I?feature=player_detailpage"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/main/l/New-2023-Hobie-Mirage-Lynx-1732043482.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/2/l/New-2023-Hobie-Mirage-Lynx-1732043484.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/3/l/New-2023-Hobie-Mirage-Lynx-1732043486.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/4/l/New-2023-Hobie-Mirage-Lynx-1732043489.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/5/l/New-2023-Hobie-Mirage-Lynx-1732043490.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/6/l/New-2023-Hobie-Mirage-Lynx-1732043491.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/7/l/New-2023-Hobie-Mirage-Lynx-1732043494.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/8/l/New-2023-Hobie-Mirage-Lynx-1732043496.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/9/l/New-2023-Hobie-Mirage-Lynx-1732043498.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/10/l/New-2023-Hobie-Mirage-Lynx-1732043500.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/11/l/New-2023-Hobie-Mirage-Lynx-1732043501.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/12/l/New-2023-Hobie-Mirage-Lynx-1732043503.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1315/13/l/New-2023-Hobie-Mirage-Lynx-1732043505.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Lynx photo 13"
+   }
+  ]
+ },
+ "source": {
+  "id": "1315",
+  "url": "https://www.questwatersports.com/2023-hobie-mirage-lynx-c-1315/",
+  "when_modified": "2026-04-02 08:46:40",
+  "sold": "Available"
+ }
+}

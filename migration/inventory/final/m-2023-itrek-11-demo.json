@@ -1,0 +1,128 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-itrek-11-demo"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage iTrek 11 (Demo)",
+  "handle": "2023-hobie-mirage-itrek-11-demo",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "descriptionHtml": "<p><strong>Demo boat.</strong> This kayak was used for on-the-water demos and is sold as used.</p><div><span><strong>Financing Available!</strong></span></div>&nbsp;<p><span>Compact and versatile, the 2023 Hobie Mirage iTrek 11 combines portability with top-notch performance. Built with Hobie's MirageDrive GT with Kick-Up Fins, this lightweight inflatable kayak is ideal for travelers, paddlers, and adventurers alike. It packs easily into a roller duffle bag, ready for on-the-go exploration. Enjoy a full 2-year warranty, starting from the purchase date, and a great value at $200 under the 2025 MSRP ($2799).</span></p><h3><span><strong>Specs at a Glance:</strong></span></h3><ul>\t<li><span><strong>Length</strong>: 10'8\" (3.25 m)</span></li>\t<li><span><strong>Width</strong>: 40\" (1.02 m)</span></li>\t<li><span><strong>Fitted Weight</strong>: 28 lbs (12.7 kg)</span></li>\t<li><span><strong>Fully Rigged Weight</strong>: 44 lbs (19.96 kg)</span></li>\t<li><span><strong>Capacity</strong>: 400 lbs (181.4 kg)</span></li></ul><h3><span><strong>Compact and Adventure-Ready</strong></span></h3><p><span>Whether you?re paddling solo on open water or exploring tight spaces, the iTrek 11?s durable, triple-chamber construction offers a stable ride with excellent tracking and speed. Elevated seating with breathable fabric adds comfort, while integrated steering and EVA deck pads enhance control and grip. Perfect for RV and airline travel, this kayak is your ideal adventure companion.</span></p><p><span>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</span></p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023",
+   "demo"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "QW-2023-itrek-11-demo",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek 11"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2023-itrek-11-demo"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "550 Denier PVC"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1312/main/l/New-2023-Hobie-Mirage-iTrek-11-1729977494.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage iTrek 11 (Demo) (same model)"
+   }
+  ],
+  "seo": {
+   "title": "Demo 2023 Hobie Mirage iTrek 11 (Demo) for Sale | Ottawa, IL",
+   "description": "Demo 2023 Hobie Mirage iTrek 11 (Demo) for sale at Quest Watersports in Ottawa, IL — call for price. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2023-itrek-11-demo",
+  "decision": "manual",
+  "note": "C1"
+ }
+}

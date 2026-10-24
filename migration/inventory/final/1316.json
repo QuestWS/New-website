@@ -1,0 +1,141 @@
+{
+ "identifier": {
+  "handle": "2024-hobie-mirage-pro-angler-12-180-1316"
+ },
+ "input": {
+  "title": "2024 Hobie Mirage Pro Angler 12 (180)",
+  "handle": "2024-hobie-mirage-pro-angler-12-180-1316",
+  "descriptionHtml": "<p><span><span><span><span>Financing Available!*</span></span></span></span></p><p><u><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><span><span>Book a FREE On-Water Demo!</span></span></span></a></u></p><p><br />Elevate your fishing experience with the 2024 Hobie Mirage Pro Angler 12 180a kayak that combines stability, comfort, and performance to meet the demands of serious anglers. Designed for both freshwater and saltwater adventures, this kayak offers a range of features to enhance your time on the water.</p><p><br /><strong><u>Key Features:</u></strong></p><ul>\t<li>\t<p><strong>MirageDrive 180 with Kick-Up Turbo Fins:</strong> Experience full-power reverse and navigate through obstacles effortlessly with Hobie's patented Kick-Up Fins, which retract upon impact.</p>\t</li>\t<li>\t<p><strong>Vantage ST Seating:</strong> Enjoy unparalleled comfort with the elevated and breathable Vantage ST seat, featuring back, bottom, and BOA? lumbar support for all-day fishing sessions.</p>\t</li>\t<li>\t<p><strong>Guardian Transducer Shield:</strong> Protect your transducer with the retractable shield that offers side-scanning capabilities and retracts for transport.</p>\t</li>\t<li>\t<p><strong>Ample Rod Storage:</strong> Keep up to six rods rigged and ready with four horizontal and two vertical rod holders, ensuring you're prepared for any fishing scenario.</p>\t</li>\t<li>\t<p><strong>H-Rail System:</strong> Customize your setup with the innovative 12-sided Hobie H-Rail, providing superior flexibility in accessory rigging.</p>\t</li></ul><p><br /><strong><u>Specifications:</u></strong></p><ul>\t<li><strong>Length:</strong> 12' / 3.66 m</li>\t<li><strong>Width:</strong> 36\" / 0.91 m</li>\t<li><strong>Capacity:</strong> 500 lbs / 227 kg</li>\t<li><strong>Fitted Hull Weight:</strong> 105 lbs / 48 kg</li>\t<li><strong>Fully Rigged Weight:</strong> 128.5 lbs / 58.29 kg</li>\t<li><strong>Hull Construction:</strong> Rotomolded Polyethylene</li></ul><p><br /><strong><u>Exceptional Value:</u></strong></p><p>Take advantage of significant savings with our 2024 model, priced at $3,899 - $700 less than the 2025 MSRP. While the 2025 version includes enhancements for easier installation of trolling motors and shallow water anchors, the 2024 model maintains the same hull design, layout, and core features that have made the Pro Angler series a favorite among anglers.</p><p><br /><strong><u>Warranty Information:</u></strong></p><p>Purchase with confidence knowing that your 2024 Hobie Mirage Pro Angler 12 180 comes with a full 3-year warranty starting from the date of purchase, ensuring peace of mind as you embark on your fishing adventures.</p><p><span>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</span></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2024"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2024 Hobie Mirage Pro Angler 12 (180) for Sale | Ottawa, IL",
+   "description": "New 2024 Hobie Mirage Pro Angler 12 (180) for sale at Quest Watersports in Ottawa, IL — $3,899. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3899.00",
+    "sku": "24MYPA12",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4799.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2024"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 12 (180)"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "24MYPA12"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1316"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/KOoOb98WT6A?feature=player_detailpage"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Battleship Gray, Dune Camo, or Sunrise Camo (Papaya Camo)"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "2027 MSRP"
+   }
+  ],
+  "files": []
+ },
+ "source": {
+  "id": "1316",
+  "url": "https://www.questwatersports.com/2024-hobie-mirage-pro-angler-12-180-c-1316/",
+  "when_modified": "2024-11-19 13:35:18",
+  "sold": "Available"
+ }
+}

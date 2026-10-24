@@ -1,0 +1,146 @@
+{
+ "identifier": {
+  "handle": "2022-sea-doo-1-rxt-x-and-1-gtx-300-1366"
+ },
+ "input": {
+  "title": "2022 Sea-Doo (1) RXT-X and (1) GTX 300",
+  "handle": "2022-sea-doo-1-rxt-x-and-1-gtx-300-1366",
+  "descriptionHtml": "<p>Check out this <strong>like-new</strong>&nbsp;<strong><u>pair</u></strong> of <strong>2022 Sea-Doos - one RXT-X</strong>&nbsp;<strong>and one GTX 300</strong>, both featuring <strong>300HP supercharged powerplants - the most powerful in the Sea-Doo lineup</strong>.&nbsp; &nbsp;</p><p><span>Both are in excellent condition, with only 80 hours on the RXT-X and 64 hours on the GTX 300.&nbsp;&nbsp;Complete with covers and a Triton aluminum trailer, they are available to see in Quest's Ottawa, IL showroom...&nbsp;</span></p>",
+  "vendor": "Sea-Doo",
+  "productType": "Personal Watercraft",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Sea-Doo",
+   "type:Personal Watercraft",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2022 Sea-Doo (1) RXT-X and (1) GTX 300 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2022 Sea-Doo (1) RXT-X and (1) GTX 300 for sale at Quest Watersports in Ottawa, IL — $30,000. Stock #22SDRXTX. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "30000.00",
+    "sku": "22SDRXTX",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Sea-Doo"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "(1) RXT-X and (1) GTX 300"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22SDRXTX"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "11' 4\""
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "Rotax 1630 supercharged 300HP"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "300"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Fiberglass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Gunmetal"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1366"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": []
+ },
+ "source": {
+  "id": "1366",
+  "url": "https://www.questwatersports.com/2022-sea-doo-1-rxt-x-and-1-gtx-300-c-1366/",
+  "when_modified": "2026-06-30 19:06:58",
+  "sold": "Available"
+ }
+}

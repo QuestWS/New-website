@@ -1,0 +1,536 @@
+{
+ "written": [
+  {
+   "key": "1039",
+   "handle": "2027-hobie-mirage-compass-1039",
+   "title": "2027 Hobie Mirage Compass",
+   "type": "Kayak"
+  },
+  {
+   "key": "1053",
+   "handle": "2027-hobie-mirage-compass-duo-1053",
+   "title": "2027 Hobie Mirage Compass Duo",
+   "type": "Kayak"
+  },
+  {
+   "key": "1069",
+   "handle": "2027-hobie-mirage-passport-10-5r-1069",
+   "title": "2027 Hobie Mirage Passport 10.5R",
+   "type": "Kayak"
+  },
+  {
+   "key": "1083",
+   "handle": "2022-hobie-mirage-pro-angler-12-360-1083",
+   "title": "2022 Hobie Mirage Pro Angler 12 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "1084",
+   "handle": "2023-hobie-mirage-pro-angler-14-360-1084",
+   "title": "2023 Hobie Mirage Pro Angler 14 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "1097",
+   "handle": "2027-hobie-mirage-passport-12-0r-1097",
+   "title": "2027 Hobie Mirage Passport 12.0R",
+   "type": "Kayak"
+  },
+  {
+   "key": "1124",
+   "handle": "2027-hobie-mirage-itrek-9-ultralight-1124",
+   "title": "2027 Hobie Mirage iTrek 9 Ultralight",
+   "type": "Kayak"
+  },
+  {
+   "key": "1125",
+   "handle": "2027-hobie-mirage-itrek-11-1125",
+   "title": "2027 Hobie Mirage iTrek 11",
+   "type": "Kayak"
+  },
+  {
+   "key": "1130",
+   "handle": "2022-advanced-elements-advancedframe-sport-1130",
+   "title": "2022 Advanced Elements AdvancedFrame Sport",
+   "type": "Kayak"
+  },
+  {
+   "key": "1138",
+   "handle": "2022-advanced-elements-straitedge-angler-pro-1138",
+   "title": "2022 Advanced Elements StraitEdge Angler Pro",
+   "type": "Kayak"
+  },
+  {
+   "key": "1143",
+   "handle": "2022-advanced-elements-airvolution-1143",
+   "title": "2022 Advanced Elements AirVolution",
+   "type": "Kayak"
+  },
+  {
+   "key": "1144",
+   "handle": "2022-advanced-elements-airvolution2-1144",
+   "title": "2022 Advanced Elements AirVolution2",
+   "type": "Kayak"
+  },
+  {
+   "key": "1145",
+   "handle": "2027-hobie-cat-wave-sailboat-1145",
+   "title": "2027 Hobie Cat Wave Sailboat",
+   "type": "Sailboat"
+  },
+  {
+   "key": "1146",
+   "handle": "2027-hobie-cat-getaway-sailboat-with-wings-1146",
+   "title": "2027 Hobie Cat Getaway Sailboat With Wings",
+   "type": "Sailboat"
+  },
+  {
+   "key": "1147",
+   "handle": "2027-hobie-cat-hobie-16-1147",
+   "title": "2027 Hobie Cat Hobie 16",
+   "type": "Sailboat"
+  },
+  {
+   "key": "1197",
+   "handle": "2022-hobie-mirage-compass-1197",
+   "title": "2022 Hobie Mirage Compass (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "1199",
+   "handle": "2022-hobie-mirage-fiesta-1199",
+   "title": "2022 Hobie Mirage Fiesta (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "1201",
+   "handle": "2021-hobie-mirage-compass-duo-1201",
+   "title": "2021 Hobie Mirage Compass Duo (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "1213",
+   "handle": "2023-old-town-sportsman-autopilot-136-1213",
+   "title": "2023 Old Town Sportsman Autopilot 136",
+   "type": "Kayak"
+  },
+  {
+   "key": "1214",
+   "handle": "2025-old-town-sportsman-autopilot-120-1214",
+   "title": "2025 Old Town Sportsman Autopilot 120",
+   "type": "Kayak"
+  },
+  {
+   "key": "1215",
+   "handle": "2023-old-town-sportsman-106-powered-by-minn-kota-1215",
+   "title": "2023 Old Town Sportsman 106 Powered By Minn Kota",
+   "type": "Kayak"
+  },
+  {
+   "key": "1218",
+   "handle": "2023-old-town-sportsman-salty-pdl-120-1218",
+   "title": "2023 Old Town Sportsman Salty PDL 120",
+   "type": "Kayak"
+  },
+  {
+   "key": "1219",
+   "handle": "2023-old-town-sportsman-bigwater-pdl-132-1219",
+   "title": "2023 Old Town Sportsman Bigwater PDL 132",
+   "type": "Kayak"
+  },
+  {
+   "key": "1229",
+   "handle": "2023-hobie-mirage-pro-angler-14-360-1229",
+   "title": "2023 Hobie Mirage Pro Angler 14 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "1239",
+   "handle": "2022-hobie-mirage-ieclipse-1239",
+   "title": "2022 Hobie Mirage iEclipse",
+   "type": "Paddleboard"
+  },
+  {
+   "key": "1240",
+   "handle": "2022-hobie-mirage-ieclipse-1240",
+   "title": "2022 Hobie Mirage iEclipse",
+   "type": "Paddleboard"
+  },
+  {
+   "key": "1251",
+   "handle": "aventon-pace-500-3-1251",
+   "title": "Aventon Pace 500.3",
+   "type": "eBike"
+  },
+  {
+   "key": "1260",
+   "handle": "2014-ocean-kayak-tetra-angler-10-1260",
+   "title": "2014 Ocean Kayak Tetra Angler 10",
+   "type": "Kayak"
+  },
+  {
+   "key": "1284",
+   "handle": "2022-hobie-mirage-pro-angler-14-180-1284",
+   "title": "2022 Hobie Mirage Pro Angler 14 180",
+   "type": "Kayak"
+  },
+  {
+   "key": "1285",
+   "handle": "2022-hobie-mirage-ieclipse-1285",
+   "title": "2022 Hobie Mirage iEclipse",
+   "type": "Kayak"
+  },
+  {
+   "key": "1287",
+   "handle": "2024-old-town-sportsman-bigwater-epdl-132-1287",
+   "title": "2024 Old Town Sportsman BigWater ePDL+ 132",
+   "type": "Kayak"
+  },
+  {
+   "key": "1304",
+   "handle": "2023-hobie-mirage-pro-angler-14-180-1304",
+   "title": "2023 Hobie Mirage Pro Angler 14 180",
+   "type": "Kayak"
+  },
+  {
+   "key": "1311",
+   "handle": "2022-hobie-mirage-itrek-fiesta-1311",
+   "title": "2022 Hobie Mirage iTrek Fiesta",
+   "type": "Kayak"
+  },
+  {
+   "key": "1312",
+   "handle": "2023-hobie-mirage-itrek-11-1312",
+   "title": "2023 Hobie Mirage iTrek 11",
+   "type": "Kayak"
+  },
+  {
+   "key": "1314",
+   "handle": "aventon-abound-sr-1314",
+   "title": "Aventon Abound SR",
+   "type": "eBike"
+  },
+  {
+   "key": "1315",
+   "handle": "2023-hobie-mirage-lynx-1315",
+   "title": "2023 Hobie Mirage Lynx (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "1316",
+   "handle": "2024-hobie-mirage-pro-angler-12-180-1316",
+   "title": "2024 Hobie Mirage Pro Angler 12 (180)",
+   "type": "Kayak"
+  },
+  {
+   "key": "1320",
+   "handle": "aventon-level-3-1320",
+   "title": "Aventon Level 3",
+   "type": "eBike"
+  },
+  {
+   "key": "1329",
+   "handle": "aventon-aventure-3-1329",
+   "title": "Aventon Aventure 3",
+   "type": "eBike"
+  },
+  {
+   "key": "1330",
+   "handle": "2023-g3-guide-v167-1330",
+   "title": "2023 G3 Guide V167",
+   "type": "Fishing Boat"
+  },
+  {
+   "key": "1342",
+   "handle": "1999-bayliner-3055-ciera-sunbridge-1342",
+   "title": "1999 Bayliner 3055 Ciera Sunbridge",
+   "type": "Boat"
+  },
+  {
+   "key": "1346",
+   "handle": "2019-centurion-fi23-1346",
+   "title": "2019 Centurion fi23",
+   "type": "Boat"
+  },
+  {
+   "key": "1350",
+   "handle": "2027-hobie-mirage-itrek-angler-10-1350",
+   "title": "2027 Hobie Mirage iTrek Angler 10",
+   "type": "Kayak"
+  },
+  {
+   "key": "1352",
+   "handle": "1998-bayliner-ciera-2855-1352",
+   "title": "1998 Bayliner Ciera 2855",
+   "type": "Boat"
+  },
+  {
+   "key": "1355",
+   "handle": "2016-hobie-mirage-pro-angler-17t-1355",
+   "title": "2016 Hobie Mirage Pro Angler 17T",
+   "type": "Kayak"
+  },
+  {
+   "key": "1357",
+   "handle": "aventon-level-4-rec-1357",
+   "title": "Aventon Level 4 REC",
+   "type": "eBike"
+  },
+  {
+   "key": "1358",
+   "handle": "aventon-pace-5-rec-1358",
+   "title": "Aventon Pace 5 REC",
+   "type": "eBike"
+  },
+  {
+   "key": "1359",
+   "handle": "aventon-current-exp-1359",
+   "title": "Aventon Current EXP",
+   "type": "eBike"
+  },
+  {
+   "key": "1360",
+   "handle": "aventon-currentadv-1360",
+   "title": "Aventon CurrentADV",
+   "type": "eBike"
+  },
+  {
+   "key": "1361",
+   "handle": "aventon-level-4-adv-1361",
+   "title": "Aventon Level 4 ADV",
+   "type": "eBike"
+  },
+  {
+   "key": "1362",
+   "handle": "aventon-aventure-m-1362",
+   "title": "Aventon Aventure M",
+   "type": "eBike"
+  },
+  {
+   "key": "1363",
+   "handle": "aventon-abound-lr-1363",
+   "title": "Aventon Abound LR",
+   "type": "eBike"
+  },
+  {
+   "key": "1364",
+   "handle": "aventon-ramblas-adv-1364",
+   "title": "Aventon Ramblas ADV",
+   "type": "eBike"
+  },
+  {
+   "key": "1365",
+   "handle": "aventon-soltera-3-adv-1365",
+   "title": "Aventon Soltera 3 ADV",
+   "type": "eBike"
+  },
+  {
+   "key": "1366",
+   "handle": "2022-sea-doo-1-rxt-x-and-1-gtx-300-1366",
+   "title": "2022 Sea-Doo (1) RXT-X and (1) GTX 300",
+   "type": "Personal Watercraft"
+  },
+  {
+   "key": "1367",
+   "handle": "2006-bayliner-185-br-1367",
+   "title": "2006 Bayliner 185 BR",
+   "type": "Boat"
+  },
+  {
+   "key": "1368",
+   "handle": "2005-monterey-190-ls-montura-br-1368",
+   "title": "2005 Monterey 190 LS Montura BR",
+   "type": "Boat"
+  },
+  {
+   "key": "1369",
+   "handle": "2022-hydrohoist-ultralift-6600-lb-1369",
+   "title": "2022 Hydrohoist Ultralift 6600 lb.",
+   "type": "Boat Lift"
+  },
+  {
+   "key": "1370",
+   "handle": "2022-barletta-corsa-25-uc-1370",
+   "title": "2022 Barletta Corsa 25 UC",
+   "type": "Pontoon"
+  },
+  {
+   "key": "873",
+   "handle": "2027-hobie-mirage-pro-angler-14-873",
+   "title": "2027 Hobie Mirage Pro Angler 14",
+   "type": "Kayak"
+  },
+  {
+   "key": "875",
+   "handle": "2027-hobie-mirage-outback-875",
+   "title": "2027 Hobie Mirage Outback",
+   "type": "Kayak"
+  },
+  {
+   "key": "882",
+   "handle": "2027-hobie-mirage-tandem-island-882",
+   "title": "2027 Hobie Mirage Tandem Island",
+   "type": "Kayak"
+  },
+  {
+   "key": "922",
+   "handle": "2027-hobie-mirage-pro-angler-12-922",
+   "title": "2027 Hobie Mirage Pro Angler 12",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2024-tandem-island",
+   "handle": "2024-hobie-mirage-tandem-island",
+   "title": "2024 Hobie Mirage Tandem Island",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2025-passport-12",
+   "handle": "2025-hobie-mirage-passport-12-0r",
+   "title": "2025 Hobie Mirage Passport 12.0R",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2026-pa14-360-arctic",
+   "handle": "2026-hobie-mirage-pro-angler-14-360",
+   "title": "2026 Hobie Mirage Pro Angler 14 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2023-itrek-11-demo",
+   "handle": "2023-hobie-mirage-itrek-11-demo",
+   "title": "2023 Hobie Mirage iTrek 11 (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2025-outback",
+   "handle": "2025-hobie-mirage-outback",
+   "title": "2025 Hobie Mirage Outback",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2023-pa12-180",
+   "handle": "2023-hobie-mirage-pro-angler-12-180",
+   "title": "2023 Hobie Mirage Pro Angler 12 180",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2022-pa12-180-demo",
+   "handle": "2022-hobie-mirage-pro-angler-12-180-demo",
+   "title": "2022 Hobie Mirage Pro Angler 12 180 (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2025-pa12-360",
+   "handle": "2025-hobie-mirage-pro-angler-12-360",
+   "title": "2025 Hobie Mirage Pro Angler 12 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2023-pa14-180",
+   "handle": "2023-hobie-mirage-pro-angler-14-180",
+   "title": "2023 Hobie Mirage Pro Angler 14 180",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2024-pa14-360",
+   "handle": "2024-hobie-mirage-pro-angler-14-360",
+   "title": "2024 Hobie Mirage Pro Angler 14 360",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2023-pa14-360-demo",
+   "handle": "2023-hobie-mirage-pro-angler-14-360-demo",
+   "title": "2023 Hobie Mirage Pro Angler 14 360 (Demo)",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2018-quest-11",
+   "handle": "2018-hobie-quest-11",
+   "title": "2018 Hobie Quest 11",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2022-slayer-propel-10",
+   "handle": "2022-native-watercraft-slayer-propel-10",
+   "title": "2022 Native Watercraft Slayer Propel 10",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2023-old-town-120-pdl",
+   "handle": "2023-old-town-sportsman-pdl-120",
+   "title": "2023 Old Town Sportsman PDL 120",
+   "type": "Kayak"
+  },
+  {
+   "key": "m-2025-old-town-120-pdl-pro",
+   "handle": "2025-old-town-sportsman-pdl-120-pro",
+   "title": "2025 Old Town Sportsman PDL 120 Pro",
+   "type": "Kayak"
+  }
+ ],
+ "excluded": [
+  "1126",
+  "1132",
+  "1133",
+  "1152",
+  "1154",
+  "1236",
+  "1262",
+  "1273",
+  "1281",
+  "1283",
+  "1309",
+  "1310",
+  "1313",
+  "1354"
+ ],
+ "held": [
+  {
+   "id": "1128",
+   "title": "2026 Hobie Mirage iTrek Fiesta",
+   "why": "2026 iTrek Fiesta: owner asked to move 2026s to 2027, but the iTrek Fiesta is not on Hobie's 2027 price list. Waiting on owner."
+  }
+ ],
+ "pending": [],
+ "map_warnings": [
+  {
+   "id": "1083",
+   "title": "2022 Hobie Mirage Pro Angler 12 360",
+   "price": 4479.0,
+   "msrp_2027": 5699,
+   "lowest_allowed": 4559.2
+  },
+  {
+   "id": "1084",
+   "title": "2023 Hobie Mirage Pro Angler 14 360",
+   "price": 4499.0,
+   "msrp_2027": 5899,
+   "lowest_allowed": 4719.2
+  },
+  {
+   "id": "1284",
+   "title": "2022 Hobie Mirage Pro Angler 14 180",
+   "price": 3839.0,
+   "msrp_2027": 4999,
+   "lowest_allowed": 3999.2
+  }
+ ],
+ "drafts": [
+  {
+   "key": "2018-quest-11",
+   "title": "2018 Hobie Quest 11",
+   "why": "C11 needs photos of the actual boat (Hobie MAP rule for used)"
+  },
+  {
+   "key": "2022-slayer-propel-10",
+   "title": "2022 Native Watercraft Slayer Propel 10",
+   "why": "C12 needs photos"
+  },
+  {
+   "key": "2025-old-town-120-pdl-pro",
+   "title": "2025 Old Town Sportsman PDL 120 Pro",
+   "why": "C14/C15 needs photos"
+  }
+ ]
+}

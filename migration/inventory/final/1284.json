@@ -1,0 +1,211 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-pro-angler-14-180-1284"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Pro Angler 14 180",
+  "handle": "2022-hobie-mirage-pro-angler-14-180-1284",
+  "descriptionHtml": "<div><span><span><strong>Save Big on our 2022 Model Clearance!</strong><br /><span>All boats are new and come with a full warranty starting on their purchase date!</span></p><p><strong>2024 Models can be found here and will be available once delivered from Hobie</p><p>Financing Available*!</strong></span></span></div><br />Hobie's original Pro Angler packs extreme fishing utility, with scads of (that's six) horizontal rod holders, enough tackle compartments to empty a store, and an elevated Vantage ST seat that's as much easy chair as captain's perch. There's a non-skid deck for standing - a huge advantage for sight fishing - and veritable acres of H-Rail for mounting rod holders and electronics. All this on a spacious 14-foot platform, with no need for a gas tank. Hobie's unique MirageDrive 180 with Glide Technology provides efficient, quiet propulsion.</p><p>Length: 13' 8\" / 4.17 m<br />Width: 38\" / .97 m<br />Hull Weight: 120.5 lbs / 55 kg<br />Fully Rigged Weight: 144.5 lbs / 66 kg<br />Capacity: 600 lbs / 272 kg<br />Vantage Seat Capacity: 350 lbs / 159 kg<br />Crew: 1</p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info<p>Lowrance Ready System with Guardian Retractable Transducer Shield\nDual Steering Controls\nReplaceable Mounting Boards\nTwo-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle\n8\" Twist and Seal Hatch\nAccessory Mount for Optional Sail or Canopy\nAnchor Trolley System Ready\nMirageDrive 180 ARC with ST Turbo Fins\nVantage ST Seating\nBoa System Lumbar Support\nFront and Rear Carrying Handles\nHorizontal Storage for 6 Rods\nLarge Covered Bow Hatch with Removable Liner\nLarge Rectangular Hatch with Pivoting Tackle Management System\nLivewell-Ready Cargo Area\nRetractable Rudder System\nUnder Seat Tackle Storage\nMolded-In Vertical Storage for 2 Rods\nRetractable Tracking Skeg\n2 Plano Tackle Boxes\n2 H-Rail Rod Racks\n1 H-Rail Cup Holder\nHookless Mesh-Covered Stowage Pockets</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Hobie Mirage Pro Angler 14 180 for Sale | Ottawa, IL",
+   "description": "New 2022 Hobie Mirage Pro Angler 14 180 for sale at Quest Watersports in Ottawa, IL — $3,839. Stock #PMYPA14180. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3839.00",
+    "sku": "PMYPA14180",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4999.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 14 180"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "PMYPA14180"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Ivory Dune, Original Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1284"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "2027 MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/main/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/2/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/3/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/4/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/5/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/6/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/7/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/8/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/9/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/10/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/11/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/12/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/13/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/14/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/15/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 14 180 photo 15"
+   }
+  ]
+ },
+ "source": {
+  "id": "1284",
+  "url": "https://www.questwatersports.com/2022-hobie-mirage-pro-angler-14-180-c-1284/",
+  "when_modified": "2024-02-27 17:32:32",
+  "sold": "Available"
+ }
+}

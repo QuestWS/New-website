@@ -1,0 +1,223 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-pro-angler-14-360-demo"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Pro Angler 14 360 (Demo)",
+  "handle": "2023-hobie-mirage-pro-angler-14-360-demo",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "descriptionHtml": "<p><strong>Demo boat.</strong> This kayak was used for on-the-water demos and is sold as used.</p><div id=\"product-component-1651958327434\"><span><span><strong><span>ONE LEFT!!!</span></strong></span></span></p><p><span><strong><span>Financing Available!*</span></strong></span></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><strong><span>Book a FREE On-Water Demo!</span></strong></span></a><br />&nbsp;</div><p><span><span><strong>Check out the <a href=\"https://www.questwatersports.com/2024-hobie-mirage-pro-angler-14-360-xr--c-1273.htm\">Pro Angler 14 360 XR</a> - NEW FOR 2024!</strong></span></span></p><p><br /><span>Everything elite anglers are looking for in a fishing kayak total control, power, stability, performance, stealth, comfort and feature-rich. Its wide, rock-solid standing platform comes decked out with noise-reducing EVA traction pads. With the MirageDrive 360 propulsion system, Hobie is taking pedal kayaking in every direction. Literally. New 360 Drive Technology allows anglers to move in every degree on the compass. Explore wherever you want to go with the all-new Kick-Up fins that automatically retract upon impact. This Pro Angler packs extreme fishing utility, with scads of (that's six) horizontal rod holders, enough tackle compartments to empty a store, and an elevated Vantage ST seat that's as much easy chair as captain's perch. There's a non-skid deck for standing - a huge advantage for sight fishing - and veritable acres of H-Rail for mounting rod holders and electronics. All this on a spacious 14-foot platform, with no need for a gas tank.</span></p><p><span>Length: 13' 8\" / 4.17 m<br />Width: 38\" / .97 m<br />Hull Weight: 124.5 LBS / 56.5 KG<br />Fully Rigged Weight: 148.5 LBS / 67.4 KG<br />Capacity: 600 lbs / 272 kg<br />Vantage Seat Capacity: 350 lbs / 159 kg<br />Crew: 1</span><br />&nbsp;</p><div><br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><p>MirageDrive 360 with Kick-up Turbo Fins\nLowrance Ready System with Guardian Retractable Transducer Shield\nDual Steering Controls\nReplaceable Mounting Boards\nTwo-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle\n8\" Twist and Seal Hatch\nAccessory Mount for Optional Sail or Canopy\nAnchor Trolley System Ready\nVantage ST Seating\nBoa System Lumbar Support\nFront and Rear Carrying Handles\nHorizontal Storage for 4 Rods\nLarge Covered Bow Hatch with Removable Liner\nLarge Rectangular Hatch with Pivoting Tackle Management System\nLivewell-Ready Cargo Area\nRetractable Rudder System\nUnder Seat Tackle Storage\nMolded-In Vertical Storage for 2 Rods\nRetractable Tracking Skeg\n2 Plano Tackle Boxes\n2 H-Rail Rod Racks\n1 H-Rail Cup Holder\nHookless Mesh-Covered Stowage Pockets</p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023",
+   "demo"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "QW-2023-pa14-360-demo",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 14 360"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Amazon Green Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2023-pa14-360-demo"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/main/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/2/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 2 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/3/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 3 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/4/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 4 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/5/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 5 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/6/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 6 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/7/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 7 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/8/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 8 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/9/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 9 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/10/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 10 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/11/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 11 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/12/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 12 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/13/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 13 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/14/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 14 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/15/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 15 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/16/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 16 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/17/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 17 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/18/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 18 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/19/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 19 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/20/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "Used 2023 Hobie Mirage Pro Angler 14 360 (Demo) photo 20 (same model)"
+   }
+  ],
+  "seo": {
+   "title": "Demo 2023 Hobie Mirage Pro Angler 14 360 (Demo) for Sale | Ottawa, IL",
+   "description": "Demo 2023 Hobie Mirage Pro Angler 14 360 (Demo) for sale at Quest Watersports in Ottawa, IL — call for price. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2023-pa14-360-demo",
+  "decision": "manual",
+  "note": "C10"
+ }
+}

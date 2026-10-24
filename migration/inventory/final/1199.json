@@ -1,0 +1,142 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-fiesta-1199"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Fiesta (Demo)",
+  "handle": "2022-hobie-mirage-fiesta-1199",
+  "descriptionHtml": "<p><strong>Demo boat.</strong> This kayak was used for on-the-water demos and is sold as used.</p><p>Financing Available - Starting at $253.35 / Month, $0 Down, and all taxes and fees included!*</p><div><font color=\"#ff0000\"><span><b>Before Buying the Demo, <a href=\"https://www.questwatersports.com/2022-hobie-mirage-itrek-fiesta-c-1311/\">Check out New AT THE SAME PRICE</a>!</b></span></font></div><br /><span>If you're looking to have some serious fun on your next family outing, look no further than the new Mirage iTrek Fiesta. This one of a kind kayak is equipped with four comfortable seats, one easy-to-use steering system and powered by two MirageDrives with Glide Technology and Kick-Up Fins. But if you want even more power, you can easily upgrade and add two more MirageDrives with GT, delivering even greater speed and maneuverability. The Fiesta is the most unique watercraft on the market today. Its high-tech, 550 denier, triple-chamber construction delivers the same stability and rugged rigidity as a solid boat, but in a lighter package. The Mirage Fiesta is fast and a party on the water - but we didnt stop there. Its versatile, too. Simply turn the front two seats to face the back for integrated social seating, making it the perfect watercraft for spending time on the water playing games or putting your feet up and hanging out. A three-piece SUP paddle, high-pressure hand pump, high-volume electric pump and storage bag are all included along with the four seats and two MirageDrives with Glide Technology + Kick-Up Fins.</p><p><u><strong>Specs</strong></u>:<br /><strong>CREW</strong>: 4<br /><strong>DRIVE</strong>: MIRAGEDRIVE GT x 2<br /><strong>LENGTH</strong>: 15' 0\" / 4.57 M<br /><strong>WIDTH</strong>: 80\" / 2.03 M<br /><strong>CAPACITY</strong>: 1000 LBS / 453.6 KG<br /><strong>FITTED HULL WEIGHT</strong>: 78 LBS / 35.4 KG<br /><strong>FULLY RIGGED WEIGHT</strong>: 105 LBS / 47.63 KG</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info<p>2 Mirage Drive GT with Kick-up Fins\nAdditional Drives Available\nImproved Hull Construction (Lighter & More Durable)\n4 Aluminum-Frame Seats with Breathable Mesh\nDetachable Rudder System\nEVA Standing Pads\nSeat Mounted Cup Holders\nStand-up Paddle\nFolding Storage Bag with Multiple Carry Handles\nHigh Pressure Hand Pump\nHigh-Volume Electric Pump</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022",
+   "demo"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Demo 2022 Hobie Mirage Fiesta (Demo) for Sale | Ottawa, IL",
+   "description": "Demo 2022 Hobie Mirage Fiesta (Demo) for sale at Quest Watersports in Ottawa, IL — $4,759. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4759.00",
+    "sku": "22FIESTADEMO",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5949.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Fiesta"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22FIESTADEMO"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "15'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "550 DENIER PVC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1199"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "Original MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1199/main/l/Used-2022-Hobie-Used-Mirage-Fiesta-1662067187.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage Fiesta"
+   }
+  ]
+ },
+ "source": {
+  "id": "1199",
+  "url": "https://www.questwatersports.com/2022-hobie-used-mirage-fiesta-c-1199/",
+  "when_modified": "2024-11-02 14:58:46",
+  "sold": "Available"
+ }
+}

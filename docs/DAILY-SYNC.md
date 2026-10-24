@@ -113,20 +113,29 @@ variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","
 1. `python3 -I scripts/inventory/build.py` — fetches the old site's inventory feed and writes one
    `productSet` payload per AVAILABLE unit to `migration/inventory/<id>.json` (+ `_index.json` with every
    feed id and its Available/Sold status).
-2. Compare with the previous commit (`git diff --stat migration/inventory`):
-   - **New available id** (no product with handle ending `-<id>` yet): run `productSet` with the file's
-     `identifier` + `input` (synchronous: true), then `publishablePublish` to the Online Store
-     (publication `gid://shopify/Publication/70750208175`).
-     EXCEPTION — kayaks/paddleboards (tag `inventory-paddlesports`): the owner reconciles kayak stock by hand
-     (`migration/inventory/kayak-reconciliation.md`). Do not create new kayak products; list them in the
-     final message for the owner to approve.
-   - **Changed file** for an existing product (price, description, photos, sale-pending): re-run `productSet`
-     with the same handle identifier (it updates in place).
+2. `python3 -I scripts/inventory/apply_decisions.py` — applies the owner's kayak decisions
+   (`migration/inventory/kayak-decisions.json`) and writes what should exist in Shopify to
+   `migration/inventory/final/<key>.json`, plus `final/_report.json`. Use ONLY the `final/` files for Shopify writes.
+   - Kayak listings the owner removed (`exclude`) or put on hold (`hold`) are never created.
+   - 2026 Hobie listings are published as 2027 special-order models at 2027 MSRP (`to_2027`).
+   - In-stock units with no old-site listing come from `manual` (files `final/m-*.json`; DRAFT ones wait for photos).
+   - `_report.json` → `pending`: new kayak listings nobody has decided on. Do not create them; list them in the
+     final message for the owner. `map_warnings`: Hobie units priced more than 20% under 2027 MSRP (Hobie MAP);
+     list them too, never change prices yourself.
+3. Compare with the previous commit (`git diff --stat migration/inventory/final`):
+   - **New file** (no product with that handle yet): `productSet` with the file's `identifier` + `input`
+     (synchronous: true), then `publishablePublish` to the Online Store (`gid://shopify/Publication/70750208175`)
+     unless its status is DRAFT.
+   - **Changed file** for an existing product: re-run `productSet` with the same handle identifier, WITHOUT the
+     `files` field unless the photos changed (omitting it keeps existing media; sending it again duplicates photos).
    - **Id now "Sold"** (or gone from the feed) and a product exists: `productUpdate(product:{id, status: ARCHIVED})`.
-     Never delete products.
-3. Units are never purchasable online: keep `inventoryPolicy: DENY`, tracked, 0 on hand (build.py does this).
+     Never delete products. Manual (`m-*`) products are archived only when the owner says the unit sold.
+4. Units are never purchasable online: keep `inventoryPolicy: DENY`, tracked, 0 on hand (build.py does this).
    Smart collections `inventory`, `inventory-boats`, `inventory-paddlesports`, `inventory-sailboats`,
    `inventory-ebikes`, `inventory-pre-owned` pick products up by tag automatically.
+5. Hobie MAP (2027 Hobie Kayak Program, owner's copy): no "call for price", "sale" or "clearance" wording on
+   2026/2027 Hobie units; 2026/2027 first-quality units at exactly 2027 MSRP; 2025-and-older first quality at most 20%
+   under 2027 MSRP with the 2027 MSRP shown (`custom.msrp_label`); used units only with photos of the actual boat.
 
 ### c2) Social media → blog (Facebook / Instagram)
 Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with

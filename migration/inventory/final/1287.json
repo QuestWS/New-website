@@ -1,0 +1,242 @@
+{
+ "identifier": {
+  "handle": "2024-old-town-sportsman-bigwater-epdl-132-1287"
+ },
+ "input": {
+  "title": "2024 Old Town Sportsman BigWater ePDL+ 132",
+  "handle": "2024-old-town-sportsman-bigwater-epdl-132-1287",
+  "descriptionHtml": "<div><span><strong><span>Ask about deferred interest financing!</span></strong></span></div><br /><span>Embark on a journey of unparalleled freedom and versatility with the Old Town Sportsman BigWater ePDL+ 132. Engineered to redefine the boundaries of kayak fishing, this powerhouse of innovation delivers an exceptional blend of performance, convenience, and adaptability.</p><p>At the heart of the Old Town Sportsman BigWater ePDL+ 132 lies its patented ePDL+ power-assisted pedal drive system. Seamlessly switch between manual pedal, power-assisted pedal, or fully motorized cruise control with five-speed settings and integrated cruise control functionality. Whether you crave the tranquility of manual pedaling or the swift efficiency of motorized propulsion, the choice is yours at the touch of a button.</p><p>Equipped with a compact yet potent 36V 20Ah Li-Ion battery, the ePDL+ Drive ensures reliable power for extended excursions, while the intuitive control buttons and sunglasses-friendly screen offer effortless navigation and monitoring of your propulsion settings.</p><p>Designed for the discerning angler, the Old Town Sportsman BigWater ePDL+ 132 boasts a host of features tailored to enhance your fishing experience. A redesigned stern tankwell accommodates various crates and coolers, while two accessory tracks and drillable mounting plates provide endless customization options for your favorite fishing gear. Non-slip EVA foam deck pads ensure stability and comfort, while a transducer mount simplifies fish finder installation for optimal angling efficiency.</p><p>Storage is plentiful with dry storage compartments in the sealed bow hatch and drive console, ensuring your gear stays protected and organized throughout your journey. Plus, the removable ePDL+ Drive and Seat facilitate easy transport and storage, allowing you to seamlessly transition from land to water and back again.</p><p>Crafted from rugged single-layer polyethylene, the Old Town Sportsman BigWater ePDL+ 132 offers durability and reliability, backed by a total weight capacity of 500 lbs.</p><p>Elevate your fishing adventures to new heights with the Old Town Sportsman BigWater ePDL+ 132. Whether you're chasing trophy fish or exploring remote waterways, this versatile kayak empowers you to embrace the freedom of the open water on your terms.</span><p>Patented ePDL+ power-assisted pedal drive with 5-speed settings and cruise control\nCompact, powerful 36V 20Ah Li-Ion battery and charger included\nControl buttons and polarized sunglasses-friendly screen integrated directly into the ePDL+ Drive\nRedesigned stern tankwell optimized for a variety of crates and coolers\nTwo accessory tracks and two drillable mounting plates for easy accessory mounting\nNon-slip EVA foam deck pads provide traction and stand-up comfort\nTransducer mount for easy installation of your fish finder\nDry storage in the sealed bow hatch and additional dry storage in the drive console\nePDL+ Drive and Seat are removable for easy transport and storage</p><p></p><p>Number of Paddlers: 1<br />Propulsion: ePDL+<br />Material: Single Layer Polyethylene<br />Seat Type: Element Seating System<br />Total Weight Capacity: 500 lb | 227 kg<br />Usable Weight Capacity: 357 lb | 162 kg<br />Assembled Boat Weight: 143 lb | 67 kg<br />Pedal Console Weight: 32.5 lb | 14.5 kg<br />Removable Seat Weight: 6 lb | 2.7 kg<br />Length: 13 ft 2.04 in | 4.01 m<br />Width: 36 in | 91 cm<br />Seat Back Height: 14 in | 36 cm<br />Hatch: Bow, Center<br />Rudder: Included<br />Rod Holders: Included<br />Accessory Tracks: Included<br />Mounting Plates: Included<br />Battery Type: 20Ah 36V Lithium (Included)</p>",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2024"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2024 Old Town Sportsman BigWater ePDL+ 132 for Sale | Ottawa, IL",
+   "description": "New 2024 Old Town Sportsman BigWater ePDL+ 132 for sale at Quest Watersports in Ottawa, IL — $5,399. Stock #EPDL+. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "5399.00",
+    "sku": "EPDL+",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5999.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2024"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Old Town"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Sportsman BigWater ePDL+ 132"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "EPDL+"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 2\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Electric"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Steel Camo, Ember Camo, Marsh Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1287"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/main/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205154.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/2/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205156.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/3/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205157.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/4/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205161.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/5/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205163.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/6/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205166.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/7/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205168.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/8/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205170.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/9/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205173.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/10/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205175.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/11/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205178.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/12/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205180.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/13/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205182.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/14/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205184.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/15/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205186.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/16/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205188.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/17/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205190.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/18/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205192.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/19/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205194.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/20/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205196.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1287",
+  "url": "https://www.questwatersports.com/2024-old-town-sportsman-bigwater-epdl-132-c-1287/",
+  "when_modified": "2026-05-13 13:17:49",
+  "sold": "Available"
+ }
+}

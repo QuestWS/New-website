@@ -93,3 +93,19 @@ colours, so several of your units can map to one listing.
 | D25 | 1214 · New 2025 Old Town Sportsman Autopilot 120, Steel Camo | |
 | D26 | one of 1311 / 1199 (2022 Fiesta) | see B7 |
 | D27 | two of 1285 / 1239 / 1240 (2022 iEclipse) | see B8 |
+
+## Owner decisions (2026-10-24)
+
+Recorded in `kayak-decisions.json` and applied by `scripts/inventory/apply_decisions.py`.
+
+- B1–B3: listed as used demo boats ("(Demo)" in the title, Demo badge). B3 Lynx: only the demo is left.
+- B4: 1316 colour list now includes Sunrise Camo (Papaya Camo). B5: green = Marsh Camo. B6: same model as 1287.
+- B7: both Fiestas listed; the demo (1199) is priced at the new one's (1311) price.
+- B8: all three iEclipse listings are in stock; 1239/1240 are consignments.
+- B9: 2024 Tandem Island listed at $8,599; the 2026 listing (882) is now a 2027 special order.
+- B10: 2025 Passport 12.0R ×2 listed; 1097 is now a 2027 special order.
+- B11: no answer yet. The in-stock 2026 PA14 360 Arctic Blue is listed at 2027 MSRP; 873 became a 2027 special order (360/180).
+- C: all listed; the Quest 11, Slayer Propel 10 and Old Town PDL 120 Pro are drafts until there are photos.
+- D: Advanced Elements 1132/1133, Hobie new 2025-and-older, and used 1354/1236/1262 are not listed.
+  Hobie 2026s → 2027 special order. The 2026 iTrek Fiesta (1128) is held: it isn't on the 2027 price list.
+  Kept: 1355 used PA17T and 1214 Autopilot 120.

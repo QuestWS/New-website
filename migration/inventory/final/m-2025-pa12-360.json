@@ -1,0 +1,207 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-pro-angler-12-360"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Pro Angler 12 360",
+  "handle": "2025-hobie-mirage-pro-angler-12-360",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "descriptionHtml": "<p><strong>2 in stock</strong>: Campfire Red or OG Camo.</p><div><span><strong><span>Save Big on our 2025 Model Clearance!</span></strong><br />All boats are new and come with a full warranty starting on their purchase date!</p><p><span><strong>Check out the Pro Angler 12 360 XR - NEW FOR 2024!</strong></span></span></p><p><span><strong><span>Financing Available!</span></strong></span></div><div id=\"product-component-1651957663537\">&nbsp;</div><p><span>With the MirageDrive 360 and Kick-Up fins, move through the water without constraints, going exactly where you want to go. Effortlessly spin and move in every direction. With Hobies new Kick-Up Fins which immediately retract on impact even shallow areas are now entirely navigable. Logs, kelp, shallows, rocks, no problem. Dominate the water, fresh or salt. The Pro Angler 12 deploys all the big-boat fishing features of the 'PA' series on a 12-ft. long platform that fits neatly in the bed of most any pickup truck. Keep a half-dozen rods rigged and ready in the four standard horizontal and two molded-in rod holders. Confidently stand and fire, cast after cast. The elevated Vantage ST seat makes it easy to move around the boat.&nbsp; You'll love the retractable skeg for improved course-keeping, as well as the innovative H-Rail for superior flexibility in accessory rigging.</span></p><p><span><strong>Length: </strong>12' / 3.66 m<br /><strong>Width:</strong> 36\" / .91 m<br /><strong>Hull Weight:</strong> 109.5 LBS / 49.7 KG<br /><strong>Fully Rigged Weight: </strong>132.5 LBS / 60.1 KG<br /><strong>Capacity:</strong> 500 lbs / 227 kg<br /><strong>Vantage Seat Capacity:&nbsp;</strong> 350 lbs / 159 kg<br /><strong>Crew:</strong>&nbsp; 1</span><br />&nbsp;</p><div><br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><p>MirageDrive 360 with Kick-up Turbo Fins\nLowrance Ready System with Guardian Retractable Transducer Shield\nDual Steering Controls\nReplaceable Mounting Boards\nTwo-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle\n8\" Twist and Seal Hatch\nAccessory Mount for Optional Sail or Canopy\nAnchor Trolley System Ready\nVantage ST Seating\nBoa System Lumbar Support\nFront and Rear Carrying Handles\nHorizontal Storage for 4 Rods\nLarge Covered Bow Hatch with Removable Liner\nLarge Rectangular Hatch with Pivoting Tackle Management System\nLivewell-Ready Cargo Area\nRetractable Rudder System\nUnder Seat Tackle Storage\nMolded-In Vertical Storage for 2 Rods\nRetractable Tracking Skeg\n2 Plano Tackle Boxes\n2 H-Rail Rod Racks\n1 H-Rail Cup Holder\nHookless Mesh-Covered Stowage Pockets</p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "5699.00",
+    "sku": "QW-2025-pa12-360",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2025"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 12 360"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Campfire Red or OG Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2025-pa12-360"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/main/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/2/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 2 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/3/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 3 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/4/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 4 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/5/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 5 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/6/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 6 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/7/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 7 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/8/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 8 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/9/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 9 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/10/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 10 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/11/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 11 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/12/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 12 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/13/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 13 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/14/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 14 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/15/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 15 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/16/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 16 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/17/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 photo 17 (same model)"
+   }
+  ],
+  "seo": {
+   "title": "New 2025 Hobie Mirage Pro Angler 12 360 for Sale | Ottawa, IL",
+   "description": "New 2025 Hobie Mirage Pro Angler 12 360 for sale at Quest Watersports in Ottawa, IL — $5,699. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2025-pa12-360",
+  "decision": "manual",
+  "note": "C5/C6"
+ }
+}

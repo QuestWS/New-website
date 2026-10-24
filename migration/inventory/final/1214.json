@@ -1,0 +1,242 @@
+{
+ "identifier": {
+  "handle": "2025-old-town-sportsman-autopilot-120-1214"
+ },
+ "input": {
+  "title": "2025 Old Town Sportsman Autopilot 120",
+  "handle": "2025-old-town-sportsman-autopilot-120-1214",
+  "descriptionHtml": "<p>Financing Available - Starting at $215.29 / Month, $0 Down, and all taxes and fees included!*</p><div><strong><span><span>Financing Available - Starting at $215.29 / Month, $0 Down, and all taxes and fees included!*</span></span></strong><br />&nbsp;</div><div>The Old Town Sportsman AutoPilot 120 motorized kayak leverages Minn Kota's Spot-Lock technology; motoring you to your fishing spot faster, and holding your position over the hole. Command the kayak with a touch of your thumb using the Bluetooth connected i-Pilot remote.<br />&nbsp;<div>** Please note: Motorized Kayaks are required to be titled and registered in Illinois. Title and Registration is handled by Quest Watersports at a $94 fee **<br />&nbsp;<div><strong>Number of Paddlers:</strong><span> </span>1</div><div><strong>Propulsion:</strong><span> </span>Motorized</div><div><strong>Total Weight Capacity:</strong>&nbsp;<span> </span>558 lb | 253.11 kg</div><div><strong>Usable Weight Capacity:</strong>&nbsp;<span> </span>331 lb | 150.14 kg</div><div><strong>Assembled Boat Weight:</strong>&nbsp;<span> </span>152 lb | 68.9472 kg</div><div><strong>Removable Seat Weight:</strong><span> </span>6 lb | 2.72 kg</div><div><strong>Motor Console Weight:</strong><span> </span>24 lb | 10.89 kg</div><div><strong>Length:</strong><span> </span>12 ft | 3.7 m</div><div><strong>Width:</strong><span> </span>37 in | 94 cm</div><div><strong>Hatch:</strong><span> </span>None</div><div><strong>Material:</strong><span> </span>Single Layer Polyethylene</div></div>&nbsp;<div>** 12V Batteries Sold Separately **<br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info</div></div><p>The saltwater-ready 45 lb. thrust 12V Minn Kota motor gets you effortlessly there and back\nSpot-Lock technology holds your kayak in position despite wind and current. Maintain your position while keeping your hand free to cast, fight a fish or change lures.\nMotor combines with foot brace steering for truly hands-free fishing and exceptional maneuverability\nPremium seating for all day comfort. Dual-layer Textilene is durable, UV resistant and easy to clean. A mid-layer of 3D mesh adds comfort without inhibiting Textilene's natural breathability. Position seat high or low in the kayak. Removable for transport\nLarge open cockpit and aft tank well provides a platform that is easy to organize with plenty of room to fish!\nFour 18\" tracks enable easy on/off mounting of accessories\nTwo forward-facing and two rear-facing flush mount rod holders are there when you want them, and out-of-the-way when you don't\nNon-slip EVA foam deck pads provide traction and stand-up comfort\nEquipped with shallow water anchor mounting inserts\nExtra large rudder provides excellent boat control in forward and reverse\nLift assist helps deploy and stow motor quickly in shallow water or when launching and landing. 24 lbs. motor console can be removed for transport\nKill switch key holds the spare prop pin and doubles as a prop wrench\nConsole floor plug stores in the tank well and can be used to keep water out when the motor is removed or you want to paddle\nCustom tackle box included\nLead-acid or lithium-ion battery compatible\nThree through-hull wiring kits and a universal transducer mount allow you to mount a fish finder in minutes without the need to drill into your kayak.</p>",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2025 Old Town Sportsman Autopilot 120 for Sale | Ottawa, IL",
+   "description": "New 2025 Old Town Sportsman Autopilot 120 for sale at Quest Watersports in Ottawa, IL — $4,049. Stock #OTAUTOPLT120. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4049.00",
+    "sku": "OTAUTOPLT120",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4499.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2025"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Old Town"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Sportsman Autopilot 120"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "OTAUTOPLT120"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Electric"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Steel Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1214"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/main/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797245.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/2/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797246.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/3/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797247.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/4/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797249.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/5/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797251.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/6/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797252.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/7/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797254.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/8/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797256.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/9/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797257.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/10/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797259.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/11/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797261.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/12/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797262.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/13/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797264.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/14/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797265.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/15/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797267.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/16/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797269.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/17/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797270.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/18/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797272.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/19/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797273.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1214/20/l/New-2025-Old-Town-Sportsman-Autopilot-120-1677797275.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Old Town Sportsman Autopilot 120 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1214",
+  "url": "https://www.questwatersports.com/2025-old-town-sportsman-autopilot-120-c-1214/",
+  "when_modified": "2026-05-13 13:17:44",
+  "sold": "Available"
+ }
+}

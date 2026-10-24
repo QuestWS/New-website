@@ -1,0 +1,164 @@
+{
+ "identifier": {
+  "handle": "2027-hobie-cat-wave-sailboat-1145"
+ },
+ "input": {
+  "title": "2027 Hobie Cat Wave Sailboat",
+  "handle": "2027-hobie-cat-wave-sailboat-1145",
+  "descriptionHtml": "<p>We are sold out for the 2024 season. Please reach out to be placed on our 2025 waiting list, or ask about any other available catamarans we may have.</p><p><strong><span><span>Not Arriving for the 2026 season. We hope to re-stock in 2027.</span></span></strong></p><p><span>The Hobie Club Wave is an easy- to-sail, easy-to-rig speedster that will have you smiling. Fun for the family and exciting for the juniors while forgiving enough for the newly initiated, the Hobie Wave is the ideal must-go-sailing-now catamaran.</p><p>The symmetrically shaped hulls and keel design provide lift while eliminating the need for daggerboards, and its rotomolded polyethylene construction is nearly indestructible. Equipped with thoughtful features including a comptip mast and Hobie Bob mast float to prevent turtling if capsized. A large, fully-battened, boomless mainsail is powerful in the light stuff, but is designed to reduce power in an unexpected gust. The three-piece mesh trampoline is heat melded for the ultimate in longevity, has two main sections and is simple to adjust.</p><p><strong>SPECS</strong>:<br /><strong>Crew</strong>: 1-4<br /><strong>Length</strong>: 13' / 3.96 m<br /><strong>Beam</strong>: 7' / 2.13 m<br /><strong>Capacity</strong>: 800 lbs/362 kg<br /><strong>Weight</strong>: 245 lbs / 111 kg<br /><strong>Draft w/ Rudder Up</strong>: 11\" / 0.28 m<br /><strong>Mast Length</strong>: 20' / 6.09 m<br /><strong>Sail Area</strong>: 95 ft / 9.0 m<br /><strong>Hull Construction</strong>: Rotomolded Polyethylene<br /><strong>Height From Floor to Bow</strong>: 18.5\" / 46.99 cm<br /><strong>Height From Floor to Stern</strong>: 25.25\" / 64.13 cm</span></p><p>2 Part Mast with Comptip\nHobie \"Baby Bob\"\nBora Bora Boomless Sail\n4:1 Mainsheet Block System\nEva Deck Pads\nMesh Trampoline\nEZ-Loc Rudders</p>",
+  "vendor": "Hobie Cat",
+  "productType": "Sailboat",
+  "tags": [
+   "inventory",
+   "inventory-sailboats",
+   "inventory-new",
+   "make:Hobie Cat",
+   "type:Sailboat",
+   "year:2027"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2027 Hobie Cat Wave Sailboat for Sale | Ottawa, IL",
+   "description": "New 2027 Hobie Cat Wave Sailboat for sale at Quest Watersports in Ottawa, IL — call for price. Stock #HOBIEWAVE. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "HOBIEWAVE",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2027"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie Cat"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Wave Sailboat"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIEWAVE"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotomolded Polyethylene"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Bora Bora"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1145"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/main/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/2/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416018.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/3/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416019.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/4/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416020.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/5/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416021.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/6/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416021.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1145/7/l/New-2027-Hobie-Cat-Wave-Sailboat-1618416022.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Wave Sailboat photo 7"
+   }
+  ]
+ },
+ "source": {
+  "id": "1145",
+  "url": "https://www.questwatersports.com/2027-hobie-cat-wave-sailboat-c-1145/",
+  "when_modified": "2026-07-10 13:05:03",
+  "sold": "Available"
+ }
+}

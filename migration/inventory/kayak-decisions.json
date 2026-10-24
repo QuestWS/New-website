@@ -1,0 +1,77 @@
+{
+  "_about": "Owner decisions on kayak/paddleboard listings (reconciliation of 2026-10-24). Read by scripts/inventory/apply_decisions.py. Kayak listings on questwatersports.com that are not in `approved`, `overrides`, `to_2027`, `exclude` or `hold` are NOT created in Shopify; they are reported for approval.",
+  "approved": ["1130", "1143", "1144", "1138", "1312", "1316", "1083", "1284", "1304", "1084", "1229", "1260", "1215", "1213", "1218", "1287",
+               "1197", "1201", "1315", "1219", "1311", "1199", "1285", "1239", "1240", "1355", "1214"],
+  "exclude": {
+    "1132": "D1 remove (AdvancedFrame)",
+    "1133": "D2 remove (AdvancedFrame Expedition Elite)",
+    "1309": "2023 new Compass - 2025 and prior new Hobie listings removed",
+    "1310": "2023 new Compass Duo - removed",
+    "1152": "2025 Lynx - removed",
+    "1283": "2022 Oasis - removed",
+    "1281": "2022 Outback - removed",
+    "1313": "2023 Outback - removed",
+    "1273": "2025 PA14 360 XR - removed",
+    "1154": "2025 iEclipse - removed",
+    "1126": "2025 iTrek 14 Duo - removed",
+    "1354": "Used 2017 PA14 180 - removed",
+    "1236": "Used 2015 Revolution 11 - removed",
+    "1262": "Used 2016 Revolution 13 - removed"
+  },
+  "hold": {
+    "1128": "2026 iTrek Fiesta: owner asked to move 2026s to 2027, but the iTrek Fiesta is not on Hobie's 2027 price list. Waiting on owner."
+  },
+  "overrides": {
+    "1197": {"demo": true, "condition": "Pre-Owned", "note": "B1 used demo"},
+    "1201": {"demo": true, "condition": "Pre-Owned", "note": "B2 used demo"},
+    "1315": {"demo": true, "condition": "Pre-Owned", "note": "B3 only the demo is left"},
+    "1316": {"color": "Battleship Gray, Dune Camo, or Sunrise Camo (Papaya Camo)", "note": "B4"},
+    "1219": {"color": "Marsh Camo (green), Ember Camo, or Photic Camo", "note": "B5 green is Marsh"},
+    "1199": {"demo": true, "price_from": "1311", "msrp_label": "Original MSRP", "note": "B7 rental-fleet demo, priced at the new 2022 Fiesta's price"},
+    "1239": {"consignment": true, "note": "B8"},
+    "1240": {"consignment": true, "note": "B8"}
+  },
+  "msrp_2027": {
+    "_about": "Hobie MY2027 MSRP by model (2027 Hobie Kayak Program price list). For first-quality Hobie units of 2025 or earlier the 2027 MSRP is shown beside the price (MAP: price may be at most 20% below it).",
+    "Pro Angler 14 360": 5899, "Pro Angler 12 360": 5699, "Pro Angler 14 180": 4999, "Pro Angler 12 180": 4799,
+    "Outback": 3599, "Compass": 2599, "Compass Duo": 3599, "Passport 12.0R": 1899, "Passport 10.5R": 1699,
+    "Tandem Island": 8799, "Adventure Island": 4999, "iTrek 9 Ultra Light": 1999, "iTrek 11": 2399,
+    "iTrek Angler 10": 2799, "iTrek Angler 12": 2999, "iTrek Eclipse": 2699
+  },
+  "msrp_model_for_listing": {
+    "1083": "Pro Angler 12 360", "1084": "Pro Angler 14 360", "1284": "Pro Angler 14 180", "1316": "Pro Angler 12 180",
+    "1312": "iTrek 11", "1285": "iTrek Eclipse"
+  },
+  "to_2027": {
+    "_about": "2026 listings rewritten as 2027 special-order models at 2027 MSRP (MAP: 2026/2027 first quality at exactly 2027 MSRP; no 'call for price').",
+    "1039": {"model": "Mirage Compass", "price": 2599, "colors": "Dune Camo or Seagrass Green", "updates": ["Every 2027 Compass now comes with the MirageDrive 180 with Turbo Fins (MD-KU)."]},
+    "1053": {"model": "Mirage Compass Duo", "price": 3599, "colors": "Glacier Blue or Seagrass Green", "updates": []},
+    "875":  {"model": "Mirage Outback", "price": 3599, "colors": "Seagrass Green, Sunrise Camo, or OG Camo", "updates": ["The Outback loader is no longer included with the boat for 2027."]},
+    "1069": {"model": "Mirage Passport 10.5R", "price": 1699, "colors": "Dune Camo or Dawn Patrol", "updates": ["2027 colors are Dune Camo and Dawn Patrol."]},
+    "1097": {"model": "Mirage Passport 12.0R", "price": 1899, "colors": "Dune Camo or Dawn Patrol", "updates": ["2027 colors are Dune Camo and Dawn Patrol."]},
+    "1125": {"model": "Mirage iTrek 11", "price": 2399, "colors": "", "updates": ["The electric pump is no longer included with 2027 inflatables."]},
+    "1124": {"model": "Mirage iTrek 9 Ultralight", "price": 1999, "colors": "", "updates": ["The electric pump is no longer included with 2027 inflatables."]},
+    "1350": {"model": "Mirage iTrek Angler 10", "price": 2799, "colors": "", "updates": ["The electric pump is no longer included with 2027 inflatables."]},
+    "882":  {"model": "Mirage Tandem Island", "price": 8799, "colors": "Dune or Hibiscus", "availability": "Hobie will announce 2027 ordering availability later.", "updates": []},
+    "922":  {"model": "Mirage Pro Angler 12", "drives": {"360": 5699, "180": 4799}, "colors": "360: Blue Camo or OG Camo. 180: Dune Camo or Sunrise Camo", "updates": ["Every MirageDrive 180 now comes with Turbo Fins."]},
+    "873":  {"model": "Mirage Pro Angler 14", "drives": {"360": 5899, "180": 4999}, "colors": "360: Blue Camo or OG Camo. 180: Dune Camo or Sunrise Camo", "updates": ["Every MirageDrive 180 now comes with Turbo Fins."]}
+  },
+  "manual": {
+    "_about": "In-stock units with no questwatersports.com listing. Photos and model description borrowed from `photos_from` (a listing of the same model). Prices: owner-given where stated; first-quality Hobie without a stated price is listed at 2027 MSRP (always MAP-compliant) until the owner sets one; demo/used/other brands without a price are call-for-price. `draft`: needs photos of the actual boat first.",
+    "2024-tandem-island": {"year": "2024", "make": "Hobie", "model": "Mirage Tandem Island", "condition": "New", "color": "Dune", "qty": 1, "price": 8599, "msrp": 8799, "photos_from": "882", "note": "B9"},
+    "2025-passport-12": {"year": "2025", "make": "Hobie", "model": "Mirage Passport 12.0R", "condition": "New", "color": "Seagrass Green", "qty": 2, "price": 1899, "msrp": 1899, "photos_from": "1097", "note": "B10 price = 2027 MSRP until owner sets one"},
+    "2026-pa14-360-arctic": {"year": "2026", "make": "Hobie", "model": "Mirage Pro Angler 14 360", "condition": "New", "color": "Arctic Blue Camo", "qty": 1, "price": 5899, "msrp": 5899, "photos_from": "1084", "note": "B11 (2026 first quality = 2027 MSRP)"},
+    "2023-itrek-11-demo": {"year": "2023", "make": "Hobie", "model": "Mirage iTrek 11", "condition": "Pre-Owned", "demo": true, "color": "Slate Blue", "qty": 1, "call": true, "photos_from": "1312", "note": "C1"},
+    "2025-outback": {"year": "2025", "make": "Hobie", "model": "Mirage Outback", "condition": "New", "color": "Battleship Gray", "qty": 1, "price": 3599, "msrp": 3599, "photos_from": "875", "note": "C2"},
+    "2023-pa12-180": {"year": "2023", "make": "Hobie", "model": "Mirage Pro Angler 12 180", "condition": "New", "color": "Sunrise Camo", "qty": 1, "price": 4799, "msrp": 4799, "photos_from": "922", "note": "C3"},
+    "2022-pa12-180-demo": {"year": "2022", "make": "Hobie", "model": "Mirage Pro Angler 12 180", "condition": "Pre-Owned", "demo": true, "color": "Papaya Camo", "qty": 1, "call": true, "photos_from": "922", "note": "C4"},
+    "2025-pa12-360": {"year": "2025", "make": "Hobie", "model": "Mirage Pro Angler 12 360", "condition": "New", "color": "Campfire Red or OG Camo", "qty": 2, "price": 5699, "msrp": 5699, "photos_from": "1083", "note": "C5/C6"},
+    "2023-pa14-180": {"year": "2023", "make": "Hobie", "model": "Mirage Pro Angler 14 180", "condition": "New", "color": "Original Camo or Ivory Dune", "qty": 2, "price": 4999, "msrp": 4999, "photos_from": "1284", "note": "C7/C8"},
+    "2024-pa14-360": {"year": "2024", "make": "Hobie", "model": "Mirage Pro Angler 14 360", "condition": "New", "color": "Arctic Blue Camo", "qty": 1, "price": 5899, "msrp": 5899, "photos_from": "1084", "note": "C9"},
+    "2023-pa14-360-demo": {"year": "2023", "make": "Hobie", "model": "Mirage Pro Angler 14 360", "condition": "Pre-Owned", "demo": true, "color": "Amazon Green Camo", "qty": 1, "call": true, "photos_from": "1084", "note": "C10"},
+    "2018-quest-11": {"year": "2018", "make": "Hobie", "model": "Quest 11", "condition": "Pre-Owned", "consignment": true, "color": "Dune", "qty": 1, "call": true, "photos_from": null, "draft": true, "note": "C11 needs photos of the actual boat (Hobie MAP rule for used)"},
+    "2022-slayer-propel-10": {"year": "2022", "make": "Native Watercraft", "model": "Slayer Propel 10", "condition": "Pre-Owned", "color": "Hidden Oak", "qty": 1, "call": true, "photos_from": null, "draft": true, "note": "C12 needs photos"},
+    "2023-old-town-120-pdl": {"year": "2023", "make": "Old Town", "model": "Sportsman PDL 120", "condition": "New", "color": "Ember Camo", "qty": 1, "call": true, "photos_from": "1218", "note": "C13 (photos of the Salty PDL 120 until real ones)"},
+    "2025-old-town-120-pdl-pro": {"year": "2025", "make": "Old Town", "model": "Sportsman PDL 120 Pro", "condition": "New", "color": "Blue or Tan", "qty": 2, "call": true, "photos_from": null, "draft": true, "note": "C14/C15 needs photos"}
+  }
+}

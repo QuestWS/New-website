@@ -1,0 +1,109 @@
+{
+ "identifier": {
+  "handle": "2018-hobie-quest-11"
+ },
+ "input": {
+  "title": "2018 Hobie Quest 11",
+  "handle": "2018-hobie-quest-11",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "descriptionHtml": "<p><strong>Consignment.</strong> Quest Watersports is selling this boat on behalf of its owner.</p><p>Used 2018 Hobie Quest 11. Call 815.433.2200 for details.</p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2018",
+   "consignment"
+  ],
+  "status": "DRAFT",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "QW-2018-quest-11",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2018"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Quest 11"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Dune"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2018-quest-11"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "seo": {
+   "title": "Used 2018 Hobie Quest 11 for Sale | Ottawa, IL",
+   "description": "Used 2018 Hobie Quest 11 for sale at Quest Watersports in Ottawa, IL — call for price. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2018-quest-11",
+  "decision": "manual",
+  "note": "C11 needs photos of the actual boat (Hobie MAP rule for used)"
+ }
+}

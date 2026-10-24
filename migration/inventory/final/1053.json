@@ -1,0 +1,162 @@
+{
+ "identifier": {
+  "handle": "2027-hobie-mirage-compass-duo-1053"
+ },
+ "input": {
+  "title": "2027 Hobie Mirage Compass Duo",
+  "handle": "2027-hobie-mirage-compass-duo-1053",
+  "descriptionHtml": "<p><strong>Special order: the 2027 Mirage Compass Duo is not in stock.</strong> Call 815.433.2200 or request info and we'll order one for you.</p><p>2027 colors: Glacier Blue or Seagrass Green.</p><div id=\"product-component-1651957533563\"><strong><span><span><span>Financing Available!</span></span></span></strong></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><strong><span>Book a FREE On-Water Demo!</span></strong></span></a></p><p>&nbsp;</div><div><span>The Mirage Compass Duo is powered by dual MirageDrives with Kick-Up Fins that retract on impact. The Duo comes with both the forward and reverse capabilities with the upgraded MirageDrive 180! Equipped with the MirageDrive 180 and a MirageDrive with Glide Technology, the Duo delivers a smooth and efficient ride for two. The Duos sleek hull design maximizes speed and stability, while greatly reducing drag. The cockpit features comfortable, ergonomic seating, 4 Integrated H-Tracks for accessory mounting, and abundant above and below deck storage compartments to house gear for two. The sleek waterline and Kick-Up Rudder system make for an impressively nimble tandem kayak thats highly responsive, easy to steer and extremely durable. The roomy Compass Duo is simple to use and adventure-ready, making it the ideal choice for water outings with adults, tikes, and furry companions.</span></div><p><br /><span><strong>Length:</strong>&nbsp;13'6\" / 4.11 m<br /><strong>Beam:</strong>&nbsp;35\" / 0.89 m<br /><strong>Hull Weight:</strong>&nbsp;92 lbs / 42 kg<br /><strong>Fully Rigged Weight:</strong>&nbsp;127 lbs / 58 kg<br /><strong>Capacity:</strong>&nbsp;475 lbs / 215 kg<br /><strong>Crew:</strong>&nbsp;2</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</p><p>Mesh Gear Keeper in Bow\nTwo-Piece Paddle with On-Hull Storage\nOne MirageDrive 180 with Kick-Up Fins\nOne MirageDrive GT with Kick-Up Fins\nRetractable, Heavy-Duty Rudder\nFour H-Track Accessory Mounts\nTwo Molded-In Rod Holders\nRear Cargo Area with Bungee Tie Downs\nElevated Mesh Seating\nTwo 8\" Twist and Seal Hatches\nAccessory mount for optional sail or canopy\nFootbrace-ready</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2027",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "2027 Hobie Mirage Compass Duo | Order in Ottawa, IL",
+   "description": "Order the 2027 Hobie Mirage Compass Duo from Quest Watersports, your Hobie dealer in Ottawa, IL. $3,599 MSRP. Special order: call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3599.00",
+    "sku": "QW-2027-1053"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1053"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/4kUIVXD7syI?feature=player_detailpage"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2027"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass Duo"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Glacier Blue or Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1053/main/l/New-2026-Hobie-Mirage-Compass-Duo-1636140141.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage Compass Duo"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1053/2/l/New-2026-Hobie-Mirage-Compass-Duo-1636140141.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage Compass Duo photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1053/3/l/New-2026-Hobie-Mirage-Compass-Duo-1636140141.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage Compass Duo photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1053/4/l/New-2026-Hobie-Mirage-Compass-Duo-1636140141.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage Compass Duo photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1053/5/l/New-2026-Hobie-Mirage-Compass-Duo-1636140141.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage Compass Duo photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1053",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-compass-duo-c-1053/",
+  "when_modified": "2026-04-02 08:53:47",
+  "sold": "Available",
+  "decision": "to_2027"
+ }
+}

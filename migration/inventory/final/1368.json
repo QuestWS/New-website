@@ -1,0 +1,207 @@
+{
+ "identifier": {
+  "handle": "2005-monterey-190-ls-montura-br-1368"
+ },
+ "input": {
+  "title": "2005 Monterey 190 LS Montura BR",
+  "handle": "2005-monterey-190-ls-montura-br-1368",
+  "descriptionHtml": "<p>New arrival: Nice &amp; clean Monterey 190 Montura...</p><p>Recent detail &amp; buff make this Monterey stand out from the crowd.&nbsp; Plenty of comfortable space for friends and family, and upgraded 5.0 liter MerCruiser (no hour meter) provides plenty of power for tubing &amp; watersports.&nbsp; Stowable bimini &amp; snap-on cover are included, as is a matched, galvanized Load-Rite trailer.&nbsp;&nbsp;</p><p>Check it out in Quest's Ottawa, IL showroom today!&nbsp;&nbsp;</p>",
+  "vendor": "Monterey",
+  "productType": "Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Monterey",
+   "type:Boat",
+   "year:2005"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2005 Monterey 190 LS Montura BR for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2005 Monterey 190 LS Montura BR for sale at Quest Watersports in Ottawa, IL — $12,995. Stock #05MONT190. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "12995.00",
+    "sku": "05MONT190",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2005"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Monterey"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "190 LS Montura BR"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "05MONT190"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "19'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "MerCruiser 5.0L TKS"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "220"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Fiberglass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Red"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1368"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/main/l/Used-2005-Monterey-190-LS-Montura-BR-1786117690.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/2/l/Used-2005-Monterey-190-LS-Montura-BR-1786117690.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/3/l/Used-2005-Monterey-190-LS-Montura-BR-1786117690.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/4/l/Used-2005-Monterey-190-LS-Montura-BR-1786117690.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/5/l/Used-2005-Monterey-190-LS-Montura-BR-1786117691.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/6/l/Used-2005-Monterey-190-LS-Montura-BR-1786117691.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/7/l/Used-2005-Monterey-190-LS-Montura-BR-1786117691.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/8/l/Used-2005-Monterey-190-LS-Montura-BR-1786117691.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/9/l/Used-2005-Monterey-190-LS-Montura-BR-1786117691.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/10/l/Used-2005-Monterey-190-LS-Montura-BR-1786117692.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/11/l/Used-2005-Monterey-190-LS-Montura-BR-1786117692.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1368/12/l/Used-2005-Monterey-190-LS-Montura-BR-1786117692.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2005 Monterey 190 LS Montura BR photo 12"
+   }
+  ]
+ },
+ "source": {
+  "id": "1368",
+  "url": "https://www.questwatersports.com/2005-monterey-190-ls-montura-br-c-1368/",
+  "when_modified": "2026-08-07 10:48:27",
+  "sold": "Available"
+ }
+}

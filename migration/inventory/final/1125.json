@@ -1,0 +1,210 @@
+{
+ "identifier": {
+  "handle": "2027-hobie-mirage-itrek-11-1125"
+ },
+ "input": {
+  "title": "2027 Hobie Mirage iTrek 11",
+  "handle": "2027-hobie-mirage-itrek-11-1125",
+  "descriptionHtml": "<p><strong>Special order: the 2027 Mirage iTrek 11 is not in stock.</strong> Call 815.433.2200 or request info and we'll order one for you.</p><p>New for 2027:</p><ul><li>The electric pump is no longer included with 2027 inflatables.</li></ul><div id=\"product-component-1643992438233\"><span><strong><span>Financing Available!*</span></strong></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><strong><span>Book a FREE On-Water Demo!</span></strong></a></span></div><br />Pump Up Your Weekend Plans! Built for everything from day trips to overnight escapes, the Mirage iTrek 11 inflatable kayak with perched seating is the perfect choice for any adventure. Its high-performance lightweight construction boasts the speed, stability, and tracking of a rigid kayak without the extra weight. Packs away in a roller duffle bag, so minimal storage space is required. Ideal for RV, boat, and even airline travel! The iTrek 11 is unlike anything else on the water. Its unique design takes comfort to a new level with elevated seating featuring a cup holder and breathable nano-mesh fabric. Powered by the MirageDrive GT with Kick-Up Fins and integrated rudder for dual steering, the iTrek 11 is fun, nimble, and lightning-fast. Ambidextrous steering system allows steering handle to mount on left or right side of seat. Ultra-stable with a 400 lbs. carrying capacity. A true workhorse, the iTrek 11 features a rugged inflatable dropstitch hull with triple-chamber construction and EVA standing pads for improved traction. Attached to each side of the center chamber is a single-chamber pontoon providing you with an extra-wide platform for a stable ride. Its improved hull design delivers even more stability and increases total capacity, so you have plenty of room for all your gear. A four-piece paddle, high-pressure hand pump, high-volume electric pump and drink holder are all included inside an easy-load rolling travel bag thats portable, stowable, and ready for your next adventure. Powered by the MirageDrive GT with Kick-Up Fins, reaching your favorite fishing spot has never been easier.<br />&nbsp;<div><span>SPECS:<br />CREW:<span> </span>1</span></div><div><span>DRIVE:<span> </span>MIRAGEDRIVE GT</span></div><div><span>LENGTH:<span> </span>10' 8\" / 3.25 M</span></div><div><span>WIDTH:<span> </span>40\" / 1.02 M</span></div><div><span>CAPACITY:<span> </span>400 LBS / 181.4 KG</span></div><div><span>FITTED HULL WEIGHT:<span> </span>28 LBS / 12.7 KG</span></div><div><span>FULLY RIGGED WEIGHT:<span> </span>44 LBS / 19.96 KG</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><p>MirageDrive GT with Kick-up Fins\nImproved Hull Construction\nAluminum-Frame Seating with Breathable Mesh\nDetatchable Rudder System for Right & Left Handed Use\nEVA Standing Pads\nSeat Mounted Cup Holder\n3-Piece Paddle\nRolling Storage Bag w/ Extension Handle\nHigh-pressure Hand Pump\nHigh-pressure Electric Pump</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2027",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "2027 Hobie Mirage iTrek 11 | Order in Ottawa, IL",
+   "description": "Order the 2027 Hobie Mirage iTrek 11 from Quest Watersports, your Hobie dealer in Ottawa, IL. $2,399 MSRP. Special order: call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2399.00",
+    "sku": "QW-2027-1125"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Inflatable"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1125"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2027"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek 11"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/main/l/New-2026-Hobie-Mirage-iTrek-11-1610580261.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/2/l/New-2026-Hobie-Mirage-iTrek-11-1610580264.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/3/l/New-2026-Hobie-Mirage-iTrek-11-1610580267.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/4/l/New-2026-Hobie-Mirage-iTrek-11-1610580270.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/5/l/New-2026-Hobie-Mirage-iTrek-11-1610580273.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/6/l/New-2026-Hobie-Mirage-iTrek-11-1610580276.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/7/l/New-2026-Hobie-Mirage-iTrek-11-1610580280.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/8/l/New-2026-Hobie-Mirage-iTrek-11-1610580284.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/9/l/New-2026-Hobie-Mirage-iTrek-11-1610580287.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/10/l/New-2026-Hobie-Mirage-iTrek-11-1610580291.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/11/l/New-2026-Hobie-Mirage-iTrek-11-1610580294.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/12/l/New-2026-Hobie-Mirage-iTrek-11-1610580298.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/13/l/New-2026-Hobie-Mirage-iTrek-11-1610580303.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/14/l/New-2026-Hobie-Mirage-iTrek-11-1610580308.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/15/l/New-2026-Hobie-Mirage-iTrek-11-1610580312.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/16/l/New-2026-Hobie-Mirage-iTrek-11-1610580315.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1125/17/l/New-2026-Hobie-Mirage-iTrek-11-1610580319.jpg",
+    "contentType": "IMAGE",
+    "alt": "Hobie 2027 Hobie Mirage iTrek 11 photo 17"
+   }
+  ]
+ },
+ "source": {
+  "id": "1125",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-itrek-11-c-1125/",
+  "when_modified": "2026-04-02 08:57:29",
+  "sold": "Available",
+  "decision": "to_2027"
+ }
+}

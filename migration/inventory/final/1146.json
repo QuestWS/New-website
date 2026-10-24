@@ -1,0 +1,159 @@
+{
+ "identifier": {
+  "handle": "2027-hobie-cat-getaway-sailboat-with-wings-1146"
+ },
+ "input": {
+  "title": "2027 Hobie Cat Getaway Sailboat With Wings",
+  "handle": "2027-hobie-cat-getaway-sailboat-with-wings-1146",
+  "descriptionHtml": "<p><strong><span><span>Not Arriving for 2026 season. We hope to re-stock in 2027.</span></span></strong></p><p><span><font color=\"#ff0000\"><b>Dealer Assembly Included!</b></font></p><p>Take the party on the water with the Hobie Getaway. When the agenda involves sailing with friends and family, the Hobie Getaway is a sure-fire ticket to multi-hull fun.</p><p>Stir in the boat's performance-minded symmetrically shaped hulls, its efficient, mainsail-driven sail plan and its roller-furling jib and you quickly discover a sailing pedigree that leaves party boats stalled out. With the Getaway, there's no worry about impromptu raft-ups, beaching or docking; its impact-resistant, rotomolded polyethylene hull provides years worth of family fun. But most impressive is the Getaways awesome value. Expect great times for a modest price tag.</p><p><strong>Specs:</strong></span><ul>\t<li data-configurations=\"default\"><span><span>Crew:</span>&nbsp;1-6 (US) 3-4 (EU)</span></li>\t<li data-configurations=\"default\"><span><span>Length:</span>&nbsp;17' / 5.18 m</span></li>\t<li data-configurations=\"default\"><span><span>Beam:</span>&nbsp;7' 8\" / 2.34 m</span></li>\t<li data-configurations=\"default\"><span><span>Capacity:</span>&nbsp;1000 lbs/453 kg</span></li>\t<li data-configurations=\"default\"><span><span>Weight:</span>&nbsp;390lbs / 176 kg</span></li>\t<li data-configurations=\"default\"><span><span>Draft w/ Rudder Up:</span>&nbsp;10\" / 25.4 cm</span></li>\t<li data-configurations=\"default\"><span><span>Mast Length:</span>&nbsp;25' / 7.62 m</span></li>\t<li data-configurations=\"default\"><span><span>Total Sail Area:</span>&nbsp;180 ft / 17 m</span></li>\t<li data-configurations=\"default\"><span><span>Hull Construction:</span>&nbsp;Rotomolded Polyethylene</span></li>\t<li data-configurations=\"default\"><span><span>Height From Floor to Bow:</span>&nbsp;29.5\" / 74.93 cm</span></li>\t<li data-configurations=\"default\"><span><span>Height From Floor to Stern:</span>&nbsp;17.5\" / 44.45 cm</span></li></ul></p><p>Mast with Comptip\nHobie \"Mama Bob\"\nBora Bora Boomless Main Sail\nRoller Furling Jib\n6:1 Mainsheet Block System\nEva Deck Pads\nMesh Trampolines\nEZ-Loc Rudders\nFront Seating Area\nOptional Wing Seating</p>",
+  "vendor": "Hobie Cat",
+  "productType": "Sailboat",
+  "tags": [
+   "inventory",
+   "inventory-sailboats",
+   "inventory-new",
+   "make:Hobie Cat",
+   "type:Sailboat",
+   "year:2027"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2027 Hobie Cat Getaway Sailboat With Wings for Sale | Ottawa, IL",
+   "description": "New 2027 Hobie Cat Getaway Sailboat With Wings for sale at Quest Watersports in Ottawa, IL — call for price. Stock #HOBIEGTWY. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "HOBIEGTWY",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2027"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie Cat"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Getaway Sailboat With Wings"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIEGTWY"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "17'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotomolded Polyethylene"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Bora Bora"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1146"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/main/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416874.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/2/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416875.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/3/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416876.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/4/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416877.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/5/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416878.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1146/6/l/New-2027-Hobie-Cat-Getaway-Sailboat-With-Wings-1618416880.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Getaway Sailboat With Wings photo 6"
+   }
+  ]
+ },
+ "source": {
+  "id": "1146",
+  "url": "https://www.questwatersports.com/2027-hobie-cat-getaway-sailboat-with-wings-c-1146/",
+  "when_modified": "2026-07-10 13:04:24",
+  "sold": "Available"
+ }
+}

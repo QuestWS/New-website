@@ -1,0 +1,161 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-bigwater-pdl-132-1219"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman Bigwater PDL 132",
+  "handle": "2023-old-town-sportsman-bigwater-pdl-132-1219",
+  "descriptionHtml": "<p>Financing Available - Starting at $158.74 / Month, $0 Down, and all taxes and fees included!*</p><div><strong><span><span>Financing Available - Starting at $158.74 / Month, $0 Down, and all taxes and fees included!*</span></span></strong></div><div><br />Get to your spot, then stay there without paddling, on the Old Town Sportsman BigWater PDL 132 pedal kayak. With instant forward and reverse, maneuverability and stability, you'll enjoy precise boat control while your hands remain free to fish. Our award-winning PDL Drive is the most reliable and easy-to-use pedal drive on the market.<br />&nbsp;<div><strong>Number of Paddlers:</strong><span> </span>1</div><div><strong>Propulsion:</strong><span> </span>Pedal</div><div><strong>Total Weight Capacity:</strong>&nbsp;<span> </span>500 lb | 226.8 kg</div><div><strong>Usable Weight Capacity:</strong>&nbsp;<span> </span>378 lb | 171.46 kg</div><div><strong>Assembled Boat Weight:</strong>&nbsp;<span> </span>122 lb | 55.3392 kg</div><div><strong>Pedal Console Weight:</strong><span> </span>21 lb | 9.53 kg</div><div><strong>Removable Seat Weight:</strong><span> </span>6 lb | 2.72 kg</div><div><strong>Length:</strong><span> </span>13 ft 2.04 in | 4 m</div><div><strong>Width:</strong><span> </span>36 in | 91.4 cm</div><div><strong>Hatch:</strong><span> </span>Bow</div><div><strong>Material:</strong><span> </span>Single Layer Polyethylene</p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info</div></div><p>At just over 13 feet, the engineered hull design provides the efficiency desired in more open water and the stability required when you stand\nLow maintenance PDL Drive with patented easy-docking system for pain-free launch and landing. Covered by industry's first-in-class 5 year warranty.\nSuperior seat design has great lumbar support and is adjusted to accommodate leg length on a shuttle track. The mesh cover provides ventilation and drainage to keep you dry.\nTwo tracks on the forward hull and two in the stern provide multiple placement options for mounting accessories\nOne forward-facing and two rear-facing flush mounted rod holders are there when you want them, and out-of-the-way when you don't\nNon-slip EVA foam deck pads provide traction and stand-up comfort\nThe large stern tank well, with removable bungee cord is the perfect place to store a cooler, bait bucket or tackle crate\nDry storage for additional gear in the sealed bow hatch\nUniversal transducer mounting system allows for quicker installation of your fish finder\nA clip on the side of the hull secures your backup paddle, out of the way unless you need it\nCup holder for your favorite beverage\nCustom tackle box included\nPDL Drive and Seat are removable for easy transport and storage</p>",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2023 Old Town Sportsman Bigwater PDL 132 for Sale | Ottawa, IL",
+   "description": "New 2023 Old Town Sportsman Bigwater PDL 132 for sale at Quest Watersports in Ottawa, IL — $2,899. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2899.00",
+    "sku": "OTSMBWPDL132",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3249.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Old Town"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Sportsman Bigwater PDL 132"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "OTSMBWPDL132"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 2\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1219"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Marsh Camo (green), Ember Camo, or Photic Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/main/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950720.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/2/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950721.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/3/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950722.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/4/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950722.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/5/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950723.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132 photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1219",
+  "url": "https://www.questwatersports.com/2023-old-town-sportsman-bigwater-pdl-132-c-1219/",
+  "when_modified": "2026-05-13 13:17:49",
+  "sold": "Available"
+ }
+}

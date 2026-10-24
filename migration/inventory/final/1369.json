@@ -1,0 +1,131 @@
+{
+ "identifier": {
+  "handle": "2022-hydrohoist-ultralift-6600-lb-1369"
+ },
+ "input": {
+  "title": "2022 Hydrohoist Ultralift 6600 lb.",
+  "handle": "2022-hydrohoist-ultralift-6600-lb-1369",
+  "descriptionHtml": "<p><strong>Pre-owned Hydrohoist Ultralift - 6,600 lb. capacity&nbsp;&nbsp;</strong></p><p>Configured for a V-bottom boat, and can be adjusted to fit just about any inboard or sterndrive boat up to the designated weight capacity.&nbsp; Originally installed in 2022, it's fully functional and works like new.&nbsp; It is now installed in a 25' slip at Heritage Harbor, which is separately available for lease; it's a ready-to-use setup if you like that location (no installation cost!).&nbsp; &nbsp;&nbsp;</p>",
+  "vendor": "Hydrohoist",
+  "productType": "Boat Lift",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Hydrohoist",
+   "type:Boat Lift",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2022 Hydrohoist Ultralift 6600 lb. for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2022 Hydrohoist Ultralift 6600 lb. for sale at Quest Watersports in Ottawa, IL — $10,300. Stock #EDHH6600. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "10300.00",
+    "sku": "EDHH6600",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hydrohoist"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Ultralift 6600 lb."
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "EDHH6600"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1369"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1369/main/l/Used-2022-Hydrohoist-Ultralift-6600-lb-1786832362.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hydrohoist Ultralift 6600 lb."
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1369/2/l/Used-2022-Hydrohoist-Ultralift-6600-lb-1786832362.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hydrohoist Ultralift 6600 lb. photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1369/3/l/Used-2022-Hydrohoist-Ultralift-6600-lb-1786832366.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hydrohoist Ultralift 6600 lb. photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1369/4/l/Used-2022-Hydrohoist-Ultralift-6600-lb-1786832366.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hydrohoist Ultralift 6600 lb. photo 4"
+   }
+  ]
+ },
+ "source": {
+  "id": "1369",
+  "url": "https://www.questwatersports.com/2022-hydrohoist-ultralift-6600-lb.-c-1369/",
+  "when_modified": "2026-08-15 17:25:12",
+  "sold": "Available"
+ }
+}

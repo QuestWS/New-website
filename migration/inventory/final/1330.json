@@ -1,0 +1,241 @@
+{
+ "identifier": {
+  "handle": "2023-g3-guide-v167-1330"
+ },
+ "input": {
+  "title": "2023 G3 Guide V167",
+  "handle": "2023-g3-guide-v167-1330",
+  "descriptionHtml": "<p data-end=\"224\" data-start=\"163\"><strong data-end=\"224\" data-start=\"163\">2023 G3 Guide V167 Like New &amp; Fully Rigged for Fishing!</strong></p><p data-end=\"372\" data-start=\"226\">Used only once, this 2023 G3 Guide V167 is in <em data-end=\"282\" data-start=\"272\">pristine</em> condition and comes loaded with premium features and upgrades - just turn the key and fish!</p><ul>\t<li data-end=\"780\" data-start=\"374\"><strong data-end=\"409\" data-start=\"376\">Brand new Humminbird Helix 10</strong> for advanced sonar and GPS navigation</li>\t<li data-end=\"780\" data-start=\"374\"><strong data-end=\"470\" data-start=\"452\">MinnKota i-Pilot GPS Trolling motor</strong>&nbsp;(70 lb. 24v) with remote installed for quiet, controlled movement</li>\t<li data-end=\"780\" data-start=\"374\"><strong data-end=\"529\" data-start=\"516\">2 anchors</strong>&nbsp;with anchor caddy and <strong data-end=\"547\" data-start=\"534\">4 bumpers</strong> included for easy docking and mooring</li>\t<li data-end=\"780\" data-start=\"374\"><strong data-end=\"613\" data-start=\"590\">Plush seat cushions</strong> and <strong data-end=\"648\" data-start=\"618\">2 movable captain's chairs</strong> for comfort and flexibility</li>\t<li data-end=\"780\" data-start=\"374\"><strong data-end=\"694\" data-start=\"681\">Live well</strong>, <strong data-end=\"709\" data-start=\"696\">rod cubby</strong>, <strong data-end=\"744\" data-start=\"711\">multiple fishing pole holders</strong>, and <strong data-end=\"767\" data-start=\"750\">ample storage</strong> throughout</li></ul><p data-end=\"928\" data-start=\"782\">Whether you're a seasoned angler or just getting started, this G3 is turnkey-ready with everything you need to hit the water in style and comfort.</p><p data-end=\"1014\" data-start=\"930\"><strong data-end=\"1014\" data-start=\"930\">Why wait for new? Get a like-new boat with all the upgrades no add-ons required!</strong></p>",
+  "vendor": "G3",
+  "productType": "Fishing Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:G3",
+   "type:Fishing Boat",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2023 G3 Guide V167 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2023 G3 Guide V167 for sale at Quest Watersports in Ottawa, IL — $24,000. Stock #G32023. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "24000.00",
+    "sku": "G32023",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "G3"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Guide V167"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "G32023"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "17'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "Yamaha 40HP 4 Stroke"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "40"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "aluminum"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1330"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/main/l/Used-2023-G3-Guide-V167-1749670207.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/2/l/Used-2023-G3-Guide-V167-1749670207.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/3/l/Used-2023-G3-Guide-V167-1749670208.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/4/l/Used-2023-G3-Guide-V167-1749670208.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/5/l/Used-2023-G3-Guide-V167-1749670208.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/6/l/Used-2023-G3-Guide-V167-1749670208.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/7/l/Used-2023-G3-Guide-V167-1749670208.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/8/l/Used-2023-G3-Guide-V167-1749670209.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/9/l/Used-2023-G3-Guide-V167-1749670209.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/10/l/Used-2023-G3-Guide-V167-1749670209.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/11/l/Used-2023-G3-Guide-V167-1749670209.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/12/l/Used-2023-G3-Guide-V167-1749670209.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/13/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/14/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/15/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/16/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/17/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/18/l/Used-2023-G3-Guide-V167-1749670210.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/19/l/Used-2023-G3-Guide-V167-1749670211.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1330/20/l/Used-2023-G3-Guide-V167-1749670211.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 G3 Guide V167 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1330",
+  "url": "https://www.questwatersports.com/2023-g3-guide-v167-c-1330/",
+  "when_modified": "2026-04-21 15:09:32",
+  "sold": "Available"
+ }
+}

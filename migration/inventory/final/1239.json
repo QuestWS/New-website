@@ -1,0 +1,160 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-ieclipse-1239"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage iEclipse",
+  "handle": "2022-hobie-mirage-ieclipse-1239",
+  "descriptionHtml": "<p><strong>Consignment.</strong> Quest Watersports is selling this boat on behalf of its owner.</p><div><span><span><strong>Ask about available deferred interest financing!</strong></span></span></div><br />Explore the ultimate in aquatic adventure with this used 2022 Hobie Mirage iEclipse, priced at an affordable $2299. Unveiling the first-of-its-kind, this inflatable, pedal-powered standup board delivers an unparalleled water sports experience.</p><p>Boasting an ultra-lightweight and portable design, the iEclipse is perfect for those with an insatiable thirst for exploration. At an incredible 11' (3.35m) in length and with a 40\" (1.02m) width, it features an extra-wide standing platform. Equipped with EVA standing pads, it provides unrivaled stability in winds, waves, and wakes, making it ideal for both seasoned pros and beginners alike.</p><p>The iEclipse employs high-tech diagonal dropstitch construction, allowing it to inflate up to 10 PSI for exceptional rigidity. Despite its robust build, it retains a lightweight profile, with a fitted hull weight of just 28 lbs (12.7 kg) and a fully rigged weight of 40 lbs (18.1 kg).</p><p>Step up your paddleboard experience with the MirageDrive GT pedal propulsion. Each step propels you forward effortlessly, meaning you can focus more on the beautiful surroundings and less on the hard work. The intuitive, one-handed steering system is easy to use, allowing for precise maneuvers and turns at the push or pull of a lever.</p><p>But the iEclipse doesn't just excel in the water. Its portability sets it apart from the crowd. It can be effortlessly stowed in the back of your car, loaded into an RV, or checked on a flight. The adventure possibilities are truly limitless with the iEclipse.</p><p>Included with your purchase are a two-piece removable handlebar, a high-pressure hand pump, and a high-volume electric pump, all easily stored in the rolling travel bag. The bag, measuring at 43.3 x 24.6 x 12.8 (110 x 62.5 x 32.5 cm), is designed for effortless transport and storage.</p><p>Dive into a new world of aquatic exploration with the used 2022 Hobie Mirage iEclipse, your perfect partner for every water-based adventure. Order now to begin your journey on the waves.<p>Inflatable, pedal-powered standup board for a unique on-water experience\nUltra-lightweight and portable design for easy transport and storage\nMeasures 11' (3.35m) in length and 40\" (1.02m) in width\nExtra-wide standing platform equipped with EVA standing pads for enhanced stability\nUtilizes high-tech diagonal dropstitch construction, inflating to 10 PSI\nFitted hull weight: 28 lbs (12.7 kg); Fully rigged weight: 40 lbs (18.1 kg)\nEquipped with MirageDrive GT pedal propulsion for easy movement on the water\nIntuitive, one-handed steering system for effortless maneuverability\nEasy to set up and transport, fitting easily in a car, RV, or airplane\nComes with a two-piece removable handlebar, high-pressure hand pump, and high-volume electric pump\nIncludes an easy-load rolling travel bag for transport and storage, measuring 43.3 x 24.6 x 12.8 (110 x 62.5 x 32.5 cm)\nSupports up to 300 lbs (136 kg) of weight capacity\nImproved hull construction that is lightweight yet highly durable.</p><p></p><p><u><strong>Specs</strong></u>:<br /><div><strong>LENGTH</strong>:<span> </span>11' / 3.35 M</div><div><strong>WIDTH</strong>:<span> </span>40\" / 1.02 M</div><div><strong>CAPACITY</strong>:<span> </span>300 LBS / 136 KG</div><div><strong>FITTED HULL WEIGHT</strong>:<span> </span>28 LBS / 12.7 KG</div><div><strong>FULLY RIGGED WEIGHT</strong>:<span> </span>40 LBS / 18.1 KG</div><div><strong>BAG DIMENSIONS</strong>:<span> </span>43.3 X 24.6 X 12.8 / 110 X 62.5 X 32.5 CM</div></p>",
+  "vendor": "Hobie",
+  "productType": "Paddleboard",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Paddleboard",
+   "year:2022",
+   "consignment"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2022 Hobie Mirage iEclipse for Sale | Ottawa, IL",
+   "description": "Used 2022 Hobie Mirage iEclipse for sale at Quest Watersports in Ottawa, IL — $2,299. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2299.00",
+    "sku": "22UIECLPS11",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iEclipse"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22UIECLPS11"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "11'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "550 DENIER PVC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1239"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/main/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387478.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/2/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387479.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/3/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387480.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/4/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387481.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/5/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387482.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1239/6/l/Used-2022-Hobie-Used-Mirage-iEclipse-1687387483.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Hobie Mirage iEclipse photo 6"
+   }
+  ]
+ },
+ "source": {
+  "id": "1239",
+  "url": "https://www.questwatersports.com/2022-hobie-used-mirage-ieclipse-c-1239/",
+  "when_modified": "2024-06-07 18:15:10",
+  "sold": "Available"
+ }
+}

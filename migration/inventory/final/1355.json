@@ -1,0 +1,169 @@
+{
+ "identifier": {
+  "handle": "2016-hobie-mirage-pro-angler-17t-1355"
+ },
+ "input": {
+  "title": "2016 Hobie Mirage Pro Angler 17T",
+  "handle": "2016-hobie-mirage-pro-angler-17t-1355",
+  "descriptionHtml": "<p>Pre-owned 2016 Hobie Mirage Pro Angler 17T in Dune. The 17\\' tandem flagship with twin MirageDrive GTs and Turbo Fins, H-Bar, four paddles, dual carts, and Triton LT trailer. $6,499.</p><h2>2016 Hobie Mirage Pro Angler 17T Tandem Flagship, Fully Rigged, Dune</h2>&nbsp;<p>The Hobie Mirage Pro Angler 17T is the largest kayak Hobie has ever built a 17' tandem platform with twin MirageDrive slots, full H-Rail tracks down both sides, and a stable, walkable deck. Built for two anglers working the same water, or one angler who wants the room and stability of a small skiff with the silent propulsion of a Mirage Drive.</p><p>This 2016 example is in Dune and comes set up to fish out of the box. Both drives are MirageDrive GTs fitted with Turbo Fins the high-thrust standard for this vintage and the kayak ships on its Triton LT trailer with a spare, so it's a trailered package ready to launch. Located at Quest Watersports in Ottawa, Illinois.</p><p><strong>Included with this kayak:</strong></p><ul>\t<li>Two MirageDrive GTs with Turbo Fins</li>\t<li>Two Hobie Vantage seats (standard)</li>\t<li>Hobie H-Bar standing assist</li>\t<li>H-Rail Rod Holder</li>\t<li>Two H-Rail mounting plates</li>\t<li>Anchor Trolley system</li>\t<li>Railblaza 3 lb flag and light combo</li>\t<li>Two Hobie 260cm paddles (standard)</li>\t<li>Two adjustable T-handle paddles</li>\t<li>Hobie Heavy Duty Plug-in Cart (foam-filled no-flat wheels)</li>\t<li>Hobie Trax 2-30 Plug-in Cart (beach wheels)</li>\t<li>Triton LT trailer with spare tire</li></ul>&nbsp;<table>\t<tbody>\t\t<tr>\t\t\t<td>Length</td>\t\t\t<td>17' / 5.18 m</td>\t\t</tr>\t\t<tr>\t\t\t<td>Width</td>\t\t\t<td>38\" / 0.97 m</td>\t\t</tr>\t\t<tr>\t\t\t<td>Capacity</td>\t\t\t<td>600 lbs / 272 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td>Fitted Hull Weight</td>\t\t\t<td>146.5 lbs / 66 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td>Fully Rigged Weight</td>\t\t\t<td>189.5 lbs / 86 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td>Hull</td>\t\t\t<td>Rotomolded Polyethylene</td>\t\t</tr>\t\t<tr>\t\t\t<td>Condition</td>\t\t\t<td>Pre-owned</td>\t\t</tr>\t\t<tr>\t\t\t<td>Color</td>\t\t\t<td>Dune</td>\t\t</tr>\t\t<tr>\t\t\t<td>Drive</td>\t\t\t<td>Two MirageDrive GTs with Turbo Fins</td>\t\t</tr>\t\t<tr>\t\t\t<td>Trailer</td>\t\t\t<td>Triton LT with spare</td>\t\t</tr>\t\t<tr>\t\t\t<td>Price</td>\t\t\t<td>$6,499</td>\t\t</tr>\t</tbody></table><p><br /><strong>See it in person.&nbsp;</strong>This PA17T is at our showroom in Ottawa, IL. Call 815.433.2200 to confirm availability or stop in at 1851 Old Chicago Road</p><p>2016 Model Year\nPre-Owned\nDune Hull Color\nTandem Two-Person Configuration\n17' Length\n38\" Width\n600 lb Total Capacity\nTwo MirageDrive GTs\nTurbo Fins\nTwo Hobie Vantage Seats\nHobie H-Bar Standing Assist\nH-Rail Accessory Tracks (Both Sides)\nTwo H-Rail Mounting Plates\nH-Rail Rod Holder\nAnchor Trolley System\nRailblaza 3 lb Flag and Light Combo\nTwo Hobie 260cm Paddles\nTwo Adjustable T-Handle Paddles\nHobie Heavy Duty Plug-in Cart\nHobie Trax 2-30 Plug-in Cart\nTriton LT Trailer\nTrailer Spare Tire\nHorizontal Rod Lockers\nPivoting Tackle Management\nNon-Skid Standing Deck\nRotomolded Polyethylene Hull</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2016"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2016 Hobie Mirage Pro Angler 17T for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T for sale at Quest Watersports in Ottawa, IL — $6,499. Stock #U16PA17T. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "6499.00",
+    "sku": "U16PA17T",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2016"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 17T"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "U16PA17T"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "17'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Dune"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1355"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/main/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770946.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/2/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770946.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/3/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770946.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/4/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770947.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/5/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770947.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/6/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770947.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/7/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770948.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1355/8/l/Used-2016-Hobie-Used-Mirage-Pro-Angler-17T-1778770948.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Pro Angler 17T photo 8"
+   }
+  ]
+ },
+ "source": {
+  "id": "1355",
+  "url": "https://www.questwatersports.com/2016-hobie-used-mirage-pro-angler-17t-c-1355/",
+  "when_modified": "2026-05-14 10:04:42",
+  "sold": "Available"
+ }
+}

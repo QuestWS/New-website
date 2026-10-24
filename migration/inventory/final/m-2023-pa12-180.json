@@ -1,0 +1,172 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-pro-angler-12-180"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Pro Angler 12 180",
+  "handle": "2023-hobie-mirage-pro-angler-12-180",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "descriptionHtml": "<div id=\"product-component-1651959830299\"><strong><span><span><span>Financing Available!*</span></span></span></strong></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><strong><span>Book a FREE On-Water Demo!</span></strong></span></a></div><div><p><br /><span>Dominate the water, fresh or salt. The Pro Angler 12 deploys all the big-boat fishing features of the 'PA' series on a 12-ft. long platform that fits neatly in the bed of most any pickup truck. Keep a half-dozen rods rigged and ready in the four standard horizontal and two molded-in rod holders. Confidently stand and fire, cast after cast. The elevated Vantage ST seat makes it easy to move around the boat. &nbsp;You'll love the retractable skeg for improved course-keeping, as well as the innovative H-Rail for superior flexibility in accessory rigging.</span><br />&nbsp;</p><p><span><strong>Length:&nbsp;</strong>12' / 3.66 m<br /><strong>Width:&nbsp;</strong>36\" / .91 m<br /><strong>Hull Weight:&nbsp;</strong>105 lbs / 48 kg<br /><strong>Fully Rigged Weight:&nbsp;</strong>128.5 lbs / 58 kg<br /><strong>Capacity:</strong> 500 lbs / 227 kg<br /><strong>Vantage Seat Capacity:</strong> &nbsp;350 lbs / 159 kg<br /><strong>Crew:</strong> &nbsp;1</p><p><strong><a href=\"http://www.hobiecat.com/kayaks/mirage/pro-angler-12/features/\" onclick=\"window.open(this.href,'','resizable=yes,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false\">See more Pro Angler 12 features</a><br /><a href=\"https://www.youtube.com/playlist?list=PLaNpyEaQ9zBIjjNXLcp8dmDm0pO6pW9PJ\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no'); return false;\">See the Hobie Outdoor Adventure series on YouTube</a><br /><a href=\"https://www.youtube.com/playlist?list=PLaNpyEaQ9zBJrfeDieIdAz6f7KelPBKeo\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no'); return false;\">See Hobie Top Gun Series on YouTube</a><br /><a href=\"http://www.youtube.com/playlist?list=PL3DD68AFB6F500C1E\" onclick=\"window.open(this.href,'','resizable=yes,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false\">See the Hobie Fish the World series on YouTube</a><br /><a href=\"http://www.questwatersports.com/hobie-models.htm\">Compare to other Hobie Kayaks</a></strong></span><br /><strong><a href=\"http://www.questwatersports.com/used-hobie-kayaks.htm\">See our selection of pre-owned Hobie Kayaks</a></strong><br />&nbsp;</p><div>&nbsp;</div><div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\">&nbsp;</div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\"><div><br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div></div></div></div><p>Lowrance Ready System with Guardian Retractable Transducer Shield\nDual Steering Controls\nReplaceable Mounting Boards\nTwo-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle\n8\" Twist and Seal Hatch\nAccessory Mount for Optional Sail or Canopy\nAnchor Trolley System Ready\nMirageDrive 180 ARC with ST Turbo Fins\nVantage ST Seating\nBoa System Lumbar Support\nFront and Rear Carrying Handles\nHorizontal Storage for 4 Rods\nLarge Covered Bow Hatch with Removable Liner\nLarge Rectangular Hatch with Pivoting Tackle Management System\nLivewell-Ready Cargo Area\nRetractable Rudder System\nUnder Seat Tackle Storage\nMolded-In Vertical Storage for 2 Rods\nRetractable Tracking Skeg\n2 Plano Tackle Boxes\n2 H-Rail Rod Racks\n1 H-Rail Cup Holder\nHookless Mesh-Covered Stowage Pockets</p>",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4799.00",
+    "sku": "QW-2023-pa12-180",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 12 180"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Sunrise Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "manual:2023-pa12-180"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/main/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658904.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/2/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658899.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 2 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/3/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658901.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 3 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/4/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658903.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 4 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/5/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658906.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 5 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/6/l/New-2026-Hobie-Mirage-Pro-Angler-12-1483227512.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 6 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/7/l/New-2026-Hobie-Mirage-Pro-Angler-12-1483227516.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 7 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/8/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658907.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 8 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/9/l/New-2026-Hobie-Mirage-Pro-Angler-12-1483227517.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 9 (same model)"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/922/10/l/New-2026-Hobie-Mirage-Pro-Angler-12-1504658909.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 12 180 photo 10 (same model)"
+   }
+  ],
+  "seo": {
+   "title": "New 2023 Hobie Mirage Pro Angler 12 180 for Sale | Ottawa, IL",
+   "description": "New 2023 Hobie Mirage Pro Angler 12 180 for sale at Quest Watersports in Ottawa, IL — $4,799. Call 815.433.2200 or request info online."
+  }
+ },
+ "source": {
+  "id": "manual:2023-pa12-180",
+  "decision": "manual",
+  "note": "C3"
+ }
+}
