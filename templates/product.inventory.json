@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "qo-inventory-product",
+      "settings": {
+        "phone_display": "815.433.2200",
+        "phone_href": "+18154332200",
+        "more_heading": "More inventory"
+      }
+    }
+  },
+  "order": ["main"]
+}

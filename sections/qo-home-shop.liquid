@@ -13,6 +13,7 @@
     <ul class="qo-shop__track" data-track role="list">
       {%- for product in coll.products limit: section.settings.products_to_show -%}
         {%- assign media = product.featured_media -%}
+        {%- capture qo_buyable -%}{%- render 'qo-buyable', product: product -%}{%- endcapture -%}
         <li class="qo-shop__card">
           <a class="qo-shop__img" href="{{ product.url }}" tabindex="-1" aria-hidden="true">
             {%- if media != blank -%}
@@ -23,14 +24,14 @@
             <h3 class="qo-shop__name"><a href="{{ product.url }}">{{ product.title }}</a></h3>
             <p class="qo-shop__price">{%- if product.compare_at_price > product.price -%}<s>{{ product.compare_at_price | money }}</s> {% endif -%}{%- if product.price_varies -%}From {% endif -%}{{ product.price | money }}</p>
           </div>
-          {%- if product.available and product.variants.size == 1 -%}
+          {%- if qo_buyable == 'true' and product.available and product.variants.size == 1 -%}
             {%- form 'product', product, class: 'qo-shop__form' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
               <input type="hidden" name="quantity" value="1">
               <button type="submit" class="qo-shop__bar">Add to cart</button>
             {%- endform -%}
           {%- else -%}
-            <a class="qo-shop__bar" href="{{ product.url }}">{% if product.available %}View{% else %}Sold out{% endif %}</a>
+            <a class="qo-shop__bar" href="{{ product.url }}">{% if qo_buyable != 'true' %}View Details{% elsif product.available %}View{% else %}Sold out{% endif %}</a>
           {%- endif -%}
         </li>
       {%- endfor -%}

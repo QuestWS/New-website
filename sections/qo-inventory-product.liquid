@@ -1,0 +1,333 @@
+{{ 'qo-inventory.css' | asset_url | stylesheet_tag }}
+{{ 'qo-product-carousel.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign mf = product.metafields.custom
+  assign condition = mf.condition.value
+  if condition == blank
+    if product.tags contains 'inventory-new'
+      assign condition = 'New'
+    elsif product.tags contains 'inventory-pre-owned'
+      assign condition = 'Pre-Owned'
+    endif
+  endif
+  assign cond_lc = condition | downcase
+  assign is_new = false
+  if cond_lc == 'new'
+    assign is_new = true
+  endif
+  assign pending = false
+  if mf.sale_pending.value == true or product.tags contains 'sale-pending'
+    assign pending = true
+  endif
+  assign qo_nocall = false
+  if product.tags contains 'make:Hobie'
+    if product.tags contains 'year:2026' or product.tags contains 'year:2027'
+      assign qo_nocall = true
+    endif
+  endif
+  assign call_price = false
+  if product.price == 0
+    assign call_price = true
+  elsif mf.call_for_price.value == true and qo_nocall == false
+    assign call_price = true
+  endif
+  assign msrp_label = mf.msrp_label.value | default: 'MSRP'
+  assign special_order = false
+  if mf.special_order.value == true
+    assign special_order = true
+  endif
+  assign phone_display = section.settings.phone_display | default: '815.433.2200'
+  assign phone_href = section.settings.phone_href | default: '+18154332200'
+  assign directions_url = section.settings.directions_url | default: 'https://www.google.com/maps/dir/?api=1&destination=Quest+Watersports,+1800+N+2871st+Rd,+Ottawa,+IL+61350'
+  assign stock = mf.stock_number.value
+  assign group_tag = ''
+  for t in product.tags
+    case t
+      when 'inventory-boats', 'inventory-paddlesports', 'inventory-sailboats', 'inventory-ebikes'
+        assign group_tag = t
+        break
+    endcase
+  endfor
+  assign photos = product.media | where: 'media_type', 'image'
+-%}
+
+<div class="qo-inv" id="QoInv-{{ section.id }}" data-qo-inv>
+  <div class="qo-inv__bg" style="background-image:url('{{ 'qo-inventory-bg.webp' | asset_url }}')" aria-hidden="true"></div>
+  <div class="qo-container qo-inv__wrap">
+    <article class="qo-inv__panel">
+      <header class="qo-inv__head">
+        <h1 class="qo-inv__title">{{ product.title | escape }}</h1>
+        <div class="qo-inv__badges">
+          {%- if condition != blank -%}<span class="qo-badge {% if is_new %}qo-badge--new{% else %}qo-badge--used{% endif %}">{{ condition | escape }}</span>{%- endif -%}
+          {%- if product.tags contains 'demo' -%}<span class="qo-badge qo-badge--used">Demo</span>{%- endif -%}
+          {%- if product.tags contains 'consignment' -%}<span class="qo-badge qo-badge--used">Consignment</span>{%- endif -%}
+          {%- if pending -%}<span class="qo-badge qo-badge--pending">Sale Pending</span>{%- endif -%}
+        </div>
+      </header>
+
+      <div class="qo-inv__main">
+        <div class="qo-inv__gallery" data-qo-gallery>
+          {%- if photos.size > 0 -%}
+            <div class="qo-gal__stage">
+              <ul class="qo-gal__track" role="list" data-gal-track tabindex="0" aria-label="{{ product.title | escape }} photos">
+                {%- for m in photos -%}
+                  {%- liquid
+                    assign loading_mode = 'lazy'
+                    assign fp = 'auto'
+                    if forloop.first
+                      assign loading_mode = 'eager'
+                      assign fp = 'high'
+                    endif
+                  -%}
+                  <li class="qo-gal__slide" data-gal-slide>
+                    <button type="button" class="qo-gal__zoom" data-gal-zoom="{{ m | image_url: width: 1600 }}" aria-label="Enlarge photo {{ forloop.index }} of {{ photos.size }}">
+                      {{ m | image_url: width: 1000 | image_tag: width: 1000, height: 750, widths: '400, 600, 800, 1000, 1400', sizes: '(min-width: 990px) 640px, 100vw', loading: loading_mode, fetchpriority: fp, alt: m.alt | default: product.title }}
+                    </button>
+                  </li>
+                {%- endfor -%}
+              </ul>
+              {%- if photos.size > 1 -%}
+                <button type="button" class="qo-gal__arrow qo-gal__arrow--prev" data-gal-prev aria-label="Previous photo"><svg width="22" height="22" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 2L4 8l6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <button type="button" class="qo-gal__arrow qo-gal__arrow--next" data-gal-next aria-label="Next photo"><svg width="22" height="22" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <p class="qo-gal__count" aria-live="polite"><span data-gal-current>1</span> / {{ photos.size }}</p>
+              {%- endif -%}
+            </div>
+            {%- if photos.size > 1 -%}
+              <ul class="qo-gal__thumbs" role="list" data-gal-thumbs>
+                {%- for m in photos -%}
+                  <li><button type="button" class="qo-gal__thumb{% if forloop.first %} is-active{% endif %}" data-gal-thumb="{{ forloop.index0 }}" aria-label="Show photo {{ forloop.index }}">
+                    {{ m | image_url: width: 160 | image_tag: width: 80, height: 60, widths: '80, 160', sizes: '80px', loading: 'lazy', alt: '' }}
+                  </button></li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          {%- else -%}
+            <div class="qo-gal__empty">Photos coming soon. Call {{ phone_display }} for details.</div>
+          {%- endif -%}
+        </div>
+
+        <div class="qo-inv__info">
+          <div class="qo-price" data-qo-price>
+            {%- if call_price -%}
+              <span class="qo-price__label">Price</span>
+              <span class="qo-price__now qo-price__now--call">Call for price</span>
+            {%- else -%}
+              {%- if product.compare_at_price > product.price -%}
+                <span class="qo-price__label">{{ msrp_label | escape }}</span>
+                <s class="qo-price__was">{{ product.compare_at_price | money_without_trailing_zeros }}</s>
+                <span class="qo-price__label">Now</span>
+              {%- else -%}
+                <span class="qo-price__label">Our Price</span>
+              {%- endif -%}
+              <span class="qo-price__now">{% if product.price_varies %}<small style="font-size:16px;font-family:var(--font-body-family)">From </small>{% endif %}{{ product.price | money_without_trailing_zeros }}</span>
+            {%- endif -%}
+          </div>
+
+          {%- if product.variants.size > 1 and call_price == false -%}
+            <ul role="list" style="list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px;color:#002B4B;font-weight:700">
+              {%- for v in product.variants -%}
+                <li style="display:flex;justify-content:space-between;gap:12px;padding:8px 12px;background:#fff;border-radius:6px"><span>{{ product.options[0] | escape }} {{ v.option1 | escape }}{% if v.option2 != blank %} / {{ v.option2 | escape }}{% endif %}</span><span>{{ v.price | money_without_trailing_zeros }}</span></li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+
+          {%- if special_order -%}
+            <div role="note" style="margin:14px 0 0;padding:12px 14px;background:#fff3c4;border-left:5px solid #EFC503;color:#292A2A;font-weight:700;line-height:1.4">
+              Not in stock &mdash; special order. Call <a href="tel:{{ phone_href }}" style="color:#002B4B">{{ phone_display }}</a> to order.
+              {%- if mf.availability_note.value != blank %}<span style="display:block;font-weight:500;margin-top:4px">{{ mf.availability_note.value | escape }}</span>{% endif -%}
+            </div>
+          {%- endif -%}
+
+          <div class="qo-inv__ctas">
+            <a class="qo-cta qo-cta--call" href="tel:{{ phone_href }}">Call {{ phone_display }}</a>
+            <a class="qo-cta qo-cta--info" href="#qo-request-info" data-qo-request>Request Info</a>
+            <a class="qo-cta qo-cta--ghost" href="{{ directions_url }}" target="_blank" rel="noopener">Get Directions</a>
+            <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/financing">Financing</a>
+            <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/sell-or-trade">Trade-In</a>
+          </div>
+
+          {%- capture specs -%}
+            {%- if mf.year.value != blank -%}<tr><th scope="row">Year</th><td>{{ mf.year.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.make.value != blank or product.vendor != blank -%}<tr><th scope="row">Manufacturer</th><td>{{ mf.make.value | default: product.vendor | escape }}</td></tr>{%- endif -%}
+            {%- if mf.model.value != blank -%}<tr><th scope="row">Model</th><td>{{ mf.model.value | escape }}</td></tr>{%- endif -%}
+            {%- if condition != blank -%}<tr><th scope="row">Condition</th><td>{{ condition | escape }}</td></tr>{%- endif -%}
+            {%- if stock != blank -%}<tr><th scope="row">Stock #</th><td>{{ stock | escape }}</td></tr>{%- endif -%}
+            {%- if mf.length.value != blank -%}<tr><th scope="row">Length</th><td>{{ mf.length.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.engine.value != blank -%}<tr><th scope="row">Engine</th><td>{{ mf.engine.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.horsepower.value != blank -%}<tr><th scope="row">Horsepower</th><td>{{ mf.horsepower.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.hull_type.value != blank -%}<tr><th scope="row">Hull Type</th><td>{{ mf.hull_type.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.fuel_type.value != blank -%}<tr><th scope="row">Fuel Type</th><td>{{ mf.fuel_type.value | escape }}</td></tr>{%- endif -%}
+            {%- if mf.color.value != blank -%}<tr><th scope="row">Color</th><td>{{ mf.color.value | escape }}</td></tr>{%- endif -%}
+          {%- endcapture -%}
+          {%- if specs != blank -%}
+            <table class="qo-specs"><caption class="visually-hidden">Specifications</caption><tbody>{{ specs }}</tbody></table>
+          {%- endif -%}
+        </div>
+      </div>
+
+      {%- if product.description != blank -%}
+        <section class="qo-inv__desc" aria-labelledby="QoInvDesc-{{ section.id }}">
+          <h2 id="QoInvDesc-{{ section.id }}">Description</h2>
+          <div class="rte">{{ product.description }}</div>
+        </section>
+      {%- endif -%}
+
+      {%- assign yt = mf.youtube_url.value | strip -%}
+      {%- if yt != blank -%}
+        {%- liquid
+          assign yt_id = ''
+          if yt contains 'youtu.be/'
+            assign yt_id = yt | split: 'youtu.be/' | last | split: '?' | first | split: '&' | first
+          elsif yt contains 'watch?v='
+            assign yt_id = yt | split: 'watch?v=' | last | split: '&' | first
+          elsif yt contains '/embed/'
+            assign yt_id = yt | split: '/embed/' | last | split: '?' | first
+          elsif yt contains '/shorts/'
+            assign yt_id = yt | split: '/shorts/' | last | split: '?' | first
+          endif
+        -%}
+        {%- if yt_id != blank -%}
+          <section class="qo-inv__video" aria-label="Video">
+            <h2>Video</h2>
+            <div class="qo-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ yt_id | escape }}" title="{{ product.title | escape }} video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          </section>
+        {%- endif -%}
+      {%- endif -%}
+
+      <section class="qo-inv__request" id="qo-request-info" aria-labelledby="QoReq-{{ section.id }}">
+        <h2 id="QoReq-{{ section.id }}">Request Info</h2>
+        <p class="qo-inv__request-lead">Interested in the {{ product.title | escape }}{% if stock != blank %} (Stock # {{ stock | escape }}){% endif %}? Send us a message, or call <a href="tel:{{ phone_href }}">{{ phone_display }}</a>.</p>
+        {%- form 'contact', id: 'QoInvForm', class: 'qo-form' -%}
+          {%- if form.posted_successfully? -%}
+            <p class="qo-form__ok" role="status" tabindex="-1" autofocus>Thanks! We received your request and will get back to you shortly.</p>
+          {%- endif -%}
+          {%- if form.errors -%}
+            <div class="qo-form__err" role="alert">
+              <ul>{%- for field in form.errors -%}<li>{%- if field == 'form' -%}{{ form.errors.messages[field] }}{%- else -%}{{ form.errors.translated_fields[field] | capitalize }} {{ form.errors.messages[field] }}{%- endif -%}</li>{%- endfor -%}</ul>
+            </div>
+          {%- endif -%}
+          <input type="hidden" name="contact[Unit]" value="{{ product.title | escape }}{% if stock != blank %} (Stock # {{ stock | escape }}){% endif %}">
+          <input type="hidden" name="contact[Unit URL]" value="{{ shop.url }}{{ product.url }}">
+          <div class="qo-form__row">
+            <label class="qo-form__field"><span>Name</span><input type="text" name="contact[name]" autocomplete="name" value="{{ form.name }}" required></label>
+            <label class="qo-form__field"><span>Email</span><input type="email" name="contact[email]" autocomplete="email" inputmode="email" value="{{ form.email }}" required></label>
+            <label class="qo-form__field"><span>Phone</span><input type="tel" name="contact[phone]" autocomplete="tel" inputmode="tel" value="{{ form.phone }}"></label>
+          </div>
+          <label class="qo-form__field"><span>Message</span>
+            <textarea name="contact[body]" rows="5" required>{% if form.body != blank %}{{ form.body }}{% else %}I'm interested in the {{ product.title }}{% if stock != blank %} (Stock # {{ stock }}){% endif %}. Please contact me with more information.{% endif %}</textarea>
+          </label>
+          <button type="submit" class="qo-cta qo-cta--call qo-form__submit">Send Request</button>
+        {%- endform -%}
+      </section>
+    </article>
+  </div>
+
+  {%- liquid
+    if group_tag != blank
+      assign more = collections[group_tag]
+    endif
+    if more == blank or more.products_count == 0
+      assign more = collections['inventory']
+    endif
+  -%}
+  {%- if more != blank and more.products_count > 1 -%}
+    <section class="qo-carousel qo-carousel--water qo-inv__more" data-qo-carousel aria-labelledby="QoMore-{{ section.id }}">
+      <div class="qo-container qo-carousel__inner">
+        <h2 class="qo-carousel__heading" id="QoMore-{{ section.id }}">{{ section.settings.more_heading | default: 'More inventory' | escape }}</h2>
+        <div class="qo-carousel__tools"><a class="qo-carousel__viewall" href="{{ more.url }}">View All</a></div>
+        <div class="qo-carousel__stage">
+          <button type="button" class="qo-carousel__arrow qo-carousel__arrow--prev" aria-label="Previous units" data-qo-prev><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 2L4 8l6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <ul class="qo-carousel__track" role="list" data-qo-track tabindex="0" aria-label="More inventory">
+            {%- assign shown = 0 -%}
+            {%- for p in more.products -%}
+              {%- if p.handle == product.handle or shown >= 12 -%}{%- continue -%}{%- endif -%}
+              {%- assign shown = shown | plus: 1 -%}
+              <li class="qo-card">
+                <a class="qo-card__media" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+                  {%- if p.featured_image -%}
+                    <img src="{{ p.featured_image | image_url: width: 400 }}" srcset="{{ p.featured_image | image_url: width: 250 }} 250w, {{ p.featured_image | image_url: width: 400 }} 400w, {{ p.featured_image | image_url: width: 600 }} 600w" sizes="(min-width: 750px) 260px, 70vw" alt="" width="400" height="{{ 400 | divided_by: p.featured_image.aspect_ratio | round }}" loading="lazy">
+                  {%- else -%}<span class="qo-card__noimg"></span>{%- endif -%}
+                </a>
+                <h3 class="qo-card__title"><a href="{{ p.url }}">{{ p.title | escape }}</a></h3>
+                <p class="qo-card__price">{%- liquid
+                  assign p_nocall = false
+                  if p.tags contains 'make:Hobie'
+                    if p.tags contains 'year:2026' or p.tags contains 'year:2027'
+                      assign p_nocall = true
+                    endif
+                  endif
+                -%}{%- if p.price == 0 or p.metafields.custom.call_for_price.value == true and p_nocall == false -%}Call for price{%- else -%}{{ p.price | money_without_trailing_zeros }}{%- if p.compare_at_price > p.price %} <s>{{ p.compare_at_price | money_without_trailing_zeros }}</s>{%- endif -%}{%- endif -%}</p>
+                <a class="qo-card__bar" href="{{ p.url }}">View Details</a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <button type="button" class="qo-carousel__arrow qo-carousel__arrow--next" aria-label="Next units" data-qo-next><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+    </section>
+    <script src="{{ 'qo-product-carousel.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  <dialog class="qo-lightbox" data-qo-lightbox aria-label="Photo viewer">
+    <button type="button" class="qo-lightbox__close" data-lb-close aria-label="Close photo viewer">&times;</button>
+    <img alt="" width="1600" height="1200" data-lb-img>
+  </dialog>
+</div>
+
+{%- liquid
+  assign ld_cond = 'https://schema.org/UsedCondition'
+  if is_new
+    assign ld_cond = 'https://schema.org/NewCondition'
+  endif
+  assign ld_brand = mf.make.value | default: product.vendor
+  assign ld_price = product.price | money_without_currency | remove: ','
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "url": {{ product.url | prepend: shop.url | json }},
+  "description": {{ product.description | strip_html | strip_newlines | truncate: 5000 | json }},
+  {%- if stock != blank %}"sku": {{ stock | json }},{% endif %}
+  {%- if mf.inventory_id.value != blank %}"productID": {{ mf.inventory_id.value | json }},{% endif %}
+  {%- if ld_brand != blank %}"brand": { "@type": "Brand", "name": {{ ld_brand | json }} },{% endif %}
+  {%- if mf.model.value != blank %}"model": {{ mf.model.value | json }},{% endif %}
+  {%- if mf.year.value != blank %}"productionDate": {{ mf.year.value | json }},{% endif %}
+  {%- if mf.color.value != blank %}"color": {{ mf.color.value | json }},{% endif %}
+  {%- if product.type != blank %}"category": {{ product.type | json }},{% endif %}
+  "image": [{% for m in photos limit: 10 %}{{ m | image_url: width: 1600 | prepend: 'https:' | json }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "itemCondition": {{ ld_cond | json }},
+  "offers": {
+    "@type": "Offer",
+    "url": {{ product.url | prepend: shop.url | json }},
+    {%- unless call_price %}"price": {{ ld_price | json }},{% endunless %}
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStoreOnly",
+    "itemCondition": {{ ld_cond | json }},
+    "seller": {
+      "@type": "LocalBusiness",
+      "name": "Quest Watersports",
+      "telephone": "+18154332200",
+      "url": {{ shop.url | json }},
+      "address": { "@type": "PostalAddress", "streetAddress": "1851 Old Chicago Rd", "addressLocality": "Ottawa", "addressRegion": "IL", "postalCode": "61350", "addressCountry": "US" }
+    }
+  }
+}
+</script>
+<script src="{{ 'qo-inventory.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Inventory product",
+  "tag": "section",
+  "class": "section-qo-inventory-product",
+  "settings": [
+    { "type": "text", "id": "phone_display", "label": "Phone (display)", "default": "815.433.2200" },
+    { "type": "text", "id": "phone_href", "label": "Phone (tel number)", "default": "+18154332200" },
+    { "type": "text", "id": "directions_url", "label": "Directions URL" },
+    { "type": "text", "id": "more_heading", "label": "More inventory heading", "default": "More inventory" }
+  ]
+}
+{% endschema %}

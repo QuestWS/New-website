@@ -1,6 +1,6 @@
 .qo-carousel { position: relative; isolation: isolate; background: var(--qo-navy); color: #fff; padding: 28px 0 36px; overflow: hidden; }
 .qo-carousel--water { padding: 48px 0 56px; }
-.qo-carousel__bg { position: absolute; inset: 0; z-index: -1; background-size: cover; background-position: center; }
+.qo-carousel__bg { display: block !important; position: absolute; inset: 0; z-index: -1; background-size: cover; background-position: center; }
 .qo-carousel__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,43,75,.25), var(--qo-navy)); }
 .qo-carousel__heading { margin: 0 0 14px; text-align: center; font-family: var(--font-body-family); font-weight: 700; font-size: 24px; line-height: 1.2; color: #fff; }
 .qo-carousel__tools { margin-bottom: 18px; }

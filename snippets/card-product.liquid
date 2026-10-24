@@ -30,6 +30,18 @@
 {%- endunless -%}
 {%- if card_product and card_product != empty -%}
   {%- liquid
+    assign qo_is_inv = false
+    assign qo_nocall = false
+    if card_product.tags contains 'inventory'
+      assign qo_is_inv = true
+    endif
+    if card_product.tags contains 'make:Hobie'
+      if card_product.tags contains 'year:2026' or card_product.tags contains 'year:2027'
+        assign qo_nocall = true
+      endif
+    endif
+  -%}
+  {%- liquid
     assign ratio = 1
     if card_product.featured_media and media_aspect_ratio == 'portrait'
       assign ratio = 0.8
@@ -132,7 +144,7 @@
               >
                 {{- 'products.product.sold_out' | t -}}
               </span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+            {%- elsif qo_is_inv == false and card_product.compare_at_price > card_product.price and card_product.available -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
@@ -204,7 +216,18 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+            {%- if qo_is_inv -%}
+              <div class="price">
+                {%- if card_product.compare_at_price > card_product.price -%}
+                  <span class="caption-large">{{ card_product.metafields.custom.msrp_label.value | default: 'MSRP' | escape }} <s>{{ card_product.compare_at_price | money_without_trailing_zeros }}</s></span>
+                {%- endif -%}
+                <span class="price-item">
+                  {%- if card_product.price == 0 or card_product.metafields.custom.call_for_price.value == true and qo_nocall == false -%}Call for price{%- else -%}{% if card_product.price_varies %}From {% endif %}{{ card_product.price | money_without_trailing_zeros }}{%- endif -%}
+                </span>
+              </div>
+            {%- else -%}
+              {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+            {%- endif -%}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants_count == 1 and quick_add == 'bulk' %}
                 {% liquid
@@ -288,6 +311,14 @@
             {%- endif -%}
           </div>
         </div>
+        {%- capture qo_buyable -%}{%- render 'qo-buyable', product: card_product -%}{%- endcapture -%}
+        {%- if qo_buyable != 'true' and quick_add == 'standard' or qo_buyable != 'true' and quick_add == 'bulk' -%}
+          {{ 'qo-inventory.css' | asset_url | stylesheet_tag }}
+          <div class="quick-add qo-card-view">
+            <a class="button button--full-width qo-view-details" href="{{ card_product.url }}">View Details</a>
+          </div>
+          {%- assign quick_add = 'none' -%}
+        {%- endif -%}
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add no-js-hidden">
@@ -556,7 +587,7 @@
             >
               {{- 'products.product.sold_out' | t -}}
             </span>
-          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+          {%- elsif qo_is_inv == false and card_product.compare_at_price > card_product.price and card_product.available -%}
             <span
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"

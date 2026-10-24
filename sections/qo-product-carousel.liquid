@@ -23,6 +23,7 @@
         <ul class="qo-carousel__track" role="list" data-qo-track tabindex="0" aria-label="{{ section.settings.heading | default: coll.title | escape }}">
           {%- for product in coll.products limit: limit -%}
             {%- assign first_variant = product.selected_or_first_available_variant -%}
+            {%- capture qo_buyable -%}{%- render 'qo-buyable', product: product -%}{%- endcapture -%}
             <li class="qo-card">
               <a class="qo-card__media" href="{{ product.url }}" tabindex="-1" aria-hidden="true">
                 {%- if product.featured_image -%}
@@ -36,15 +37,29 @@
               </a>
               <h3 class="qo-card__title"><a href="{{ product.url }}">{{ product.title | escape }}</a></h3>
               <p class="qo-card__price">
+                {%- liquid
+                  assign qo_nocall = false
+                  if product.tags contains 'make:Hobie'
+                    if product.tags contains 'year:2026' or product.tags contains 'year:2027'
+                      assign qo_nocall = true
+                    endif
+                  endif
+                -%}
+                {%- if product.tags contains 'inventory' and product.price == 0 or product.tags contains 'inventory' and product.metafields.custom.call_for_price.value == true and qo_nocall == false -%}
+                  Call for price
+                {%- else -%}
                 {%- if product.price_varies -%}<span class="qo-card__from">From </span>{%- endif -%}
                 {{- product.price | money -}}
                 {%- if product.compare_at_price > product.price -%} <s>{{ product.compare_at_price | money }}</s>{%- endif -%}
+                {%- endif -%}
               </p>
-              {%- if product.variants.size == 1 and first_variant.available -%}
+              {%- if qo_buyable == 'true' and product.variants.size == 1 and first_variant.available -%}
                 {%- form 'product', product, class: 'qo-card__form' -%}
                   <input type="hidden" name="id" value="{{ first_variant.id }}">
                   <button type="submit" class="qo-card__bar">Add to cart</button>
                 {%- endform -%}
+              {%- elsif qo_buyable != 'true' -%}
+                <a class="qo-card__bar" href="{{ product.url }}">View Details</a>
               {%- elsif product.available == false -%}
                 <a class="qo-card__bar qo-card__bar--muted" href="{{ product.url }}">Sold out</a>
               {%- else -%}

@@ -11,7 +11,10 @@
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true %}
 {% endcomment %}
 <div {{ block.shopify_attributes }}>
-  {%- if product != blank -%}
+  {%- capture qo_buyable -%}{%- render 'qo-buyable', product: product -%}{%- endcapture -%}
+  {%- if product != blank and qo_buyable != 'true' -%}
+    {%- render 'qo-order-cta', product: product -%}
+  {%- elsif product != blank -%}
     {%- liquid
       assign gift_card_recipient_feature_active = false
       if block.settings.show_gift_card_recipient and product.gift_card?
@@ -114,7 +117,7 @@
     </div>
   {%- endif -%}
 
-  {%- if show_pickup_availability -%}
+  {%- if show_pickup_availability and qo_buyable == 'true' -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
     {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities

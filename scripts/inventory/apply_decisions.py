@@ -21,6 +21,20 @@ KAYAK_TYPES = ("Kayak", "Paddleboard")
 PHONE = "815.433.2200"
 
 
+# Hobie MAP: no "sale", "clearance" or savings claims in Hobie listings (old-site copy has some).
+MAP_SCRUB = [
+    r"Save Big on our [^<!]*Clearance!\s*(</strong>|</span>)*\s*(<br\s*/?>)?",
+    r"Take advantage of our special pricing on [^.<]+\.\s*Priced at \$[\d,]+, you save \$[\d,]+ off the \d{4} MSRP of \$[\d,]+\.\s*",
+    r",? offering a unique opportunity to save almost <strong>\$[\d,]+</strong>",
+]
+
+
+def map_scrub(inp):
+    if "make:Hobie" in inp["tags"]:
+        for pat in MAP_SCRUB:
+            inp["descriptionHtml"] = re.sub(pat, "", inp["descriptionHtml"])
+
+
 def slugify(t):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
 
@@ -220,6 +234,7 @@ def main():
             report["drafts"].append({"key": key, "title": rec["input"]["title"], "why": spec.get("note", "")})
         final[f"m-{key}"] = rec
     for k, rec in final.items():
+        map_scrub(rec["input"])
         json.dump(rec, open(os.path.join(OUT, f"{k}.json"), "w"), indent=1, ensure_ascii=False)
         report["written"].append({"key": k, "handle": rec["identifier"]["handle"], "title": rec["input"]["title"],
                                   "type": rec["input"]["productType"]})

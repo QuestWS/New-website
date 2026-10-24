@@ -1,0 +1,156 @@
+{{ 'qo-inventory.css' | asset_url | stylesheet_tag }}
+
+<div class="qo-invgrid" id="QoInvGrid-{{ section.id }}" data-qo-invgrid>
+  <div class="qo-invgrid__bg" style="background-image:url('{{ 'qo-inventory-bg.webp' | asset_url }}')" aria-hidden="true"></div>
+  <div class="qo-container qo-invgrid__wrap">
+    <h1 class="qo-invgrid__title">{{ collection.title | default: 'Inventory' | escape }}</h1>
+    {%- if section.settings.show_description and collection.description != blank -%}
+      <div class="qo-invgrid__intro rte">{{ collection.description }}</div>
+    {%- endif -%}
+
+    <form class="qo-fbar" role="search" aria-label="Filter inventory" onsubmit="return false">
+      <button type="button" class="qo-fbar__toggle" data-toggle aria-expanded="false" aria-controls="QoFbar-{{ section.id }}">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 4h14M5 9h8M7.5 14h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        Filter &amp; Sort
+      </button>
+      <div class="qo-fbar__panel" id="QoFbar-{{ section.id }}">
+        <label class="visually-hidden" for="QoF-type-{{ section.id }}">Category</label>
+        <select id="QoF-type-{{ section.id }}" data-f="type"><option value="">Category</option></select>
+        <label class="visually-hidden" for="QoF-make-{{ section.id }}">Make</label>
+        <select id="QoF-make-{{ section.id }}" data-f="make"><option value="">Make</option></select>
+        <label class="visually-hidden" for="QoF-cond-{{ section.id }}">Condition</label>
+        <select id="QoF-cond-{{ section.id }}" data-f="cond"><option value="">Condition</option><option value="New">New</option><option value="Pre-Owned">Pre-Owned</option></select>
+        <div class="qo-fbar__search">
+          <label class="visually-hidden" for="QoF-q-{{ section.id }}">Search by keyword or stock number</label>
+          <input id="QoF-q-{{ section.id }}" type="search" data-f="q" placeholder="Keyword or Stock #" autocomplete="off">
+        </div>
+        <div>
+          <label class="visually-hidden" for="QoF-sort-{{ section.id }}">Sort by</label>
+          <select id="QoF-sort-{{ section.id }}" data-f="sort">
+            <option value="">Sort By</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="year-desc">Year: Newest</option>
+            <option value="year-asc">Year: Oldest</option>
+          </select>
+        </div>
+        <div class="qo-fbar__actions">
+          <p class="qo-fbar__count" data-count aria-live="polite"></p>
+          <button type="button" class="qo-fbar__reset" data-reset>Reset</button>
+        </div>
+      </div>
+    </form>
+
+    {%- paginate collection.products by 250 -%}
+      <ul class="qo-invgrid__list" role="list" data-list>
+        {%- for p in collection.products -%}
+          {%- liquid
+            assign mf = p.metafields.custom
+            assign condition = mf.condition.value
+            if condition == blank
+              if p.tags contains 'inventory-new'
+                assign condition = 'New'
+              elsif p.tags contains 'inventory-pre-owned'
+                assign condition = 'Pre-Owned'
+              endif
+            endif
+            assign qo_nocall = false
+            if p.tags contains 'make:Hobie'
+              if p.tags contains 'year:2026' or p.tags contains 'year:2027'
+                assign qo_nocall = true
+              endif
+            endif
+            assign call_price = false
+            if p.price == 0
+              assign call_price = true
+            elsif mf.call_for_price.value == true and qo_nocall == false
+              assign call_price = true
+            endif
+            assign msrp_label = mf.msrp_label.value | default: 'MSRP'
+            assign pending = false
+            if mf.sale_pending.value == true or p.tags contains 'sale-pending'
+              assign pending = true
+            endif
+            assign make = mf.make.value | default: p.vendor
+            assign price_num = 0
+            unless call_price
+              assign price_num = p.price | divided_by: 100
+            endunless
+            assign yr = mf.year.value
+            if yr == blank
+              for t in p.tags
+                if t contains 'year:'
+                  assign yr = t | remove: 'year:'
+                endif
+              endfor
+            endif
+            assign search = p.title | append: ' ' | append: mf.stock_number.value | append: ' ' | append: mf.model.value | append: ' ' | append: make | append: ' ' | append: p.type | downcase
+            assign search = search | downcase
+          -%}
+          <li class="qo-icard" data-card data-type="{{ p.type | escape }}" data-make="{{ make | escape }}" data-cond="{{ condition | escape }}" data-price="{{ price_num }}" data-year="{{ yr | escape }}" data-search="{{ search | escape }}">
+            <a class="qo-icard__media" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+              {%- if p.featured_media -%}
+                {{ p.featured_media | image_url: width: 600 | image_tag: width: 600, height: 450, widths: '300, 450, 600, 800', sizes: '(min-width: 990px) 350px, (min-width: 560px) 45vw, 92vw', loading: 'lazy', alt: p.featured_media.alt | default: p.title }}
+              {%- else -%}
+                <span class="qo-icard__noimg"></span>
+              {%- endif -%}
+              <span class="qo-icard__flags">
+                {%- if condition != blank -%}<span class="qo-badge {% if condition == 'New' %}qo-badge--new{% else %}qo-badge--used{% endif %}">{{ condition | escape }}</span>{%- endif -%}
+                {%- if p.tags contains 'demo' -%}<span class="qo-badge qo-badge--used">Demo</span>{%- endif -%}
+                {%- if p.tags contains 'consignment' -%}<span class="qo-badge qo-badge--used">Consignment</span>{%- endif -%}
+                {%- if pending -%}<span class="qo-badge qo-badge--pending">Sale Pending</span>{%- endif -%}
+              </span>
+            </a>
+            <div class="qo-icard__body">
+              <h2 class="qo-icard__title"><a href="{{ p.url }}">{{ p.title | escape }}</a></h2>
+              <p class="qo-icard__price">
+                {%- if call_price -%}Call for price
+                {%- else -%}{% if p.price_varies %}<small style="font:500 14px var(--font-body-family)">From </small>{% endif %}{{ p.price | money_without_trailing_zeros }}{%- if p.compare_at_price > p.price %}<span style="display:block;margin-top:2px;font:500 14px/1.2 var(--font-body-family);opacity:.75">{{ msrp_label | escape }} <s style="margin:0;font-size:inherit;opacity:1">{{ p.compare_at_price | money_without_trailing_zeros }}</s></span>{%- endif -%}
+                {%- endif -%}
+              </p>
+              <dl class="qo-icard__specs">
+                {%- if mf.length.value != blank -%}<dt>Length</dt><dd>{{ mf.length.value | escape }}</dd>{%- endif -%}
+                {%- if mf.engine.value != blank -%}<dt>Engine</dt><dd>{{ mf.engine.value | escape }}</dd>
+                {%- elsif mf.horsepower.value != blank -%}<dt>Horsepower</dt><dd>{{ mf.horsepower.value | escape }}</dd>{%- endif -%}
+                {%- if mf.color.value != blank -%}<dt>Color</dt><dd>{{ mf.color.value | escape }}</dd>
+                {%- elsif mf.hull_type.value != blank -%}<dt>Hull Type</dt><dd>{{ mf.hull_type.value | escape }}</dd>{%- endif -%}
+              </dl>
+              {%- if mf.special_order.value == true -%}<p style="margin:6px 0 0;font-size:14px;font-weight:700;color:#7a4b00">Special order &mdash; call 815.433.2200</p>{%- endif -%}
+            </div>
+            <a class="qo-icard__bar" href="{{ p.url }}" aria-label="View details: {{ p.title | escape }}">View Details</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+      <div class="qo-invgrid__empty" data-empty hidden>
+        {%- if collection.products_count == 0 -%}New inventory arrives often. Call <a href="tel:+18154332200">815.433.2200</a>.{%- else -%}No units match those filters. Try resetting them or call <a href="tel:+18154332200">815.433.2200</a>.{%- endif -%}
+      </div>
+      {%- if collection.products_count == 0 -%}
+        <div class="qo-invgrid__empty">No units are listed here right now. Call <a href="tel:+18154332200">815.433.2200</a> and we will help you find one.</div>
+      {%- endif -%}
+      {%- if paginate.pages > 1 -%}
+        <nav class="qo-invgrid__cta" aria-label="Pagination">
+          {%- if paginate.previous -%}<a class="qo-cta qo-cta--ghost" href="{{ paginate.previous.url }}">Previous</a>{%- endif -%}
+          {%- if paginate.next -%}<a class="qo-cta qo-cta--call" href="{{ paginate.next.url }}">More inventory</a>{%- endif -%}
+        </nav>
+      {%- endif -%}
+    {%- endpaginate -%}
+
+    <div class="qo-invgrid__cta">
+      <a class="qo-cta qo-cta--call" href="tel:+18154332200">Call 815.433.2200</a>
+      <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/financing">Financing</a>
+      <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/sell-or-trade">Sell or Trade Yours</a>
+    </div>
+  </div>
+</div>
+<script src="{{ 'qo-inventory.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Inventory grid",
+  "tag": "section",
+  "class": "section-qo-inventory-grid",
+  "settings": [
+    { "type": "checkbox", "id": "show_description", "label": "Show collection description", "default": true }
+  ]
+}
+{% endschema %}

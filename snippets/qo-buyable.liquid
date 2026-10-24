@@ -1,0 +1,28 @@
+{%- comment -%}
+  Buyability rule: only parts & accessories can be bought online.
+  Renders the string "true" when `product` is buyable, nothing otherwise.
+  Not tagged "inventory" AND (in collection kayak-parts / bike-parts / sailing-parts OR tagged "buy-online").
+
+  Usage (render cannot leak variables, so capture the output):
+    {%- capture qo_buyable -%}{%- render 'qo-buyable', product: product -%}{%- endcapture -%}
+    {%- if qo_buyable == 'true' -%} ...buy button... {%- endif -%}
+{%- endcomment -%}
+{%- liquid
+  assign qo_ok = false
+  unless product.tags contains 'inventory'
+    if product.tags contains 'buy-online'
+      assign qo_ok = true
+    else
+      for c in product.collections
+        case c.handle
+          when 'kayak-parts', 'bike-parts', 'sailing-parts'
+            assign qo_ok = true
+            break
+        endcase
+      endfor
+    endif
+  endunless
+  if qo_ok
+    echo 'true'
+  endif
+-%}

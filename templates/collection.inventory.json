@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "qo-inventory-grid",
+      "settings": {
+        "show_description": true
+      }
+    }
+  },
+  "order": ["main"]
+}

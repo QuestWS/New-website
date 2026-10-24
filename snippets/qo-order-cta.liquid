@@ -1,0 +1,6 @@
+{%- comment -%} Call-to-order block shown instead of buy buttons for non-buyable products. {%- endcomment -%}
+{{ 'qo-inventory.css' | asset_url | stylesheet_tag }}
+<div class="qo-order-cta">
+  <a class="qo-cta qo-cta--call" href="tel:+18154332200">Call 815.433.2200 to order</a>
+  <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/contact">Request Info</a>
+</div>
