@@ -82,8 +82,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172807",
-    "sku": "810097172807",
+    "barcode": null,
+    "sku": "W-810097172807",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -107,8 +107,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172821",
-    "sku": "810097172821",
+    "barcode": null,
+    "sku": "W-810097172821",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -132,8 +132,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172814",
-    "sku": "810097172814",
+    "barcode": null,
+    "sku": "W-810097172814",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -157,8 +157,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172838",
-    "sku": "810097172838",
+    "barcode": null,
+    "sku": "W-810097172838",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -182,8 +182,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172845",
-    "sku": "810097172845",
+    "barcode": null,
+    "sku": "W-810097172845",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -207,8 +207,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172869",
-    "sku": "810097172869",
+    "barcode": null,
+    "sku": "W-810097172869",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -232,8 +232,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172852",
-    "sku": "810097172852",
+    "barcode": null,
+    "sku": "W-810097172852",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -257,8 +257,8 @@
      }
     ],
     "price": "1699.00",
-    "barcode": "810097172876",
-    "sku": "810097172876",
+    "barcode": null,
+    "sku": "W-810097172876",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -321,6 +321,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/level-3-commuter-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Regular / Step Over / Matte Black\", \"Regular / Step Over / Matte Aurora\"]"
    }
   ],
   "files": [
@@ -401,5 +407,116 @@
   "810097172869": 0,
   "810097172852": 0,
   "810097172876": 0
+ },
+ "feed": {
+  "identifier": {
+   "handle": "aventon-level-3-in-store-stock"
+  },
+  "input": {
+   "title": "Aventon Level 3 (In-Store Stock)",
+   "handle": "aventon-level-3-in-store-stock",
+   "vendor": "Aventon",
+   "productType": "eBike",
+   "status": "ACTIVE",
+   "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-level-3</p>",
+   "tags": [
+    "locally-feed",
+    "in-store-stock",
+    "make:Aventon",
+    "type:eBike"
+   ],
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "Regular"
+      }
+     ]
+    },
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Step Over"
+      }
+     ]
+    },
+    {
+     "name": "Color",
+     "values": [
+      {
+       "name": "Matte Black"
+      },
+      {
+       "name": "Matte Aurora"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "Regular"
+      },
+      {
+       "optionName": "Style",
+       "name": "Step Over"
+      },
+      {
+       "optionName": "Color",
+       "name": "Matte Black"
+      }
+     ],
+     "price": "1699.00",
+     "barcode": "810097172807",
+     "sku": "810097172807",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true,
+     "compareAtPrice": "1899.00"
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "Regular"
+      },
+      {
+       "optionName": "Style",
+       "name": "Step Over"
+      },
+      {
+       "optionName": "Color",
+       "name": "Matte Aurora"
+      }
+     ],
+     "price": "1699.00",
+     "barcode": "810097172821",
+     "sku": "810097172821",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true,
+     "compareAtPrice": "1899.00"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Matte-Aurora_Side_1-bike.jpg?v=1739400464",
+     "contentType": "IMAGE",
+     "alt": "Aventon Level 3 Step Over in Matte Aurora e-bike"
+    }
+   ]
+  },
+  "stock": {
+   "810097172807": 1,
+   "810097172821": 1
+  }
  }
 }

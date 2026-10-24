@@ -15,7 +15,7 @@
    "make:Hobie",
    "type:Kayak",
    "year:2025",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -43,8 +43,8 @@
       "name": "Battleship Gray"
      }
     ],
-    "barcode": "792176976875",
-    "sku": "792176976875"
+    "sku": "W-792176976875",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -107,6 +107,12 @@
     "key": "sale_pending",
     "type": "boolean",
     "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Battleship Gray\"]"
    }
   ],
   "files": [
@@ -220,8 +226,5 @@
   "id": "manual:2025-outback",
   "decision": "manual",
   "note": "C2"
- },
- "locally_stock": {
-  "792176976875": 1
  }
 }

@@ -66,8 +66,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176263",
-    "sku": "810097176263",
+    "barcode": null,
+    "sku": "W-810097176263",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -86,8 +86,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176294",
-    "sku": "810097176294",
+    "barcode": null,
+    "sku": "W-810097176294",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -106,8 +106,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176324",
-    "sku": "810097176324",
+    "barcode": null,
+    "sku": "W-810097176324",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -126,8 +126,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176270",
-    "sku": "810097176270",
+    "barcode": null,
+    "sku": "W-810097176270",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -146,8 +146,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176300",
-    "sku": "810097176300",
+    "barcode": null,
+    "sku": "W-810097176300",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -166,8 +166,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176331",
-    "sku": "810097176331",
+    "barcode": null,
+    "sku": "W-810097176331",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -186,8 +186,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176287",
-    "sku": "810097176287",
+    "barcode": null,
+    "sku": "W-810097176287",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -206,8 +206,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176317",
-    "sku": "810097176317",
+    "barcode": null,
+    "sku": "W-810097176317",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -226,8 +226,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097176348",
-    "sku": "810097176348",
+    "barcode": null,
+    "sku": "W-810097176348",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -289,6 +289,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/ramblas-adv-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -375,5 +381,6 @@
   "810097176287": 0,
   "810097176317": 0,
   "810097176348": 0
- }
+ },
+ "feed": null
 }

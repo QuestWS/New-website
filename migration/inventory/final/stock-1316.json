@@ -1,0 +1,74 @@
+{
+ "identifier": {
+  "handle": "2024-hobie-mirage-pro-angler-12-180-1316-in-store-stock"
+ },
+ "input": {
+  "title": "2024 Hobie Mirage Pro Angler 12 (180) (In-Store Stock)",
+  "handle": "2024-hobie-mirage-pro-angler-12-180-1316-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2024-hobie-mirage-pro-angler-12-180-1316</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2024"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Battleship Gray"
+     },
+     {
+      "name": "Sunrise Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "3899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Battleship Gray"
+     }
+    ],
+    "barcode": "792176051282",
+    "sku": "792176051282"
+   },
+   {
+    "price": "3899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Sunrise Camo"
+     }
+    ],
+    "barcode": "792176347293",
+    "sku": "792176347293"
+   }
+  ],
+  "files": []
+ },
+ "stock": {
+  "792176051282": 1,
+  "792176347293": 1
+ }
+}

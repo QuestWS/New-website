@@ -69,8 +69,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175341",
-    "sku": "810097175341",
+    "barcode": null,
+    "sku": "W-810097175341",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -89,8 +89,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175389",
-    "sku": "810097175389",
+    "barcode": null,
+    "sku": "W-810097175389",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -109,8 +109,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175914",
-    "sku": "810097175914",
+    "barcode": null,
+    "sku": "W-810097175914",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -129,8 +129,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175358",
-    "sku": "810097175358",
+    "barcode": null,
+    "sku": "W-810097175358",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -149,8 +149,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175396",
-    "sku": "810097175396",
+    "barcode": null,
+    "sku": "W-810097175396",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -169,8 +169,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175921",
-    "sku": "810097175921",
+    "barcode": null,
+    "sku": "W-810097175921",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -189,8 +189,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175365",
-    "sku": "810097175365",
+    "barcode": null,
+    "sku": "W-810097175365",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -209,8 +209,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175402",
-    "sku": "810097175402",
+    "barcode": null,
+    "sku": "W-810097175402",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -229,8 +229,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175938",
-    "sku": "810097175938",
+    "barcode": null,
+    "sku": "W-810097175938",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -249,8 +249,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175372",
-    "sku": "810097175372",
+    "barcode": null,
+    "sku": "W-810097175372",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -269,8 +269,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175419",
-    "sku": "810097175419",
+    "barcode": null,
+    "sku": "W-810097175419",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -289,8 +289,8 @@
      }
     ],
     "price": "1499.00",
-    "barcode": "810097175945",
-    "sku": "810097175945",
+    "barcode": null,
+    "sku": "W-810097175945",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -352,6 +352,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/soltera-3-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -446,5 +452,6 @@
   "810097175372": 0,
   "810097175419": 0,
   "810097175945": 0
- }
+ },
+ "feed": null
 }

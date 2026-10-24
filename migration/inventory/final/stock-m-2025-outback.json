@@ -1,0 +1,58 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-outback-in-store-stock"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Outback (In-Store Stock)",
+  "handle": "2025-hobie-mirage-outback-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2025-hobie-mirage-outback</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Battleship Gray"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "3599.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Battleship Gray"
+     }
+    ],
+    "barcode": "792176976875",
+    "sku": "792176976875"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/875/main/l/New-2026-Hobie-Mirage-Outback-1636140637.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Outback (same model)"
+   }
+  ]
+ },
+ "stock": {
+  "792176976875": 1
+ }
+}

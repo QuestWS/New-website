@@ -1,0 +1,58 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-passport-12-0r-in-store-stock"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Passport 12.0R (In-Store Stock)",
+  "handle": "2025-hobie-mirage-passport-12-0r-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2025-hobie-mirage-passport-12-0r</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Seagrass Green"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "1899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Seagrass Green"
+     }
+    ],
+    "barcode": "792176061670",
+    "sku": "792176061670"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1097/main/l/New-2026-Hobie-Mirage-Passport-120R-1671833232.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Passport 12.0R (same model)"
+   }
+  ]
+ },
+ "stock": {
+  "792176061670": 1
+ }
+}

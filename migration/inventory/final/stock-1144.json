@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2022-advanced-elements-airvolution2-1144-in-store-stock"
+ },
+ "input": {
+  "title": "2022 Advanced Elements AirVolution2 (In-Store Stock)",
+  "handle": "2022-advanced-elements-airvolution2-1144-in-store-stock",
+  "vendor": "Advanced Elements",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2022-advanced-elements-airvolution2-1144</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Advanced Elements",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Blue/Gray"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "1275.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Blue/Gray"
+     }
+    ],
+    "barcode": "832994001752",
+    "sku": "832994001752"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/main/l/New-2022-Advanced-Elements-AirVolution2-1618413376.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2"
+   }
+  ]
+ },
+ "stock": {
+  "832994001752": 1
+ }
+}

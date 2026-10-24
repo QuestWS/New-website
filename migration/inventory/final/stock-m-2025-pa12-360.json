@@ -1,0 +1,78 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-pro-angler-12-360-in-store-stock"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Pro Angler 12 360 (In-Store Stock)",
+  "handle": "2025-hobie-mirage-pro-angler-12-360-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2025-hobie-mirage-pro-angler-12-360</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Campfire Red"
+     },
+     {
+      "name": "OG Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "5699.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Campfire Red"
+     }
+    ],
+    "barcode": "792176675280",
+    "sku": "792176675280"
+   },
+   {
+    "price": "5699.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "OG Camo"
+     }
+    ],
+    "barcode": "792176070979",
+    "sku": "792176070979"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/main/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 12 360 (same model)"
+   }
+  ]
+ },
+ "stock": {
+  "792176675280": 1,
+  "792176070979": 1
+ }
+}

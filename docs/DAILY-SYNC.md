@@ -137,26 +137,27 @@ variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","
    2026/2027 Hobie units; 2026/2027 first-quality units at exactly 2027 MSRP; 2025-and-older first quality at most 20%
    under 2027 MSRP with the 2027 MSRP shown (`custom.msrp_label`); used units only with photos of the actual boat.
 
-### c1b) Aventon e-bikes and Locally
-- `python3 -I scripts/inventory/aventon.py` rebuilds `migration/inventory/aventon/<handle>.json` from aventon.com
-  (all current models, prices, UPCs, photos) plus `migration/inventory/locally-aventon.csv` (Locally's catalog).
-  The old site's e-bike listings are ignored (apply_decisions.py excludes productType eBike).
-- New model or changed price → `productSet` with that record (for an existing product send the variant `id`s,
-  matched by barcode, and omit `files` unless photos changed). A model Aventon drops → archive it, never delete.
-- Stock comes ONLY from `migration/inventory/ebike-stock.json` (UPCs on the floor, owner-maintained): those variants
-  get inventory 1 at location Quest Watersports (`inventorySetQuantities`, name "available"), all others 0. Never more
-  than 1 (Locally rule). Products with stock are published to the Locally Sales Channel
-  (`gid://shopify/Publication/137307717854`) as well as the Online Store.
-- Pricing shown is Aventon's current price; the theme adds the $160 assembly/tuning note and the Synchrony
-  monthly estimate (owner's formula, see `sections/qo-inventory-product.liquid`).
-- Kayaks: `kayak-decisions.json` → `locally` links in-stock NEW kayaks to Locally UPCs (catalogs in
-  `migration/inventory/locally-*.csv`). Those `final/` records carry `locally_stock` → set each UPC's inventory to 1 and
-  keep the product published to the Locally Sales Channel. When a unit sells, remove its colour from `locally`.
-
-- **Pickup only:** every e-bike and kayak variant must be in the shipping profile "In-store pickup only (eBikes & kayaks)"
-  (`gid://shopify/DeliveryProfile/111198929118`, no shipping zones, location Quest Watersports), so a direct cart link can only
-  be checked out for in-store pickup. After creating a new e-bike/kayak product, add its variants with
-  `deliveryProfileUpdate(id, profile: {variantsToAssociate: [...]})`. Boats/sailboats stay at 0 stock + DENY (never sellable).
+### c1b) Aventon e-bikes, kayak stock and Locally
+**Owner rule (2026-10-24): e-bikes and kayaks are NEVER sellable online** (the $160 assembly fee and the 3% card fee
+can't be collected at checkout on the Basic plan). Boats/sailboats were never sellable. So:
+- **Website listings** (template `inventory`, Online Store) always have inventory **0** with inventoryPolicy DENY and
+  **no barcode** (SKU `W-<UPC>`). The "In stock at Quest" list comes from metafield `custom.in_stock_list`.
+- **Hidden "<title> (In-Store Stock)" products** (handle `<listing handle>-in-store-stock`, tag `locally-feed`) hold the
+  units on the floor: UPC as barcode + SKU, inventory **1** each (never more), location Quest Watersports. They are
+  published ONLY to the Locally Sales Channel (`gid://shopify/Publication/137307717854`) and Point of Sale
+  (`gid://shopify/Publication/70750240943`) — never the Online Store. POS staff sell these.
+- `python3 -I scripts/inventory/aventon.py` rebuilds `migration/inventory/aventon/<handle>.json` (listings) and
+  `<handle>-in-store-stock.json` (stock products) from aventon.com + `locally-aventon.csv`; stock UPCs come only from
+  `migration/inventory/ebike-stock.json`. Removed models are listed in `REMOVED` and never rebuilt; Level 3 is
+  discontinued (stock only, no special order).
+- Kayaks: `apply_decisions.py` writes `final/<key>.json` (listing) and `final/stock-<key>.json` (stock product) for each
+  entry in `kayak-decisions.json` → `locally`. When a unit sells, remove its colour there; when the last colour goes,
+  archive the stock product and drop the entry.
+- Pushing: `productSet` by handle (omit `files` on updates). New stock product → publish to Locally + POS, then
+  `inventorySetQuantities` (name "available", `changeFromQuantity` = current, `@idempotent(key: ...)`) to 1.
+  Listings: if any listing variant ever shows inventory > 0, set it back to 0.
+- The old pickup-only shipping profile ("In-store pickup only (eBikes & kayaks)",
+  `gid://shopify/DeliveryProfile/111198929118`) stays as a second safeguard.
 
 ### c2) Social media → blog (Facebook / Instagram)
 Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with

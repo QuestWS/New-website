@@ -81,8 +81,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177680",
-    "sku": "810097177680",
+    "barcode": null,
+    "sku": "W-810097177680",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -105,8 +105,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177703",
-    "sku": "810097177703",
+    "barcode": null,
+    "sku": "W-810097177703",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -129,8 +129,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177697",
-    "sku": "810097177697",
+    "barcode": null,
+    "sku": "W-810097177697",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -153,8 +153,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177710",
-    "sku": "810097177710",
+    "barcode": null,
+    "sku": "W-810097177710",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -177,8 +177,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177642",
-    "sku": "810097177642",
+    "barcode": null,
+    "sku": "W-810097177642",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -201,8 +201,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177666",
-    "sku": "810097177666",
+    "barcode": null,
+    "sku": "W-810097177666",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -225,8 +225,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177659",
-    "sku": "810097177659",
+    "barcode": null,
+    "sku": "W-810097177659",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -249,8 +249,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097177673",
-    "sku": "810097177673",
+    "barcode": null,
+    "sku": "W-810097177673",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -312,6 +312,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/level-4-rec-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Step Over / Regular / Matte Storm Blue\", \"Step Over / Large / Matte Storm Blue\"]"
    }
   ],
   "files": [
@@ -397,5 +403,114 @@
   "810097177666": 0,
   "810097177659": 0,
   "810097177673": 0
+ },
+ "feed": {
+  "identifier": {
+   "handle": "aventon-level-4-in-store-stock"
+  },
+  "input": {
+   "title": "Aventon Level 4 REC (In-Store Stock)",
+   "handle": "aventon-level-4-in-store-stock",
+   "vendor": "Aventon",
+   "productType": "eBike",
+   "status": "ACTIVE",
+   "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-level-4</p>",
+   "tags": [
+    "locally-feed",
+    "in-store-stock",
+    "make:Aventon",
+    "type:eBike"
+   ],
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Step Over"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "Regular"
+      },
+      {
+       "name": "Large"
+      }
+     ]
+    },
+    {
+     "name": "Color",
+     "values": [
+      {
+       "name": "Matte Storm Blue"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Step Over"
+      },
+      {
+       "optionName": "Size",
+       "name": "Regular"
+      },
+      {
+       "optionName": "Color",
+       "name": "Matte Storm Blue"
+      }
+     ],
+     "price": "1999.00",
+     "barcode": "810097177703",
+     "sku": "810097177703",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Step Over"
+      },
+      {
+       "optionName": "Size",
+       "name": "Large"
+      },
+      {
+       "optionName": "Color",
+       "name": "Matte Storm Blue"
+      }
+     ],
+     "price": "1999.00",
+     "barcode": "810097177710",
+     "sku": "810097177710",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-SO-REC-Mate-Black-01.jpg?v=1774046241",
+     "contentType": "IMAGE",
+     "alt": "Aventon Level 4 REC Step Over in Matte Black e-bike"
+    }
+   ]
+  },
+  "stock": {
+   "810097177703": 1,
+   "810097177710": 1
+  }
  }
 }

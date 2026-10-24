@@ -15,7 +15,7 @@
    "make:Hobie",
    "type:Kayak",
    "year:2024",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -44,8 +44,8 @@
       "name": "Dune"
      }
     ],
-    "barcode": "792176879695",
-    "sku": "792176879695"
+    "sku": "W-792176879695",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -114,6 +114,12 @@
     "key": "msrp_label",
     "type": "single_line_text_field",
     "value": "2027 MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Dune\"]"
    }
   ],
   "files": [
@@ -222,8 +228,5 @@
   "id": "manual:2024-tandem-island",
   "decision": "manual",
   "note": "B9"
- },
- "locally_stock": {
-  "792176879695": 1
  }
 }

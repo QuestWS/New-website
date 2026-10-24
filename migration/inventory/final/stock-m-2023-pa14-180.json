@@ -1,0 +1,78 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-pro-angler-14-180-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Pro Angler 14 180 (In-Store Stock)",
+  "handle": "2023-hobie-mirage-pro-angler-14-180-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-hobie-mirage-pro-angler-14-180</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Original Camo"
+     },
+     {
+      "name": "Ivory Dune"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "4999.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Original Camo"
+     }
+    ],
+    "barcode": "792176788942",
+    "sku": "792176788942"
+   },
+   {
+    "price": "4999.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ivory Dune"
+     }
+    ],
+    "barcode": "792176313373",
+    "sku": "792176313373"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1284/main/l/New-2022-Hobie-Mirage-Pro-Angler-14-180-1709073060.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 14 180 (same model)"
+   }
+  ]
+ },
+ "stock": {
+  "792176788942": 1,
+  "792176313373": 1
+ }
+}

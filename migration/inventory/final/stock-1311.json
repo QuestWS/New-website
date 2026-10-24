@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-itrek-fiesta-1311-in-store-stock"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage iTrek Fiesta (In-Store Stock)",
+  "handle": "2022-hobie-mirage-itrek-fiesta-1311-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2022-hobie-mirage-itrek-fiesta-1311</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Slate Blue"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "4759.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5949.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Slate Blue"
+     }
+    ],
+    "barcode": "792176714040",
+    "sku": "792176714040"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1311/main/l/New-2022-Hobie-Mirage-iTrek-Fiesta-1729976992.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage iTrek Fiesta"
+   }
+  ]
+ },
+ "stock": {
+  "792176714040": 1
+ }
+}

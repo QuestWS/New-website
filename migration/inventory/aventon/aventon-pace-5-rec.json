@@ -69,8 +69,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179288",
-    "sku": "810097179288",
+    "barcode": null,
+    "sku": "W-810097179288",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -89,8 +89,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179325",
-    "sku": "810097179325",
+    "barcode": null,
+    "sku": "W-810097179325",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -109,8 +109,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179363",
-    "sku": "810097179363",
+    "barcode": null,
+    "sku": "W-810097179363",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -129,8 +129,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179301",
-    "sku": "810097179301",
+    "barcode": null,
+    "sku": "W-810097179301",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -149,8 +149,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179349",
-    "sku": "810097179349",
+    "barcode": null,
+    "sku": "W-810097179349",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -169,8 +169,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179295",
-    "sku": "810097179295",
+    "barcode": null,
+    "sku": "W-810097179295",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -189,8 +189,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179332",
-    "sku": "810097179332",
+    "barcode": null,
+    "sku": "W-810097179332",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -209,8 +209,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179370",
-    "sku": "810097179370",
+    "barcode": null,
+    "sku": "W-810097179370",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -229,8 +229,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179318",
-    "sku": "810097179318",
+    "barcode": null,
+    "sku": "W-810097179318",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -249,8 +249,8 @@
      }
     ],
     "price": "1799.00",
-    "barcode": "810097179356",
-    "sku": "810097179356",
+    "barcode": null,
+    "sku": "W-810097179356",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -312,6 +312,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/pace-5-rec-step-through-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"S/M / Koi\", \"Large / Anvil\", \"Large / Lagoon\"]"
    }
   ],
   "files": [
@@ -404,5 +410,125 @@
   "810097179370": 0,
   "810097179318": 1,
   "810097179356": 1
+ },
+ "feed": {
+  "identifier": {
+   "handle": "aventon-pace-5-rec-in-store-stock"
+  },
+  "input": {
+   "title": "Aventon Pace 5 REC Step-Through (In-Store Stock)",
+   "handle": "aventon-pace-5-rec-in-store-stock",
+   "vendor": "Aventon",
+   "productType": "eBike",
+   "status": "ACTIVE",
+   "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-pace-5-rec</p>",
+   "tags": [
+    "locally-feed",
+    "in-store-stock",
+    "make:Aventon",
+    "type:eBike"
+   ],
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S/M"
+      },
+      {
+       "name": "Large"
+      }
+     ]
+    },
+    {
+     "name": "Color",
+     "values": [
+      {
+       "name": "Koi"
+      },
+      {
+       "name": "Anvil"
+      },
+      {
+       "name": "Lagoon"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S/M"
+      },
+      {
+       "optionName": "Color",
+       "name": "Koi"
+      }
+     ],
+     "price": "1799.00",
+     "barcode": "810097179363",
+     "sku": "810097179363",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "Large"
+      },
+      {
+       "optionName": "Color",
+       "name": "Anvil"
+      }
+     ],
+     "price": "1799.00",
+     "barcode": "810097179318",
+     "sku": "810097179318",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "Large"
+      },
+      {
+       "optionName": "Color",
+       "name": "Lagoon"
+      }
+     ],
+     "price": "1799.00",
+     "barcode": "810097179356",
+     "sku": "810097179356",
+     "inventoryPolicy": "DENY",
+     "inventoryItem": {
+      "tracked": true
+     },
+     "taxable": true
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-01_e42b56cd-32b9-4bdc-bc52-c7a16b132112_jpg.png?v=1779776538",
+     "contentType": "IMAGE",
+     "alt": "Aventon Pace 5 REC Step-Through in Glacier Mint e-bike"
+    }
+   ]
+  },
+  "stock": {
+   "810097179363": 1,
+   "810097179318": 1,
+   "810097179356": 1
+  }
  }
 }

@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-106-powered-by-minn-kota-1215-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman 106 Powered By Minn Kota (In-Store Stock)",
+  "handle": "2023-old-town-sportsman-106-powered-by-minn-kota-1215-in-store-stock",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-old-town-sportsman-106-powered-by-minn-kota-1215</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Photic Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "2999.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307755",
+    "sku": "759239307755"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1215/main/l/New-2023-Old-Town-Sportsman-106-Powered-By-Minn-Kota-1677798298.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman 106 Powered By Minn Kota"
+   }
+  ]
+ },
+ "stock": {
+  "759239307755": 1
+ }
+}

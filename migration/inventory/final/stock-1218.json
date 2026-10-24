@@ -1,0 +1,80 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-salty-pdl-120-1218-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman Salty PDL 120 (In-Store Stock)",
+  "handle": "2023-old-town-sportsman-salty-pdl-120-1218-in-store-stock",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-old-town-sportsman-salty-pdl-120-1218</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Ember Camo"
+     },
+     {
+      "name": "Photic Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "2199.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2599.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ember Camo"
+     }
+    ],
+    "barcode": "759239307533",
+    "sku": "759239307533"
+   },
+   {
+    "price": "2199.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2599.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307526",
+    "sku": "759239307526"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1218/main/l/New-2023-Old-Town-Sportsman-Salty-PDL-120-1677947853.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Salty PDL 120"
+   }
+  ]
+ },
+ "stock": {
+  "759239307533": 1,
+  "759239307526": 1
+ }
+}

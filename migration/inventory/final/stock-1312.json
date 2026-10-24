@@ -1,0 +1,58 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-itrek-11-1312-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage iTrek 11 (In-Store Stock)",
+  "handle": "2023-hobie-mirage-itrek-11-1312-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-hobie-mirage-itrek-11-1312</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Slate Blue"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "2599.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Slate Blue"
+     }
+    ],
+    "barcode": "792176465515",
+    "sku": "792176465515"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1312/main/l/New-2023-Hobie-Mirage-iTrek-11-1729977494.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage iTrek 11"
+   }
+  ]
+ },
+ "stock": {
+  "792176465515": 1
+ }
+}

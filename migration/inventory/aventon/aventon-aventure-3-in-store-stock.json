@@ -1,0 +1,171 @@
+{
+ "identifier": {
+  "handle": "aventon-aventure-3-in-store-stock"
+ },
+ "input": {
+  "title": "Aventon Aventure 3 (In-Store Stock)",
+  "handle": "aventon-aventure-3-in-store-stock",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-aventure-3</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Aventon",
+   "type:eBike"
+  ],
+  "productOptions": [
+   {
+    "name": "Style",
+    "values": [
+     {
+      "name": "Step Over"
+     },
+     {
+      "name": "Step-thru"
+     }
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Regular"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Matcha"
+     },
+     {
+      "name": "Stealth"
+     },
+     {
+      "name": "Java"
+     },
+     {
+      "name": "Cobalt"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matcha"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173729",
+    "sku": "810097173729",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Stealth"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173798",
+    "sku": "810097173798",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Java"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173767",
+    "sku": "810097173767",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cobalt"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173750",
+    "sku": "810097173750",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Aventure-3_Matcha_Side_1.jpg?v=1746639285",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over in Matcha e-bike"
+   }
+  ]
+ },
+ "stock": {
+  "810097173729": 1,
+  "810097173798": 1,
+  "810097173767": 1,
+  "810097173750": 1
+ }
+}

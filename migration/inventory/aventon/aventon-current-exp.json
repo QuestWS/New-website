@@ -66,8 +66,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097176973",
-    "sku": "810097176973",
+    "barcode": null,
+    "sku": "W-810097176973",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -86,8 +86,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097177017",
-    "sku": "810097177017",
+    "barcode": null,
+    "sku": "W-810097177017",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -106,8 +106,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097176980",
-    "sku": "810097176980",
+    "barcode": null,
+    "sku": "W-810097176980",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -126,8 +126,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097177024",
-    "sku": "810097177024",
+    "barcode": null,
+    "sku": "W-810097177024",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -146,8 +146,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097176997",
-    "sku": "810097176997",
+    "barcode": null,
+    "sku": "W-810097176997",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -166,8 +166,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097177031",
-    "sku": "810097177031",
+    "barcode": null,
+    "sku": "W-810097177031",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -186,8 +186,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097177000",
-    "sku": "810097177000",
+    "barcode": null,
+    "sku": "W-810097177000",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -206,8 +206,8 @@
      }
     ],
     "price": "5999.00",
-    "barcode": "810097177048",
-    "sku": "810097177048",
+    "barcode": null,
+    "sku": "W-810097177048",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -269,6 +269,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/current-exp-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -359,5 +365,6 @@
   "810097177031": 0,
   "810097177000": 0,
   "810097177048": 0
- }
+ },
+ "feed": null
 }

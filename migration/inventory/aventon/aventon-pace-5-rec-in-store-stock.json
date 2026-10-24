@@ -1,0 +1,120 @@
+{
+ "identifier": {
+  "handle": "aventon-pace-5-rec-in-store-stock"
+ },
+ "input": {
+  "title": "Aventon Pace 5 REC Step-Through (In-Store Stock)",
+  "handle": "aventon-pace-5-rec-in-store-stock",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-pace-5-rec</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Aventon",
+   "type:eBike"
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "S/M"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Koi"
+     },
+     {
+      "name": "Anvil"
+     },
+     {
+      "name": "Lagoon"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Koi"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179363",
+    "sku": "810097179363",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Anvil"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179318",
+    "sku": "810097179318",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Lagoon"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179356",
+    "sku": "810097179356",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-01_e42b56cd-32b9-4bdc-bc52-c7a16b132112_jpg.png?v=1779776538",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Glacier Mint e-bike"
+   }
+  ]
+ },
+ "stock": {
+  "810097179363": 1,
+  "810097179318": 1,
+  "810097179356": 1
+ }
+}

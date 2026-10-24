@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-pro-angler-14-360-1084-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Pro Angler 14 360 (In-Store Stock)",
+  "handle": "2023-hobie-mirage-pro-angler-14-360-1084-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-hobie-mirage-pro-angler-14-360-1084</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Amazon Green Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "4499.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5899.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Amazon Green Camo"
+     }
+    ],
+    "barcode": "792176705772",
+    "sku": "792176705772"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1084/main/l/New-2023-Hobie-Mirage-Pro-Angler-14-360-1709070617.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Pro Angler 14 360"
+   }
+  ]
+ },
+ "stock": {
+  "792176705772": 1
+ }
+}

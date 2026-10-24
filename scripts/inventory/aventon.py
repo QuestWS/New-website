@@ -4,13 +4,13 @@
 Sources: aventon.com's public product JSON (current models, prices, UPCs, photos, copy) and
 migration/inventory/locally-aventon.csv (Locally's Aventon catalog: current-season models that
 aren't on aventon.com). One Shopify product per model; step-over and step-through frames are
-combined where Aventon sells both. Variants carry the Aventon UPC as barcode and SKU, which is
-how Locally matches them. The four products that already feed Locally are updated in place
-(their variant ids are kept, matched by UPC).
+combined where Aventon sells both. The website listing is never sellable online (0 stock, no UPC;
+the owner can't collect the $160 assembly and card fees online). Bikes on the floor live on a hidden
+"<model> (In-Store Stock)" product whose variants carry the Aventon UPC (how Locally matches them).
+The four listings that used to feed Locally are updated in place (variant ids kept, matched by UPC).
 
-Stock: migration/inventory/ebike-stock.json lists the UPCs in the shop; each gets inventory 1,
-every other variant 0 (special order). Nothing is purchasable online (template "inventory",
-tag `inventory`, inventoryPolicy DENY).
+Stock: migration/inventory/ebike-stock.json lists the UPCs in the shop; each gets inventory 1 on the
+In-Store Stock product. Listings stay at 0 (inventoryPolicy DENY), so nothing can be bought online.
 
 Writes migration/inventory/aventon/<handle>.json = {"identifier", "input", "existing", "stock"}.
 Usage: python3 -I scripts/inventory/aventon.py
@@ -173,8 +173,38 @@ def build(fam, rows, stock):
         ],
         "files": imgs,
     }
+    stock_map = {v["barcode"]: (1 if v["barcode"] in stock else 0) for v in variants}
+    feed = feed_record(fam, inp, variants, opt_names, stocked)
+    # The website listing is never sellable online: no UPCs (so Locally only sees the stock product), 0 stock.
+    names = [" / ".join(o["name"] for o in v["optionValues"]) for v in variants if v["barcode"] in stock]
+    for v in variants:
+        v["sku"] = "W-" + v["barcode"]
+        v["barcode"] = None
+    inp["metafields"].append({"namespace": "custom", "key": "in_stock_list", "type": "list.single_line_text_field",
+                              "value": json.dumps(names)})
     return {"identifier": {"id": fam["existing"]} if fam.get("existing") else {"handle": fam["handle"]},
-            "input": inp, "existing": fam.get("existing"), "stock": {v["barcode"]: (1 if v["barcode"] in stock else 0) for v in variants}}
+            "input": inp, "existing": fam.get("existing"), "stock": stock_map, "feed": feed}
+
+
+def feed_record(fam, inp, variants, opt_names, stocked):
+    """Hidden "In-Store Stock" product: the units on the floor, with UPCs, inventory 1 each.
+    Published ONLY to the Locally Sales Channel and Point of Sale, never the Online Store."""
+    if not stocked:
+        return None
+    vs = [dict(v, optionValues=list(v["optionValues"])) for v in variants if v["barcode"] in stocked]
+    used = {n: [] for n in opt_names}
+    for v in vs:
+        for o in v["optionValues"]:
+            if o["name"] not in used[o["optionName"]]:
+                used[o["optionName"]].append(o["name"])
+    return {"identifier": {"handle": fam["handle"] + "-in-store-stock"},
+            "input": {"title": fam["title"] + " (In-Store Stock)", "handle": fam["handle"] + "-in-store-stock",
+                      "vendor": "Aventon", "productType": "eBike", "status": "ACTIVE",
+                      "descriptionHtml": f"<p>Floor stock at Quest Watersports. Website listing: /products/{fam['handle']}</p>",
+                      "tags": ["locally-feed", "in-store-stock", "make:Aventon", "type:eBike"],
+                      "productOptions": [{"name": n, "values": [{"name": x} for x in used[n]]} for n in opt_names],
+                      "variants": vs, "files": inp["files"][:1]},
+            "stock": {v["barcode"]: 1 for v in vs}}
 
 
 def main():
@@ -186,6 +216,8 @@ def main():
         rec = build(fam, rows, stock)
         seen_upcs |= set(rec["stock"])
         json.dump(rec, open(os.path.join(OUT, fam["handle"] + ".json"), "w"), indent=1, ensure_ascii=False)
+        if rec["feed"]:
+            json.dump(rec["feed"], open(os.path.join(OUT, fam["handle"] + "-in-store-stock.json"), "w"), indent=1, ensure_ascii=False)
         n_in = sum(rec["stock"].values())
         print(f"{fam['handle']:34} variants {len(rec['input']['variants']):2}  images {len(rec['input']['files']):2}  in stock {n_in}")
         time.sleep(0.5)

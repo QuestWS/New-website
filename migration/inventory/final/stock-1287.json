@@ -1,0 +1,101 @@
+{
+ "identifier": {
+  "handle": "2024-old-town-sportsman-bigwater-epdl-132-1287-in-store-stock"
+ },
+ "input": {
+  "title": "2024 Old Town Sportsman BigWater ePDL+ 132 (In-Store Stock)",
+  "handle": "2024-old-town-sportsman-bigwater-epdl-132-1287-in-store-stock",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2024-old-town-sportsman-bigwater-epdl-132-1287</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2024"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Marsh Camo"
+     },
+     {
+      "name": "Ember Camo"
+     },
+     {
+      "name": "Steel Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "5399.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Marsh Camo"
+     }
+    ],
+    "barcode": "759239311431",
+    "sku": "759239311431"
+   },
+   {
+    "price": "5399.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ember Camo"
+     }
+    ],
+    "barcode": "759239311769",
+    "sku": "759239311769"
+   },
+   {
+    "price": "5399.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Steel Camo"
+     }
+    ],
+    "barcode": "759239311776",
+    "sku": "759239311776"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1287/main/l/New-2024-Old-Town-Sportsman-BigWater-ePDL+-132-1711205154.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Old Town Sportsman BigWater ePDL+ 132"
+   }
+  ]
+ },
+ "stock": {
+  "759239311431": 1,
+  "759239311769": 1,
+  "759239311776": 1
+ }
+}

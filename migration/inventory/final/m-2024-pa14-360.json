@@ -15,7 +15,7 @@
    "make:Hobie",
    "type:Kayak",
    "year:2024",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -43,8 +43,8 @@
       "name": "Arctic Blue Camo"
      }
     ],
-    "barcode": "792176671923",
-    "sku": "792176671923"
+    "sku": "W-792176671923",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -107,6 +107,12 @@
     "key": "sale_pending",
     "type": "boolean",
     "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Arctic Blue Camo\"]"
    }
   ],
   "files": [
@@ -220,8 +226,5 @@
   "id": "manual:2024-pa14-360",
   "decision": "manual",
   "note": "C9"
- },
- "locally_stock": {
-  "792176671923": 1
  }
 }

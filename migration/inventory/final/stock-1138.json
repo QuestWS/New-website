@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2022-advanced-elements-straitedge-angler-pro-1138-in-store-stock"
+ },
+ "input": {
+  "title": "2022 Advanced Elements StraitEdge Angler Pro (In-Store Stock)",
+  "handle": "2022-advanced-elements-straitedge-angler-pro-1138-in-store-stock",
+  "vendor": "Advanced Elements",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2022-advanced-elements-straitedge-angler-pro-1138</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Advanced Elements",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Sage/Gray"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "902.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1199.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Sage/Gray"
+     }
+    ],
+    "barcode": "832994001486",
+    "sku": "832994001486"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1138/main/l/New-2022-Advanced-Elements-StraitEdge-Angler-Pro-1617921434.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements StraitEdge Angler Pro"
+   }
+  ]
+ },
+ "stock": {
+  "832994001486": 1
+ }
+}

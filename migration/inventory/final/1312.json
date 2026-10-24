@@ -15,7 +15,7 @@
    "make:Hobie",
    "type:Kayak",
    "year:2023",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -47,8 +47,8 @@
       "name": "Slate Blue"
      }
     ],
-    "barcode": "792176465515",
-    "sku": "792176465515"
+    "sku": "W-792176465515",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -123,6 +123,12 @@
     "key": "youtube_url",
     "type": "single_line_text_field",
     "value": "https://www.youtube.com/embed/0lCFZPsTzSk?feature=player_detailpage"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Slate Blue\"]"
    }
   ],
   "files": [
@@ -138,8 +144,5 @@
   "url": "https://www.questwatersports.com/2023-hobie-mirage-itrek-11-c-1312/",
   "when_modified": "2024-10-26 16:22:36",
   "sold": "Available"
- },
- "locally_stock": {
-  "792176465515": 1
  }
 }

@@ -66,8 +66,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170070",
-    "sku": "810097170070",
+    "barcode": null,
+    "sku": "W-810097170070",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -86,8 +86,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170001",
-    "sku": "810097170001",
+    "barcode": null,
+    "sku": "W-810097170001",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -106,8 +106,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170018",
-    "sku": "810097170018",
+    "barcode": null,
+    "sku": "W-810097170018",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -126,8 +126,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170049",
-    "sku": "810097170049",
+    "barcode": null,
+    "sku": "W-810097170049",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -146,8 +146,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170056",
-    "sku": "810097170056",
+    "barcode": null,
+    "sku": "W-810097170056",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -166,8 +166,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170025",
-    "sku": "810097170025",
+    "barcode": null,
+    "sku": "W-810097170025",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -186,8 +186,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170032",
-    "sku": "810097170032",
+    "barcode": null,
+    "sku": "W-810097170032",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -206,8 +206,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097170063",
-    "sku": "810097170063",
+    "barcode": null,
+    "sku": "W-810097170063",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -269,6 +269,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.locally.com/product/2568766/ramblas-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -294,5 +300,6 @@
   "810097170025": 0,
   "810097170032": 0,
   "810097170063": 0
- }
+ },
+ "feed": null
 }

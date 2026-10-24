@@ -15,7 +15,7 @@
    "make:Advanced Elements",
    "type:Kayak",
    "year:2022",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -48,8 +48,8 @@
       "name": "Blue/Gray"
      }
     ],
-    "barcode": "832994001752",
-    "sku": "832994001752"
+    "sku": "W-832994001752",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -124,6 +124,12 @@
     "key": "msrp_label",
     "type": "single_line_text_field",
     "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Blue/Gray\"]"
    }
   ],
   "files": [
@@ -179,8 +185,5 @@
   "url": "https://www.questwatersports.com/2022-advanced-elements-airvolution2-c-1144/",
   "when_modified": "2023-01-04 17:16:23",
   "sold": "Available"
- },
- "locally_stock": {
-  "832994001752": 1
  }
 }

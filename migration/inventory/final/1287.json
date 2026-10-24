@@ -15,7 +15,7 @@
    "make:Old Town",
    "type:Kayak",
    "year:2024",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -54,8 +54,8 @@
       "name": "Marsh Camo"
      }
     ],
-    "barcode": "759239311431",
-    "sku": "759239311431"
+    "sku": "W-759239311431",
+    "barcode": null
    },
    {
     "price": "5399.00",
@@ -71,8 +71,8 @@
       "name": "Ember Camo"
      }
     ],
-    "barcode": "759239311769",
-    "sku": "759239311769"
+    "sku": "W-759239311769",
+    "barcode": null
    },
    {
     "price": "5399.00",
@@ -88,8 +88,8 @@
       "name": "Steel Camo"
      }
     ],
-    "barcode": "759239311776",
-    "sku": "759239311776"
+    "sku": "W-759239311776",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -170,6 +170,12 @@
     "key": "msrp_label",
     "type": "single_line_text_field",
     "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Marsh Camo\", \"Ember Camo\", \"Steel Camo\"]"
    }
   ],
   "files": [
@@ -280,10 +286,5 @@
   "url": "https://www.questwatersports.com/2024-old-town-sportsman-bigwater-epdl-132-c-1287/",
   "when_modified": "2026-05-13 13:17:49",
   "sold": "Available"
- },
- "locally_stock": {
-  "759239311431": 1,
-  "759239311769": 1,
-  "759239311776": 1
  }
 }

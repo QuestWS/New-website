@@ -1,0 +1,80 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-bigwater-pdl-132-1219-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman Bigwater PDL 132 (In-Store Stock)",
+  "handle": "2023-old-town-sportsman-bigwater-pdl-132-1219-in-store-stock",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-old-town-sportsman-bigwater-pdl-132-1219</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Marsh Camo"
+     },
+     {
+      "name": "Photic Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "2899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3249.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Marsh Camo"
+     }
+    ],
+    "barcode": "759239310243",
+    "sku": "759239310243"
+   },
+   {
+    "price": "2899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3249.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307564",
+    "sku": "759239307564"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1219/main/l/New-2023-Old-Town-Sportsman-Bigwater-PDL-132-1677950720.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Bigwater PDL 132"
+   }
+  ]
+ },
+ "stock": {
+  "759239310243": 1,
+  "759239307564": 1
+ }
+}

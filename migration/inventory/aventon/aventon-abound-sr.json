@@ -60,8 +60,8 @@
      }
     ],
     "price": "1899.00",
-    "barcode": "810097171015",
-    "sku": "810097171015",
+    "barcode": null,
+    "sku": "W-810097171015",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -80,8 +80,8 @@
      }
     ],
     "price": "1899.00",
-    "barcode": "810097171039",
-    "sku": "810097171039",
+    "barcode": null,
+    "sku": "W-810097171039",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -100,8 +100,8 @@
      }
     ],
     "price": "1899.00",
-    "barcode": "810097171022",
-    "sku": "810097171022",
+    "barcode": null,
+    "sku": "W-810097171022",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -163,6 +163,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/abound-sr-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -248,5 +254,6 @@
   "810097171015": 0,
   "810097171039": 0,
   "810097171022": 0
- }
+ },
+ "feed": null
 }

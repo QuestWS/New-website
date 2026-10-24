@@ -170,13 +170,26 @@ def manual(key, spec, records):
 
 
 def locally_variants(rec, link):
-    """One variant per colour on hand, carrying the Locally/manufacturer UPC; stock 1 each (set by the sync)."""
+    """Website listing: one variant per colour on hand, no UPC, never sellable online (0 stock; the owner
+    can't collect card fees online). Returns the hidden "(In-Store Stock)" product that carries the
+    UPCs at inventory 1, published only to Locally + Point of Sale."""
     inp = rec["input"]
     base = {k: v for k, v in inp["variants"][0].items() if k not in ("optionValues", "sku", "barcode")}
     inp["productOptions"] = [{"name": "Color", "values": [{"name": c} for c, _ in link]}]
-    inp["variants"] = [dict(base, optionValues=[{"optionName": "Color", "name": c}], barcode=upc, sku=upc) for c, upc in link]
-    set_tags(inp, add=["locally"])
-    rec["locally_stock"] = {upc: 1 for _, upc in link}
+    inp["variants"] = [dict(base, optionValues=[{"optionName": "Color", "name": c}], sku="W-" + upc, barcode=None) for c, upc in link]
+    set_tags(inp, add=["in-stock"], remove=["locally"])
+    set_mf(inp, "in_stock_list", json.dumps([c for c, _ in link]), "list.single_line_text_field")
+    handle = rec["identifier"]["handle"] + "-in-store-stock"
+    feed = {
+        "title": inp["title"] + " (In-Store Stock)", "handle": handle, "vendor": inp["vendor"],
+        "productType": inp["productType"], "status": "ACTIVE",
+        "descriptionHtml": f"<p>Floor stock at Quest Watersports. Website listing: /products/{rec['identifier']['handle']}</p>",
+        "tags": ["locally-feed", "in-store-stock"] + [t for t in inp["tags"] if t.startswith(("make:", "type:", "year:"))],
+        "productOptions": inp["productOptions"],
+        "variants": [dict(base, optionValues=[{"optionName": "Color", "name": c}], barcode=upc, sku=upc) for c, upc in link],
+        "files": (inp.get("files") or [])[:1],
+    }
+    return {"identifier": {"handle": handle}, "input": feed, "stock": {upc: 1 for _, upc in link}}
 
 
 def main():
@@ -246,14 +259,18 @@ def main():
         if spec.get("draft"):
             report["drafts"].append({"key": key, "title": rec["input"]["title"], "why": spec.get("note", "")})
         final[f"m-{key}"] = rec
+    feeds = {}
     for k, rec in final.items():
         link = dec.get("locally", {}).get(k if not k.startswith("m-") else "manual:" + k[2:])
         if link:
-            locally_variants(rec, link)
+            feeds[k] = locally_variants(rec, link)
         map_scrub(rec["input"])
         json.dump(rec, open(os.path.join(OUT, f"{k}.json"), "w"), indent=1, ensure_ascii=False)
         report["written"].append({"key": k, "handle": rec["identifier"]["handle"], "title": rec["input"]["title"],
                                   "type": rec["input"]["productType"]})
+    for k, feed in feeds.items():
+        json.dump(feed, open(os.path.join(OUT, f"stock-{k}.json"), "w"), indent=1, ensure_ascii=False)
+    report["in_store_stock_products"] = len(feeds)
     json.dump(report, open(os.path.join(OUT, "_report.json"), "w"), indent=1, ensure_ascii=False)
     print(f"written {len(report['written'])}  excluded {len(report['excluded'])}  held {len(report['held'])}  "
           f"pending {len(report['pending'])}  drafts {len(report['drafts'])}  MAP warnings {len(report['map_warnings'])}")

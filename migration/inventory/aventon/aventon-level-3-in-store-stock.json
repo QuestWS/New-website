@@ -1,0 +1,111 @@
+{
+ "identifier": {
+  "handle": "aventon-level-3-in-store-stock"
+ },
+ "input": {
+  "title": "Aventon Level 3 (In-Store Stock)",
+  "handle": "aventon-level-3-in-store-stock",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/aventon-level-3</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Aventon",
+   "type:eBike"
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Regular"
+     }
+    ]
+   },
+   {
+    "name": "Style",
+    "values": [
+     {
+      "name": "Step Over"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Matte Black"
+     },
+     {
+      "name": "Matte Aurora"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172807",
+    "sku": "810097172807",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Aurora"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172821",
+    "sku": "810097172821",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Matte-Aurora_Side_1-bike.jpg?v=1739400464",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over in Matte Aurora e-bike"
+   }
+  ]
+ },
+ "stock": {
+  "810097172807": 1,
+  "810097172821": 1
+ }
+}

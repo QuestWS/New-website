@@ -63,8 +63,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174412",
-    "sku": "810097174412",
+    "barcode": null,
+    "sku": "W-810097174412",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -83,8 +83,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174375",
-    "sku": "810097174375",
+    "barcode": null,
+    "sku": "W-810097174375",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -103,8 +103,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174399",
-    "sku": "810097174399",
+    "barcode": null,
+    "sku": "W-810097174399",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -123,8 +123,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174429",
-    "sku": "810097174429",
+    "barcode": null,
+    "sku": "W-810097174429",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -143,8 +143,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174382",
-    "sku": "810097174382",
+    "barcode": null,
+    "sku": "W-810097174382",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -163,8 +163,8 @@
      }
     ],
     "price": "2899.00",
-    "barcode": "810097174405",
-    "sku": "810097174405",
+    "barcode": null,
+    "sku": "W-810097174405",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -226,6 +226,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/aventure-m-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -314,5 +320,6 @@
   "810097174429": 0,
   "810097174382": 0,
   "810097174405": 0
- }
+ },
+ "feed": null
 }

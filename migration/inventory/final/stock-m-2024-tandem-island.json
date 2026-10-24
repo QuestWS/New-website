@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2024-hobie-mirage-tandem-island-in-store-stock"
+ },
+ "input": {
+  "title": "2024 Hobie Mirage Tandem Island (In-Store Stock)",
+  "handle": "2024-hobie-mirage-tandem-island-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2024-hobie-mirage-tandem-island</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2024"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Dune"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "8599.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "8799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Dune"
+     }
+    ],
+    "barcode": "792176879695",
+    "sku": "792176879695"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/main/l/New-2026-Hobie-Mirage-Tandem-Island-1483231126.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2024 Hobie Mirage Tandem Island (same model)"
+   }
+  ]
+ },
+ "stock": {
+  "792176879695": 1
+ }
+}

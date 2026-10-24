@@ -84,8 +84,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177390",
-    "sku": "810097177390",
+    "barcode": null,
+    "sku": "W-810097177390",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -108,8 +108,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177406",
-    "sku": "810097177406",
+    "barcode": null,
+    "sku": "W-810097177406",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -132,8 +132,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177437",
-    "sku": "810097177437",
+    "barcode": null,
+    "sku": "W-810097177437",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -156,8 +156,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177444",
-    "sku": "810097177444",
+    "barcode": null,
+    "sku": "W-810097177444",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -180,8 +180,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177475",
-    "sku": "810097177475",
+    "barcode": null,
+    "sku": "W-810097177475",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -204,8 +204,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177482",
-    "sku": "810097177482",
+    "barcode": null,
+    "sku": "W-810097177482",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -228,8 +228,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177413",
-    "sku": "810097177413",
+    "barcode": null,
+    "sku": "W-810097177413",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -252,8 +252,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177420",
-    "sku": "810097177420",
+    "barcode": null,
+    "sku": "W-810097177420",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -276,8 +276,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177451",
-    "sku": "810097177451",
+    "barcode": null,
+    "sku": "W-810097177451",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -300,8 +300,8 @@
      }
     ],
     "price": "2799.00",
-    "barcode": "810097177468",
-    "sku": "810097177468",
+    "barcode": null,
+    "sku": "W-810097177468",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -363,6 +363,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/level-4-adv-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -445,5 +451,6 @@
   "810097177420": 0,
   "810097177451": 0,
   "810097177468": 0
- }
+ },
+ "feed": null
 }

@@ -1,0 +1,80 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-pro-angler-12-360-1083-in-store-stock"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Pro Angler 12 360 (In-Store Stock)",
+  "handle": "2022-hobie-mirage-pro-angler-12-360-1083-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2022-hobie-mirage-pro-angler-12-360-1083</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Arctic Blue Camo"
+     },
+     {
+      "name": "Amazon Green Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "4479.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Arctic Blue Camo"
+     }
+    ],
+    "barcode": "792176659921",
+    "sku": "792176659921"
+   },
+   {
+    "price": "4479.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Amazon Green Camo"
+     }
+    ],
+    "barcode": "792176417712",
+    "sku": "792176417712"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1083/main/l/New-2022-Hobie-Mirage-Pro-Angler-12-360-1567712862.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Pro Angler 12 360"
+   }
+  ]
+ },
+ "stock": {
+  "792176659921": 1,
+  "792176417712": 1
+ }
+}

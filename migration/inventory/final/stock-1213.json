@@ -1,0 +1,80 @@
+{
+ "identifier": {
+  "handle": "2023-old-town-sportsman-autopilot-136-1213-in-store-stock"
+ },
+ "input": {
+  "title": "2023 Old Town Sportsman Autopilot 136 (In-Store Stock)",
+  "handle": "2023-old-town-sportsman-autopilot-136-1213-in-store-stock",
+  "vendor": "Old Town",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2023-old-town-sportsman-autopilot-136-1213</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Old Town",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Ember Camo"
+     },
+     {
+      "name": "Photic Camo"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "4365.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ember Camo"
+     }
+    ],
+    "barcode": "759239307847",
+    "sku": "759239307847"
+   },
+   {
+    "price": "4365.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307830",
+    "sku": "759239307830"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1213/main/l/New-2023-Old-Town-Sportsman-Autopilot-136-1677789864.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Old Town Sportsman Autopilot 136"
+   }
+  ]
+ },
+ "stock": {
+  "759239307847": 1,
+  "759239307830": 1
+ }
+}

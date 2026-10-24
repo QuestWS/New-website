@@ -15,7 +15,7 @@
    "make:Hobie",
    "type:Kayak",
    "year:2022",
-   "locally"
+   "in-stock"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -51,8 +51,8 @@
       "name": "Arctic Blue Camo"
      }
     ],
-    "barcode": "792176659921",
-    "sku": "792176659921"
+    "sku": "W-792176659921",
+    "barcode": null
    },
    {
     "price": "4479.00",
@@ -68,8 +68,8 @@
       "name": "Amazon Green Camo"
      }
     ],
-    "barcode": "792176417712",
-    "sku": "792176417712"
+    "sku": "W-792176417712",
+    "barcode": null
    }
   ],
   "metafields": [
@@ -150,6 +150,12 @@
     "key": "msrp_label",
     "type": "single_line_text_field",
     "value": "2027 MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[\"Arctic Blue Camo\", \"Amazon Green Camo\"]"
    }
   ],
   "files": [
@@ -245,9 +251,5 @@
   "url": "https://www.questwatersports.com/2022-hobie-mirage-pro-angler-12-360-c-1083/",
   "when_modified": "2024-02-27 17:31:11",
   "sold": "Available"
- },
- "locally_stock": {
-  "792176659921": 1,
-  "792176417712": 1
  }
 }

@@ -142,12 +142,14 @@
               <p class="qo-ebike-fin__monthly">As low as <strong>{{ fin_monthly_cents | money }}/mo<sup>*</sup></strong> <span>with Synchrony financing</span></p>
             </div>
             {%- liquid
+              comment
+                Listings are never sellable online (0 stock); the units on the floor live on hidden
+                "In-Store Stock" products for Locally/POS. The sync writes their names to custom.in_stock_list.
+              endcomment
               assign in_stock = ''
-              for v in product.variants
-                if v.inventory_quantity > 0
-                  assign vt = v.title | escape
-                  assign in_stock = in_stock | append: '<li>' | append: vt | append: '</li>'
-                endif
+              for vt_raw in mf.in_stock_list.value
+                assign vt = vt_raw | escape
+                assign in_stock = in_stock | append: '<li>' | append: vt | append: '</li>'
               endfor
             -%}
             {%- if in_stock != blank -%}
@@ -161,6 +163,11 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
+          {%- elsif mf.in_stock_list.value != blank -%}
+            <div role="note" style="margin:14px 0 0;padding:12px 14px;background:#fff;border-left:5px solid #2e9e4f;color:#292A2A;line-height:1.4">
+              <strong>In stock at Quest Watersports:</strong>
+              <ul style="margin:6px 0 0;padding-left:20px">{%- for c in mf.in_stock_list.value -%}<li>{{ c | escape }}</li>{%- endfor -%}</ul>
+            </div>
           {%- elsif product.variants.size > 1 and call_price == false and product.price_varies -%}
             <ul role="list" style="list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px;color:#002B4B;font-weight:700">
               {%- for v in product.variants -%}

@@ -66,8 +66,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176454",
-    "sku": "810097176454",
+    "barcode": null,
+    "sku": "W-810097176454",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -86,8 +86,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176461",
-    "sku": "810097176461",
+    "barcode": null,
+    "sku": "W-810097176461",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -106,8 +106,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176478",
-    "sku": "810097176478",
+    "barcode": null,
+    "sku": "W-810097176478",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -126,8 +126,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176485",
-    "sku": "810097176485",
+    "barcode": null,
+    "sku": "W-810097176485",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -146,8 +146,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176492",
-    "sku": "810097176492",
+    "barcode": null,
+    "sku": "W-810097176492",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -166,8 +166,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176508",
-    "sku": "810097176508",
+    "barcode": null,
+    "sku": "W-810097176508",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -186,8 +186,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176515",
-    "sku": "810097176515",
+    "barcode": null,
+    "sku": "W-810097176515",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -206,8 +206,8 @@
      }
     ],
     "price": "3999.00",
-    "barcode": "810097176522",
-    "sku": "810097176522",
+    "barcode": null,
+    "sku": "W-810097176522",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -269,6 +269,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/current-adv-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -359,5 +365,6 @@
   "810097176508": 0,
   "810097176515": 0,
   "810097176522": 0
- }
+ },
+ "feed": null
 }

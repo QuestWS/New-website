@@ -57,8 +57,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097173262",
-    "sku": "810097173262",
+    "barcode": null,
+    "sku": "W-810097173262",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -77,8 +77,8 @@
      }
     ],
     "price": "1999.00",
-    "barcode": "810097173255",
-    "sku": "810097173255",
+    "barcode": null,
+    "sku": "W-810097173255",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
@@ -140,6 +140,12 @@
     "key": "manufacturer_url",
     "type": "single_line_text_field",
     "value": "https://www.aventon.com/products/abound-lr-ebike"
+   },
+   {
+    "namespace": "custom",
+    "key": "in_stock_list",
+    "type": "list.single_line_text_field",
+    "value": "[]"
    }
   ],
   "files": [
@@ -224,5 +230,6 @@
  "stock": {
   "810097173262": 0,
   "810097173255": 0
- }
+ },
+ "feed": null
 }

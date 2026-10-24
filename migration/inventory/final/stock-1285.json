@@ -1,0 +1,59 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-ieclipse-1285-in-store-stock"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage iEclipse (In-Store Stock)",
+  "handle": "2022-hobie-mirage-ieclipse-1285-in-store-stock",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "status": "ACTIVE",
+  "descriptionHtml": "<p>Floor stock at Quest Watersports. Website listing: /products/2022-hobie-mirage-ieclipse-1285</p>",
+  "tags": [
+   "locally-feed",
+   "in-store-stock",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "productOptions": [
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Seagrass Green"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "price": "2399.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Seagrass Green"
+     }
+    ],
+    "barcode": "792176115076",
+    "sku": "792176115076"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1285/main/l/New-2022-Hobie-Mirage-iEclipse-1709073307.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage iEclipse"
+   }
+  ]
+ },
+ "stock": {
+  "792176115076": 1
+ }
+}
