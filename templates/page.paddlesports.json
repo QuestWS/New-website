@@ -18,7 +18,7 @@
     "hobie": {
       "type": "qo-product-carousel",
       "settings": {
-        "collection": "hobie-kayaks",
+        "collection": "inventory-paddlesports",
         "heading": "Find Your Kayak",
         "style": "water",
         "products_to_show": 12

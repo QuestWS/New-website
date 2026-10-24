@@ -91,7 +91,7 @@
       "type": "qo-home-shop",
       "settings": {
         "heading": "Shop Online",
-        "collection": "hobie-kayaks",
+        "collection": "kayak-parts",
         "products_to_show": 8,
         "button_label": "View All"
       }
