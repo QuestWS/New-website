@@ -18,7 +18,7 @@
     "ebikes": {
       "type": "qo-product-carousel",
       "settings": {
-        "collection": "ebikes",
+        "collection": "inventory-ebikes",
         "heading": "Find Your eBike",
         "style": "water",
         "products_to_show": 12
