@@ -1,0 +1,252 @@
+{
+ "identifier": {
+  "handle": "aventon-abound-sr"
+ },
+ "input": {
+  "title": "Aventon Abound SR",
+  "handle": "aventon-abound-sr",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<p dir=\"ltr\"><span>Introducing the all-new Abound SR—the enhanced cargo ebike built to carry anything and tackle every challenge. Whether you're cruising through the streets or bike pooling with a friend, the Abound SR is always ready for any action. Its compact frame keeps you agile, while advanced security<sup>†</sup> and GPS<sup>†</sup> features give you total peace of mind.</span></p>\n<p dir=\"ltr\"> </p>\n<p>Outfitted with an adjustable quill stem, suspension seatpost, and cutting-edge theft deterrent features<sup>†</sup>, every ride is smooth, secure, and stress-free. Whether it’s a quick trip or a big haul, the Abound SR is your go-to for dominating the road.</p>\n<p> </p>\n<p>It’s <strong>SR</strong>sly fun.</p><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Abound SR Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Abound SR e-bike from $1,899 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "One Size"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Cobalt"
+     },
+     {
+      "name": "Stealth"
+     },
+     {
+      "name": "Haze"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "One Size"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cobalt"
+     }
+    ],
+    "price": "1899.00",
+    "barcode": "810097171015",
+    "sku": "810097171015",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "One Size"
+     },
+     {
+      "optionName": "Color",
+      "name": "Stealth"
+     }
+    ],
+    "price": "1899.00",
+    "barcode": "810097171039",
+    "sku": "810097171039",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "One Size"
+     },
+     {
+      "optionName": "Color",
+      "name": "Haze"
+     }
+    ],
+    "price": "1899.00",
+    "barcode": "810097171022",
+    "sku": "810097171022",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Abound SR"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/abound-sr-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Abound-SR_Cobalt-Blue_Side_1-bike.jpg?v=1756958415",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR in Cobalt e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Abound-SR_Haze_Side_1-bike.jpg?v=1756958415",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR in Haze e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Abound-SR_Stealth_Side_1-bike.jpg?v=1756958415",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR in Stealth e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/720x1080v2.gif?v=1756958416",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Abound-SR_Cobalt-Blue_Front-pers_1-bike.jpg?v=1756958416",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Abound-SR_Cobalt-Blue_Rear-pers_1-bike.jpg?v=1756958416",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Abound-SR_Haze_Front-pers_1-bike.jpg?v=1756958417",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Abound-SR_Haze_Rear-pers_1-bike.jpg?v=1756958417",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Abound-SR_Stealth_Front-pers_1-bike.jpg?v=1756958417",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Abound-SR_Stealth_Rear-pers_1-bike.jpg?v=1756958417",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-SR-Easily-switch-between-Cadence-and-Torque-Sensor.png?v=1756958418",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-SR-Set-your-cruising-speed-with-Cruise-Control.png?v=1756958418",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-SR-Boost-Mode.jpg?v=1756958418",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-SR-Payload.jpg?v=1756958418",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-SR-Motor.jpg?v=1756958419",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound SR e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097171015": 0,
+  "810097171039": 0,
+  "810097171022": 0
+ }
+}

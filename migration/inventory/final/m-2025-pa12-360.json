@@ -14,35 +14,56 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2025"
+   "year:2025",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Campfire Red"
+     },
+     {
+      "name": "OG Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "5699.00",
-    "sku": "QW-2025-pa12-360",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Campfire Red"
+     }
+    ],
+    "barcode": "792176675280",
+    "sku": "792176675280"
+   },
+   {
+    "price": "5699.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "OG Camo"
+     }
+    ],
+    "barcode": "792176070979",
+    "sku": "792176070979"
    }
   ],
   "metafields": [
@@ -203,5 +224,9 @@
   "id": "manual:2025-pa12-360",
   "decision": "manual",
   "note": "C5/C6"
+ },
+ "locally_stock": {
+  "792176675280": 1,
+  "792176070979": 1
  }
 }

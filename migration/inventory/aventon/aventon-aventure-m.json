@@ -1,0 +1,318 @@
+{
+ "identifier": {
+  "handle": "aventon-aventure-m"
+ },
+ "input": {
+  "title": "Aventon Aventure M",
+  "handle": "aventon-aventure-m",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div class=\"ace-line ace-line old-record-id-doxcnXLptLCWb80LbmfhiBBEZib\">\n<meta charset=\"utf-8\">\n<div>\n<div class=\"ace-line ace-line old-record-id-EgpkdJaSfofmEGxGca8cOItXntd\">Aventure M is the perfect blend of rugged capability, performance, and technology to help you explore further than ever before. With meticulously designed frame geometry, a 80mm suspension fork, and 4.0\" tires, there's nowhere the Aventure M can't take you. The Aventon A100 mid-drive motor provides enough torque and power to conquer any terrain, giving you a responsive ride feel that can be easily customized with Ride Tune capabilities. You can focus solely on the making it to the next mountain peak with Aventon's E-Shift with AutoShift functionality ensuring you're always in the right gear at the right time. ACU technology brings a host of connectivity and added security features including GPS(†) tracking and an integrated lock, while the updated display shows you important metrics like torque, cadence, and power to help you maximize every ride. No matter where you want to go, Aventure M will get you there.</div>\n</div>\n<span class=\"lark-record-clipboard\"></span>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Aventure M Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Aventure M e-bike from $2,899 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Regular"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Camouflage"
+     },
+     {
+      "name": "Pacific"
+     },
+     {
+      "name": "Basalt"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174412",
+    "sku": "810097174412",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Pacific"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174375",
+    "sku": "810097174375",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Basalt"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174399",
+    "sku": "810097174399",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174429",
+    "sku": "810097174429",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Pacific"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174382",
+    "sku": "810097174382",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Basalt"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097174405",
+    "sku": "810097174405",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Aventure M"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/aventure-m-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_AventureM_Camouflage_Side_1_83862d85-6894-4107-b6cf-8f823a834c6f.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M in Camouflage e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_AventureM_Pacific_Side_1_ef5126f0-4eda-44e1-83ed-8df8b69ad5bc.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M in Pacific e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_AventureM_Basalt_Side_1_b8c6dea3-8383-4c7b-a86b-cf3a5622ddb4.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M in Basalt e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_AventureM_Camouflage_Rearpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_AventureM_Camouflage_Frontpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_AventureM_Basalt_Rearpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_AventureM_Basalt_Frontpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_AventureM_Pacific_Rearpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_AventureM_Pacific_Frontpers_1.jpg?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-05.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-02_ae55ab86-cd4e-4ee4-9137-7318f83e4fc8.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-03_68618e3d-48ce-46bd-a333-57d342bbdf0c.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-06.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-04_dc0cad5d-2380-4388-ba9c-0164bb981882.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventure-m-01_a85ef429-6f1b-448c-a15a-3541b5276512.png?v=1775169633",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure M e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097174412": 0,
+  "810097174375": 0,
+  "810097174399": 0,
+  "810097174429": 0,
+  "810097174382": 0,
+  "810097174405": 0
+ }
+}

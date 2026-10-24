@@ -1,0 +1,404 @@
+{
+ "identifier": {
+  "id": "gid://shopify/Product/9179283456222"
+ },
+ "input": {
+  "title": "Aventon Level 3",
+  "handle": "aventon-level-3",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"CXDvd2j9OolArDxFxyHcF0iDnBg\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-doxcnkbeRN3GAYqgUaIlpaS7brf\">Take your commutes to the next LEVEL. The all new Level 3 comes fully equipped with everything you need to trade your daily drives for daily rides. A rear rack and fenders ensures you can carry necessities while staying clean and dry during your rides. A front suspension fork and suspension seat post provide maximum comfort on rougher terrain. Our ACU technology provides peace of mind with GPS<span><sup>†</sup></span> tracking, auto-lock, unusual movement detection, alarm system, and much more to keep your bike safe and secure. Comfortable geometry paired with an adjustable stem ensure the perfect fit, while the implementation of Ride Tune capabilities along with adjustments to Level 3's motor power curves provide up to an additional 10 miles of range compared to its predecessor. Ditch the traffic, and elevate your daily commutes with the Level 3</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "in-stock"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Level 3 Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Level 3 e-bike from $1,699 at Quest Watersports, your Aventon dealer in Ottawa, IL. In stock now — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Regular"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Style",
+    "values": [
+     {
+      "name": "Step Over"
+     },
+     {
+      "name": "Step Thru"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Matte Black"
+     },
+     {
+      "name": "Matte Aurora"
+     },
+     {
+      "name": "Sandstone"
+     },
+     {
+      "name": "Glacier Mint"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172807",
+    "sku": "810097172807",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Aurora"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172821",
+    "sku": "810097172821",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172814",
+    "sku": "810097172814",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Aurora"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172838",
+    "sku": "810097172838",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Thru"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sandstone"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172845",
+    "sku": "810097172845",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Thru"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172869",
+    "sku": "810097172869",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Thru"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sandstone"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172852",
+    "sku": "810097172852",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Style",
+      "name": "Step Thru"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "1699.00",
+    "barcode": "810097172876",
+    "sku": "810097172876",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1899.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Level 3"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/level-3-commuter-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Matte-Aurora_Side_1-bike.jpg?v=1739400464",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over in Matte Aurora e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Matte-Black_Side_1-bike.jpg?v=1739400464",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over in Matte Black e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Level.3_Matte-Aurora_Front-pers_1-bike.jpg?v=1752087293",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Level.3_Matte-Aurora_Rear-pers_1-bike.jpg?v=1752087293",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Level.3_Matte-Black_Front-pers_1-bike.jpg?v=1752087293",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Level.3_Matte-Black_Rear-pers_1-bike.jpg?v=1752087293",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Aventon_Level3_BR502017-_1.jpg?v=1752087293",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Sand-Stone_Side_1-bike-2.jpg?v=1739400504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru in Sandstone e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Level.3_Glacier-Mint_Side_1.jpg?v=1739400504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru in Glacier Mint e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Level.3_Sand-Stone_Front-Pers_1-bike-1.jpg?v=1752087262",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Level.3_Sand-Stone_Front-Pers_1-bike-1.jpg?v=1752087262",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Level.3_Glacier-Mint_Front-pers_1.jpg?v=1752087262",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Level.3_Glacier-Mint_Rear-pers_1.jpg?v=1752087262",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 3 Step Thru e-bike"
+   }
+  ]
+ },
+ "existing": "gid://shopify/Product/9179283456222",
+ "stock": {
+  "810097172807": 1,
+  "810097172821": 1,
+  "810097172814": 0,
+  "810097172838": 0,
+  "810097172845": 0,
+  "810097172869": 0,
+  "810097172852": 0,
+  "810097172876": 0
+ }
+}

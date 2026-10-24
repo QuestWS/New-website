@@ -1,0 +1,379 @@
+{
+ "identifier": {
+  "handle": "aventon-ramblas-adv"
+ },
+ "input": {
+  "title": "Aventon Ramblas ADV",
+  "handle": "aventon-ramblas-adv",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"O9bddOu4QotGrOxjdFic3nhjnNb\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-B1eMdEDS6ox5nHxmzqyc5W4nn7c\">Carve out the uncommon route with Ramblas ADV, Aventon’s electric hardtail mountain bike. Rugged and reliable, this all-terrain ebike offers the ultimate comfort on mountain trails or city streets. Pursue any adventure with a range of up to 90 miles to roam, ramble, and revel in the dynamic side of the ride.</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Ramblas ADV Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Ramblas ADV e-bike from $2,899 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Cerulean"
+     },
+     {
+      "name": "Tropos"
+     },
+     {
+      "name": "Borealis"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cerulean"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176263",
+    "sku": "810097176263",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Tropos"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176294",
+    "sku": "810097176294",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176324",
+    "sku": "810097176324",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cerulean"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176270",
+    "sku": "810097176270",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Tropos"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176300",
+    "sku": "810097176300",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176331",
+    "sku": "810097176331",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cerulean"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176287",
+    "sku": "810097176287",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Tropos"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176317",
+    "sku": "810097176317",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097176348",
+    "sku": "810097176348",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Ramblas ADV"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/ramblas-adv-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Cerulean-01_a38db7db-92f3-4d40-929e-2edca64f8b2a.jpg?v=1773177217",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV in Cerulean e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Cerulean-02_d0743a49-2817-48ea-a2cb-43c52967745c.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Cerulean-03_77885d2c-3767-4858-8d24-70314707d803.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Tropos-01_e2476dec-c5b4-49f7-848f-8da3fe8b98aa.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV in Tropos e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Tropos-02_d593fa23-e379-44eb-bd9d-b4d44f4b00f6.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Tropos-03_15fc01eb-cd70-4784-8eef-3876e09376d0.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Borealis-01_0a20df8e-c83d-4548-adba-4e1fbee7258a.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV in Borealis e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Borealis-02.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Ramblas-ADV-Borealis-03.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/RamblasADVA.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/RamblasADVB.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/RamblasADVE_1.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/RamblasADVD_1.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/RamblasADVC.jpg?v=1773163832",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas ADV e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097176263": 0,
+  "810097176294": 0,
+  "810097176324": 0,
+  "810097176270": 0,
+  "810097176300": 0,
+  "810097176331": 0,
+  "810097176287": 0,
+  "810097176317": 0,
+  "810097176348": 0
+ }
+}

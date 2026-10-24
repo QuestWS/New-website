@@ -14,35 +14,56 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Original Camo"
+     },
+     {
+      "name": "Ivory Dune"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "4999.00",
-    "sku": "QW-2023-pa14-180",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Original Camo"
+     }
+    ],
+    "barcode": "792176788942",
+    "sku": "792176788942"
+   },
+   {
+    "price": "4999.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ivory Dune"
+     }
+    ],
+    "barcode": "792176313373",
+    "sku": "792176313373"
    }
   ],
   "metafields": [
@@ -193,5 +214,9 @@
   "id": "manual:2023-pa14-180",
   "decision": "manual",
   "note": "C7/C8"
+ },
+ "locally_stock": {
+  "792176788942": 1,
+  "792176313373": 1
  }
 }

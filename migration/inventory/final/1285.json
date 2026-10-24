@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2022"
+   "year:2022",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,31 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Seagrass Green"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "2399.00",
-    "sku": "PMYIECLIPSE",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "2699.00"
+    "compareAtPrice": "2699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Seagrass Green"
+     }
+    ],
+    "barcode": "792176115076",
+    "sku": "792176115076"
    }
   ],
   "metafields": [
@@ -162,5 +164,8 @@
   "url": "https://www.questwatersports.com/2022-hobie-mirage-ieclipse-c-1285/",
   "when_modified": "2024-10-26 16:28:51",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "792176115076": 1
  }
 }

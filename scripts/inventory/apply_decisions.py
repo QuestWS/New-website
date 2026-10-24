@@ -169,6 +169,16 @@ def manual(key, spec, records):
             "source": {"id": f"manual:{key}", "decision": "manual", "note": spec.get("note", "")}}
 
 
+def locally_variants(rec, link):
+    """One variant per colour on hand, carrying the Locally/manufacturer UPC; stock 1 each (set by the sync)."""
+    inp = rec["input"]
+    base = {k: v for k, v in inp["variants"][0].items() if k not in ("optionValues", "sku", "barcode")}
+    inp["productOptions"] = [{"name": "Color", "values": [{"name": c} for c, _ in link]}]
+    inp["variants"] = [dict(base, optionValues=[{"optionName": "Color", "name": c}], barcode=upc, sku=upc) for c, upc in link]
+    set_tags(inp, add=["locally"])
+    rec["locally_stock"] = {upc: 1 for _, upc in link}
+
+
 def main():
     dec = json.load(open(os.path.join(INV, "kayak-decisions.json")))
     records = {os.path.basename(f)[:-5]: json.load(open(f)) for f in glob.glob(os.path.join(INV, "[0-9]*.json"))}
@@ -181,6 +191,9 @@ def main():
     final = {}
     for rid, rec in sorted(records.items()):
         inp = rec["input"]
+        if inp["productType"] == "eBike":
+            report["excluded"].append(rid)  # e-bikes come from scripts/inventory/aventon.py, not the old site
+            continue
         if inp["productType"] not in KAYAK_TYPES:
             final[rid] = rec
             continue
@@ -234,6 +247,9 @@ def main():
             report["drafts"].append({"key": key, "title": rec["input"]["title"], "why": spec.get("note", "")})
         final[f"m-{key}"] = rec
     for k, rec in final.items():
+        link = dec.get("locally", {}).get(k if not k.startswith("m-") else "manual:" + k[2:])
+        if link:
+            locally_variants(rec, link)
         map_scrub(rec["input"])
         json.dump(rec, open(os.path.join(OUT, f"{k}.json"), "w"), indent=1, ensure_ascii=False)
         report["written"].append({"key": k, "handle": rec["identifier"]["handle"], "title": rec["input"]["title"],

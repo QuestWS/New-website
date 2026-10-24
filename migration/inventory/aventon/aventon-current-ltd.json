@@ -1,0 +1,276 @@
+{
+ "identifier": {
+  "handle": "aventon-current-ltd"
+ },
+ "input": {
+  "title": "Aventon Current LTD",
+  "handle": "aventon-current-ltd",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"JXZCdSf4souOhxxVP0ccqejonHb\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line text-indent ace-line old-record-id-LyMadJHbeooNzIxYz5acsEt2nRb\">Specced for the experienced trail and enduro rider who refuses to compromise on ride quality, the Current LTD is the uncompromised expression of Aventon's full-suspension platform. It pairs flagship-tier suspension, drivetrain, brakes, and wheels with the same Aventon Ultro X motor and ACU Smart Bike Ecosystem that define the entire Current line. Only 99 exist worldwide. Limited edition paint and individually numbered frames make this bike not only a joy to ride, but also a collector's item.</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Current LTD Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Current LTD e-bike from $7,999 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Small"
+     },
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Magma"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Magma"
+     }
+    ],
+    "price": "7999.00",
+    "barcode": "810097179660",
+    "sku": "810097179660",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Magma"
+     }
+    ],
+    "price": "7999.00",
+    "barcode": "810097179677",
+    "sku": "810097179677",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Magma"
+     }
+    ],
+    "price": "7999.00",
+    "barcode": "810097179684",
+    "sku": "810097179684",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Magma"
+     }
+    ],
+    "price": "7999.00",
+    "barcode": "810097179691",
+    "sku": "810097179691",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Current LTD"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/current-ltd-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-LTD-Magma-01-Studio.jpg?v=1790980449",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD in Magma e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-LTD-Magma-02-Studio.jpg?v=1790980449",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-LTD-Magma-03_1.jpg?v=1788558653",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_life_101301.jpg?v=1791861743",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/b132375525426369d3a875da2cbbdf45.jpg?v=1791625286",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_Life_2026101003.jpg?v=1791604222",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_life_101302.jpg?v=1791861741",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_Life_2026101001.jpg?v=1791604224",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-LTD-Galelry-Lifestyle-02.jpg?v=1790980485",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-LTD-Galelry-Lifestyle-05.jpg?v=1790980485",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_life_101303.jpg?v=1791861743",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_life_101304.jpg?v=1791861743",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_Life_2026101006.jpg?v=1791604221",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_Life_2026101007.jpg?v=1791604223",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current_LTD_Life_2026101005.jpg?v=1791604222",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current LTD e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097179660": 0,
+  "810097179677": 0,
+  "810097179684": 0,
+  "810097179691": 0
+ }
+}

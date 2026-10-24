@@ -1,0 +1,363 @@
+{
+ "identifier": {
+  "handle": "aventon-current-adv"
+ },
+ "input": {
+  "title": "Aventon Current ADV",
+  "handle": "aventon-current-adv",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<p>The Aventon Current ADV is an eMTB built for riders who want real trail performance without an intimidating price tag. Designed around Aventon’s Ultro X mid-drive motor, 140mm of rear travel, and a 150mm fork, the Current blends modern geometry, balanced suspension, and in-house technology to deliver full capability on every climb and confidence on every descent. Its 29\" wheels, 64.6 degree head angle, 76.6 degree seat tube angle, and 445 millimeter chainstays create a ride that feels planted and capable while staying responsive and playful. Every detail of the Current is designed to make trail riding more accessible and enjoyable. It features Aventon’s wireless control pad and touchscreen display for intuitive on-trail control, plus full ACU connectivity with 4G connection, GPS tracking, an integrated alarm system, and more. Riders can personalize motor performance with Ride Tune customization, and make the most of their rides with integrated tech like Wheel Lift Control and Air Time tracking. Maxxis tubeless compatible tires along with Sram and Rockshox components ensure that the Current feels ready for anything from backcountry adventures to smashing singletrack.</p><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Current ADV Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Current ADV e-bike from $3,999 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Small"
+     },
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Blue Onyx"
+     },
+     {
+      "name": "Camouflage"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Blue Onyx"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176454",
+    "sku": "810097176454",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176461",
+    "sku": "810097176461",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Blue Onyx"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176478",
+    "sku": "810097176478",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176485",
+    "sku": "810097176485",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Blue Onyx"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176492",
+    "sku": "810097176492",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176508",
+    "sku": "810097176508",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Blue Onyx"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176515",
+    "sku": "810097176515",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "3999.00",
+    "barcode": "810097176522",
+    "sku": "810097176522",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Current ADV"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/current-adv-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Blue-Onyx-01.jpg?v=1772491012",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV in Blue Onyx e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Camouflage-01_13e45d84-bd7f-43d7-8767-0647ec00691b.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV in Camouflage e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Blue-Onyx-02.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Blue-Onyx-03.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Camouflage-02_089a50a0-8124-494b-8d85-01fa491fa211.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-ADV-Camouflage-03_f41ec633-b171-4a53-a4e8-9197f1e1a165.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-01-Alloy-Frame.jpg?v=1773445504",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/ADV_Compressed.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-02-Rockshox-Delux.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-03-Rockshox-Psylo.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-04-Boost.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-05-Battery.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-06-Drivetrain.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-07-Disc-Brakes.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-Gallery-Feature-08-Wheels-V2.jpg?v=1773646857",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current ADV e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097176454": 0,
+  "810097176461": 0,
+  "810097176478": 0,
+  "810097176485": 0,
+  "810097176492": 0,
+  "810097176508": 0,
+  "810097176515": 0,
+  "810097176522": 0
+ }
+}

@@ -14,35 +14,37 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2025"
+   "year:2025",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Battleship Gray"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "3599.00",
-    "sku": "QW-2025-outback",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Battleship Gray"
+     }
+    ],
+    "barcode": "792176976875",
+    "sku": "792176976875"
    }
   ],
   "metafields": [
@@ -218,5 +220,8 @@
   "id": "manual:2025-outback",
   "decision": "manual",
   "note": "C2"
+ },
+ "locally_stock": {
+  "792176976875": 1
  }
 }

@@ -157,12 +157,6 @@
    "type": "Paddleboard"
   },
   {
-   "key": "1251",
-   "handle": "aventon-pace-500-3-1251",
-   "title": "Aventon Pace 500.3",
-   "type": "eBike"
-  },
-  {
    "key": "1260",
    "handle": "2014-ocean-kayak-tetra-angler-10-1260",
    "title": "2014 Ocean Kayak Tetra Angler 10",
@@ -205,12 +199,6 @@
    "type": "Kayak"
   },
   {
-   "key": "1314",
-   "handle": "aventon-abound-sr-1314",
-   "title": "Aventon Abound SR",
-   "type": "eBike"
-  },
-  {
    "key": "1315",
    "handle": "2023-hobie-mirage-lynx-1315",
    "title": "2023 Hobie Mirage Lynx (Demo)",
@@ -221,18 +209,6 @@
    "handle": "2024-hobie-mirage-pro-angler-12-180-1316",
    "title": "2024 Hobie Mirage Pro Angler 12 (180)",
    "type": "Kayak"
-  },
-  {
-   "key": "1320",
-   "handle": "aventon-level-3-1320",
-   "title": "Aventon Level 3",
-   "type": "eBike"
-  },
-  {
-   "key": "1329",
-   "handle": "aventon-aventure-3-1329",
-   "title": "Aventon Aventure 3",
-   "type": "eBike"
   },
   {
    "key": "1330",
@@ -269,60 +245,6 @@
    "handle": "2016-hobie-mirage-pro-angler-17t-1355",
    "title": "2016 Hobie Mirage Pro Angler 17T",
    "type": "Kayak"
-  },
-  {
-   "key": "1357",
-   "handle": "aventon-level-4-rec-1357",
-   "title": "Aventon Level 4 REC",
-   "type": "eBike"
-  },
-  {
-   "key": "1358",
-   "handle": "aventon-pace-5-rec-1358",
-   "title": "Aventon Pace 5 REC",
-   "type": "eBike"
-  },
-  {
-   "key": "1359",
-   "handle": "aventon-current-exp-1359",
-   "title": "Aventon Current EXP",
-   "type": "eBike"
-  },
-  {
-   "key": "1360",
-   "handle": "aventon-currentadv-1360",
-   "title": "Aventon CurrentADV",
-   "type": "eBike"
-  },
-  {
-   "key": "1361",
-   "handle": "aventon-level-4-adv-1361",
-   "title": "Aventon Level 4 ADV",
-   "type": "eBike"
-  },
-  {
-   "key": "1362",
-   "handle": "aventon-aventure-m-1362",
-   "title": "Aventon Aventure M",
-   "type": "eBike"
-  },
-  {
-   "key": "1363",
-   "handle": "aventon-abound-lr-1363",
-   "title": "Aventon Abound LR",
-   "type": "eBike"
-  },
-  {
-   "key": "1364",
-   "handle": "aventon-ramblas-adv-1364",
-   "title": "Aventon Ramblas ADV",
-   "type": "eBike"
-  },
-  {
-   "key": "1365",
-   "handle": "aventon-soltera-3-adv-1365",
-   "title": "Aventon Soltera 3 ADV",
-   "type": "eBike"
   },
   {
    "key": "1366",
@@ -476,6 +398,7 @@
   "1152",
   "1154",
   "1236",
+  "1251",
   "1262",
   "1273",
   "1281",
@@ -483,7 +406,19 @@
   "1309",
   "1310",
   "1313",
-  "1354"
+  "1314",
+  "1320",
+  "1329",
+  "1354",
+  "1357",
+  "1358",
+  "1359",
+  "1360",
+  "1361",
+  "1362",
+  "1363",
+  "1364",
+  "1365"
  ],
  "held": [
   {

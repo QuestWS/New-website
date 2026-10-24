@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2022"
+   "year:2022",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,51 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Arctic Blue Camo"
+     },
+     {
+      "name": "Amazon Green Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "4479.00",
-    "sku": "HOBIE PA 12 360",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "5699.00"
+    "compareAtPrice": "5699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Arctic Blue Camo"
+     }
+    ],
+    "barcode": "792176659921",
+    "sku": "792176659921"
+   },
+   {
+    "price": "4479.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Amazon Green Camo"
+     }
+    ],
+    "barcode": "792176417712",
+    "sku": "792176417712"
    }
   ],
   "metafields": [
@@ -223,5 +245,9 @@
   "url": "https://www.questwatersports.com/2022-hobie-mirage-pro-angler-12-360-c-1083/",
   "when_modified": "2024-02-27 17:31:11",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "792176659921": 1,
+  "792176417712": 1
  }
 }

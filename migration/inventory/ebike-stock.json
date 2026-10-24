@@ -1,0 +1,17 @@
+{
+  "_about": "E-bikes physically in stock at Quest Watersports (owner's list, 2026-10-24). Each UPC listed gets inventory 1 (owner rule: never more than 1, so Locally can't sell it online); every other Aventon variant is 0 = special order. Update this list when stock changes.",
+  "location": "gid://shopify/Location/59851309231",
+  "in_stock": {
+    "810097172807": "Level 3 Stealth (Matte Black) Regular",
+    "810097172821": "Level 3 Aurora Regular",
+    "810097177710": "Level 4 REC Storm Blue Large",
+    "810097177703": "Level 4 REC Storm Blue Regular",
+    "810097179318": "Pace 5 REC Anvil Large",
+    "810097179356": "Pace 5 REC Lagoon Large",
+    "810097179363": "Pace 5 REC Koi Regular (S/M)",
+    "810097173798": "Aventure 3 Stealth Large",
+    "810097173729": "Aventure 3 Matcha Regular",
+    "810097173767": "Aventure 3 Step-Through Java Regular",
+    "810097173750": "Aventure 3 Step-Through Cobalt Large"
+  }
+}

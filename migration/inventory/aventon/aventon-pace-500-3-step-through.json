@@ -1,0 +1,208 @@
+{
+ "identifier": {
+  "handle": "aventon-pace-500-3-step-through"
+ },
+ "input": {
+  "title": "Aventon Pace 500.3 Step-Through",
+  "handle": "aventon-pace-500-3-step-through",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<p>Pace 500.3 Step-Through is easy access to fun! Its intuitive torque sensor amplifies your efforts and puts you in control of the way you cruise. Find renewed energy then set the pace at your leisure by switching between the 4 new pedal assist levels: eco, tour, sport and turbo. Take the longer route with its powerful 500W motor’s top speed of 28 mph and up to 60 miles in range. The all-new turn signal functionality will keep you protected on the road by signaling to those behind you when you’re switching lanes and making moves. Ride comfortably with its cushioned saddle, swept-back handlebars and an upright riding position. Pace 500.3 Step-Through reinvigorates the way you get around. It’ll feel like riding a bicycle for the first time, every time.</p><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Pace 500.3 Step-Through Electric Bike | Ottawa, IL Aventon Dea",
+   "description": "Aventon Pace 500.3 Step-Through e-bike from $1,499 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Regular"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Ghost White"
+     },
+     {
+      "name": "Basalt"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Ghost White"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097170094",
+    "sku": "810097170094",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Basalt"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097170117",
+    "sku": "810097170117",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Basalt"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097170100",
+    "sku": "810097170100",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Ghost White"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097170087",
+    "sku": "810097170087",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Pace 500.3 Step-Through"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.locally.com/product/2455122/pace-5003-step-through-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://media.locally.com/images/spec-640x640/lcly-e6982822f7bf61d9e5d87c6b551493b7.jpg",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 500.3 Step-Through in Ghost White e-bike"
+   },
+   {
+    "originalSource": "https://media.locally.com/images/spec-640x640/lcly-95261c668121585df26d7fa8eeceb886.jpg",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 500.3 Step-Through in Basalt e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097170094": 0,
+  "810097170117": 0,
+  "810097170100": 0,
+  "810097170087": 0
+ }
+}

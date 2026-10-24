@@ -176,3 +176,11 @@
 
 /* Non-buyable products on the standard product template: hide the quantity box next to the call-to-order CTA */
 product-info:has(.qo-order-cta) .product-form__quantity, product-info:has(.qo-order-cta) quantity-input { display: none; }
+
+/* E-bike assembly fee + Synchrony estimate */
+.qo-ebike-fin { margin: 8px 0 0; padding: 10px 16px; display: grid; gap: 4px; background: var(--qo-navy); border-radius: 8px; color: #fff; }
+.qo-ebike-fin p { margin: 0; }
+.qo-ebike-fin__fee { font-weight: 700; font-size: 15px; }
+.qo-ebike-fin__monthly { font-size: 15px; }
+.qo-ebike-fin__monthly strong { color: var(--qo-yellow); font-size: 22px; }
+.qo-ebike-fin__note { margin: 10px 0 0; font-size: 13px; line-height: 1.4; color: var(--qo-ink); }

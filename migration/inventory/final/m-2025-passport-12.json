@@ -14,35 +14,37 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2025"
+   "year:2025",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Seagrass Green"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "1899.00",
-    "sku": "QW-2025-passport-12",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Seagrass Green"
+     }
+    ],
+    "barcode": "792176061670",
+    "sku": "792176061670"
    }
   ],
   "metafields": [
@@ -168,5 +170,8 @@
   "id": "manual:2025-passport-12",
   "decision": "manual",
   "note": "B10 price = 2027 MSRP until owner sets one"
+ },
+ "locally_stock": {
+  "792176061670": 1
  }
 }

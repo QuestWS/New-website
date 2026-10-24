@@ -1,0 +1,449 @@
+{
+ "identifier": {
+  "handle": "aventon-level-4-adv"
+ },
+ "input": {
+  "title": "Aventon Level 4 ADV",
+  "handle": "aventon-level-4-adv",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"CnWddxuoaoIkboxKEQ2cb1Afnpd\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-MBWxdaqeboWxPLxSoRhcx5zcnWh\">The <strong>Level 4 ADV</strong> elevates the commuting experience with mid-drive performance and refined control. Powered by Aventon’s Ultro S motor with 100Nm of torque and paired with a Shimano CUES 10-speed drivetrain featuring Aventon’s E-Shifter and Autoshift technology, it delivers a natural pedaling feel and efficient power delivery across varied terrain. The ADV adds lightweight balance, responsive handling, and a premium feel, making it ideal for riders who want performance and sophistication without complexity. For those seeking the next level of connection, comfort, and control, the Level ADV represents the pinnacle of Aventon’s commuter design.</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Level 4 ADV Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Level 4 ADV e-bike from $2,799 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Style",
+    "values": [
+     {
+      "name": "Step-Over"
+     },
+     {
+      "name": "Step-Through"
+     }
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     },
+     {
+      "name": "S/M"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Matte Black"
+     },
+     {
+      "name": "Camouflage"
+     },
+     {
+      "name": "Haze"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177390",
+    "sku": "810097177390",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177406",
+    "sku": "810097177406",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177437",
+    "sku": "810097177437",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177444",
+    "sku": "810097177444",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177475",
+    "sku": "810097177475",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Camouflage"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177482",
+    "sku": "810097177482",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Through"
+     },
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177413",
+    "sku": "810097177413",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Through"
+     },
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Haze"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177420",
+    "sku": "810097177420",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Through"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Black"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177451",
+    "sku": "810097177451",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-Through"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Haze"
+     }
+    ],
+    "price": "2799.00",
+    "barcode": "810097177468",
+    "sku": "810097177468",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Level 4 ADV"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/level-4-adv-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-01.jpg?v=1773859153",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over in Matte Black e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-02.jpg?v=1773859625",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-03.jpg?v=1773859625",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Camouflage-01_1.jpg?v=1774563899",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over in Camouflage e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Camouflage-02_1.jpg?v=1774563899",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Camouflage-03_1.jpg?v=1774563899",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level4-ADV-Gallery-Feature-01.jpg?v=1774563899",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Purple-Haze-01_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through in Haze e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Purple-Haze-02_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Purple-Haze-03_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-01_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through in Matte Black e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-02_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Level-4-ADV-Matte-Black-03_1.jpg?v=1774559990",
+    "contentType": "IMAGE",
+    "alt": "Aventon Level 4 ADV Step-Through e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097177390": 0,
+  "810097177406": 0,
+  "810097177437": 0,
+  "810097177444": 0,
+  "810097177475": 0,
+  "810097177482": 0,
+  "810097177413": 0,
+  "810097177420": 0,
+  "810097177451": 0,
+  "810097177468": 0
+ }
+}

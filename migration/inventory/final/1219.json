@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Old Town",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,51 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Marsh Camo"
+     },
+     {
+      "name": "Photic Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "2899.00",
-    "sku": "OTSMBWPDL132",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "3249.00"
+    "compareAtPrice": "3249.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Marsh Camo"
+     }
+    ],
+    "barcode": "759239310243",
+    "sku": "759239310243"
+   },
+   {
+    "price": "2899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3249.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307564",
+    "sku": "759239307564"
    }
   ],
   "metafields": [
@@ -157,5 +179,9 @@
   "url": "https://www.questwatersports.com/2023-old-town-sportsman-bigwater-pdl-132-c-1219/",
   "when_modified": "2026-05-13 13:17:49",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "759239310243": 1,
+  "759239307564": 1
  }
 }

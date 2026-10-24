@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2022"
+   "year:2022",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,51 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Ivory Dune"
+     },
+     {
+      "name": "Original Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "3839.00",
-    "sku": "PMYPA14180",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "4999.00"
+    "compareAtPrice": "4999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ivory Dune"
+     }
+    ],
+    "barcode": "792176313373",
+    "sku": "792176313373"
+   },
+   {
+    "price": "3839.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4999.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Original Camo"
+     }
+    ],
+    "barcode": "792176788942",
+    "sku": "792176788942"
    }
   ],
   "metafields": [
@@ -207,5 +229,9 @@
   "url": "https://www.questwatersports.com/2022-hobie-mirage-pro-angler-14-180-c-1284/",
   "when_modified": "2024-02-27 17:32:32",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "792176313373": 1,
+  "792176788942": 1
  }
 }

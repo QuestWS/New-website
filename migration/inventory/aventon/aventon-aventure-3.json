@@ -1,0 +1,396 @@
+{
+ "identifier": {
+  "id": "gid://shopify/Product/9189855330526"
+ },
+ "input": {
+  "title": "Aventon Aventure 3",
+  "handle": "aventon-aventure-3",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div class=\"ace-line ace-line old-record-id-doxcnXkSYR3mbRtKbd2ilZQCLch\">\n<meta charset=\"utf-8\">\n<div>\n<div class=\"ace-line ace-line old-record-id-ImY6d6peQomK6zxAp1dcoWKqnDd\">Embrace the all-terrain with the Aventrure 3, our electric fat-tire bike that combines rugged performance with cutting-edge technology. Featuring 4\" fat tires, a suspension fork, and a suspension seatpost, the Aventure 3 is built to easily navigate any terrain. Equipped with ACU Smart Bike technology, which includes 4G<span><sup>†</sup></span>/GPS<span><sup>†</sup></span> capabilities and advanced anti-theft features, the Aventure 3 keeps you connected and your bike secure. Its powerful 750W motor (with 1440W peak power in boost mode), 65 miles of range, and Ride Tune customization ensures you can get where you want, how you want. No matter where you want to explore, the Aventure is ready to take on the challenge.</div>\n</div>\n<span class=\"lark-record-clipboard\"></span>\n</div><h3>Step-thru frame</h3><div class=\"ace-line ace-line old-record-id-doxcnXkSYR3mbRtKbd2ilZQCLch\">Embrace the all-terrain with the Aventrure 3, our electric fat-tire bike that combines rugged performance with cutting-edge technology. Featuring 4\" fat tires, a suspension fork, and a suspension seatpost, the Aventure 3 is built to easily navigate any terrain. Equipped with ACU Smart Bike technology, which includes 4G<span><sup>†</sup></span>/GPS<span><sup>†</sup></span> capabilities and advanced anti-theft features, the Aventure 3 keeps you connected and your bike secure. Its powerful 750W motor (with 1440W peak power in boost mode), 65 miles of range, and Ride Tune customization ensures you can get where you want, how you want. No matter where you want to explore, the Aventure is ready to take on the challenge.</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "in-stock"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Aventure 3 Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Aventure 3 e-bike from $1,999 at Quest Watersports, your Aventon dealer in Ottawa, IL. In stock now — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Style",
+    "values": [
+     {
+      "name": "Step Over"
+     },
+     {
+      "name": "Step-thru"
+     }
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Regular"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Stealth"
+     },
+     {
+      "name": "Matcha"
+     },
+     {
+      "name": "Cobalt"
+     },
+     {
+      "name": "Java"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Stealth"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173781",
+    "sku": "810097173781",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matcha"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173729",
+    "sku": "810097173729",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Stealth"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173798",
+    "sku": "810097173798",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step Over"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matcha"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173736",
+    "sku": "810097173736",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cobalt"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173743",
+    "sku": "810097173743",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Regular"
+     },
+     {
+      "optionName": "Color",
+      "name": "Java"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173767",
+    "sku": "810097173767",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Cobalt"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173750",
+    "sku": "810097173750",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Style",
+      "name": "Step-thru"
+     },
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Java"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173774",
+    "sku": "810097173774",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Aventure 3"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/aventure-3-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Aventure-3_Matcha_Side_1.jpg?v=1746639285",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over in Matcha e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Aventure-3_Stealth_Side_1.jpg?v=1746639478",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over in Stealth e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Aventure-3_Matcha_Front-pers_1.jpg?v=1752087106",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Aventure-3_Matcha_Rear-pers_1.jpg?v=1752087106",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Aventure-3_Stealth_Front-pers_1.jpg?v=1752087106",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Aventure-3_Stealth_Rear-pers.jpg?v=1752087106",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Fat_Tire_All_Terrain_20260907.png?v=1788769585",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step Over e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Aventure-3_Java_Side_1.jpg?v=1746639685",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru in Java e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Aventure-3_Cobalt-Blue_Side_1.jpg?v=1746639853",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru in Cobalt Blue e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Aventure-3_Java_pers_1.jpg?v=1752087086",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Aventure-3_Java_pers.jpg?v=1752087086",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Aventure-3_Cobalt-Blue_pers_1.jpg?v=1752087086",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Aventure-3_Cobalt-Blue-pers.jpg?v=1752087086",
+    "contentType": "IMAGE",
+    "alt": "Aventon Aventure 3 Step-thru e-bike"
+   }
+  ]
+ },
+ "existing": "gid://shopify/Product/9189855330526",
+ "stock": {
+  "810097173781": 0,
+  "810097173729": 1,
+  "810097173798": 1,
+  "810097173736": 0,
+  "810097173743": 0,
+  "810097173767": 1,
+  "810097173750": 1,
+  "810097173774": 0
+ }
+}

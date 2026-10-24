@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Old Town",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,31 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Photic Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "2999.00",
-    "sku": "OTSM106PWDMK",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "3699.00"
+    "compareAtPrice": "3699.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307755",
+    "sku": "759239307755"
    }
   ],
   "metafields": [
@@ -178,5 +180,8 @@
   "url": "https://www.questwatersports.com/2023-old-town-sportsman-106-powered-by-minn-kota-c-1215/",
   "when_modified": "2026-05-13 13:17:49",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "759239307755": 1
  }
 }

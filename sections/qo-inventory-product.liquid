@@ -50,6 +50,18 @@
     endcase
   endfor
   assign photos = product.media | where: 'media_type', 'image'
+  assign is_ebike = false
+  if product.tags contains 'inventory-ebikes'
+    assign is_ebike = true
+  endif
+  comment
+    E-bike Synchrony estimate (owner's formula): bike = (price + assembly fee) + 7.5% tax;
+    processing fee = bike / 10.4286; monthly = (bike + processing fee) / 24.
+  endcomment
+  assign assembly_fee = mf.assembly_fee.value | default: 160
+  assign fin_bike = product.price | divided_by: 100.0 | plus: assembly_fee | times: 1.075
+  assign fin_fee = fin_bike | divided_by: 10.4286
+  assign fin_monthly_cents = fin_bike | plus: fin_fee | divided_by: 24.0 | times: 100 | round
 -%}
 
 <div class="qo-inv" id="QoInv-{{ section.id }}" data-qo-inv>
@@ -124,7 +136,28 @@
             {%- endif -%}
           </div>
 
-          {%- if product.variants.size > 1 and call_price == false -%}
+          {%- if is_ebike and call_price == false -%}
+            <div class="qo-ebike-fin">
+              <p class="qo-ebike-fin__fee">+ {{ assembly_fee | times: 100 | money_without_trailing_zeros }} assembly &amp; tuning (required on every e-bike)</p>
+              <p class="qo-ebike-fin__monthly">As low as <strong>{{ fin_monthly_cents | money }}/mo<sup>*</sup></strong> <span>with Synchrony financing</span></p>
+            </div>
+            {%- liquid
+              assign in_stock = ''
+              for v in product.variants
+                if v.inventory_quantity > 0
+                  assign vt = v.title | escape
+                  assign in_stock = in_stock | append: '<li>' | append: vt | append: '</li>'
+                endif
+              endfor
+            -%}
+            {%- if in_stock != blank -%}
+              <div role="note" style="margin:14px 0 0;padding:12px 14px;background:#fff;border-left:5px solid #2e9e4f;color:#292A2A;line-height:1.4">
+                <strong>In stock at Quest Watersports:</strong>
+                <ul style="margin:6px 0 0;padding-left:20px">{{ in_stock }}</ul>
+                <span style="display:block;margin-top:6px">Other sizes and colors can be special ordered &mdash; call <a href="tel:{{ phone_href }}" style="color:#002B4B">{{ phone_display }}</a>.</span>
+              </div>
+            {%- endif -%}
+          {%- elsif product.variants.size > 1 and call_price == false and product.price_varies -%}
             <ul role="list" style="list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px;color:#002B4B;font-weight:700">
               {%- for v in product.variants -%}
                 <li style="display:flex;justify-content:space-between;gap:12px;padding:8px 12px;background:#fff;border-radius:6px"><span>{{ product.options[0] | escape }} {{ v.option1 | escape }}{% if v.option2 != blank %} / {{ v.option2 | escape }}{% endif %}</span><span>{{ v.price | money_without_trailing_zeros }}</span></li>
@@ -146,6 +179,9 @@
             <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/financing">Financing</a>
             <a class="qo-cta qo-cta--ghost" href="{{ routes.root_url }}pages/sell-or-trade">Trade-In</a>
           </div>
+          {%- if is_ebike and call_price == false -%}
+            <p class="qo-ebike-fin__note">*Estimated payment for 24 equal monthly payments with Synchrony promotional financing, based on the lowest listed price plus the {{ assembly_fee | times: 100 | money_without_trailing_zeros }} assembly and tuning fee, 7.5% sales tax and the Synchrony processing fee. Subject to credit approval. Call {{ phone_display }} for terms.</p>
+          {%- endif -%}
 
           {%- capture specs -%}
             {%- if mf.year.value != blank -%}<tr><th scope="row">Year</th><td>{{ mf.year.value | escape }}</td></tr>{%- endif -%}

@@ -1,0 +1,363 @@
+{
+ "identifier": {
+  "handle": "aventon-current-exp"
+ },
+ "input": {
+  "title": "Aventon Current EXP",
+  "handle": "aventon-current-exp",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<p>The Aventon Current EXP is an eMTB built for riders who want real trail performance with seamless tech integration and top tier power delivery. Designed around Aventon’s Ultro X mid-drive motor, 140mm of rear travel, and a 150mm fork, the Current blends modern geometry, balanced suspension, and in-house technology to deliver full capability on every climb and confidence on every descent. Its 29\" wheels, 64.6 degree head angle, 76.6 degree seat tube angle, and 445 millimeter chainstays create a ride that feels planted and capable while staying responsive and playful. Every detail of the Current is designed to make trail riding more accessible and enjoyable. It features Aventon’s wireless control pad and touchscreen display for intuitive on-trail control, plus full ACU connectivity with 4G connection, GPS tracking, an integrated alarm system, and more. Riders can personalize motor performance with Ride Tune customization, and make the most of their rides with integrated tech like Wheel Lift Control and Air Time tracking. Maxxis tubeless compatible tires along with Sram and Rockshox components ensure that the Current feels ready for anything from backcountry adventures to smashing singletrack.</p><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Current EXP Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Current EXP e-bike from $5,999 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Small"
+     },
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Midnight Black"
+     },
+     {
+      "name": "Glacier Mint"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Midnight Black"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097176973",
+    "sku": "810097176973",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097177017",
+    "sku": "810097177017",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Midnight Black"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097176980",
+    "sku": "810097176980",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097177024",
+    "sku": "810097177024",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Midnight Black"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097176997",
+    "sku": "810097176997",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097177031",
+    "sku": "810097177031",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Midnight Black"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097177000",
+    "sku": "810097177000",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "5999.00",
+    "barcode": "810097177048",
+    "sku": "810097177048",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Current EXP"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/current-exp-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Midnight-Black-01.jpg?v=1773332668",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP in Midnight Black e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Glacier-Mint-01_db609eac-cd4b-4294-9694-6427b83e3784.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP in Glacier Mint e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Midnight-Black-02.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Midnight-Black-03.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Glacier-Mint-02_128b0a8b-9799-493d-8783-a5f54bac6146.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Glacier-Mint-03_f247bb43-9fc1-442d-a8b6-8fa4af4ba4a0.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-01-carbontriangle.jpg?v=1773445762",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/EXP_Compressed.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-02-rockshox-delux.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-03-rockshox-lyrik.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-04-boost.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-05-battery.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-06-drivetrain.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-06-hydraulic-dics.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Current-EXP-Gallery-Feature-06-tubless.jpg?v=1773646938",
+    "contentType": "IMAGE",
+    "alt": "Aventon Current EXP e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097176973": 0,
+  "810097177017": 0,
+  "810097176980": 0,
+  "810097177024": 0,
+  "810097176997": 0,
+  "810097177031": 0,
+  "810097177000": 0,
+  "810097177048": 0
+ }
+}

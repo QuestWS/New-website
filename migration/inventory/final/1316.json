@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2024"
+   "year:2024",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,51 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Battleship Gray"
+     },
+     {
+      "name": "Sunrise Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "3899.00",
-    "sku": "24MYPA12",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "4799.00"
+    "compareAtPrice": "4799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Battleship Gray"
+     }
+    ],
+    "barcode": "792176051282",
+    "sku": "792176051282"
+   },
+   {
+    "price": "3899.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Sunrise Camo"
+     }
+    ],
+    "barcode": "792176347293",
+    "sku": "792176347293"
    }
   ],
   "metafields": [
@@ -137,5 +159,9 @@
   "url": "https://www.questwatersports.com/2024-hobie-mirage-pro-angler-12-180-c-1316/",
   "when_modified": "2024-11-19 13:35:18",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "792176051282": 1,
+  "792176347293": 1
  }
 }

@@ -14,35 +14,37 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2026"
+   "year:2026",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Arctic Blue Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "5899.00",
-    "sku": "QW-2026-pa14-360-arctic",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Arctic Blue Camo"
+     }
+    ],
+    "barcode": "792176613770",
+    "sku": "792176613770"
    }
   ],
   "metafields": [
@@ -218,5 +220,8 @@
   "id": "manual:2026-pa14-360-arctic",
   "decision": "manual",
   "note": "B11 (2026 first quality = 2027 MSRP)"
+ },
+ "locally_stock": {
+  "792176613770": 1
  }
 }

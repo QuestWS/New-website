@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Advanced Elements",
    "type:Kayak",
-   "year:2022"
+   "year:2022",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,31 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Sage/Gray"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "902.00",
-    "sku": "AE1055",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "1199.00"
+    "compareAtPrice": "1199.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Sage/Gray"
+     }
+    ],
+    "barcode": "832994001486",
+    "sku": "832994001486"
    }
   ],
   "metafields": [
@@ -177,5 +179,8 @@
   "url": "https://www.questwatersports.com/2022-advanced-elements-straitedge-angler-pro-c-1138/",
   "when_modified": "2024-02-27 17:24:59",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "832994001486": 1
  }
 }

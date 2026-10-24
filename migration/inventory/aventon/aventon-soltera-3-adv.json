@@ -1,0 +1,450 @@
+{
+ "identifier": {
+  "handle": "aventon-soltera-3-adv"
+ },
+ "input": {
+  "title": "Aventon Soltera 3 ADV",
+  "handle": "aventon-soltera-3-adv",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"L3fBdXF24oXqklxdz2Wc1fKKnbb\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line text-indent ace-line old-record-id-Uc7sdV4ktoWO7hxNLiUcFgwGnMc\">Designed in the spirit of simplicity, the Soltera 3 ADV is built to explore city streets with minimal upkeep. Outfitted with a low-maintenance Gates Carbon Belt Drive, torque sensor, and hydraulic disc brakes, the Soltera 3 ADV blends intuitive performance with practical design. Its single-speed configuration nods to Aventon’s roots, while maintaining a lightweight build made for urban agility. Paired with responsive geometry, the Soltera 3 ADV is your ultimate companion for commutes, quick trips, and urban explorations.</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Soltera 3 ADV Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Soltera 3 ADV e-bike from $1,499 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Small"
+     },
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Extra Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Matte Midnight Black"
+     },
+     {
+      "name": "Matte Storm Blue"
+     },
+     {
+      "name": "Sterling"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Midnight Black"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175341",
+    "sku": "810097175341",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Storm Blue"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175389",
+    "sku": "810097175389",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sterling"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175914",
+    "sku": "810097175914",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Midnight Black"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175358",
+    "sku": "810097175358",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Storm Blue"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175396",
+    "sku": "810097175396",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sterling"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175921",
+    "sku": "810097175921",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Midnight Black"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175365",
+    "sku": "810097175365",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Storm Blue"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175402",
+    "sku": "810097175402",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sterling"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175938",
+    "sku": "810097175938",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Midnight Black"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175372",
+    "sku": "810097175372",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Storm Blue"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175419",
+    "sku": "810097175419",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sterling"
+     }
+    ],
+    "price": "1499.00",
+    "barcode": "810097175945",
+    "sku": "810097175945",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Soltera 3 ADV"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/soltera-3-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Soltera_3_Matte_Midnight_Black_Side_1.png?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV in Matte Midnight Black e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Soltera_3_Sterling_Silver_Side_1.png?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV in Sterling e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Soltera_3_Matte_Storm_Blue_Side_1.png?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV in Matte Storm Blue e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Midnight-Black-02_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Midnight-Black-03_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Sterling-02_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Sterling-03_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Storm-Blue-02_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Soltera-3-Storm-Blue-03_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-01.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-02.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-03.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-04.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-08_1.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/soltera3-gallery-06.jpg?v=1772703749",
+    "contentType": "IMAGE",
+    "alt": "Aventon Soltera 3 ADV e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097175341": 0,
+  "810097175389": 0,
+  "810097175914": 0,
+  "810097175358": 0,
+  "810097175396": 0,
+  "810097175921": 0,
+  "810097175365": 0,
+  "810097175402": 0,
+  "810097175938": 0,
+  "810097175372": 0,
+  "810097175419": 0,
+  "810097175945": 0
+ }
+}

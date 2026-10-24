@@ -14,35 +14,37 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Sunrise Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "4799.00",
-    "sku": "QW-2023-pa12-180",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Sunrise Camo"
+     }
+    ],
+    "barcode": "792176347293",
+    "sku": "792176347293"
    }
   ],
   "metafields": [
@@ -168,5 +170,8 @@
   "id": "manual:2023-pa12-180",
   "decision": "manual",
   "note": "C3"
+ },
+ "locally_stock": {
+  "792176347293": 1
  }
 }

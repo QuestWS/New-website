@@ -137,6 +137,22 @@ variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","
    2026/2027 Hobie units; 2026/2027 first-quality units at exactly 2027 MSRP; 2025-and-older first quality at most 20%
    under 2027 MSRP with the 2027 MSRP shown (`custom.msrp_label`); used units only with photos of the actual boat.
 
+### c1b) Aventon e-bikes and Locally
+- `python3 -I scripts/inventory/aventon.py` rebuilds `migration/inventory/aventon/<handle>.json` from aventon.com
+  (all current models, prices, UPCs, photos) plus `migration/inventory/locally-aventon.csv` (Locally's catalog).
+  The old site's e-bike listings are ignored (apply_decisions.py excludes productType eBike).
+- New model or changed price → `productSet` with that record (for an existing product send the variant `id`s,
+  matched by barcode, and omit `files` unless photos changed). A model Aventon drops → archive it, never delete.
+- Stock comes ONLY from `migration/inventory/ebike-stock.json` (UPCs on the floor, owner-maintained): those variants
+  get inventory 1 at location Quest Watersports (`inventorySetQuantities`, name "available"), all others 0. Never more
+  than 1 (Locally rule). Products with stock are published to the Locally Sales Channel
+  (`gid://shopify/Publication/137307717854`) as well as the Online Store.
+- Pricing shown is Aventon's current price; the theme adds the $160 assembly/tuning note and the Synchrony
+  monthly estimate (owner's formula, see `sections/qo-inventory-product.liquid`).
+- Kayaks: `kayak-decisions.json` → `locally` links in-stock NEW kayaks to Locally UPCs (catalogs in
+  `migration/inventory/locally-*.csv`). Those `final/` records carry `locally_stock` → set each UPC's inventory to 1 and
+  keep the product published to the Locally Sales Channel. When a unit sells, remove its colour from `locally`.
+
 ### c2) Social media → blog (Facebook / Instagram)
 Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with
 `pages_read_engagement`, `pages_read_user_content`, `instagram_basic`). Optional `META_PAGE_ID`

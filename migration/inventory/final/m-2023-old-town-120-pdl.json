@@ -14,35 +14,37 @@
    "inventory-new",
    "make:Old Town",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Ember Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "0.00",
-    "sku": "QW-2023-old-town-120-pdl",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
-    "taxable": true
+    "taxable": true,
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ember Camo"
+     }
+    ],
+    "barcode": "759239307496",
+    "sku": "759239307496"
    }
   ],
   "metafields": [
@@ -143,5 +145,8 @@
   "id": "manual:2023-old-town-120-pdl",
   "decision": "manual",
   "note": "C13 (photos of the Salty PDL 120 until real ones)"
+ },
+ "locally_stock": {
+  "759239307496": 1
  }
 }

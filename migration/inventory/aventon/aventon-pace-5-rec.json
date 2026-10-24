@@ -1,0 +1,408 @@
+{
+ "identifier": {
+  "handle": "aventon-pace-5-rec"
+ },
+ "input": {
+  "title": "Aventon Pace 5 REC Step-Through",
+  "handle": "aventon-pace-5-rec",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div>\n  Meet the Aventon Pace 5 REC, a step-through electric cruiser bike built for comfort, power, and everyday confidence. Designed for riders who want a relaxed way to stay active, Pace 5 REC combines an upright riding position, swept-back handlebars, an adjustable stem, and a wide comfort saddle to reduce strain on your back, wrists, and joints. Whether you’re cruising neighborhood streets, riding paved bike paths, or heading out for casual errands, this comfort cruiser ebike helps every ride feel smooth, stable, and easy to enjoy.\n  <br><br>\n  A powerful 750W hub motor gives Pace 5 REC the strength to handle hills, headwinds, and longer rides with less effort. When you need extra support, Boost Mode delivers up to 1440W of peak power, helping you accelerate with confidence and keep your ride feeling effortless. Paired with a removable 733Wh battery and up to 75 miles of range, Pace 5 REC gives you the freedom to ride farther without constantly thinking about your battery.\n  <br><br>\n  Smart technology makes this electric cruiser bike feel as secure as it is comfortable. Aventon’s ACU smart system adds connected features like GPS tracking, an integrated rear wheel lock, Unusual Activity Detection, Password Protection, and app connectivity for added peace of mind when your bike is parked or stored. The customizable Aventon A280 center display keeps key ride data easy to see, while regenerative braking helps improve efficiency on everyday rides.\n  <br><br>\n  With a low step-through frame, hydraulic disc brakes, integrated lights and turn signals, and five color options, Pace 5 REC is a modern recreational ebike built for riders who want comfort-first cruising, dependable power, and intuitive technology in one easy-to-ride package.\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "in-stock"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Pace 5 REC Step-Through Electric Bike | Ottawa, IL Aventon Dea",
+   "description": "Aventon Pace 5 REC Step-Through e-bike from $1,799 at Quest Watersports, your Aventon dealer in Ottawa, IL. In stock now — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "S/M"
+     },
+     {
+      "name": "Large"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Glacier Mint"
+     },
+     {
+      "name": "Sakura"
+     },
+     {
+      "name": "Koi"
+     },
+     {
+      "name": "Anvil"
+     },
+     {
+      "name": "Lagoon"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179288",
+    "sku": "810097179288",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sakura"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179325",
+    "sku": "810097179325",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Koi"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179363",
+    "sku": "810097179363",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Anvil"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179301",
+    "sku": "810097179301",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "S/M"
+     },
+     {
+      "optionName": "Color",
+      "name": "Lagoon"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179349",
+    "sku": "810097179349",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Glacier Mint"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179295",
+    "sku": "810097179295",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sakura"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179332",
+    "sku": "810097179332",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Koi"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179370",
+    "sku": "810097179370",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Anvil"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179318",
+    "sku": "810097179318",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Lagoon"
+     }
+    ],
+    "price": "1799.00",
+    "barcode": "810097179356",
+    "sku": "810097179356",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Pace 5 REC Step-Through"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/pace-5-rec-step-through-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-01_e42b56cd-32b9-4bdc-bc52-c7a16b132112_jpg.png?v=1779776538",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Glacier Mint e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Sakura-01.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Sakura e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Lagoon-01_2b59831d-cced-469f-a121-8d5507254264.jpg?v=1779303580",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Lagoon e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-01_e42b56cd-32b9-4bdc-bc52-c7a16b132113_jpg.png?v=1779776538",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Anvil e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Koi-01_d8a4ca07-2e90-4583-8d20-174919eccbd7.jpg?v=1779303441",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through in Koi e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Glacier-Mint-02.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Glacier-Mint-03.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Sakura-02.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Sakura-03.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Lagoon-02.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Lagoon-03.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Koi-02.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Koi-03.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-02.jpg?v=1778871378",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Pace-5-REC-Anvil-03.jpg?v=1778871379",
+    "contentType": "IMAGE",
+    "alt": "Aventon Pace 5 REC Step-Through e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097179288": 0,
+  "810097179325": 0,
+  "810097179363": 1,
+  "810097179301": 0,
+  "810097179349": 0,
+  "810097179295": 0,
+  "810097179332": 0,
+  "810097179370": 0,
+  "810097179318": 1,
+  "810097179356": 1
+ }
+}

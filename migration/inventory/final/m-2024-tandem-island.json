@@ -14,36 +14,38 @@
    "inventory-new",
    "make:Hobie",
    "type:Kayak",
-   "year:2024"
+   "year:2024",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Dune"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "8599.00",
-    "sku": "QW-2024-tandem-island",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "8799.00"
+    "compareAtPrice": "8799.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Dune"
+     }
+    ],
+    "barcode": "792176879695",
+    "sku": "792176879695"
    }
   ],
   "metafields": [
@@ -220,5 +222,8 @@
   "id": "manual:2024-tandem-island",
   "decision": "manual",
   "note": "B9"
+ },
+ "locally_stock": {
+  "792176879695": 1
  }
 }

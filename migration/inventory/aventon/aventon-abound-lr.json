@@ -1,0 +1,228 @@
+{
+ "identifier": {
+  "handle": "aventon-abound-lr"
+ },
+ "input": {
+  "title": "Aventon Abound LR",
+  "handle": "aventon-abound-lr",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<div data-page-id=\"UHG6dIYWdotAnexEZd7ccxIKnsh\" data-lark-html-role=\"root\" data-docx-has-block-data=\"false\">\n<div class=\"ace-line ace-line old-record-id-doxcnXbUA0Hn1wodonyPOJEcjJh\">The Abound LR is the answer to all your cargo conundrums! The 750W motor, long rear rack, and 440lb payload capacity make this the ultimate cargo carrier. Whether you're loading up the kids, your beach day essentials, or your most ambitious grocery haul, the Abound LR is ready to take on any challenge. With a gravity cast frame, adjustable quill stem, front suspension, and suspension seatpost, you can ride confidently and comfortably no matter what you're bringing along. With the addition of ACU technology, you'll rest assured knowing you can locate and control your bike from anywhere. The possibilities for what you can carry are endless, so load up and enjoy the ride with Abound LR.</div>\n</div><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Abound LR Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Abound LR e-bike from $1,999 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "One Size"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Sage"
+     },
+     {
+      "name": "Matte Stealth"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "One Size"
+     },
+     {
+      "optionName": "Color",
+      "name": "Sage"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173262",
+    "sku": "810097173262",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "One Size"
+     },
+     {
+      "optionName": "Color",
+      "name": "Matte Stealth"
+     }
+    ],
+    "price": "1999.00",
+    "barcode": "810097173255",
+    "sku": "810097173255",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Abound LR"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.aventon.com/products/abound-lr-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Abound-LR_Stealth_Side_1-bike.jpg?v=1737999400",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR in Matte Stealth e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/01_Abound-LR_Sage_Side_1-bike.jpg?v=1737999583",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR in Sage e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Abound-LR_Stealth_Front-pers_1-bike.jpg?v=1752087203",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Abound-LR_Stealth_Rear-pers_1-bike.jpg?v=1752087203",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/02_Abound-LR_Sage_Front-pers_1-bike.jpg?v=1752087203",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/03_Abound-LR_Sage_Rear-pers_1-bike.jpg?v=1752087203",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound_LR_-_Resize_2500_x_1661_1.jpg?v=1785224891",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound_LR_-_Resize_2500_x_1661_3.jpg?v=1785224888",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound_LR_-_Resize_2500_x_1661_2.jpg?v=1785224891",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Easily-switch-between-Cadence-and-Torque-Sensor.png?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Set-your-cruising-speed-with-Cruise-Control.png?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Boost-Mode.jpg?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Payload.png?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Range.png?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/1520/2468/files/Abound-LR-Throttle_7623cbd2-3357-4008-aae8-f01fcac65a8c.png?v=1753156256",
+    "contentType": "IMAGE",
+    "alt": "Aventon Abound LR e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097173262": 0,
+  "810097173255": 0
+ }
+}

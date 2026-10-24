@@ -14,7 +14,8 @@
    "inventory-new",
    "make:Old Town",
    "type:Kayak",
-   "year:2023"
+   "year:2023",
+   "locally"
   ],
   "status": "ACTIVE",
   "templateSuffix": "inventory",
@@ -24,30 +25,51 @@
   },
   "productOptions": [
    {
-    "name": "Title",
+    "name": "Color",
     "values": [
      {
-      "name": "Default Title"
+      "name": "Ember Camo"
+     },
+     {
+      "name": "Photic Camo"
      }
     ]
    }
   ],
   "variants": [
    {
-    "optionValues": [
-     {
-      "optionName": "Title",
-      "name": "Default Title"
-     }
-    ],
     "price": "2199.00",
-    "sku": "OTSMSLTY",
     "inventoryPolicy": "DENY",
     "inventoryItem": {
      "tracked": true
     },
     "taxable": true,
-    "compareAtPrice": "2599.00"
+    "compareAtPrice": "2599.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Ember Camo"
+     }
+    ],
+    "barcode": "759239307533",
+    "sku": "759239307533"
+   },
+   {
+    "price": "2199.00",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2599.00",
+    "optionValues": [
+     {
+      "optionName": "Color",
+      "name": "Photic Camo"
+     }
+    ],
+    "barcode": "759239307526",
+    "sku": "759239307526"
    }
   ],
   "metafields": [
@@ -157,5 +179,9 @@
   "url": "https://www.questwatersports.com/2023-old-town-sportsman-salty-pdl-120-c-1218/",
   "when_modified": "2026-05-13 13:17:49",
   "sold": "Available"
+ },
+ "locally_stock": {
+  "759239307533": 1,
+  "759239307526": 1
  }
 }

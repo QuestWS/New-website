@@ -1,0 +1,298 @@
+{
+ "identifier": {
+  "handle": "aventon-ramblas"
+ },
+ "input": {
+  "title": "Aventon Ramblas",
+  "handle": "aventon-ramblas",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "descriptionHtml": "<p>Carve out the uncommon route with Ramblas, Aventon&#x27;s first-ever electric mountain bike (eMTB) with an intelligent mid-drive motor. Rugged and reliable, this hardtail, all-terrain ebike offers the ultimate comfort on mountain trails or city streets. Engage its three pedal assist levels and range of up to 90 miles to roam, ramble, and revel in the more dynamic side of the ride. With Ramblas, it&#x27;s mountain time, all the time. Aventon&#x27;s Ramblas comes equipped with a first-ever mid-drive motor for the Aventon line-up. The mid-drive is Aventon-designed offering riders personalized tuning capabilities through the Aventon app for an amplified natural riding experience. Adjust the three PAS levels to fine-tune its overall rideability.</p><h2>Buying your Aventon from Quest Watersports</h2><ul><li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li><li>Colors and sizes we don't have in stock can be special ordered. Call 815.433.2200 or request info below.</li><li>Financing is available through Synchrony, subject to credit approval.</li></ul>",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike",
+   "aventon-catalog",
+   "special-order"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Aventon Ramblas Electric Bike | Ottawa, IL Aventon Dealer",
+   "description": "Aventon Ramblas e-bike from $2,899 at Quest Watersports, your Aventon dealer in Ottawa, IL. Special order — call 815.433.2200. Synchrony financing available."
+  },
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Extra Large"
+     },
+     {
+      "name": "Small"
+     },
+     {
+      "name": "Large"
+     },
+     {
+      "name": "Medium"
+     }
+    ]
+   },
+   {
+    "name": "Color",
+    "values": [
+     {
+      "name": "Aurora"
+     },
+     {
+      "name": "Borealis"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Aurora"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170070",
+    "sku": "810097170070",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170001",
+    "sku": "810097170001",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170018",
+    "sku": "810097170018",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Small"
+     },
+     {
+      "optionName": "Color",
+      "name": "Aurora"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170049",
+    "sku": "810097170049",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Aurora"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170056",
+    "sku": "810097170056",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Medium"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170025",
+    "sku": "810097170025",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Extra Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Borealis"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170032",
+    "sku": "810097170032",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Large"
+     },
+     {
+      "optionName": "Color",
+      "name": "Aurora"
+     }
+    ],
+    "price": "2899.00",
+    "barcode": "810097170063",
+    "sku": "810097170063",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Ramblas"
+   },
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "msrp_label",
+    "type": "single_line_text_field",
+    "value": "MSRP"
+   },
+   {
+    "namespace": "custom",
+    "key": "assembly_fee",
+    "type": "number_decimal",
+    "value": "160.00"
+   },
+   {
+    "namespace": "custom",
+    "key": "special_order",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "manufacturer_url",
+    "type": "single_line_text_field",
+    "value": "https://www.locally.com/product/2568766/ramblas-ebike"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://media.locally.com/images/spec-640x640/lcly-c234637db8af65e84d1c1babfc514505.jpg",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas in Aurora e-bike"
+   },
+   {
+    "originalSource": "https://media.locally.com/images/spec-640x640/lcly-74ea48858b8aa6e85701c36ad67f1d8e.jpg",
+    "contentType": "IMAGE",
+    "alt": "Aventon Ramblas in Borealis e-bike"
+   }
+  ]
+ },
+ "existing": null,
+ "stock": {
+  "810097170070": 0,
+  "810097170001": 0,
+  "810097170018": 0,
+  "810097170049": 0,
+  "810097170056": 0,
+  "810097170025": 0,
+  "810097170032": 0,
+  "810097170063": 0
+ }
+}

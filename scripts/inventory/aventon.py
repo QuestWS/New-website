@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+"""Build Shopify productSet records for the full Aventon e-bike lineup.
+
+Sources: aventon.com's public product JSON (current models, prices, UPCs, photos, copy) and
+migration/inventory/locally-aventon.csv (Locally's Aventon catalog: current-season models that
+aren't on aventon.com). One Shopify product per model; step-over and step-through frames are
+combined where Aventon sells both. Variants carry the Aventon UPC as barcode and SKU, which is
+how Locally matches them. The four products that already feed Locally are updated in place
+(their variant ids are kept, matched by UPC).
+
+Stock: migration/inventory/ebike-stock.json lists the UPCs in the shop; each gets inventory 1,
+every other variant 0 (special order). Nothing is purchasable online (template "inventory",
+tag `inventory`, inventoryPolicy DENY).
+
+Writes migration/inventory/aventon/<handle>.json = {"identifier", "input", "existing", "stock"}.
+Usage: python3 -I scripts/inventory/aventon.py
+"""
+import csv, html, json, os, re, time, urllib.request
+
+ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
+INV = os.path.join(ROOT, "migration", "inventory")
+OUT = os.path.join(INV, "aventon")
+UA = {"User-Agent": "Mozilla/5.0 (compatible; QuestSync/1.0)"}
+PHONE = "815.433.2200"
+MAX_IMAGES = 15
+
+# handle, title, sources [(aventon handle | "locally:<product name>", frame label)], option order, existing product id,
+# value maps (Aventon value -> value already used on the existing product).
+FAMILIES = [
+    {"handle": "aventon-level-3", "title": "Aventon Level 3", "existing": "gid://shopify/Product/9179283456222",
+     "sources": [("level-3-commuter-ebike", "Step Over"), ("level-3-step-through-commuter-ebike", "Step Thru")],
+     "options": ["Size", "Style", "Color"]},
+    {"handle": "aventon-level-4", "title": "Aventon Level 4 REC", "existing": "gid://shopify/Product/9189850448094",
+     "sources": [("level-4-rec-ebike", "Step Over"), ("level-4-rec-step-through-ebike", "Step-thru")],
+     "options": ["Style", "Size", "Color"], "map": {"S/M": "Regular"}},
+    {"handle": "aventon-aventure-3", "title": "Aventon Aventure 3", "existing": "gid://shopify/Product/9189855330526",
+     "sources": [("aventure-3-ebike", "Step Over"), ("aventure-3-step-through-ebike", "Step-thru")],
+     "options": ["Style", "Size", "Color"], "map": {"Cobalt Blue": "Cobalt"}},
+    {"handle": "aventon-pace-4", "title": "Aventon Pace 4 Step-Through", "existing": "gid://shopify/Product/9189848645854",
+     "sources": [("pace-4-step-through-ebike", None)], "options": ["Color", "Size"]},
+    {"handle": "aventon-pace-5-rec", "title": "Aventon Pace 5 REC Step-Through", "sources": [("pace-5-rec-step-through-ebike", None)]},
+    {"handle": "aventon-level-4-adv", "title": "Aventon Level 4 ADV",
+     "sources": [("level-4-adv-ebike", "Step-Over"), ("level-4-adv-step-through-ebike", "Step-Through")],
+     "options": ["Style", "Size", "Color"]},
+    {"handle": "aventon-level-2", "title": "Aventon Level.2",
+     "sources": [("aventon-level-commuter-ebike", "Step-Over"), ("aventon-level-step-through-commuter-ebike", "Step-Through")],
+     "options": ["Style", "Size", "Color"]},
+    {"handle": "aventon-current-ltd", "title": "Aventon Current LTD", "sources": [("current-ltd-ebike", None)]},
+    {"handle": "aventon-current-exp", "title": "Aventon Current EXP", "sources": [("current-exp-ebike", None)]},
+    {"handle": "aventon-current-adv", "title": "Aventon Current ADV", "sources": [("current-adv-ebike", None)]},
+    {"handle": "aventon-ramblas-adv", "title": "Aventon Ramblas ADV", "sources": [("ramblas-adv-ebike", None)]},
+    {"handle": "aventon-soltera-3-adv", "title": "Aventon Soltera 3 ADV", "sources": [("soltera-3-ebike", None)]},
+    {"handle": "aventon-aventure-m", "title": "Aventon Aventure M", "sources": [("aventure-m-ebike", None)]},
+    {"handle": "aventon-abound-lr", "title": "Aventon Abound LR", "sources": [("abound-lr-ebike", None)]},
+    {"handle": "aventon-abound-sr", "title": "Aventon Abound SR", "sources": [("abound-sr-ebike", None)]},
+    {"handle": "aventon-sinch-2-5", "title": "Aventon Sinch 2.5", "sources": [("sinch-2-5-ebike", None)]},
+    {"handle": "aventon-soltera-2-5", "title": "Aventon Soltera 2.5", "sources": [("soltera-2-5-ebike", None)]},
+    {"handle": "aventon-pace-500-3-step-through", "title": "Aventon Pace 500.3 Step-Through",
+     "sources": [("locally:Pace 500.3 Step-Through Ebike", None)]},
+    {"handle": "aventon-ramblas", "title": "Aventon Ramblas", "sources": [("locally:Ramblas Ebike", None)]},
+]
+LOCALLY_SEASON = "Fall 26"
+LOCALLY_SIZES = {"R": "Regular", "L": "Large", "S": "Small", "M": "Medium", "XL": "Extra Large"}
+
+
+def get_json(url):
+    for i in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except Exception:
+            time.sleep(5 * (i + 1))
+    raise RuntimeError("fetch failed: " + url)
+
+
+def aventon_source(handle):
+    p = get_json(f"https://www.aventon.com/products/{handle}.json")["product"]
+    names = [o["name"] for o in p["options"]]
+    variants = []
+    for v in p["variants"]:
+        opts = dict(zip(names, [v.get("option1"), v.get("option2"), v.get("option3")]))
+        variants.append({"upc": v["barcode"], "size": opts.get("Size"), "color": opts.get("Color"),
+                         "price": float(v["price"]), "compare": float(v["compare_at_price"] or 0),
+                         "available": bool(v.get("available", True))})
+    by_variant = {}
+    for v in p["variants"]:
+        by_variant[v["id"]] = v
+    images, seen = [], set()
+    for im in p["images"]:
+        key = re.sub(r"\?.*", "", im["src"])
+        if key in seen:
+            continue
+        seen.add(key)
+        colors = sorted({(dict(zip(names, [by_variant[i].get("option1"), by_variant[i].get("option2"), by_variant[i].get("option3")]))).get("Color")
+                         for i in im.get("variant_ids", []) if i in by_variant} - {None})
+        images.append({"src": im["src"], "colors": colors})
+    return {"body": p["body_html"] or "", "variants": variants, "images": images, "url": f"https://www.aventon.com/products/{handle}"}
+
+
+def locally_source(name, rows):
+    rs = [r for r in rows if r["product_name"] == name and r["product_season"] == LOCALLY_SEASON]
+    variants = [{"upc": r["product_upc"], "size": LOCALLY_SIZES.get(r["product_size_1"], r["product_size_1"]),
+                 "color": r["product_color_name"], "price": float(r["product_msrp_USD"]), "compare": 0.0, "available": True}
+                for r in rs]
+    images, seen = [], set()
+    for r in rs:
+        if r["product_image_url"] and r["product_image_url"] not in seen:
+            seen.add(r["product_image_url"])
+            images.append({"src": r["product_image_url"], "colors": [r["product_color_name"]]})
+    body = f"<p>{html.escape(rs[0]['product_description'])}</p>" if rs else ""
+    return {"body": body, "variants": variants, "images": images, "url": rs[0]["product_url"] if rs else ""}
+
+
+def quest_block(title):
+    return ("<h2>Buying your Aventon from Quest Watersports</h2><ul>"
+            "<li>Every e-bike purchased through Quest Watersports includes a <strong>$160 assembly and tuning fee</strong>.</li>"
+            f"<li>Colors and sizes we don't have in stock can be special ordered. Call {PHONE} or request info below.</li>"
+            "<li>Financing is available through Synchrony, subject to credit approval.</li></ul>")
+
+
+def build(fam, rows, stock):
+    parts = []
+    for src, frame in fam["sources"]:
+        s = locally_source(src[8:], rows) if src.startswith("locally:") else aventon_source(src)
+        parts.append((s, frame))
+    vmap = fam.get("map", {})
+    opt_names = fam.get("options") or (["Size", "Color"] if any(v["size"] for s, _ in parts for v in s["variants"]) else ["Color"])
+    variants, values = [], {n: [] for n in opt_names}
+    for s, frame in parts:
+        for v in s["variants"]:
+            vals = {"Style": frame, "Size": vmap.get(v["size"], v["size"]), "Color": vmap.get(v["color"], v["color"])}
+            ov = []
+            for n in opt_names:
+                val = vals[n] or "One Size"
+                ov.append({"optionName": n, "name": val})
+                if val not in values[n]:
+                    values[n].append(val)
+            var = {"optionValues": ov, "price": f"{v['price']:.2f}", "barcode": v["upc"], "sku": v["upc"],
+                   "inventoryPolicy": "DENY", "inventoryItem": {"tracked": True}, "taxable": True}
+            if v["compare"] > v["price"]:
+                var["compareAtPrice"] = f"{v['compare']:.2f}"
+            variants.append(var)
+    imgs, seen = [], set()
+    per_part = MAX_IMAGES // len(parts)
+    for s, frame in parts:
+        for im in s["images"][:per_part]:
+            if im["src"] in seen:
+                continue
+            seen.add(im["src"])
+            imgs.append({"originalSource": im["src"], "contentType": "IMAGE",
+                         "alt": fam["title"] + (f" {frame}" if frame else "") + (f" in {', '.join(im['colors'])}" if im["colors"] else "") + " e-bike"})
+    imgs = imgs[:MAX_IMAGES]
+    body = parts[0][0]["body"].strip()
+    if len(parts) > 1 and parts[1][0]["body"].strip() and parts[1][0]["body"].strip() != body:
+        body += f"<h3>{parts[1][1]} frame</h3>" + parts[1][0]["body"].strip()
+    low = min(float(v["price"]) for v in variants)
+    stocked = [v["barcode"] for v in variants if v["barcode"] in stock]
+    inp = {
+        "title": fam["title"], "handle": fam["handle"], "vendor": "Aventon", "productType": "eBike",
+        "descriptionHtml": body + quest_block(fam["title"]),
+        "tags": ["inventory", "inventory-ebikes", "inventory-new", "make:Aventon", "type:eBike", "aventon-catalog"]
+                + (["in-stock"] if stocked else ["special-order"]),
+        "status": "ACTIVE", "templateSuffix": "inventory",
+        "seo": {"title": f"{fam['title']} Electric Bike | Ottawa, IL Aventon Dealer"[:70],
+                "description": (f"{fam['title']} e-bike from ${low:,.0f} at Quest Watersports, your Aventon dealer in Ottawa, IL. "
+                                + ("In stock now" if stocked else "Special order") + f" — call {PHONE}. Synchrony financing available.")[:320]},
+        "productOptions": [{"name": n, "values": [{"name": x} for x in values[n]]} for n in opt_names],
+        "variants": variants,
+        "metafields": [
+            {"namespace": "custom", "key": "make", "type": "single_line_text_field", "value": "Aventon"},
+            {"namespace": "custom", "key": "model", "type": "single_line_text_field", "value": fam["title"].replace("Aventon ", "")},
+            {"namespace": "custom", "key": "condition", "type": "single_line_text_field", "value": "New"},
+            {"namespace": "custom", "key": "msrp_label", "type": "single_line_text_field", "value": "MSRP"},
+            {"namespace": "custom", "key": "assembly_fee", "type": "number_decimal", "value": "160.00"},
+            {"namespace": "custom", "key": "special_order", "type": "boolean", "value": "false" if stocked else "true"},
+            {"namespace": "custom", "key": "call_for_price", "type": "boolean", "value": "false"},
+            {"namespace": "custom", "key": "sale_pending", "type": "boolean", "value": "false"},
+            {"namespace": "custom", "key": "manufacturer_url", "type": "single_line_text_field", "value": parts[0][0]["url"]},
+        ],
+        "files": imgs,
+    }
+    return {"identifier": {"id": fam["existing"]} if fam.get("existing") else {"handle": fam["handle"]},
+            "input": inp, "existing": fam.get("existing"), "stock": {v["barcode"]: (1 if v["barcode"] in stock else 0) for v in variants}}
+
+
+def main():
+    rows = list(csv.DictReader(open(os.path.join(INV, "locally-aventon.csv"), encoding="utf-8")))
+    stock = json.load(open(os.path.join(INV, "ebike-stock.json")))["in_stock"]
+    os.makedirs(OUT, exist_ok=True)
+    seen_upcs = set()
+    for fam in FAMILIES:
+        rec = build(fam, rows, stock)
+        seen_upcs |= set(rec["stock"])
+        json.dump(rec, open(os.path.join(OUT, fam["handle"] + ".json"), "w"), indent=1, ensure_ascii=False)
+        n_in = sum(rec["stock"].values())
+        print(f"{fam['handle']:34} variants {len(rec['input']['variants']):2}  images {len(rec['input']['files']):2}  in stock {n_in}")
+        time.sleep(0.5)
+    missing = set(stock) - seen_upcs
+    if missing:
+        print("STOCK UPCs NOT IN ANY MODEL:", sorted(missing))
+
+
+if __name__ == "__main__":
+    main()
