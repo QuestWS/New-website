@@ -1,0 +1,141 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-itrek-fiesta-1311"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage iTrek Fiesta",
+  "handle": "2022-hobie-mirage-itrek-fiesta-1311",
+  "descriptionHtml": "<div><span><strong>Financing Available</strong></span></div>&nbsp;<p><span>The 2022 Hobie Mirage iTrek Fiesta is your all-in-one, inflatable kayak built for group adventures and social outings on the water. Designed with <strong>four MirageDrive GT systems with Kick-Up Fins</strong>, this kayak lets up to four passengers enjoy smooth and powerful pedaling together. The Kick-Up Fins automatically retract on impact, allowing you to explore shallow areas without hassle, making it versatile for lakes, rivers, and coastal waters.</span></p><h3><span><strong>Incredible Value with Full Warranty</strong></span></h3><p><span>Priced at $4,759, this 2022 iTrek Fiesta comes with a <strong>2-year warranty starting from the purchase date</strong>, offering a unique opportunity to save almost <strong>$1,200</strong> while still enjoying Hobie's quality craftsmanship and full warranty coverage. (2025 MSRP is $5949)</span></p><h3><span><strong>Features for Maximum Comfort and Convenience</strong></span></h3><ul>\t<li><span><strong>Four MirageDrive GT</strong>: Providing enhanced propulsion, each rider has the freedom to pedal independently while enjoying a smooth and efficient ride.</span></li>\t<li><span><strong>Stable and Durable Drop-Stitch Hull</strong>: Crafted from high-quality drop-stitch materials, the iTrek Fiesta's inflatable hull is rigid, stable, and easy to deflate, pack, and store.</span></li>\t<li><span><strong>Integrated Steering and Adjustable Seating</strong>: Comes with built-in steering for smooth navigation and supportive seating to keep everyone comfortable, making it perfect for longer outings.</span></li>\t<li><span><strong>Portable and Easy to Transport</strong>: The iTrek Fiesta inflates quickly and stores in its included rolling travel bag, giving you ultimate flexibility in transport and setup.</span></li></ul><h3><span><strong>Specifications at a Glance</strong></span></h3><ul>\t<li><span><strong>Length</strong>: 15' (4.57 m)</span></li>\t<li><span><strong>Width</strong>: 80\" (2.03 m)</span></li>\t<li><span><strong>Capacity</strong>: 1000 lbs (453.6 kg)</span></li>\t<li><span><strong>Weight</strong>: 105 lbs (47.63 kg) hull weight, 78 lbs (35.4 kg) when fully rigged</span></li>\t<li><span><strong>Material</strong>: Durable PVC with drop-stitch construction</span></li></ul><h3><span><strong>Create Lasting Memories Together</strong></span></h3><p><span>The 2022 Mirage iTrek Fiesta is all about fun on the water with family or friends. Its spacious, stable design and advanced propulsion make it ideal for everything from paddling and picnicking to fishing and relaxing. Its inflatable design ensures easy portability, while the Kick-Up Fins and integrated steering keep you in control and ready to explore.</span><br />&nbsp;</p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Hobie Mirage iTrek Fiesta for Sale | Ottawa, IL",
+   "description": "New 2022 Hobie Mirage iTrek Fiesta for sale at Quest Watersports in Ottawa, IL — $4,759. Stock #22MYFSTA. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4759.00",
+    "sku": "22MYFSTA",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "5949.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek Fiesta"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22MYFSTA"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "15'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "550 Denier PVC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1311"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/nx6ObgqCM1A?feature=player_detailpage"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1311/main/l/New-2022-Hobie-Mirage-iTrek-Fiesta-1729976992.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage iTrek Fiesta"
+   }
+  ]
+ },
+ "source": {
+  "id": "1311",
+  "url": "https://www.questwatersports.com/2022-hobie-mirage-itrek-fiesta-c-1311/",
+  "when_modified": "2024-10-26 16:11:24",
+  "sold": "Available"
+ }
+}

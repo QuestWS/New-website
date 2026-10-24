@@ -109,6 +109,25 @@ mutation($files: [FileCreateInput!]!) {
 ```
 variables: `{"files":[{"originalSource":"<WP image URL>","contentType":"IMAGE","alt":"<descriptive alt>"}]}`. The URL is available once processing finishes: re-query `node(id:"<file id>"){ ... on MediaImage { fileStatus image { url } } }` until `READY`.
 
+### c1) Dealer inventory → Shopify products
+1. `python3 -I scripts/inventory/build.py` — fetches the old site's inventory feed and writes one
+   `productSet` payload per AVAILABLE unit to `migration/inventory/<id>.json` (+ `_index.json` with every
+   feed id and its Available/Sold status).
+2. Compare with the previous commit (`git diff --stat migration/inventory`):
+   - **New available id** (no product with handle ending `-<id>` yet): run `productSet` with the file's
+     `identifier` + `input` (synchronous: true), then `publishablePublish` to the Online Store
+     (publication `gid://shopify/Publication/70750208175`).
+     EXCEPTION — kayaks/paddleboards (tag `inventory-paddlesports`): the owner reconciles kayak stock by hand
+     (`migration/inventory/kayak-reconciliation.md`). Do not create new kayak products; list them in the
+     final message for the owner to approve.
+   - **Changed file** for an existing product (price, description, photos, sale-pending): re-run `productSet`
+     with the same handle identifier (it updates in place).
+   - **Id now "Sold"** (or gone from the feed) and a product exists: `productUpdate(product:{id, status: ARCHIVED})`.
+     Never delete products.
+3. Units are never purchasable online: keep `inventoryPolicy: DENY`, tracked, 0 on hand (build.py does this).
+   Smart collections `inventory`, `inventory-boats`, `inventory-paddlesports`, `inventory-sailboats`,
+   `inventory-ebikes`, `inventory-pre-owned` pick products up by tag automatically.
+
 ### c2) Social media → blog (Facebook / Instagram)
 Only if the environment variable `META_ACCESS_TOKEN` is set (a long-lived Page access token with
 `pages_read_engagement`, `pages_read_user_content`, `instagram_basic`). Optional `META_PAGE_ID`

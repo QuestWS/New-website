@@ -1,0 +1,247 @@
+{
+ "identifier": {
+  "handle": "2019-centurion-fi23-1346"
+ },
+ "input": {
+  "title": "2019 Centurion fi23",
+  "handle": "2019-centurion-fi23-1346",
+  "descriptionHtml": "<p data-end=\"261\" data-start=\"175\"><strong data-end=\"259\" data-start=\"175\">2019 Centurion Fi23 Clean, Powerful, and Ready for Your Best Year on the Water</strong></p><p data-end=\"575\" data-start=\"263\">Turn heads on the water with this meticulously maintained <strong data-end=\"344\" data-start=\"321\">2019 Centurion Fi23</strong> a premium performance boat that delivers world-class wakes and unmatched versatility for wakeboarding, wake surfing, and all-around family fun. <strong>Only 246 hours on its PCM ZR4 (6.0L, 409HP) </strong>motor; this Fi23 has plenty of adventures left in her..</p><p data-end=\"1422\" data-start=\"577\"><strong data-end=\"600\" data-start=\"577\">Why You'll Love It:</strong><br data-end=\"603\" data-start=\"600\" /><strong data-end=\"634\" data-start=\"606\">Premium Wake Performance</strong> Centurion engineering means deep, perfectly shaped wakes that riders rave about. This isn't just a boat it's a confidence-inspiring surf and ride machine.<br data-end=\"796\" data-start=\"793\" /><strong data-end=\"817\" data-start=\"798\">Efficient Beast</strong> 246 hours on the engine translates to many seasons of trusted reliability without being broken-in. Ready to take on big days with fuel-efficient power.<br /><strong data-end=\"1010\" data-start=\"979\">Intuitive Control &amp; Comfort</strong> Easy to drive with responsive handling and thoughtfully designed ergonomics for a smoother ride.<br data-end=\"1112\" data-start=\"1109\" /><strong data-end=\"1132\" data-start=\"1115\">Room for Crew</strong> Excellent seating layout to fit 14 passengers with comfort, convenience, and style ideal for gatherings, families, and crew rotations.<br /><strong data-end=\"1293\" data-start=\"1274\">Well-Maintained</strong> Clean interior and exterior condition with documented care and attention to detail. This boat has been loved and looked after.</p><p data-end=\"1453\" data-start=\"1424\"><strong data-end=\"1451\" data-start=\"1424\">Performance &amp; Features:</strong></p><ul data-end=\"1749\" data-start=\"1454\">\t<li data-end=\"1519\" data-start=\"1454\">\t<p data-end=\"1519\" data-start=\"1456\">Centerline length: 23 ideal balance of playful and stable</p>\t</li>\t<li data-end=\"1572\" data-start=\"1520\">\t<p data-end=\"1572\" data-start=\"1522\">Powerful engine with low hours long life ahead</p>\t</li>\t<li data-end=\"1642\" data-start=\"1573\">\t<p data-end=\"1642\" data-start=\"1575\">Wake shaping tech built in beginner-friendly to pro-level wakes</p>\t</li>\t<li data-end=\"1696\" data-start=\"1643\">\t<p data-end=\"1696\" data-start=\"1645\">Modern audio and comfort features for onboard fun</p>\t</li>\t<li data-end=\"1749\" data-start=\"1697\">\t<p data-end=\"1749\" data-start=\"1699\">Integrated ballast for customizable surf/wake size</p>\t</li></ul><p data-end=\"1934\" data-start=\"1751\">Whether you're chasing perfect waves, towing riders of all skill levels, or hosting friends for a sunset cruise, the <strong data-end=\"1886\" data-start=\"1868\">Centurion Fi23</strong> delivers performance, reliability, and style.</p>",
+  "vendor": "Centurion",
+  "productType": "Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Centurion",
+   "type:Boat",
+   "year:2019"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2019 Centurion fi23 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2019 Centurion fi23 for sale at Quest Watersports in Ottawa, IL — $99,000. Stock #2019CENT. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "99000.00",
+    "sku": "2019CENT",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2019"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Centurion"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "fi23"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "2019CENT"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "23'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "PCM ZR4 (6.0L, 409HP)"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "409"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "fiberghlass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "grey"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1346"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/main/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/2/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/3/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/4/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/5/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/6/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/7/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/8/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/9/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/10/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/11/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/12/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/13/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/14/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/15/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/16/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/17/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/18/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/19/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1346/20/l/Used-2019-Centurion-fi23-1775340399.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2019 Centurion fi23 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1346",
+  "url": "https://www.questwatersports.com/2019-centurion-fi23-c-1346/",
+  "when_modified": "2026-09-19 16:06:37",
+  "sold": "Available"
+ }
+}

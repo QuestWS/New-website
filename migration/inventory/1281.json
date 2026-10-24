@@ -1,0 +1,155 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-outback-1281"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Outback",
+  "handle": "2022-hobie-mirage-outback-1281",
+  "descriptionHtml": "<div><strong><span><span>Save Big on our Prior Model Year Clearance!</span></span></strong><br /><span><span><span>All boats are new and come with a full warranty starting on their purchase date!</span></span></span></p><p><strong><span><span>2025 Models at full MSRP can be found <a href=\"https://www.questwatersports.com/2023-hobie-mirage-outback--c-875.htm\">here</a></p><p>Financing Available!</span></span></strong></div><br />Hobie has once again set the benchmark in the pedal kayak fishing world with their groundbreaking enhancements to the already unparalleled Mirage Outback. This latest iteration isn't just an upgrade; it's a complete transformation, heralding a new era for kayak anglers seeking the pinnacle of performance and convenience.</p><p>The Mirage Outback, Hobie's flagship model, has undergone its most significant overhaul in over a decade, establishing it as the ultimate pedal-driven fishing kayak on the market. Designed meticulously with the angler in mind, this kayak is engineered for versatility, whether you're venturing into the open sea in pursuit of trophy gamefish or navigating the serene waters of your local lakes and rivers for bass.</p><p>One of the standout features of the redesigned Outback is its expansive standing deck, which now offers an enhanced platform for casting, coupled with an elevated vantage point ideal for sight fishing. This innovation ensures anglers can enjoy unparalleled views below and above the waterline, thanks to the innovative Guardian Transducer Shield, providing a multi-dimensional underwater perspective.</p><p>Comfort and efficiency are at the heart of the Outback's design, exemplified by the Vantage CTW seat. This addition not only offers extra width but also ensures unmatched comfort during long hours on the water. Practicality is also key, with four integrated rod holders, advanced H-Track mounts for accessory customization, and ample storage compartments, ensuring your fishing gear is always within easy reach.</p><p>The propulsion system of the Mirage Outback sets it apart from the competition. Equipped with the MirageDrive 180 with ARC Cranks and Turbo Fins, now a standard feature across all Outbacks, this kayak offers speed, stealth, and agility, making it perfect for anglers looking to cover ground efficiently and quietly. Furthermore, the introduction of Hobie's Kick-Up Rudder system, complete with dual steering capabilities, revolutionizes maneuverability and control, making tight turns and combating drift easier than ever before.</p><p>In summary, while the previous version of the Outback was already considered a legend among kayak anglers, the new and improved model elevates it to legendary status. With its host of innovative features and unmatched performance, the all-new Hobie Mirage Outback is not just the best choice for fishing enthusiasts; it's a game-changer in the world of pedal kayaks.<p>Guardian Retractable Transducer Shield\nReflective Bow Graphics\nTwo-Piece Paddle with On-Hull Storage\nDual Steering\nMirageDrive 180 with Turbo Fins\nKick-Up Rudder\nSail Mount\nH-Track Deluxe with H-Rail\nEVA Floor Standing Pads\nVertical Rectangular Hatch\nVantage CTW Seat\n4 Molded-in Rod Holders\nLarge Rear Handle\nUtility Trays\nPower-Pole Ready\nCart Keeper\nLarge Rear Cargo Well</p><p></p><p>Specs:</p><p>Length: 12' 9\" / 3.89 m<br />Width: 34\" / .86 m<br />Hull Weight: 85 lbs / 39 kg<br />Fully Rigged Weight: 103 lbs / 47 kg<br />Capacity: 425 lbs / 193 kg<br />Crew: 1</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Hobie Mirage Outback for Sale | Ottawa, IL",
+   "description": "New 2022 Hobie Mirage Outback for sale at Quest Watersports in Ottawa, IL — $2,799. Stock #PMYOUTBACK. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2799.00",
+    "sku": "PMYOUTBACK",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3299.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Outback"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "PMYOUTBACK"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12' 9\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1281"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1281/main/l/New-2022-Hobie-Mirage-Outback-1709069557.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Outback"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1281/2/l/New-2022-Hobie-Mirage-Outback-1709069560.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Outback photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1281/3/l/New-2022-Hobie-Mirage-Outback-1709069561.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Outback photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1281/4/l/New-2022-Hobie-Mirage-Outback-1709069562.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Outback photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1281/5/l/New-2022-Hobie-Mirage-Outback-1709069564.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Outback photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1281",
+  "url": "https://www.questwatersports.com/2022-hobie-mirage-outback-c-1281/",
+  "when_modified": "2024-10-26 16:41:32",
+  "sold": "Available"
+ }
+}

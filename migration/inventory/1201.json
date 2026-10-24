@@ -1,0 +1,135 @@
+{
+ "identifier": {
+  "handle": "2021-hobie-mirage-compass-duo-1201"
+ },
+ "input": {
+  "title": "2021 Hobie Mirage Compass Duo",
+  "handle": "2021-hobie-mirage-compass-duo-1201",
+  "descriptionHtml": "<p>Financing Available - Starting at $153.68 / Month, $0 Down and all taxes and fees included!*</p><div><strong><span>Financing Available - Starting at $153.68 / Month, $0 Down and all taxes and fees included!*</span>&nbsp;</strong></div><br /><span>The Mirage Compass Duo is powered by dual MirageDrives with Kick-Up Fins that retract on impact. The Duo has both forward and reverse capabilities with the upgraded MirageDrive 180! Equipped with the MirageDrive 180 and a MirageDrive with Glide Technology, the Duo delivers a smooth and efficient ride for two. The Duos sleek hull design maximizes speed and stability, while greatly reducing drag. The cockpit features comfortable, ergonomic seating, 4 Integrated H-Tracks for accessory mounting, and abundant above and below deck storage compartments to house gear for two. The sleek waterline and Kick-Up Rudder system make for an impressively nimble tandem kayak thats highly responsive, easy to steer and extremely durable. The roomy Compass Duo is simple to use and adventure-ready, making it the ideal choice for water outings with adults, tikes, and furry companions.</p><p><strong>Length</strong>: 13'6\" / 4.11 m<br /><strong>Beam</strong>: 35\" / 0.89 m<br /><strong>Hull Weight</strong>: 92 lbs / 42 kg<br /><strong>Fully Rigged Weight</strong>: 127 lbs / 58 kg<br /><strong>Capacity</strong>: 475 lbs / 215 kg<br /><strong>Crew</strong>: 2</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Listed price assumes 24-month financing and equal payments across those months, your minimum payment may be different. Call (815) 433-2200 for more info<p>Mesh Gear Keeper in Bow\nTwo-Piece Paddle with On-Hull Storage\nOne MirageDrive 180 with Kick-Up Fins\nOne MirageDrive GT with Kick-Up Fins\nRetractable, Heavy-Duty Rudder\nFour H-Track Accessory Mounts\nTwo Molded-In Rod Holders\nRear Cargo Area with Bungee Tie Downs\nElevated Mesh Seating\nTwo 8\" Twist and Seal Hatches\nAccessory mount for optional sail or canopy</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2021"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2021 Hobie Mirage Compass Duo for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2021 Hobie Mirage Compass Duo for sale at Quest Watersports in Ottawa, IL — $3,275. Stock #21CMPSDUOSLT. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3275.00",
+    "sku": "21CMPSDUOSLT",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3849.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2021"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass Duo"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "21CMPSDUOSLT"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1201"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1201/main/l/Used-2021-Hobie-Used-Mirage-Compass-Duo-1669150070.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2021 Hobie Mirage Compass Duo"
+   }
+  ]
+ },
+ "source": {
+  "id": "1201",
+  "url": "https://www.questwatersports.com/2021-hobie-used-mirage-compass-duo-c-1201/",
+  "when_modified": "2023-10-03 16:31:04",
+  "sold": "Available"
+ }
+}

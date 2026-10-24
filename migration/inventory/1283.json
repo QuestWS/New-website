@@ -1,0 +1,215 @@
+{
+ "identifier": {
+  "handle": "2022-hobie-mirage-oasis-1283"
+ },
+ "input": {
+  "title": "2022 Hobie Mirage Oasis",
+  "handle": "2022-hobie-mirage-oasis-1283",
+  "descriptionHtml": "<div><span><strong><span>Save Big on our Prior Model Year Clearance!</span></strong><br /><span><span>All boats are new and come with a full warranty starting on their purchase date!</span></span></p><p><strong><span>2025 Models can be found <a href=\"https://www.questwatersports.com/2024-hobie-mirage-oasis--c-879.htm\">here</a> and will be available once delivered from Hobie</p><p>Financing Available*!</span></strong></span><br />&nbsp;</div><div>The Oasis is stretched-out and spacious; the more performance-oriented of Hobie's pair of tandems powered by the elegant, easy-to-use MirageDrive. So speedy, yet boasting a robust carrying capacity suitable for a weekend camping trip or fishing with enough gear to stock a tackle shop - there are four convenient hatches and a generous on-deck storage area, as well as molded-in rod holders. The Oasis gets the job done in style and comfort.</p><p>Length: 14' 6\" / 4.42 m<br />Width: 33\" / .84 m<br />Hull Weight: 93 lbs / 42 kg<br />Fully Rigged Weight: 127 lbs / 58 kg<br />Capacity: 550 lbs / 249 kg<br />Crew: 1-2</p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><div>&nbsp;</div><p>Two Molded-In Rod Holders\nDual-Position Steering\nLarge Twist and Stow Rudder\nSail Mount\nTwo-Piece Paddles with On-Hull Storage\nTwo MirageDrive 180s with ST Fins\nVantage CT Seating\nTwo Mesh-Covered Stowage Pockets\nThree 8\" Twist and Seal Hatches with Gear Bucket</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Hobie Mirage Oasis for Sale | Ottawa, IL",
+   "description": "New 2022 Hobie Mirage Oasis for sale at Quest Watersports in Ottawa, IL — $3,699. Stock #PMYOASIS. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3699.00",
+    "sku": "PMYOASIS",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "4599.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Oasis"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "PMYOASIS"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "14' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass, Papaya"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1283"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/main/l/New-2022-Hobie-Mirage-Oasis-1709072160.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/2/l/New-2022-Hobie-Mirage-Oasis-1709072161.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/3/l/New-2022-Hobie-Mirage-Oasis-1709072161.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/4/l/New-2022-Hobie-Mirage-Oasis-1709072164.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/5/l/New-2022-Hobie-Mirage-Oasis-1709072166.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/6/l/New-2022-Hobie-Mirage-Oasis-1709072169.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/7/l/New-2022-Hobie-Mirage-Oasis-1709072172.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/8/l/New-2022-Hobie-Mirage-Oasis-1709072175.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/9/l/New-2022-Hobie-Mirage-Oasis-1709072176.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/10/l/New-2022-Hobie-Mirage-Oasis-1709072177.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/11/l/New-2022-Hobie-Mirage-Oasis-1709072178.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/12/l/New-2022-Hobie-Mirage-Oasis-1709072180.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/13/l/New-2022-Hobie-Mirage-Oasis-1709072183.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/14/l/New-2022-Hobie-Mirage-Oasis-1709072185.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/15/l/New-2022-Hobie-Mirage-Oasis-1709072188.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/16/l/New-2022-Hobie-Mirage-Oasis-1709072189.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1283/17/l/New-2022-Hobie-Mirage-Oasis-1709072191.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Hobie Mirage Oasis photo 17"
+   }
+  ]
+ },
+ "source": {
+  "id": "1283",
+  "url": "https://www.questwatersports.com/2022-hobie-mirage-oasis-c-1283/",
+  "when_modified": "2024-10-26 16:55:47",
+  "sold": "Available"
+ }
+}

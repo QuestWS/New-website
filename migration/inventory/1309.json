@@ -1,0 +1,151 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-compass-1309"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Compass",
+  "handle": "2023-hobie-mirage-compass-1309",
+  "descriptionHtml": "<h2><strong><span>Financing Available!*</span></strong></h2><div><a href=\"http://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><u><strong><span>Book a Free On-Water Demo</span></strong></u></a></div>&nbsp;<p><span>Explore the water with the 2023 Hobie Mirage Compass a reliable and versatile kayak that's perfect for fishing, exploring, and recreational paddling. With the same trusted features since 2020, this model continues to offer comfort, stability, and performance. Even better, you'll enjoy a full 3-year warranty starting from the purchase date, giving you confidence in your investment.</span></p><h3>&nbsp;</h3><p><span><strong>Great Value for 2023 Models</strong></span></p><p><span>By choosing a 2023 model, you're not just getting a great kayak you're saving big. <strong>Our 2023 Compass models are priced $300 below the 2025 MSRP ($2,499),</strong> without sacrificing any of the quality Hobie is known for. If you go with the Camo edition, you get an even sweeter deal. These models come equipped with Turbo fins - a $245 value included at no extra cost. In 2024, this upgrade stopped being a standard feature, making our 2023 Camo compasses a unique opportunity to get more for less.</span></p><h3>&nbsp;</h3><p><span><strong>Adventure Awaits</strong></span></p><p><span>Whether you're a seasoned angler or a weekend paddler, the Hobie Mirage Compass is designed to help you explore farther and fish smarter. Its sleek yet stable hull allows for effortless tracking, and the Kick-Up Fins make navigating shallow waters a breeze. With a comfortable seat and ample deck space for gear, it's a kayak that's all about versatility and adventure.</span></p><p><span>Take advantage of this chance to own a 2023 Compass, where quality meets value, and get out on the water with a kayak that's ready for anything.</span><br />&nbsp;</p><p><span><strong>Specs at a Glance:</strong></span></p><ul>\t<li><span><strong>Length</strong>: 12' (3.66 m)</span></li>\t<li><span><strong>Width</strong>: 34\" (0.86 m)</span></li>\t<li><span><strong>Fitted Hull Weight</strong>: 68 lbs (31 kg)</span></li>\t<li><span><strong>Fully Rigged Weight</strong>: 87 lbs (39 kg)</span></li>\t<li><span><strong>Capacity</strong>: 400 lbs (181 kg)</span></li>\t<li><span><strong>Drive</strong>: MirageDrive 180 with Kick-Up Fins (Turbo fins on Camo models)</span></li>\t<li><span><strong>Hull Material</strong>: Rotomolded Polyethylene</span></li></ul><div>&nbsp;</div><p></p><p><span><em>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</em></span></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2023 Hobie Mirage Compass for Sale | Ottawa, IL",
+   "description": "New 2023 Hobie Mirage Compass for sale at Quest Watersports in Ottawa, IL — $2,199. Stock #23MYCOMP. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2199.00",
+    "sku": "23MYCOMP",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "2499.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "23MYCOMP"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass Green, Papaya Orange, or Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1309"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/bZY-FLa0HW8?feature=player_detailpage"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1309/main/l/New-2023-Hobie-Mirage-Compass-1729957083.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Compass"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1309/2/l/New-2023-Hobie-Mirage-Compass-1729957083.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Compass photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1309/3/l/New-2023-Hobie-Mirage-Compass-1729957083.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Compass photo 3"
+   }
+  ]
+ },
+ "source": {
+  "id": "1309",
+  "url": "https://www.questwatersports.com/2023-hobie-mirage-compass-c-1309/",
+  "when_modified": "2024-10-26 14:54:34",
+  "sold": "Available"
+ }
+}

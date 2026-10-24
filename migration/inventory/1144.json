@@ -1,0 +1,175 @@
+{
+ "identifier": {
+  "handle": "2022-advanced-elements-airvolution2-1144"
+ },
+ "input": {
+  "title": "2022 Advanced Elements AirVolution2",
+  "handle": "2022-advanced-elements-airvolution2-1144",
+  "descriptionHtml": "<p>Ask about deferred-interest financing programs!</p><p><span><span><strong>Ask about deferred-interest financing programs!</strong></span></p><p>Introducing a rigid high-pressure drop-stitch kayak unlike any other! The AirVolution is a streamlined high-performance kayak with paddling performance that rivals that of a hard-shell kayak. Featuring an open deck design for ease of entry, the AirVolution uses extremely durable materials and features many high-end components such as a high-back comfortable seat, bungee deck lacing for gear stowage, and heavy-duty grab handles. Simply unfold, inflate and youre ready for your next adventure!</p><p><strong>Specs</strong>:<br /><strong>Length</strong>: 14' 6\"<br /><strong>Width</strong>: 33\"<br /><strong>Weight</strong>: 39lbs<br /><strong>Number of Paddlers</strong>: 1 or 2<br /><strong>Weight Capacity</strong>: 550lbs</span><br /><span><strong>Packed Dimensions</strong>: 38.5\" x 19\" x 7\"</span></p><p>Backpack Roller Duffel\nSingle Action Hand Pump w/ Pressure Gauge\nAdjustable High-back Seats\nRemovable Tracking Fin\nRepair Kit\nOwners Manual\nHigh Performance Drop-stitch Construction\nPressure Relief Valves for proper inflation\nBungee deck lacing and d-rings for securing gear\nSoft Grip Carry Handles\nSupportive High-back Adjustable Seat\nDrain-well\nBelow Deck Storage Compartments for small items\nBackpack Roller Duffel for easy transport</p>",
+  "vendor": "Advanced Elements",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Advanced Elements",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Advanced Elements AirVolution2 for Sale | Ottawa, IL",
+   "description": "New 2022 Advanced Elements AirVolution2 for sale at Quest Watersports in Ottawa, IL — $1,275. Stock #AE3030. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1275.00",
+    "sku": "AE3030",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1699.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Advanced Elements"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "AirVolution2"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "AE3030"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "14' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Drop-stitch"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Blue/Gray"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1144"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/main/l/New-2022-Advanced-Elements-AirVolution2-1618413376.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/2/l/New-2022-Advanced-Elements-AirVolution2-1618413376.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/3/l/New-2022-Advanced-Elements-AirVolution2-1618413377.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/4/l/New-2022-Advanced-Elements-AirVolution2-1618413377.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/5/l/New-2022-Advanced-Elements-AirVolution2-1618413377.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/6/l/New-2022-Advanced-Elements-AirVolution2-1618413378.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/7/l/New-2022-Advanced-Elements-AirVolution2-1618413378.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/8/l/New-2022-Advanced-Elements-AirVolution2-1618413379.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1144/9/l/New-2022-Advanced-Elements-AirVolution2-1618413379.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AirVolution2 photo 9"
+   }
+  ]
+ },
+ "source": {
+  "id": "1144",
+  "url": "https://www.questwatersports.com/2022-advanced-elements-airvolution2-c-1144/",
+  "when_modified": "2023-01-04 17:16:23",
+  "sold": "Available"
+ }
+}

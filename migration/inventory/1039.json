@@ -1,0 +1,235 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-compass-1039"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage Compass",
+  "handle": "2026-hobie-mirage-compass-1039",
+  "descriptionHtml": "<div id=\"product-component-1651957430003\"><strong><span><span><span>Financing Available!*</span></span></span></strong></p><p><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><strong><span>Book a FREE On-Water Demo!</span></strong></span></a></div><div><br /><span><strong>Ask about Prior Model Year Inventory Still In-Stock!</strong></span></div><div><br /><span>Simplicity defined, the Mirage Compass is now upgraded to both forward and reverse with the power of the MirageDrive 180 pedal system and Kick-Up Fins. Patented Kick-Up Fin Technology takes the worry out of kayaking in shallow, structure-filled waters by automatically retracting upon impact. Outfitted with a breathable mesh seat, the Compass offers maximum stability and an oversized cockpit and flat deck for standing. A sharp turning radius makes this fishing kayak nimble in tight quarters, yet able to speed over open water in stealthy fashion. Kayak fishing features include molded-in rod holders, H-Track accessory mounts and a transducer cavity ready for you to install a Lowrance fishfinder.</span><br />&nbsp;</div><p><span><strong>Length:</strong>&nbsp;12' / 3.66 m<br /><strong>Beam:</strong>&nbsp;34\" / 0.86 m<br /><strong>Hull Weight:</strong>&nbsp;68 lbs / 31 kg<br /><strong>Fully Rigged Weight:</strong>&nbsp;87 lbs / 39 kg<br /><strong>Capacity:</strong>&nbsp;400 lbs / 181 kg<br /><strong>Crew:</strong>&nbsp;1</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</p><p>Mesh Gear Keeper in Bow\nTwo-Piece Paddle with On-Hull Storage\nMirageDrive 180 with Kick-up Fins\nRetractable, Heavy-Duty Rudder\nTwo H-Track Accessory Mounts\nTwo Molded-In Rod Holders\nRear Cargo Area with Bungee Tie Downs\nElevated Mesh Seating\nOne 8\" Twist and Seal Hatch\nAccessory mount for optional sail or canopy \nTransducer Cavity and Installable Thru-Hull Fittings\nFootbrace ready</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage Compass for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage Compass for sale at Quest Watersports in Ottawa, IL — $2,499. Stock #HOBIE COMPASS. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2499.00",
+    "sku": "HOBIE COMPASS",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE COMPASS"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Papaya Orange, Seagrass Green, Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1039"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/AkdWWJcm4ho?feature=player_detailpage"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/main/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/2/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/3/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/4/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/5/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/6/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/7/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/8/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/9/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/10/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/11/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/12/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/13/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/14/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/15/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/16/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/17/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/18/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/19/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1039/20/l/New-2026-Hobie-Mirage-Compass-1636140017.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Compass photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1039",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-compass-c-1039/",
+  "when_modified": "2026-04-02 08:50:35",
+  "sold": "Available"
+ }
+}

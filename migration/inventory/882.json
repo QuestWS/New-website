@@ -1,0 +1,224 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-tandem-island-882"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage Tandem Island",
+  "handle": "2026-hobie-mirage-tandem-island-882",
+  "descriptionHtml": "<p><strong><span>Financing Available!*</span></strong></p><p><strong><span>Ask about Prior Model Year Inventory Still In-Stock!</span></strong><br />&nbsp;</p><p><span>The thrill of sailing has never seemed so simple. When the wind blows, the Tandem Island flies across the water, powered by an expansive, easily tended mainsail. Hop aboard with a friend. &nbsp;With dual MirageDrives providing pedal power, maneuvering is a snap even when the zephyrs subside. The central hull is pure high-end Hobie with all the expected features: multiple Twist and Seal hatches; a large bow hatch for below-deck storage; lever-operated rudder and centerboard deployment; and dual rudder control. This is Hobie's ultimate fish hunter, capable of marlin-teasing trolling speeds.</p><p><strong>Length:</strong> 18' 6\" / 5.64 m<br /><strong>Width (center hull):</strong>&nbsp;30\" / .76 m<br /><strong>Beam w/ Amas Out:</strong> 10' / 3.05 m<br /><strong>Beam w/ Amas In:</strong> 4' / 1.22 m<br /><strong>Hull Weight:</strong> 130 lbs / 59 kg<br /><strong>Fully Rigged Weight:</strong> 240 lbs / 109 kg<br /><strong>Capacity:</strong> 600 lbs / 272 kg<br /><strong>Mast Length:</strong>&nbsp;18' / 5.49 m<br /><strong>Sail Area:</strong>&nbsp;90 sq ft / 8.4 sq m<br /><strong>Crew:</strong> 1-2</p><p><strong><a href=\"http://www.hobiecat.com/kayaks/mirage/tandem-island/features/\" onclick=\"window.open(this.href,'','resizable=yes,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false\">See more Mirage Tandem Island features</a><br /><a href=\"http://www.questwatersports.com/hobie-models.htm\">Compare to other Hobie Kayaks</a></strong></span><br /><strong><a href=\"http://www.questwatersports.com/used-hobie-kayaks.htm\">See our selection of pre-owned Hobie Kayaks</a></strong><br />&nbsp;</p><div>&nbsp;</div><div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\">&nbsp;</div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\"><div><br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div></div></div><p>Two Molded-In Rod Holders\nRoller-Furling Main Sail\nLarge Bow Hatch\nVantage CT Seating\nAll Lines and Hardware Plus Harken Blocks\nDeck-Mounted Crossbars\nDual Rudder Deployment and Retraction Controls\nDual Steering Controls\nEasily Retractable and Removable Amas\nFour Cup Holders\nFour Mesh Stowage Pockets\nFully-Retractable, Kick-Up Centerboard\nKick-Up Island Rudder\nPatented Roller-Furling Sail with Battens\nRear Cargo Area with Bungee Tie-Downs\nThree 8\" Twist and Seal Hatches\nTwo MirageDrive 180s with ST Turbo Fins\nTwo 2-Piece paddles with On-Aka Storage\nTwo-Piece Carbon Composite Mast\nLowrance Ready System</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage Tandem Island for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage Tandem Island for sale at Quest Watersports in Ottawa, IL — $8,799. Stock #HOBIE TANDEM ISLAND. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "8799.00",
+    "sku": "HOBIE TANDEM ISLAND",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Tandem Island"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE TANDEM ISLAND"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "18' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Ivory Dune, Red Hibiscus"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "882"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/main/l/New-2026-Hobie-Mirage-Tandem-Island-1483231126.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/2/l/New-2026-Hobie-Mirage-Tandem-Island-1483231108.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/3/l/New-2026-Hobie-Mirage-Tandem-Island-1537996885.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/4/l/New-2026-Hobie-Mirage-Tandem-Island-1537996895.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/5/l/New-2026-Hobie-Mirage-Tandem-Island-1537996889.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/6/l/New-2026-Hobie-Mirage-Tandem-Island-1537996890.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/7/l/New-2026-Hobie-Mirage-Tandem-Island-1483231116.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/8/l/New-2026-Hobie-Mirage-Tandem-Island-1483231112.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/9/l/New-2026-Hobie-Mirage-Tandem-Island-1483231119.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/10/l/New-2026-Hobie-Mirage-Tandem-Island-1537996892.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/11/l/New-2026-Hobie-Mirage-Tandem-Island-1537996887.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/12/l/New-2026-Hobie-Mirage-Tandem-Island-1537996888.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/13/l/New-2026-Hobie-Mirage-Tandem-Island-1483231122.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/14/l/New-2026-Hobie-Mirage-Tandem-Island-1537996884.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/15/l/New-2026-Hobie-Mirage-Tandem-Island-1537996883.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/16/l/New-2026-Hobie-Mirage-Tandem-Island-1504661453.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/17/l/New-2026-Hobie-Mirage-Tandem-Island-1504661455.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/18/l/New-2026-Hobie-Mirage-Tandem-Island-1483231131.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/882/19/l/New-2026-Hobie-Mirage-Tandem-Island-1537996886.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Tandem Island photo 19"
+   }
+  ]
+ },
+ "source": {
+  "id": "882",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-tandem-island-c-882/",
+  "when_modified": "2026-04-02 08:49:23",
+  "sold": "Available"
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "identifier": {
+  "handle": "2022-barletta-corsa-25-uc-1370"
+ },
+ "input": {
+  "title": "2022 Barletta Corsa 25 UC",
+  "handle": "2022-barletta-corsa-25-uc-1370",
+  "descriptionHtml": "<p><strong>Super sharp 2022 Barletta Corsa...</strong></p><p>Black-out arch and rails, along with matte black panels, give this one a stealth vibe, and metallic blue accents add true class.&nbsp; Step inside and the white/grey/blue vinyl pattern rounds out the best of the Barletta high-end look.&nbsp; From there, her long list of features and options make this boat an ideal platform for fun with the family, entertaining...and impressing.&nbsp; 200HP Mercury with only 65 hours provides plenty of power.&nbsp; Comes complete with matched Mid-America trailer.&nbsp;</p><p>Take a look today in Quest's Ottawa, IL showroom...&nbsp;</p>",
+  "vendor": "Barletta",
+  "productType": "Pontoon",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Barletta",
+   "type:Pontoon",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2022 Barletta Corsa 25 UC for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2022 Barletta Corsa 25 UC for sale at Quest Watersports in Ottawa, IL — $79,950. Stock #22BARL25. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "79950.00",
+    "sku": "22BARL25",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Barletta"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Corsa 25 UC"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "22BARL25"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "27'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "Mercury 200HP"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "200"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Aluminum"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1370"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/main/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/2/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/3/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/4/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/5/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/6/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/7/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/8/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/9/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/10/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/11/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/12/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/13/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/14/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/15/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/16/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/17/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/18/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/19/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1370/20/l/Used-2022-Barletta-Corsa-25-UC-1788650613.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2022 Barletta Corsa 25 UC photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1370",
+  "url": "https://www.questwatersports.com/2022-barletta-corsa-25-uc-c-1370/",
+  "when_modified": "2026-09-19 15:03:34",
+  "sold": "Available"
+ }
+}

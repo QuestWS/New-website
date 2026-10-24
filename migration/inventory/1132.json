@@ -1,0 +1,230 @@
+{
+ "identifier": {
+  "handle": "2022-advanced-elements-advancedframe-1132"
+ },
+ "input": {
+  "title": "2022 Advanced Elements AdvancedFrame",
+  "handle": "2022-advanced-elements-advancedframe-1132",
+  "descriptionHtml": "<div id=\"product-component-1659124246979\">&nbsp;</div></p><p><span><span><strong>Ask about deferred-interest financing programs!</strong></span></p><p>The AdvancedFrame is a hybrid of a folding frame kayak and an inflatable kayak. Utilizing built-in aluminum ribs in the bow and stern, it slices through water like a knife and rivals the trackability of hard-shell kayaks. The stern acts as a skeg, increasing the tracking performance. It uses extremely durable materials in a 3-layer construction and features many high-end components. There is plenty of on-board storage room for extended trips. It sets up in just a few minutes and is compact enough to take along on a weekend adventure.</p><p><strong>Specs</strong>:<br /><strong>Length</strong>: 10'5\"<br /><strong>Width</strong>: 32\"<br /><strong>Weight</strong>: 36lbs<br /><strong>Number of Paddlers</strong>: 1<br /><strong>Weight Capacity</strong>: 300lbs<br /><strong>Packed Dimensions</strong>: 30\"x17\"x11\"</span><p>Duffle Bag\nRepair Kit\nFolding Seat\nAdvanced Elements Spring Valve\nIntegrated Pressure Relief Valve in Floor\nInflatable Coaming for Spray Skirt Attachment\nDurable Double Coated Rip-stop Fabric\nBungee Deck Lacing\nRubber molded handles\nReinforced Bow and Stern\nHard Edge Bow/Stern\nStorage Compartment\nWelded Seams\nNeoprene paddle guard\nAdjustable Back Support\nD-Ring Tie Down\nSkeg Tracking Fin</p>",
+  "vendor": "Advanced Elements",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Advanced Elements",
+   "type:Kayak",
+   "year:2022"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2022 Advanced Elements AdvancedFrame for Sale | Ottawa, IL",
+   "description": "New 2022 Advanced Elements AdvancedFrame for sale at Quest Watersports in Ottawa, IL — $519. Stock #AE1012-R. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "519.00",
+    "sku": "AE1012-R",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "649.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2022"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Advanced Elements"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "AdvancedFrame"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "AE1012-R"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10' 5\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "PVC Tarpaulin"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Red/Gray or Green/Gray"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1132"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/main/l/New-2022-Advanced-Elements-AdvancedFrame-1617913578.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/2/l/New-2022-Advanced-Elements-AdvancedFrame-1617913578.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/3/l/New-2022-Advanced-Elements-AdvancedFrame-1617913579.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/4/l/New-2022-Advanced-Elements-AdvancedFrame-1617913579.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/5/l/New-2022-Advanced-Elements-AdvancedFrame-1617913579.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/6/l/New-2022-Advanced-Elements-AdvancedFrame-1617913580.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/7/l/New-2022-Advanced-Elements-AdvancedFrame-1617913580.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/8/l/New-2022-Advanced-Elements-AdvancedFrame-1617913581.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/9/l/New-2022-Advanced-Elements-AdvancedFrame-1617913581.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/10/l/New-2022-Advanced-Elements-AdvancedFrame-1617913582.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/11/l/New-2022-Advanced-Elements-AdvancedFrame-1617913582.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/12/l/New-2022-Advanced-Elements-AdvancedFrame-1617913583.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/13/l/New-2022-Advanced-Elements-AdvancedFrame-1617913583.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/14/l/New-2022-Advanced-Elements-AdvancedFrame-1617913584.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/15/l/New-2022-Advanced-Elements-AdvancedFrame-1617913584.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/16/l/New-2022-Advanced-Elements-AdvancedFrame-1617913585.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/17/l/New-2022-Advanced-Elements-AdvancedFrame-1617913585.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/18/l/New-2022-Advanced-Elements-AdvancedFrame-1617913586.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/19/l/New-2022-Advanced-Elements-AdvancedFrame-1617913586.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1132/20/l/New-2022-Advanced-Elements-AdvancedFrame-1617913586.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2022 Advanced Elements AdvancedFrame photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1132",
+  "url": "https://www.questwatersports.com/2022-advanced-elements-advancedframe-c-1132/",
+  "when_modified": "2024-02-27 17:25:49",
+  "sold": "Available"
+ }
+}

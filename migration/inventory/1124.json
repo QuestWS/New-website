@@ -1,0 +1,159 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-itrek-9-ultralight-1124"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage iTrek 9 Ultralight",
+  "handle": "2026-hobie-mirage-itrek-9-ultralight-1124",
+  "descriptionHtml": "<div><font color=\"#ff0000\"><span><b>Earliest Possible </b></span></font><span><span><strong>A</strong></span><strong><span>vailability</span></strong></span><font color=\"#ff0000\"><span><b>- July</b></span></font></div><br /><span>The Mirage iTrek 9 Ultralight inflatable is Hobie's lightest, fastest, most maneuverable pedal kayak. Packs away in a convenient roller/backpack bag that allows you to store it in smaller spaces like an apartment, RV or boat. Better yet, check it on a plane to your favorite travel destination. This inflatable transforms into a comfortable and maneuverable watercraft within minutes. The Mirage iTrek 9 Ultralight inflatable kayak is designed to help you reach remote waters with minimal hassle. Its diagonal drop-stitch construction inflates to 10PSI, delivering the same rugged rigidity and nimble performance as Hobie's other platforms, but in an unbelievably lightweight package. Featuring the MirageDrive GT with Kick-Up Fins and intuitive rudder control, the iTrek 9 Ultralight can turn on its axis and navigate tight waterways with ease. The adjustable elevated seat is lined with breathable nano-mesh fabric, so you stay comfortable and cool no matter how long you're on the water. The iTrek 9 Ultralight is fast, agile, and easily transportable - but we didn't stop there. It's versatile, too. Simply remove the MirageDrive and grab the three-piece SUP paddle and your iTrek 9 is ready to be used as a stand-up platform. We made it easy to use and even easier to transport. Comes with a high-pressure hand pump and high-volume electric pump and a three-piece SUP paddle. Steering handle mounts on the left or right side of the seat. Carries up to 350 lbs. Just add water!</p><p>Specs:</span><div><span>CREW:<span> </span>1</span></div><div><span>DRIVE:<span> </span>MIRAGEDRIVE GT</span></div><div><span>LENGTH:<span> </span>9' 5\" / 2.87 M</span></div><div><span>WIDTH:<span> </span>40\" / 1.02 M</span></div><div><span>CAPACITY:<span> </span>350 LBS / 158.8 KG</span></div><div><span>FITTED HULL WEIGHT:<span> </span>20 LBS / 9 KG</span></div><div><span>FULLY RIGGED WEIGHT:<span> </span>36 LBS / 16.3 KG</span></div><p>MirageDrive GT with Kick-up Fins\nImproved Hull Construction\nAluminum-Frame Seating with Breathable Mesh\nDetatchable Rudder System for Right & Left Handed Use\nEVA Standing Pads\nSeat Mounted Cup Holder\nStand-up Paddle\nRolling Storage Bag w/ Extension Handle\nHigh-pressure Hand Pump\nHigh-pressure Electric Pump</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage iTrek 9 Ultralight for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage iTrek 9 Ultralight for sale at Quest Watersports in Ottawa, IL — $1,999. Stock #HOBIE ITREK 9. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1999.00",
+    "sku": "HOBIE ITREK 9",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek 9 Ultralight"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE ITREK 9"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "9' 5\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Inflatable"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1124"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/main/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578340.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/2/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578343.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/3/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578349.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/4/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578355.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/5/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578360.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1124/6/l/New-2026-Hobie-Mirage-iTrek-9-Ultralight-1610578363.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek 9 Ultralight photo 6"
+   }
+  ]
+ },
+ "source": {
+  "id": "1124",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-itrek-9-ultralight-c-1124/",
+  "when_modified": "2026-04-02 08:58:36",
+  "sold": "Available"
+ }
+}

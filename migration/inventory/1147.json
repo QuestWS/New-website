@@ -1,0 +1,169 @@
+{
+ "identifier": {
+  "handle": "2027-hobie-cat-hobie-16-1147"
+ },
+ "input": {
+  "title": "2027 Hobie Cat Hobie 16",
+  "handle": "2027-hobie-cat-hobie-16-1147",
+  "descriptionHtml": "<p>Limited Availability for 2024! Lock yours in now!!</p><p><strong><span><span><span>Unlikely to be available in time for the 2026 season. We hope to re-stock in 2027.</span></p><p>Dealer Assembly Included!</span></span></strong></p><p><span>The Hobie 16 revolutionized multihull sailing. The Hobie 16 was unleashed on the Southern California beach scene in 1970 and sailing was instantly transformed.</p><p>The beach-launched Hobie 16 brought the sport to legions of speed-loving sailors. The catamarans lightweight, asymmetrical fiberglass hulls provide lift and its dual-trapeze rig lets you and your crew member harness its sheer power. Now, 45 years and over 100,000 boats later, the Hobie 16 occupies a coveted spot in the Sailboat Hall of Fame and consistently delivers big-grin sailing and world-class racing. Fly a hull and youll understand the global obsession!</p><p><strong>SPECS:</strong><br /><strong>Crew:</strong> 1-4<br /><strong>Length:</strong> 16' 7\" / 5.04 m<br /><strong>Beam:</strong> 7' 11\" / 2.41 m<br /><strong>Capacity:</strong> 800 lbs/362 kg<br /><strong>Weight:</strong> 320 lbs / 145 kg<br /><strong>Draft w/ Rudder Up:</strong> 10\" / .25 m<br /><strong>Mast Length:</strong> 26' 6\" / 8.07 m<br /><strong>Total Sail Area:</strong> 218 ft / 20 m<br /><strong>Hull Construction:</strong> Fiberglass/Foam Sandwich<br /><strong>Height From Floor to Bow: </strong>23.5\" / 59.69 cm<br /><strong>Height From Floor to Stern:</strong> 24\" / 60.96 cm</span></p><p>Mast with Comptip\nChoice of Zephyr or Mistral Sail Color Scheme\n6:1 Mainsheet Block\nAdjustable Jib Sheet Travelers\nHank On Jib\nAussie Jib Halyard System\nMesh Trampoline\nEPO Rudder Blades\nRighting Line\nDouble Trapeze System</p>",
+  "vendor": "Hobie Cat",
+  "productType": "Sailboat",
+  "tags": [
+   "inventory",
+   "inventory-sailboats",
+   "inventory-new",
+   "make:Hobie Cat",
+   "type:Sailboat",
+   "year:2027"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2027 Hobie Cat Hobie 16 for Sale | Ottawa, IL",
+   "description": "New 2027 Hobie Cat Hobie 16 for sale at Quest Watersports in Ottawa, IL — call for price. Stock #HOBIE16. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "0.00",
+    "sku": "HOBIE16",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2027"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie Cat"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Hobie 16"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE16"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "16' 7\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Fiberglass/Foam Sandwich"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Mistral or Zephyr"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1147"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "true"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/main/l/New-2027-Hobie-Cat-Hobie-16-1618419108.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/2/l/New-2027-Hobie-Cat-Hobie-16-1618419108.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/3/l/New-2027-Hobie-Cat-Hobie-16-1618419109.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/4/l/New-2027-Hobie-Cat-Hobie-16-1618419109.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/5/l/New-2027-Hobie-Cat-Hobie-16-1618419110.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/6/l/New-2027-Hobie-Cat-Hobie-16-1618419111.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/7/l/New-2027-Hobie-Cat-Hobie-16-1618419111.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1147/8/l/New-2027-Hobie-Cat-Hobie-16-1618419112.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2027 Hobie Cat Hobie 16 photo 8"
+   }
+  ]
+ },
+ "source": {
+  "id": "1147",
+  "url": "https://www.questwatersports.com/2027-hobie-cat-hobie-16-c-1147/",
+  "when_modified": "2026-04-04 16:18:08",
+  "sold": "Available"
+ }
+}

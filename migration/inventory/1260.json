@@ -1,0 +1,150 @@
+{
+ "identifier": {
+  "handle": "2014-ocean-kayak-tetra-angler-10-1260"
+ },
+ "input": {
+  "title": "2014 Ocean Kayak Tetra Angler 10",
+  "handle": "2014-ocean-kayak-tetra-angler-10-1260",
+  "descriptionHtml": "<p><span>Are you a fishing enthusiast looking for the perfect kayak to elevate your angling experience? Look no further! The Ocean Kayak Tetra 10 Angler Fishing Kayak is designed with you in mind. This versatile kayak offers a unique blend of compactness, comfort, and convenience, making it an excellent choice for both beginners and experienced paddlers. Let's dive into the details of what makes this kayak stand out:</p><p><u><strong>Compact Yet Capable:</strong></u></p><p><strong>Length</strong>: 10 feet 8 inches<br /><strong>Width</strong>: 29.5 inches<br /><strong>Weight</strong>: 47 pounds<br /><strong>Weight capacity</strong>: 275 pounds</p><p><u><strong>Convenience at Your Fingertips:</strong></u></p><p><strong>Easy to Launch</strong>: The Tetra 10's small and lightweight design makes it a breeze to launch, transport, and handle.<br /><strong>Ample Storage</strong>: Don't be fooled by its size! This kayak boasts plenty of storage space, including a Click Seal spring hatch at the front and a spacious tank well with bungee cables at the back, perfect for stowing your gear and essentials.<br /><strong>Comfortable Paddling</strong>: The support track foot brace system ensures a comfortable and ergonomic paddling experience, making it ideal for anglers of various sizes.<br /><strong>Value for Money</strong>: With the Tetra 10 Angler, you get an affordable and feature-rich kayak that won't break the bank.</p><p><strong>Ocean Kayak Tetra 10 Angler vs. Standard Tetra 10</strong>:<br />The Tetra 10 Angler offers the same compact convenience as the standard Tetra 10 but with added fishing-specific features. It includes two rod holders and the Mod Pod center console for easy access to your fishing gear. With a slightly higher weight of 50 pounds, it's still a manageable choice for your fishing adventures.</p><p><u><strong>Top Features:</strong></u></p><p>Brand: Ocean Kayak<br />Model: Tetra 10 Angler<br />Type: Sit-on-top<br />Hull Material: Polyethylene<br />Saltwater Friendly: Yes<br />Adjustable Seat: Yes<br />Rod Holders: 2<br />Adjustable Leg Straps: Yes</p><p><u><strong>Performance on the Water:</strong></u></p><p>The Tetra 10 Angler is designed for versatility, with a V-shaped hull at the bow for increased speed and efficiency. It strikes a balance between speed and stability, making it suitable for moderate ocean waves and currents, as well as rivers and lakes.</p><p><u><strong>Summary:</strong></u></p><p>While the Tetra 10 may not be the choice for deep-sea fishing adventures, it excels as a compact, stable, and easily maneuverable kayak for farm ponds, calm lakes, and leisurely day fishing trips. Its lightweight construction ensures that it's a breeze for a single person to load, transport, and launch. Plus, the included Gunnel rails allow you to customize your kayak with electronic equipment and rod holders.</span></p><p>Compact size (10'8\" length, 29.5\" width)\nLightweight (47 pounds)\nWeight capacity of 275 pounds\nClick Seal spring hatch\nSpacious tank well with bungee cables\nSupport track foot brace system\nComfort Hybrid seat\nAdjustable foot braces\nPadded rubber leg straps\nBrown Camo and Urban Camo color options\nPolyethylene hull material\nSaltwater friendly\nTwo rod holders\nMod Pod center console\nGunnel rails for customization\nSit-on-top design</p>",
+  "vendor": "Ocean Kayak",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Ocean Kayak",
+   "type:Kayak",
+   "year:2014"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2014 Ocean Kayak Tetra Angler 10 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2014 Ocean Kayak Tetra Angler 10 for sale at Quest Watersports in Ottawa, IL — $499. Stock #OCNTTRA10. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "499.00",
+    "sku": "OCNTTRA10",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "849.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2014"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Ocean Kayak"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Tetra Angler 10"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "OCNTTRA10"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Tan"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1260"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1260/main/l/Used-2014-Ocean-Kayak-Used-Tetra-Angler-10-1696694864.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2014 Ocean Kayak Tetra Angler 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1260/2/l/Used-2014-Ocean-Kayak-Used-Tetra-Angler-10-1696694864.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2014 Ocean Kayak Tetra Angler 10 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1260/3/l/Used-2014-Ocean-Kayak-Used-Tetra-Angler-10-1696694865.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2014 Ocean Kayak Tetra Angler 10 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1260/4/l/Used-2014-Ocean-Kayak-Used-Tetra-Angler-10-1696694865.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2014 Ocean Kayak Tetra Angler 10 photo 4"
+   }
+  ]
+ },
+ "source": {
+  "id": "1260",
+  "url": "https://www.questwatersports.com/2014-ocean-kayak-used-tetra-angler-10-c-1260/",
+  "when_modified": "2023-10-07 11:07:47",
+  "sold": "Available"
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-pro-angler-14-180-1304"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Pro Angler 14 180",
+  "handle": "2023-hobie-mirage-pro-angler-14-180-1304",
+  "descriptionHtml": "<div><span><span><strong>Financing Available</strong></span></span><br />&nbsp;</div><div><span><span>Excellent condition used Pro Angler 180. Only used for 1 season with plenty of time left on its warranty. Includes added Boonedox Landing Gear</span></span></p><p>The legendary Pro Angler fishing kayak packs extreme fishing utility with six horizontal rod lockers, enough tackle compartments to empty a store, the Guardian Transducer shield for optimal fishfinder performance and the one and only, forward and reversing MirageDrive 180 with Kick-Up Turbo Fins. Experience long days on the water with our ultra comfortable, elevated, breathable and adjustable mesh Vantage Seating system, complete with lumbar support. Easily customize seat positioning with integrated barrel adjusters with the option to raise the seat an additional five inches for optimal Vantage position.</p><p>Specs:<div>Crew:<span> </span>1</div><div>Drive:<span> </span>MD 180 Turbo w/ Kick-Up Fins + ARC Cranks</div><div>Length:<span> </span>13' 8\" / 4.17 m</div><div>Width:<span> </span>38\" / .97 m</div><div>Height:<span> </span>20\" / 0.51 m</div><div>Capacity:<span> </span>600 lbs / 272 kg</div><div>Vantage Seat Capacity:<span> </span>350 lbs / 159 kg</div><div>Fitted Hull Weight:<span> </span>120.5 lbs / 55 kg</div><div>Fully Rigged Weight:<span> </span>144.5 lbs / 65.54 kg</div><div>Hull Construction:<span> </span>Rotomolded Polyethylene</div><div>Height From Floor to Middle of the Kayak:<span> </span>17\" (to bar) / 43.28 cm (to bar)</div><div>Height From Floor to Tallest Point on the Kayak:<span> </span>20\" (to handle) / 50.8 (to handle)</div></div>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2023 Hobie Mirage Pro Angler 14 180 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2023 Hobie Mirage Pro Angler 14 180 for sale at Quest Watersports in Ottawa, IL — $3,799. Stock #23PA14SNRS. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3799.00",
+    "sku": "23PA14SNRS",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 14 180"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "23PA14SNRS"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Sunrise Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1304"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1304/main/l/Used-2023-Hobie-Mirage-Pro-Angler-14-180-1724340284.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 Hobie Mirage Pro Angler 14 180"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1304/2/l/Used-2023-Hobie-Mirage-Pro-Angler-14-180-1724340284.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2023 Hobie Mirage Pro Angler 14 180 photo 2"
+   }
+  ]
+ },
+ "source": {
+  "id": "1304",
+  "url": "https://www.questwatersports.com/2023-hobie-mirage-pro-angler-14-180-c-1304/",
+  "when_modified": "2024-08-22 10:24:46",
+  "sold": "Available"
+ }
+}

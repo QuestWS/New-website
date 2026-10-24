@@ -1,0 +1,144 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-pro-angler-14-873"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage Pro Angler 14",
+  "handle": "2026-hobie-mirage-pro-angler-14-873",
+  "descriptionHtml": "<div id=\"product-component-1651960049541\"><strong><span><span>Financing Available - Starting at $229.59 / Month, $0 Down, and all taxes and fees included!*</span></span></strong></p><p><a href=\"https://www.questwatersports.com/2022-hobie-mirage-pro-angler-14-180-c-1284.htm?tk=090730\"><strong><span><span>Check out our limited number of still available 2022 models!</span></span></strong></a></div><p><br /><span>Hobie's original Pro Angler packs extreme fishing utility, with scads of (that's six) horizontal rod holders, enough tackle compartments to empty a store, and an elevated Vantage ST seat that's as much easy chair as captain's perch. There's a non-skid deck for standing - a huge advantage for sight fishing - and veritable acres of H-Rail for mounting rod holders and electronics. All this on a spacious 14-foot platform, with no need for a gas tank. Hobie's unique MirageDrive 180 with Glide Technology provides efficient, quiet propulsion.</p><p><strong>Length:</strong>&nbsp;13' 8\" / 4.17 m<br /><strong>Width:</strong> 38\" / .97 m<br /><strong>Hull Weight:</strong>&nbsp;120.5 lbs / 55 kg<br /><strong>Fully Rigged Weight:</strong> 144.5 lbs / 66 kg<br /><strong>Capacity:</strong> 600 lbs / 272 kg<br /><strong>Vantage Seat Capacity:</strong> 350 lbs / 159 kg<br /><strong>Crew:</strong>&nbsp;1</p><p><strong><a href=\"http://www.hobiecat.com/kayaks/mirage/pro-angler/features/\" onclick=\"window.open(this.href,'','resizable=yes,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false\">See Pro Angler 14 features</a><br /><a href=\"http://www.questwatersports.com/hobie-models.htm\">Compare to other Hobie Kayaks</a><br /><a href=\"https://www.youtube.com/playlist?list=PLaNpyEaQ9zBIjjNXLcp8dmDm0pO6pW9PJ\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no'); return false;\">See Hobie Outdoor Adventure Series on YouTube</a><br /><a href=\"https://www.youtube.com/playlist?list=PLaNpyEaQ9zBJrfeDieIdAz6f7KelPBKeo\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no'); return false;\">See Hobie Top Gun Series on YouTube</a><br /><a href=\"http://www.youtube.com/playlist?list=PL3DD68AFB6F500C1E\" onclick=\"window.open(this.href,'','resizable=yes,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false\">See Hobie Fish the World videos on YouTube</a></strong><br /><strong><a href=\"http://www.questwatersports.com/used-hobie-kayaks.htm\">See our selection of pre-owned Hobie Kayaks</a></strong></span><br />&nbsp;</p><div>&nbsp;</div><div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\">&nbsp;</div><div font-size:=\"\" text-align:=\"\" trebuchet=\"\"><div><br />&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div></div></div><p>Lowrance Ready System with Guardian Retractable Transducer Shield\nDual Steering Controls\nReplaceable Mounting Boards\nTwo-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle\n8\" Twist and Seal Hatch\nAccessory Mount for Optional Sail or Canopy\nAnchor Trolley System Ready\nMirageDrive 180 ARC with ST Turbo Fins\nVantage ST Seating\nBoa System Lumbar Support\nFront and Rear Carrying Handles\nHorizontal Storage for 6 Rods\nLarge Covered Bow Hatch with Removable Liner\nLarge Rectangular Hatch with Pivoting Tackle Management System\nLivewell-Ready Cargo Area\nRetractable Rudder System\nUnder Seat Tackle Storage\nMolded-In Vertical Storage for 2 Rods\nRetractable Tracking Skeg\n2 Plano Tackle Boxes\n2 H-Rail Rod Racks\n1 H-Rail Cup Holder\nHookless Mesh-Covered Stowage Pockets</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage Pro Angler 14 for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage Pro Angler 14 for sale at Quest Watersports in Ottawa, IL — $4,799. Stock #HOBIE PRO ANGLER 14. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4799.00",
+    "sku": "HOBIE PRO ANGLER 14",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 14"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE PRO ANGLER 14"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Sunrise Camo, Dune Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "873"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/873/main/l/New-2026-Hobie-Mirage-Pro-Angler-14-1709074613.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Pro Angler 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/873/2/l/New-2026-Hobie-Mirage-Pro-Angler-14-1709074615.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Pro Angler 14 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/873/3/l/New-2026-Hobie-Mirage-Pro-Angler-14-1709074616.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Pro Angler 14 photo 3"
+   }
+  ]
+ },
+ "source": {
+  "id": "873",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-pro-angler-14-c-873/",
+  "when_modified": "2026-04-02 08:48:30",
+  "sold": "Available"
+ }
+}

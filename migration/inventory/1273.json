@@ -1,0 +1,160 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-pro-angler-14-360-xr-1273"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Pro Angler 14 360 XR",
+  "handle": "2025-hobie-mirage-pro-angler-14-360-xr-1273",
+  "descriptionHtml": "<div><span><span><strong>Financing Available!*</strong></span></p><p><strong><a href=\"https://book.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span>Book a FREE On-Water Demo!</span></a></strong></span></div><br />The Hobie Mirage Pro Angler 14 360XR is a state-of-the-art fishing kayak, blending advanced technology with user-friendly features. It stands out for its innovative MirageDrive 360, providing unparalleled maneuverability. This kayak is designed for anglers seeking optimal performance, comfort, and versatility on the water, with upgraded components like the robust drive well and intuitive clutch assembly enhancing its durability and ease of use. It's a top-tier choice for those who demand the best in kayak fishing. An impressive upgrade over the already outstanding <a href=\"https://www.questwatersports.com/2023-hobie-mirage-pro-angler-14-360--c-1084.htm\">Pro Angler 14 360</a></p><p>&nbsp;<div><strong><u>Specs:</u><br />Length</strong>: 13' 8\" / 4.17 m<br /><strong>Width</strong>: 38\" / .97 m<br /><strong>Hull Weight</strong>: 124.5 LBS / 56.5 KG<br /><strong>Fully Rigged Weight</strong>: 148.5 LBS / 67.4 KG<br /><strong>Capacity</strong>: 600 lbs / 272 kg<br /><strong>Vantage Seat Capacity</strong>: 350 lbs / 159 kg<br /><strong>Crew</strong>: 1</div>&nbsp;</p><p>&nbsp;<br />*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info<p><a href=\"https://questws.myshopify.com/collections/kayak-parts\"><strong>Check out our available kayak accessories on our eShop!</strong></a></p><p><strong><u>Key Features:</u></strong></p><p><strong>MirageDrive 360 Technology</strong>: Experience unmatched maneuverability with the innovative MirageDrive 360. This system allows for effortless 360-degree navigation, enabling precise positioning and easy navigation through tight spots.</p><p><strong>Enhanced Drive Well and Clutch Assembly</strong>:The updated drive well and clutch assembly of the Hobie Mirage Pro Angler 14 360XR represent significant advancements in kayak design. The drive well now directly integrates with the kayak's rotomolded hull, using stainless steel plates for enhanced strength and durability. This new configuration ensures a more reliable and robust connection. The clutch assembly has been completely redesigned, offering improved on-water adjustability. Key features include a new locking knob and a release mechanism, making adjustments easier and more intuitive, all accessible from the kayak seat. These upgrades significantly enhance the kayak's performance and user experience.</p><p><strong>Advanced Steering System</strong>:The XR steering system includes a drive lock feature, allowing the drive to be securely locked in a forward position for stable and straight tracking.<br />A steering release feature adds versatility, enabling manual adjustment of the drive orientation, crucial in challenging situations.</p><p><strong>Ultimate Comfort and Storage</strong>:The Vantage ST seat offers unmatched comfort with adjustable lumbar support, perfect for long fishing excursions.<br />Abundant storage options, including horizontal rod storage and a large front hatch, cater to all your gear needs.</p><p><strong>Customization and Control</strong>:Customize your fishing experience with the H-Rail System, allowing for easy mounting of accessories.<br />The Guardian Retractable Transducer Shield enhances fishfinder performance, ensuring you never miss a catch.</p><p><u><strong>Included With the Kayak:</strong></u></p><p>MirageDrive 360 with Kick-up Turbo Fins<br />Lowrance Ready System with Guardian Retractable Transducer Shield<br />Dual Steering Controls<br />Replaceable Mounting Boards<br />Two-Piece 260 cm Paddle with On-Hull Storage Clips and T-Handle<br />8\" Twist and Seal Hatch<br />Accessory Mount for Optional Sail or Canopy<br />Anchor Trolley System Ready<br />Vantage ST Seating<br />Boa System Lumbar Support<br />Front and Rear Carrying Handles<br />Horizontal Storage for 4 Rods<br />Large Covered Bow Hatch with Removable Liner<br />Large Rectangular Hatch with Pivoting Tackle Management System<br />Livewell-Ready Cargo Area<br />Retractable Rudder System<br />Under Seat Tackle Storage<br />Molded-In Vertical Storage for 2 Rods<br />Retractable Tracking Skeg<br />2 Plano Tackle Boxes<br />2 H-Rail Rod Racks<br />1 H-Rail Cup Holder<br />Hookless Mesh-Covered Stowage Pockets<br /></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2025 Hobie Mirage Pro Angler 14 360 XR for Sale | Ottawa, IL",
+   "description": "New 2025 Hobie Mirage Pro Angler 14 360 XR for sale at Quest Watersports in Ottawa, IL — $5,899. Stock #PROANGLER14360XR. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "5899.00",
+    "sku": "PROANGLER14360XR",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2025"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Pro Angler 14 360 XR"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "PROANGLER14360XR"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Amazon Green Camo, Arctic Blue Camo, Campfire Red Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1273"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/nHsgHvkLlQI?feature=player_detailpage"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1273/main/l/New-2025-Hobie-Mirage-Pro-Angler-14-360-XR-1709074283.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 14 360 XR"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1273/2/l/New-2025-Hobie-Mirage-Pro-Angler-14-360-XR-1709074283.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 14 360 XR photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1273/3/l/New-2025-Hobie-Mirage-Pro-Angler-14-360-XR-1709074283.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 14 360 XR photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1273/4/l/New-2025-Hobie-Mirage-Pro-Angler-14-360-XR-1709074284.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 14 360 XR photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1273/5/l/New-2025-Hobie-Mirage-Pro-Angler-14-360-XR-1709074284.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Pro Angler 14 360 XR photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1273",
+  "url": "https://www.questwatersports.com/2025-hobie-mirage-pro-angler-14-360-xr-c-1273/",
+  "when_modified": "2024-10-26 15:39:12",
+  "sold": "Available"
+ }
+}

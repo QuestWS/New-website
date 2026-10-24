@@ -1,0 +1,141 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-compass-duo-1310"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Compass Duo",
+  "handle": "2023-hobie-mirage-compass-duo-1310",
+  "descriptionHtml": "<p><span><span><span><strong>Financing Available!*<br /><a href=\"http://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\">Book a Free On-Water Demo</a></strong></span></p><p>Double your adventure with the 2023 Hobie Mirage Compass Duo - a versatile tandem kayak designed for paddling partners who want to explore together. Featuring the same reliable features that have remained unchanged since 2020, this kayak offers performance, stability, and comfort that makes every outing enjoyable. Enjoy the peace of mind of a full 3-year warranty starting from the purchase date.</span></span></p><p>&nbsp;</p><p><span><strong>Savings that Stand Out</strong></span></p><p><span>Now is the perfect time to get a top-quality kayak at a great price. The 2023 Compass Duo is priced $400 below the 2025 MSRP, delivering a fantastic deal without sacrificing any of Hobie's trusted quality and design. It's the same great kayak at a better value.</span></p><p>&nbsp;</p><p><span><strong>Double the Fun, Double the Exploration</strong></span></p><p><span>The Hobie Mirage Compass Duo is perfect for paddling partners who crave adventure. With its stable and roomy design, you can navigate rivers, lakes, and open waters together with ease. The MirageDrive GT &amp; 180 systems provide smooth and efficient propulsion, while the Kick-Up Fins make shallow waters and obstacles less of a concern. Designed for comfort, the Compass Duo includes supportive seating and plenty of storage space for gear, making it the perfect kayak for shared exploration.</span></p><p><span>Don't miss this chance to grab a 2023 model and save while still getting the same quality and durability Hobie is famous for.</span><br />&nbsp;</p><p><span><strong>Specs at a Glance:</strong></span></p><ul>\t<li>\t<p><strong>Length</strong>: 13'6\" (4.11 m)</p>\t</li>\t<li>\t<p><strong>Width</strong>: 35\" (0.89 m)</p>\t</li>\t<li>\t<p><strong>Fitted Hull Weight</strong>: 92 lbs (41.7 kg)</p>\t</li>\t<li>\t<p><strong>Fully Rigged Weight</strong>: 127 lbs (57.6 kg)</p>\t</li>\t<li>\t<p><strong>Capacity</strong>: 475 lbs (215.5 kg)</p>\t</li>\t<li>\t<p><strong>Drive</strong>: 1 MirageDrive GT &amp; 1 MirageDrive 180 - both with Kick-Up Fins</p>\t</li>\t<li>\t<p><strong>Hull Material</strong>: Rotomolded Polyethylene</p><p><em background-color:=\"\" display=\"\" font-size:=\"\" grotesk=\"\" haas=\"\" neue=\"\">*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</em></p>\t</li></ul>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2023 Hobie Mirage Compass Duo for Sale | Ottawa, IL",
+   "description": "New 2023 Hobie Mirage Compass Duo for sale at Quest Watersports in Ottawa, IL — $3,399. Stock #23MYCOMPDUO. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "3399.00",
+    "sku": "23MYCOMPDUO",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3799.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Compass Duo"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "23MYCOMPDUO"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1310"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "youtube_url",
+    "type": "single_line_text_field",
+    "value": "https://www.youtube.com/embed/4kUIVXD7syI?feature=player_detailpage"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1310/main/l/New-2023-Hobie-Mirage-Compass-Duo-1729970738.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Compass Duo"
+   }
+  ]
+ },
+ "source": {
+  "id": "1310",
+  "url": "https://www.questwatersports.com/2023-hobie-mirage-compass-duo-c-1310/",
+  "when_modified": "2024-10-26 14:55:31",
+  "sold": "Available"
+ }
+}

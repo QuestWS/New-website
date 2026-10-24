@@ -1,0 +1,229 @@
+{
+ "identifier": {
+  "handle": "2015-hobie-mirage-revolution-11-1236"
+ },
+ "input": {
+  "title": "2015 Hobie Mirage Revolution 11",
+  "handle": "2015-hobie-mirage-revolution-11-1236",
+  "descriptionHtml": "<p>Ask about deferred-interest financing programs!</p><div><span><strong><span>Ask about deferred-interest financing programs!</span></strong></span></div><br /><span>For adventure enthusiasts seeking a potent mix of performance, convenience, and affordability, look no further than our preowned 2015 Hobie Mirage Revolution 11 Kayak. Priced competitively at $1799, this kayak is a formidable investment that will not disappoint.</p><p>With a length of 11'6\", and a width of 29\", the Hobie Mirage Revolution 11 is powered by the renowned MirageDrive GT. Offering an impressive combination of size, speed, and agility, this kayak ensures swift transportation to remote bodies of water. Its compact design doesn't compromise on essential features found on larger fishing kayak models, making it a perfect choice for fishing enthusiasts.</p><p>The 2015 Hobie Mirage Revolution 11 boasts multiple hatches, molded-in rod holders, and a spacious storage well. Despite its compact structure, there isn't an inch wasted on this kayak. It guarantees excellent storage capabilities while maintaining optimal maneuverability.</p><p>Constructed with rotomolded polyethylene, this kayak stands up to rigorous use, making it a durable companion for your aquatic adventures. It's lightweight too, with a fitted hull weight of 64 lbs and a fully rigged weight of 81 lbs. Its capacity holds a substantial weight of 275 lbs, accommodating a solo rider comfortably. The Vantage CT seat capacity also matches the kayak's total capacity, ensuring a relaxing and stable ride.</p><p>The Mirage Revolution 11 is designed with the adventurer in mind. With a height of 11.25 from the floor to the middle of the kayak and 15\" from the floor to the tallest point on the kayak, it allows sufficient space for comfort without compromising balance.</p><p>Buy this preowned 2015 Hobie Mirage Revolution 11 kayak today and start enjoying the ultimate performance in a conveniently sized package. Its eye-catching design, top-notch performance, and reduced weight make it an unbeatable choice for your next water adventure.</span><p>Large Covered Bow Hatch\nMid-Boat Carrying Handles\nMirageDrive with Glide Technology\nRear Cargo Area with Bungee Tie Downs\nSail Mount\nTwist and Stow Rudder\nTwo 8\" Twist and Seal Hatches with Gear Bucket\nTwo Mesh-Covered Stowage Pockets\nTwo Molded-In Rod Holders\nTwo-Piece Paddle with On-Hull Storage\nVantage CT Seating</p><p></p><p><u><strong>Specs:</strong></u><br /><strong>CREW</strong>:<span> </span>1<div><strong>DRIVE</strong>:<span> </span>Mirage Drive GT</div><div><strong>LENGTH</strong>:<span> </span>11' 6\" / 3.51 M</div><div><strong>WIDTH</strong>:<span> </span>29\" / .74 M</div><div><strong>CAPACITY</strong>:<span> </span>275 LBS / 125 KG</div><div><strong>VANTAGE CT SEAT CAPACITY</strong>:<span> </span>275 LBS / 124.74 KG</div><div><strong>FITTED HULL WEIGHT</strong>:<span> </span>64 LBS / 29 KG</div><div><strong>FULLY RIGGED WEIGHT</strong>:<span> </span>81 LBS / 37 KG</div><div><strong>HULL CONSTRUCTION</strong>:<span> </span>ROTOMOLDED POLYETHYLENE</div><div><strong>HEIGHT FROM FLOOR TO MIDDLE OF THE KAYAK</strong>:<span> </span>11.25 / 28.57 CM</div><div><strong>HEIGHT FROM FLOOR TO TALLEST POINT ON THE KAYAK</strong>:<span> </span>15\" / 38.1 CM</div></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2015"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2015 Hobie Mirage Revolution 11 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2015 Hobie Mirage Revolution 11 for sale at Quest Watersports in Ottawa, IL — $1,799. Stock #U15REV11PAP. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1799.00",
+    "sku": "U15REV11PAP",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2015"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Revolution 11"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "U15REV11PAP"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "11' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Golden Papaya"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1236"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/main/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150109.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/2/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150110.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/3/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150111.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/4/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150112.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/5/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150113.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/6/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150115.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/7/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150116.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/8/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150117.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/9/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150118.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/10/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150119.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/11/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150121.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/12/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150122.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/13/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150123.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/14/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150124.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/15/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150126.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/16/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150127.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/17/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150128.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/18/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150129.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/19/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150130.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1236/20/l/Used-2015-Hobie-Used-Mirage-Revolution-11-1686150131.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2015 Hobie Mirage Revolution 11 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1236",
+  "url": "https://www.questwatersports.com/2015-hobie-used-mirage-revolution-11-c-1236/",
+  "when_modified": "2023-10-03 16:35:01",
+  "sold": "Available"
+ }
+}

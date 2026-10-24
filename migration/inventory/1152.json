@@ -1,0 +1,204 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-lynx-1152"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage Lynx",
+  "handle": "2025-hobie-mirage-lynx-1152",
+  "descriptionHtml": "<p><span><strong><span>PLEASE NOTE:<br />Due to importing difficulties, Hobie did not stock 2025 Lynx Models.<br />The most current model year available is 2023 for Dune or 2024 for Catalina Blue<br />Those models are available for the 2025 MSRP of $2,999 (A $300 decrease from 2024 MSRP of $3,299)</span></strong></span></p><p><span><strong><span>Financing Available!*</span></strong></span></p><p><br />Relish the power of pedal propulsion, in both forward and reverse. The effortless speed of the MirageDrive 180 with Kick-Up Fins combined with the streamlined, sleek hull of the Lynx make for a truly epic ride. Kick it up a notch, as you swiftly skim across the water's surface, carving turns and leaving the world behind. Less is more when it comes down to construction. Lightweight materials meet optimal performance with ACE-TEC Technology that is tough enough for weekends off the grid, exploring uncharted waters, and a good thrashing at the lake with your kids. Weighing in at only 45 lbs. and equipped with rear loading skid pads, easily throw it on the roof of your car for uncomplicated transport. The best seat in the house, designed for comfort with breathable, mono-mesh, elevated to keep you dry all day. The wide bow creates a smoother ride and ample storage for your gear. Meticulously crafted with molded in tracks and an accessory mount, make it yours with our Sail Kit, Bimini Sunshade and other upgrades.</p><p><br /><span><u><strong>Specs</strong></u>:<br /><strong>Length</strong>: 11'<br /><strong>Width</strong>: 36\"<br /><strong>Capacity</strong>: 350 Lbs<br /><strong>Fitted Hull Weight</strong>: 45 lbs<br /><strong>Fully Rigged Weight</strong>: 61 lbs</span></p><p>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</p><p>Bow And Stern Carry Handles\nBow Storage With Bungee Tie Downs\nForward Accessory Mount\nH-Bar Standing Support Ready\nMiragedrive 180 With Kick-Up Fins\nTwo-Piece Kayak Paddle\nEva Standing Pad\nIntegrated Accessory Mounting Tracks\nRudder Control Steering Handle (L Or R)\nFishfinder Ready Transducer Cavity\nElevated Seating With Breathable Mono Mesh Fabric\nFast Draining Cart Scuppers\nCargo Storage With Bungee Tie Downs\nDurable And Lightweight Ace-Tec Construction\nPower-Pole Shallow Water Anchor Ready\nRemovable Rudder</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2025 Hobie Mirage Lynx for Sale | Ottawa, IL",
+   "description": "New 2025 Hobie Mirage Lynx for sale at Quest Watersports in Ottawa, IL — $2,999. Stock #LYNX. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2999.00",
+    "sku": "LYNX",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2025"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Lynx"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "LYNX"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "11'"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "ACE-TEC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Ivory Dune or Catalina Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1152"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/main/l/New-2025-Hobie-Mirage-Lynx-1621008903.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/2/l/New-2025-Hobie-Mirage-Lynx-1621008904.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/3/l/New-2025-Hobie-Mirage-Lynx-1621008906.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/4/l/New-2025-Hobie-Mirage-Lynx-1621008907.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/5/l/New-2025-Hobie-Mirage-Lynx-1621008909.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/6/l/New-2025-Hobie-Mirage-Lynx-1621008911.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/7/l/New-2025-Hobie-Mirage-Lynx-1621008913.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/8/l/New-2025-Hobie-Mirage-Lynx-1621008914.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/9/l/New-2025-Hobie-Mirage-Lynx-1621008915.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/10/l/New-2025-Hobie-Mirage-Lynx-1621008917.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/11/l/New-2025-Hobie-Mirage-Lynx-1621008919.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/12/l/New-2025-Hobie-Mirage-Lynx-1621008921.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/13/l/New-2025-Hobie-Mirage-Lynx-1621008923.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/14/l/New-2025-Hobie-Mirage-Lynx-1621008925.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1152/15/l/New-2025-Hobie-Mirage-Lynx-1621008927.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage Lynx photo 15"
+   }
+  ]
+ },
+ "source": {
+  "id": "1152",
+  "url": "https://www.questwatersports.com/2025-hobie-mirage-lynx-c-1152/",
+  "when_modified": "2025-06-14 16:00:13",
+  "sold": "Available"
+ }
+}

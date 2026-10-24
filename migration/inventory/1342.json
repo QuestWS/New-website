@@ -1,0 +1,248 @@
+{
+ "identifier": {
+  "handle": "1999-bayliner-3055-ciera-sunbridge-1342"
+ },
+ "input": {
+  "title": "1999 Bayliner 3055 Ciera Sunbridge",
+  "handle": "1999-bayliner-3055-ciera-sunbridge-1342",
+  "descriptionHtml": "<h3 data-end=\"255\" data-start=\"174\"><strong><span data-end=\"253\" data-start=\"181\">1</span></strong><strong data-end=\"253\" data-start=\"181\">999 Bayliner 3055 Ciera Twin 5.0L MerCruisers (Recently Rebuilt!)</strong></h3><p data-end=\"594\" data-start=\"290\"><span><strong>End of Season Special Pricing!&nbsp;&nbsp;</strong></span></p><p>Set your course for adventure with this <strong data-end=\"374\" data-start=\"330\">well-maintained 1999 Bayliner 3055 Ciera</strong>, powered by <strong data-end=\"419\" data-start=\"387\">twin MerCruiser 5.0L engines</strong> both recently rebuilt for smooth, reliable performance. This popular express cruiser offers the perfect blend of comfort, space, and power for long weekends on the water.</p><h4 data-end=\"629\" data-start=\"596\"><strong data-end=\"629\" data-start=\"604\">Highlights &amp; Upgrades</strong></h4><ul data-end=\"1125\" data-start=\"630\">\t<li data-end=\"722\" data-start=\"630\">\t<p data-end=\"722\" data-start=\"632\"><strong data-end=\"664\" data-start=\"632\">Twin MerCruiser 5.0L Engines</strong> both rebuilt, offering strong, dependable performance</p>\t</li>\t<li data-end=\"780\" data-start=\"723\">\t<p data-end=\"780\" data-start=\"725\"><strong data-end=\"744\" data-start=\"725\">Bravo III Drives</strong> for better control and efficiency</p>\t</li>\t<li data-end=\"861\" data-start=\"781\">\t<p data-end=\"861\" data-start=\"783\"><strong data-end=\"810\" data-start=\"783\">Spacious Cockpit Layout</strong> with wraparound seating great for entertaining</p>\t</li>\t<li data-end=\"927\" data-start=\"862\">\t<p data-end=\"927\" data-start=\"864\"><strong data-end=\"896\" data-start=\"864\">Full Camper Canvas Enclosure</strong> for shade or overnight stays</p>\t</li>\t<li data-end=\"1004\" data-start=\"928\">\t<p data-end=\"1004\" data-start=\"930\"><strong data-end=\"959\" data-start=\"930\">Swim Platform with Ladder</strong> easy access for swimming or water sports</p>\t</li>\t<li data-end=\"1051\" data-start=\"1005\">\t<p data-end=\"1051\" data-start=\"1007\"><strong data-end=\"1026\" data-start=\"1007\">Windlass Anchor</strong> for effortless mooring</p>\t</li>\t<li data-end=\"1090\" data-start=\"1052\">\t<p data-end=\"1090\" data-start=\"1054\"><strong data-end=\"1088\" data-start=\"1054\">GPS / Depth Finder / VHF Radio</strong></p>\t</li>\t<li data-end=\"1125\" data-start=\"1093\"><strong data-end=\"1123\" data-start=\"1093\">Dual Batteries with Switch</strong></li>\t<li>\t<p><span>3 New Isinglass Panels for the front windows.&nbsp;</span></p>\t</li>\t<li>\t<p><span>Sunscreen for the boat</span>- perfect for getting some shade while enjoying time out on the water.</p>\t</li></ul><h4 data-end=\"1157\" data-start=\"1127\"><strong data-end=\"1157\" data-start=\"1136\">Interior Comforts</strong></h4><ul data-end=\"1441\" data-start=\"1158\">\t<li data-end=\"1243\" data-start=\"1158\">\t<p data-end=\"1243\" data-start=\"1160\">Sleeps up to 6 with <strong data-end=\"1241\" data-start=\"1180\">forward V-berth, mid-cabin berth, and convertible dinette</strong></p>\t</li>\t<li data-end=\"1319\" data-start=\"1244\">\t<p data-end=\"1319\" data-start=\"1246\">Fully equipped <strong data-end=\"1271\" data-start=\"1261\">galley</strong> with stove, sink, refrigerator, and microwave</p>\t</li>\t<li data-end=\"1386\" data-start=\"1320\">\t<p data-end=\"1386\" data-start=\"1322\"><strong data-end=\"1347\" data-start=\"1322\">Private enclosed head</strong> with sink, shower, and marine toilet</p>\t</li>\t<li data-end=\"1441\" data-start=\"1387\">\t<p data-end=\"1441\" data-start=\"1389\"><strong data-end=\"1416\" data-start=\"1389\">Air conditioning &amp; heat</strong> for all-season comfort</p>\t</li></ul><h4 data-end=\"1473\" data-start=\"1443\"><strong data-end=\"1473\" data-start=\"1451\">Why You'll Love It</strong></h4><p data-end=\"1738\" data-start=\"1474\">This Bayliner 3055 is one of the most popular express cruisers in her class offering a roomy cockpit for daytime cruising and a surprisingly spacious cabin for overnight adventures. With her freshly rebuilt engines, she's ready for seasons of worry-free boating.</p><p data-end=\"1858\" data-start=\"1740\">Perfect for families, weekend cruisers, or anyone ready to enjoy the boating lifestyle without the new-boat price tag.</p>",
+  "vendor": "Bayliner",
+  "productType": "Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Bayliner",
+   "type:Boat",
+   "year:1999"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 1999 Bayliner 3055 Ciera Sunbridge for Sale | Ottawa, IL",
+   "description": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge for sale at Quest Watersports in Ottawa, IL — $33,500. Stock #1999BAYLINER. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "33500.00",
+    "sku": "1999BAYLINER",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "38800.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "1999"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Bayliner"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "3055 Ciera Sunbridge"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "1999BAYLINER"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "32'"
+   },
+   {
+    "namespace": "custom",
+    "key": "engine",
+    "type": "single_line_text_field",
+    "value": "Mercruiser 5.0L"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "440"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "fiberglass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "white"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1342"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/main/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760471954.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/2/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760471954.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/3/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760471954.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/4/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760471954.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/5/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760471954.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/6/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/7/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/8/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/9/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/10/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/11/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/12/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/13/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/14/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/15/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/16/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/17/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/18/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/19/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1342/20/l/Used-1999-Bayliner-3055-Ciera-Sunbridge-1760472251.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1999 Bayliner 3055 Ciera Sunbridge photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1342",
+  "url": "https://www.questwatersports.com/1999-bayliner-3055-ciera-sunbridge-c-1342/",
+  "when_modified": "2026-10-13 17:57:20",
+  "sold": "Available"
+ }
+}

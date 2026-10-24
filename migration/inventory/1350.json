@@ -1,0 +1,138 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-itrek-angler-10-1350"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage iTrek Angler 10",
+  "handle": "2026-hobie-mirage-itrek-angler-10-1350",
+  "descriptionHtml": "<p>The all-new Hobie Mirage iTrek Angler 10 brings full pedal-powered fishing capability to an inflatable platform  MirageDrive 180, H-Rail rigging, and motor-ready stern included. Packs into a rolling t</p><h2>Hobie Mirage iTrek Angler 10 Inflatable Fishing Kayak</h2><p>The Mirage iTrek Angler 10 is Hobie's answer to the question every angler eventually asks: what if I could take a fully rigged fishing kayak anywhere? Built as an inflatable from the ground up, this kayak pairs Hobie's legendary MirageDrive 180 pedal system with Kick-Up Fin technology meaning logs, shallows, and rocky bottoms won't slow you down. Add the Hobie H-Rail with integrated patented RAM? Hand-Track, a stern designed for motor or PowerPole mounting, and reinforced construction throughout, and you have a complete fishing platform that packs into a rolling travel bag.</p><p>No dock access? No garage? No problem. Whether you're launching from a car trunk, a campsite, or a train station, the iTrek Angler 10 sets up in minutes and delivers the full Hobie fishing experience wherever the water is.</p><h3>Specifications</h3><table>\t<tbody>\t\t<tr>\t\t\t<td><strong>Length</strong></td>\t\t\t<td>10 ft / 304 cm</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Width</strong></td>\t\t\t<td>44\" / 111 cm</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Capacity</strong></td>\t\t\t<td>400 lbs / 181.4 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Fitted Hull Weight</strong></td>\t\t\t<td>33 lbs / 14.9 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Fully Rigged Weight</strong></td>\t\t\t<td>49 lbs / 22.2 kg</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Bag Dimensions</strong></td>\t\t\t<td>33.5 x 24.6 x 15.75\" / 85 x 62.5 x 40 cm</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>Color</strong></td>\t\t\t<td>Olive</td>\t\t</tr>\t\t<tr>\t\t\t<td><strong>MSRP</strong></td>\t\t\t<td>$2,799 USD</td>\t\t</tr>\t</tbody></table><p>MirageDrive 180 with Kick-Up Turbo Fins\nHobie H-Rail with Integrated Patented RAM Hand-Track\nEVA Deck Pad with Measuring Lines\niTrek Elevated Seating\nRudder Control\n3 Removable Rudder/Mounting Positions\nMotor/PowerPole Mount Ready\nRear Cargo Area\nFront, Mid & Rear Carry Handles\nLocking Valves\nPacks into Rolling Travel Bag</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage iTrek Angler 10 for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage iTrek Angler 10 for sale at Quest Watersports in Ottawa, IL — $2,799. Stock #ITREKANG10. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2799.00",
+    "sku": "ITREKANG10",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek Angler 10"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "ITREKANG10"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10'"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Olive"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1350"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1350/main/l/New-2026-Hobie-Mirage-iTrek-Angler-10-1775743726.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek Angler 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1350/2/l/New-2026-Hobie-Mirage-iTrek-Angler-10-1775743726.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek Angler 10 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1350/3/l/New-2026-Hobie-Mirage-iTrek-Angler-10-1775743726.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage iTrek Angler 10 photo 3"
+   }
+  ]
+ },
+ "source": {
+  "id": "1350",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-itrek-angler-10-c-1350/",
+  "when_modified": "2026-04-09 09:08:49",
+  "sold": "Available"
+ }
+}

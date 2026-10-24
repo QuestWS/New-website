@@ -1,0 +1,241 @@
+{
+ "identifier": {
+  "handle": "1998-bayliner-ciera-2855-1352"
+ },
+ "input": {
+  "title": "1998 Bayliner Ciera 2855",
+  "handle": "1998-bayliner-ciera-2855-1352",
+  "descriptionHtml": "<h3 data-end=\"228\" data-section-id=\"1jj1sw4\" data-start=\"155\">&nbsp; &nbsp;1998 <span><span>Bayliner 2855 Ciera</span></span> Ready for the Water</h3><p data-end=\"293\" data-start=\"229\"><strong data-end=\"293\" data-start=\"229\">Reduced to $19,900 | Motivated Seller, All Offers Welcome</strong></p><p data-end=\"552\" data-start=\"295\">Turn-key, spacious, and thoughtfully updated, this 2855 Ciera is dialed in and ready for weekends on the river or extended stays at the marina. If you've been searching for an affordable cabin cruiser with the big-ticket upgrades already handled this is it.</p><hr data-end=\"557\" data-start=\"554\" /><h3 data-end=\"597\" data-section-id=\"hibx5k\" data-start=\"559\">&nbsp; &nbsp; Key Features &amp; Recent Upgrades:</h3><ul data-end=\"1046\" data-start=\"598\">\t<li data-end=\"629\" data-section-id=\"1a73m87\" data-start=\"598\">Powerful <strong data-end=\"627\" data-start=\"609\">454 MPI engine</strong></li>\t<li data-end=\"709\" data-section-id=\"1j5ct3e\" data-start=\"630\"><strong data-end=\"666\" data-start=\"632\">New Lowrance GPS with SideScan</strong> dialed in for navigation and exploring</li>\t<li data-end=\"776\" data-section-id=\"1cstn86\" data-start=\"710\"><strong data-end=\"741\" data-start=\"712\">New cockpit carpet (2025)</strong> fresh and ready for the season</li>\t<li data-end=\"841\" data-section-id=\"mvs72\" data-start=\"777\"><strong data-end=\"816\" data-start=\"779\">New winter + summer canvas (2023)</strong> with <strong data-end=\"839\" data-start=\"822\">new Isinglass</strong></li>\t<li data-end=\"877\" data-section-id=\"r36jor\" data-start=\"842\"><strong data-end=\"875\" data-start=\"844\">New bottom paint (May 2026)</strong></li>\t<li data-end=\"926\" data-section-id=\"1sk168w\" data-start=\"878\"><strong data-end=\"924\" data-start=\"880\">Signature Marine propeller (new in 2025)</strong></li>\t<li data-end=\"948\" data-section-id=\"4xuu7x\" data-start=\"927\"><strong data-end=\"946\" data-start=\"929\">New VHF radio</strong></li>\t<li data-end=\"990\" data-section-id=\"g5gd1\" data-start=\"949\"><strong data-end=\"988\" data-start=\"951\">Upholstery professionally cleaned</strong></li>\t<li data-end=\"1046\" data-section-id=\"198ph4v\" data-start=\"991\"><strong data-end=\"1020\" data-start=\"993\">5-season cover included</strong> for extended protection</li></ul><hr data-end=\"1051\" data-start=\"1048\" /><h3 data-end=\"1076\" data-section-id=\"1b76o24\" data-start=\"1053\">&nbsp; &nbsp; The Experience:</h3><p data-end=\"1379\" data-start=\"1077\">The 2855 Ciera is known for its roomy cabin and versatile layout perfect for overnight trips, entertaining, or just getting out on the water without the hassle. Comfortable seating, smart storage, and a layout that works for both relaxing and cruising make this a go-to option for boaters at any level.</p><p>The seller has already invested in the upgrades that matter: mechanical, cosmetic, and functional, so you can step in and enjoy it without the usual new boat surprises. Seller is motivated and ready to make a deal. With this level of updates at this price point, it won't sit long.</p><p data-end=\"1783\" data-start=\"1724\"><strong data-end=\"1783\" data-start=\"1727\">Many more upgrades...call to inquire for full details.</strong></p><p data-end=\"1379\" data-start=\"1077\">&nbsp;</p>",
+  "vendor": "Bayliner",
+  "productType": "Boat",
+  "tags": [
+   "inventory",
+   "inventory-boats",
+   "inventory-pre-owned",
+   "make:Bayliner",
+   "type:Boat",
+   "year:1998"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 1998 Bayliner Ciera 2855 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 1998 Bayliner Ciera 2855 for sale at Quest Watersports in Ottawa, IL — $18,900. Stock #1998BAY. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "18900.00",
+    "sku": "1998BAY",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "1998"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Bayliner"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Ciera 2855"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "1998BAY"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "28'"
+   },
+   {
+    "namespace": "custom",
+    "key": "horsepower",
+    "type": "single_line_text_field",
+    "value": "330"
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "fiberglass"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Gas"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "White"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1352"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/main/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/2/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/3/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/4/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/5/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/6/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/7/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/8/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/9/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/10/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/11/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/12/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/13/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/14/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 14"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/15/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 15"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/16/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 16"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/17/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 17"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/18/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 18"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/19/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 19"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1352/20/l/Used-1998-Bayliner-Ciera-2855-1777994593.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 1998 Bayliner Ciera 2855 photo 20"
+   }
+  ]
+ },
+ "source": {
+  "id": "1352",
+  "url": "https://www.questwatersports.com/1998-bayliner-ciera-2855-c-1352/",
+  "when_modified": "2026-07-07 10:50:15",
+  "sold": "Available"
+ }
+}

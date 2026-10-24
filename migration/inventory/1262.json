@@ -1,0 +1,156 @@
+{
+ "identifier": {
+  "handle": "2016-hobie-mirage-revolution-13-1262"
+ },
+ "input": {
+  "title": "2016 Hobie Mirage Revolution 13",
+  "handle": "2016-hobie-mirage-revolution-13-1262",
+  "descriptionHtml": "<div><span><span><strong><span>SALE PENDING</span></p><p>Ask about our available deferred interest financing!</strong></span></span></div><br /><span>Unleash Your Inner Explorer:</p><p>The Hobie Mirage Revolution 13 is a masterpiece of nautical design, blending efficiency, stability, and speed seamlessly.<br />Crafted with flowing, liquid lines, it offers a seaworthy performance without sacrificing speed. Get ready for your next aquatic adventure!</p><p><u><strong>Feature-Rich Fishing Companion:</strong></u></p><p>Loaded with dual rod holders and generous tackle storage, it's perfect for anglers seeking the catch of a lifetime.<br />Experience the MirageDrive 180, offering both forward and reverse pedal power.</p><p><u><strong>Maximum Comfort and Adjustability:</strong></u></p><p>Designed for your comfort, the Revolution 13 boasts Hobie's premium Vantage CT seating, easily adjustable to your preference.<br />Stay organized with ample storage options to keep your gear secure and dry, whether you're on a fishing expedition or simply exploring.</p><p><u><strong>Ready for Any Challenge:</strong></u></p><p>Navigate twisty and challenging courses with ease; the Revolution 13 loves an adventure.<br />Equipped with an accessory mount, this lightweight, rotomolded hull can be powered by our optional Sail kit for an exhilarating experience.<br />Add the optional bimini for maximum sunshade on those sunny days.</p><p><u><strong>Specifications:</strong></u></p><p><strong>Crew Capacity</strong>: 1<br /><strong>Drive</strong>: MD 180<br /><strong>Length</strong>: 13 feet 5 inches<br /><strong>Width</strong>: 28.5 inches<br /><strong>Capacity</strong>: 350 lbs<br /><strong>Vantage CT Seat Capacity</strong>: 275 lbs<br /><strong>Fitted Hull Weight</strong>: 70.5 lbs<br /><strong>Fully Rigged Weight</strong>: 88 lbs<br /><strong>Hull Construction</strong>: Rotomolded Polyethylene<br /><strong>Height from Floor to Middle of the Kayak</strong>: 11.25 inches<br /><strong>Height from Floor to Tallest Point on the Kayak</strong>: 14.25 inches</p><p>Embark on unforgettable aquatic journeys with the Hobie Mirage Revolution 13. Whether you're a fishing enthusiast or an adventure seeker, this kayak offers the perfect blend of performance, comfort, and versatility. Explore the waters like never before and make your next expedition an extraordinary one with the Hobie Mirage Revolution 13!</span><p>Large Covered Bow Hatch\nTwo Molded-In Rod Holders\nTwo-Piece Paddle with On-Hull Storage\nMirageDrive 180 with ST Fins\nTwist and Stow Rudder\nSail Mount\nRear Cargo Area with Bungee Tie Downs\nVantage CT Seating\nTwo 8\" Twist and Seal Hatches with Gear Bucket\nTwo Mesh-Covered Stowage Pockets\nLowrance Ready System</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-pre-owned",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2016",
+   "sale-pending"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "Used 2016 Hobie Mirage Revolution 13 for Sale | Ottawa, IL",
+   "description": "Pre-Owned 2016 Hobie Mirage Revolution 13 for sale at Quest Watersports in Ottawa, IL — $1,849. Stock #U16REV13. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1849.00",
+    "sku": "U16REV13",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3399.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "Pre-Owned"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2016"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Revolution 13"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "U16REV13"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 5\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Red Hibiscus"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1262"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "true"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1262/main/l/Used-2016-Hobie-Used-Mirage-Revolution-13-1696694621.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Revolution 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1262/2/l/Used-2016-Hobie-Used-Mirage-Revolution-13-1696694622.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Revolution 13 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1262/3/l/Used-2016-Hobie-Used-Mirage-Revolution-13-1696694622.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Revolution 13 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1262/4/l/Used-2016-Hobie-Used-Mirage-Revolution-13-1696694622.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Revolution 13 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1262/5/l/Used-2016-Hobie-Used-Mirage-Revolution-13-1696694622.jpg",
+    "contentType": "IMAGE",
+    "alt": "Pre-Owned 2016 Hobie Mirage Revolution 13 photo 5"
+   }
+  ]
+ },
+ "source": {
+  "id": "1262",
+  "url": "https://www.questwatersports.com/2016-hobie-used-mirage-revolution-13-c-1262/",
+  "when_modified": "2024-03-15 13:03:07",
+  "sold": "Available"
+ }
+}

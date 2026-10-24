@@ -1,0 +1,182 @@
+{
+ "identifier": {
+  "handle": "aventon-pace-500-3-1251"
+ },
+ "input": {
+  "title": "Aventon Pace 500.3",
+  "handle": "aventon-pace-500-3-1251",
+  "descriptionHtml": "<p>Stop By For A Free Test Ride!</p><div><span><span><u><strong>Financing Available!*</strong></u></p><p><span><strong>ONE LEFT - LARGE CAMO GREEN</strong></span></span></span><br />&nbsp;</div><div><span>Reinvigorate the casual bike ride with Pace 500.3! Feel your efforts amplified with its intuitive torque sensor, then set the pace. How you cruise is up to you. The Pace 500.3s 500W motor, with a top speed of 28 mph and up to 60 miles in range, gives a whole new meaning to going for a spin. The all-new turn signal functionality allows you to command traffic with confidence as you enjoy your roll through the neighborhood. Its cushioned saddle, swept-back handlebars, and upright riding position provide the ultimate comfort along the way. Pace 500.3 is leisure with a lift as you switch between its 4 new pedal assist levels: eco, tour, sport and turbo. Take the alternate route, theres much more to see.</span><br />&nbsp;</div><div><strong><span>**E-Bikes are subject to a $150 assembly fee**&nbsp;</span></strong></p><p><span>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info or&nbsp;</span><a href=\"https://www.mysynchrony.com/mmc/gp179454200/?sitecode=ac0lpi0e1&amp;awqr=1m64l0unyct4q\">click here to apply</a><span>.</span></div><p>MOTOR - 500W 48V Brushless Hub Motor\nTHROTTLE - Throttle on demand - Throttle from a complete stop\nDISPLAY - LCD Smart Easy Read Display with Backlight, Colorful screen with app\nSPEED - Up to 28 MPH on Pedal Assist\nBATTERY - Removable Internal Lithium-ion 48V 12.8Ah (614Wh) with LG cells\nSENSORS - Torque Sensor\nPEDAL ASSIST - 4 Levels\nCHARGER - 48V 3 Amp Fast Charger, 4-5 Hour Charging\nRANGE - Up to 60 Miles* on PAS 30 Miles on Throttle\nFRAME - 6061 Single-Butted Aluminum Alloy with Internal Battery\nWEIGHT - 52 lbs\nPEDALS - 9/16' Alloy Platform\nFORK - AE-E08-V2 AL Fork\nWEIGHT LIMIT - 300 lbs\nKICKSTAND - Included, Rear Mount\nBOTTOM BRACKET - Square Taper, Sealed, Torque Sensor\nCRANKSET - 170mm w/ 48 T\nREAR DERAILLEUR - 8 Speed\nCASSETTE - 12-32T, 8 Speed\nSHIFT LEVER - 8 Speed Trigger\nBRAKES - Hydraulic Disc Brakes\nCHAIN - 122 Link, 8 Speed\nRIM - Double Wall Aluminum 36h Front & Rear\nTUBES - Butyl Rubber, Schrader Valve\nHUBS - 36H Disc Nutted Front, Nutted Rear\nTIRES - 27.5\" x 2.1\" Puncture Resistant, Reflective Sidewalls\nSADDLE - Aventon Saddle\nSEATPOST - Forged Alloy, 30.9mm 2-Bolt Clamp\nSTEM - Threadless, 31.8mm, 90mm\nSEAT CLAMP - 34.9 mm Quick Release\nHANDLEBARS - Aluminum 31.8mm, Sweptback\nHEADSET - Sealed Bearing Headset\nGRIPS - Ergonomic Comfort</p>",
+  "vendor": "Aventon",
+  "productType": "eBike",
+  "tags": [
+   "inventory",
+   "inventory-ebikes",
+   "inventory-new",
+   "make:Aventon",
+   "type:eBike"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New Aventon Pace 500.3 for Sale | Ottawa, IL",
+   "description": "New Aventon Pace 500.3 for sale at Quest Watersports in Ottawa, IL — $1,399. Stock #AVNTN5003SO. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1399.00",
+    "sku": "AVNTN5003SO",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "1799.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Aventon"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Pace 500.3"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "AVNTN5003SO"
+   },
+   {
+    "namespace": "custom",
+    "key": "fuel_type",
+    "type": "single_line_text_field",
+    "value": "Electric"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Camoflauge"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1251"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/main/l/New-0-Aventon-Pace-5003-1693409746.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/2/l/New-0-Aventon-Pace-5003-1693409746.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/3/l/New-0-Aventon-Pace-5003-1693409746.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/4/l/New-0-Aventon-Pace-5003-1693409747.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/5/l/New-0-Aventon-Pace-5003-1693409747.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/6/l/New-0-Aventon-Pace-5003-1693409747.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/7/l/New-0-Aventon-Pace-5003-1693409747.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/8/l/New-0-Aventon-Pace-5003-1693409747.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/9/l/New-0-Aventon-Pace-5003-1693409748.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/10/l/New-0-Aventon-Pace-5003-1693409748.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/11/l/New-0-Aventon-Pace-5003-1693409748.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/12/l/New-0-Aventon-Pace-5003-1693409749.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1251/13/l/New-0-Aventon-Pace-5003-1693409749.jpg",
+    "contentType": "IMAGE",
+    "alt": "New Aventon Pace 500.3 photo 13"
+   }
+  ]
+ },
+ "source": {
+  "id": "1251",
+  "url": "https://www.questwatersports.com/0-aventon-pace-500.3-c-1251/",
+  "when_modified": "2026-06-13 16:15:45",
+  "sold": "Available"
+ }
+}

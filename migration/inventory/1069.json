@@ -1,0 +1,169 @@
+{
+ "identifier": {
+  "handle": "2026-hobie-mirage-passport-10-5r-1069"
+ },
+ "input": {
+  "title": "2026 Hobie Mirage Passport 10.5R",
+  "handle": "2026-hobie-mirage-passport-10-5r-1069",
+  "descriptionHtml": "<div id=\"product-component-1651958702293\"><span><strong><span><span>Financing Available!*</span></span></strong></span><br />&nbsp;</div><p>Meet the newest member of the Passport line of kayaks, the Mirage Passport 10.5 R. Equipped with an all-new rotomolded hull construction and tons of features, you'll enjoy extreme stability and impressive performance on the water. Not to mention the new look. Enjoy the water from the relaxing, breathable seat of the Mirage Passport 10.5R. The easy-to-use steering system and twist-and-stow rudder make navigating through tight waterways or maneuvering around obstacles above the water as simple as ever. The powerful and patented MirageDrive with Glide Technology and Kick-Up Fins allows for smooth sailing in all conditions. Rocks, stumps, or suddenly shallow water? No problem. The Passports' revolutionary Kick-Up Fins collapse on impact and redeploy when the obstacle is clear, ensuring those underwater nuisances don't slow you down or interrupt your ride. Backed by over 20 years of experience in pedal propulsion, the Passport 10.5 R is the easy choice for all-day pedal-powered fun on the water. Cruise in comfort and relax in style.<br />&nbsp;</p><div>LENGTH:<span> </span>10.5' / 3.2 M</div><div>WIDTH:<span> </span>34\" / 86.36 CM</div><div>CAPACITY:<span> </span>325 LBS / 147.42 KG</div><div>SEAT CAPACITY:<span> </span>275 LBS / 124.74 KG</div><div>FITTED HULL WEIGHT:<span> </span>65 LBS / 29.48 KG</div><div>FULLY RIGGED WEIGHT:<span> </span>75 LBS / 34.02 KG</div><div>HULL CONSTRUCTION:<span> </span>ROTOMOLDED POLYETHYLENE</div><p>Two-tone Hull\nMirage Drive GT With Kick-Up Fins\nSuspended Mesh Aluminum Frame Seat\nSteering System with Stowable Rudder\nAluminum 2 Piece Paddle\nRod Holders (2)\n8\" Twist-n-Seal Hatch</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2026"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2026 Hobie Mirage Passport 10.5R for Sale | Ottawa, IL",
+   "description": "New 2026 Hobie Mirage Passport 10.5R for sale at Quest Watersports in Ottawa, IL — $1,649. Stock #HOBIE PASSPORT 10.5R. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1649.00",
+    "sku": "HOBIE PASSPORT 10.5R",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2026"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Passport 10.5R"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE PASSPORT 10.5R"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "10' 6\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue, Seagrass Green"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1069"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/main/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/2/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/3/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/4/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/5/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/6/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/7/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1069/8/l/New-2026-Hobie-Mirage-Passport-105R-1709070696.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2026 Hobie Mirage Passport 10.5R photo 8"
+   }
+  ]
+ },
+ "source": {
+  "id": "1069",
+  "url": "https://www.questwatersports.com/2026-hobie-mirage-passport-10.5r-c-1069/",
+  "when_modified": "2026-04-02 08:56:40",
+  "sold": "Available"
+ }
+}

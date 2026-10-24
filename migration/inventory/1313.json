@@ -1,0 +1,140 @@
+{
+ "identifier": {
+  "handle": "2023-hobie-mirage-outback-1313"
+ },
+ "input": {
+  "title": "2023 Hobie Mirage Outback",
+  "handle": "2023-hobie-mirage-outback-1313",
+  "descriptionHtml": "<div background-color:=\"\" display=\"\" font-size:=\"\" grotesk=\"\" haas=\"\" id=\"product-component-1651957430003\" neue=\"\" text-align:=\"\"><span><span><span><span>Financing Available!*</span></span></span></span></p><p><u><a href=\"https://www.peek.com/s/35ca5495-3168-4c4f-a1b7-0218e39abffb/3yb8E\"><span><span><span>Book a FREE On-Water Demo!</span></span></span></a></u></div><div background-color:=\"\" display=\"\" font-size:=\"\" grotesk=\"\" haas=\"\" neue=\"\" text-align:=\"\"><br /><span><span>Ask about Prior Model Year Inventory Still In-Stock!</span></span></div>&nbsp;<p><span>Experience unrivaled versatility with the 2023 Hobie Mirage Outback, a kayak designed for those who crave a high-performance fishing or recreational vessel. Known for its incredible stability and efficient drive, the Mirage Outback comes equipped with Hobie's MirageDrive 180 and Kick-Up Turbo Fins. These fins not only boost speed but also retract on contact, making it easier to navigate obstacles or shallow waters confidently. With a full 3-year warranty from the purchase date, this kayak represents top quality and value, priced $300 under the 2025 MSRP ($3299).</span></p><h3><span><strong>Specs at a Glance:</strong></span></h3><ul>\t<li><span><strong>Length</strong>: 12'9\" (3.89 m)</span></li>\t<li><span><strong>Width</strong>: 34\" (0.86 m)</span></li>\t<li><span><strong>Fitted Hull Weight</strong>: 85 lbs (38.5 kg)</span></li>\t<li><span><strong>Fully Rigged Weight</strong>: 103 lbs (46.7 kg)</span></li>\t<li><span><strong>Capacity</strong>: 425 lbs (192.8 kg)</span></li>\t<li><span><strong>Drive</strong>: MirageDrive 180 with Kick-Up Turbo Fins</span></li>\t<li><span><strong>Hull Material</strong>: Rotomolded Polyethylene</span></li></ul><h3><br /><span><strong>Angler's Dream and Explorer's Delight</strong></span></h3><p><span>Designed with anglers in mind, the Outback is packed with features that make fishing or leisurely paddling a breeze. The spacious deck is rigged with four molded-in rod holders, ample storage hatches, and a large rear cargo area - perfect for keeping your gear organized and accessible. EVA deck pads provide added comfort and grip for standing casts, while the Vantage CTW seat ensures you stay comfortable on long days out.</span></p><p><span>Whether you're paddling through calm waters or tackling more challenging environments, the Mirage Outback has you covered with its outstanding stability and performance. Its intuitive steering and Kick-Up Turbo Fins make it a reliable partner on any adventure.&nbsp;</span></p><p><span>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</span></p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2023"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2023 Hobie Mirage Outback for Sale | Ottawa, IL",
+   "description": "New 2023 Hobie Mirage Outback for sale at Quest Watersports in Ottawa, IL — $2,999. Stock #23MYOB. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2999.00",
+    "sku": "23MYOB",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true,
+    "compareAtPrice": "3299.00"
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2023"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage Outback"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "23MYOB"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "12' 9\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "Rotocast"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Dune or Camo"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1313"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1313/main/l/New-2023-Hobie-Mirage-Outback-1729979431.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Outback"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1313/2/l/New-2023-Hobie-Mirage-Outback-1729979431.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2023 Hobie Mirage Outback photo 2"
+   }
+  ]
+ },
+ "source": {
+  "id": "1313",
+  "url": "https://www.questwatersports.com/2023-hobie-mirage-outback-c-1313/",
+  "when_modified": "2024-10-26 16:52:09",
+  "sold": "Available"
+ }
+}

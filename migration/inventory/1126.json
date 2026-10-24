@@ -1,0 +1,199 @@
+{
+ "identifier": {
+  "handle": "2025-hobie-mirage-itrek-14-duo-1126"
+ },
+ "input": {
+  "title": "2025 Hobie Mirage iTrek 14 Duo",
+  "handle": "2025-hobie-mirage-itrek-14-duo-1126",
+  "descriptionHtml": "<div><strong><span><span><span>Financing Available!*</span></span></span></strong></p><p><strong><span>Ask about Prior Model Year Inventory Still In-Stock!</span></strong></div><br /><span>Introducing the Mirage iTrek 14 Duo! This tandem inflatable pedal kayak has been redesigned with construction enhancements for increased durability and less weight for easy transport. The iTrek 14 Duo is powered by two MirageDrives with Glide Technology and patented Kick-Up Fins. Its new design takes comfort to a new level with breathable nano-mesh fabric seating equipped with cup holders. The new, vibrant colors are highly visible when youre out on the water with your family. Enjoy everything from touring your tandem kayak to an all-day, multi-sport adventure. The iTrek 14 Duo comes with a wheeled storage bag designed for convenience with an extension handle, along with a high-pressure hand pump and high-volume electric pump, for quick and easy hauling, storing and inflating.</span><div>Specs:</div><div>CREW:<span> </span>2</div><div>DRIVE:<span> </span>MIRAGEDRIVE GT</div><div>LENGTH:<span> </span>13' 8\" / 4.17 M</div><div>WIDTH:<span> </span>44\" / 1.2 M</div><div>CAPACITY:<span> </span>600 LBS / 272 KG</div><div>FITTED HULL WEIGHT:<span> </span>45 LBS / 20.4</div><div>FULLY RIGGED WEIGHT:<span> </span>73 LBS / 33.1</p><p>&nbsp;</div><div>*Must be approved by Synchrony Financial with a large enough credit line to cover the purchase price. Call (815) 433-2200 for more info</div><p>2 Mirage Drive GT With Kick-up Fins\nImproved Hull Construction - Lighter and More Durable\n2 Aluminum-Frame Seats with Breathable Mesh\nDetachable Rudder System - Use with Left or Right Hand\nEVA Standing Pads\n3- Piece Paddle\nRolling Storage Bag with Extension Handle\nHigh-Pressure Hand Pump\nHigh-Volume Electric Pump</p>",
+  "vendor": "Hobie",
+  "productType": "Kayak",
+  "tags": [
+   "inventory",
+   "inventory-paddlesports",
+   "inventory-new",
+   "make:Hobie",
+   "type:Kayak",
+   "year:2025"
+  ],
+  "status": "ACTIVE",
+  "templateSuffix": "inventory",
+  "seo": {
+   "title": "New 2025 Hobie Mirage iTrek 14 Duo for Sale | Ottawa, IL",
+   "description": "New 2025 Hobie Mirage iTrek 14 Duo for sale at Quest Watersports in Ottawa, IL — $4,449. Stock #HOBIE ITREK 14. Call 815.433.2200 or request info online."
+  },
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "4449.00",
+    "sku": "HOBIE ITREK 14",
+    "inventoryPolicy": "DENY",
+    "inventoryItem": {
+     "tracked": true
+    },
+    "taxable": true
+   }
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "condition",
+    "type": "single_line_text_field",
+    "value": "New"
+   },
+   {
+    "namespace": "custom",
+    "key": "year",
+    "type": "single_line_text_field",
+    "value": "2025"
+   },
+   {
+    "namespace": "custom",
+    "key": "make",
+    "type": "single_line_text_field",
+    "value": "Hobie"
+   },
+   {
+    "namespace": "custom",
+    "key": "model",
+    "type": "single_line_text_field",
+    "value": "Mirage iTrek 14 Duo"
+   },
+   {
+    "namespace": "custom",
+    "key": "stock_number",
+    "type": "single_line_text_field",
+    "value": "HOBIE ITREK 14"
+   },
+   {
+    "namespace": "custom",
+    "key": "length",
+    "type": "single_line_text_field",
+    "value": "13' 8\""
+   },
+   {
+    "namespace": "custom",
+    "key": "hull_type",
+    "type": "single_line_text_field",
+    "value": "550 DENIER PVC"
+   },
+   {
+    "namespace": "custom",
+    "key": "color",
+    "type": "single_line_text_field",
+    "value": "Slate Blue"
+   },
+   {
+    "namespace": "custom",
+    "key": "inventory_id",
+    "type": "single_line_text_field",
+    "value": "1126"
+   },
+   {
+    "namespace": "custom",
+    "key": "call_for_price",
+    "type": "boolean",
+    "value": "false"
+   },
+   {
+    "namespace": "custom",
+    "key": "sale_pending",
+    "type": "boolean",
+    "value": "false"
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/main/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581018.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/2/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581022.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 2"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/3/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581028.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 3"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/4/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581034.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 4"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/5/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581037.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 5"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/6/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581039.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 6"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/7/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581043.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 7"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/8/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581045.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 8"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/9/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581048.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 9"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/10/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581051.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 10"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/11/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581054.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 11"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/12/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581056.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 12"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/13/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581058.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 13"
+   },
+   {
+    "originalSource": "https://www.questwatersports.com/imagetag/1126/14/l/New-2025-Hobie-Mirage-iTrek-14-Duo-1610581062.jpg",
+    "contentType": "IMAGE",
+    "alt": "New 2025 Hobie Mirage iTrek 14 Duo photo 14"
+   }
+  ]
+ },
+ "source": {
+  "id": "1126",
+  "url": "https://www.questwatersports.com/2025-hobie-mirage-itrek-14-duo-c-1126/",
+  "when_modified": "2024-10-26 16:32:39",
+  "sold": "Available"
+ }
+}
